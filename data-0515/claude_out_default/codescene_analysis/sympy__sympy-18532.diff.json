@@ -1,0 +1,1 @@
+[{"name":"sympy/core/basic.py","findings":[{"category":"Overall Code Complexity","change-type":"unchanged","old-pp":2.0,"new-pp":2.0,"change-details":[{"description":"The mean cyclomatic complexity increases from 4.50 to 4.53, threshold = 4","change-type":"degraded","value-before":4.5,"value":4.527777777777778}],"threshold":4}],"old-score":2.94,"new-score":2.94}]

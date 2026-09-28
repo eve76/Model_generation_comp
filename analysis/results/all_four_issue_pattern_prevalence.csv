@@ -1,0 +1,305 @@
+tool,pattern,model,n_instances,patch_prevalence
+CodeQL,py/attribute-shadows-method,Claude Opus 4.6,30,0.0
+CodeQL,py/attribute-shadows-method,Claude Sonnet 4,30,0.0
+CodeQL,py/attribute-shadows-method,DeepSeek V3.2,30,0.0
+CodeQL,py/attribute-shadows-method,DeepSeek R1,30,0.0
+CodeQL,py/call-to-non-callable,Claude Opus 4.6,30,0.0
+CodeQL,py/call-to-non-callable,Claude Sonnet 4,30,0.0
+CodeQL,py/call-to-non-callable,DeepSeek V3.2,30,0.0
+CodeQL,py/call-to-non-callable,DeepSeek R1,30,0.0
+CodeQL,py/call/wrong-arguments,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/call/wrong-arguments,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/call/wrong-arguments,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/call/wrong-arguments,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/call/wrong-named-class-argument,Claude Opus 4.6,30,0.0
+CodeQL,py/call/wrong-named-class-argument,Claude Sonnet 4,30,0.0
+CodeQL,py/call/wrong-named-class-argument,DeepSeek V3.2,30,0.0
+CodeQL,py/call/wrong-named-class-argument,DeepSeek R1,30,0.0
+CodeQL,py/catch-base-exception,Claude Opus 4.6,30,0.0
+CodeQL,py/catch-base-exception,Claude Sonnet 4,30,0.0
+CodeQL,py/catch-base-exception,DeepSeek V3.2,30,0.0
+CodeQL,py/catch-base-exception,DeepSeek R1,30,0.0
+CodeQL,py/clear-text-storage-sensitive-data,Claude Opus 4.6,30,0.2
+CodeQL,py/clear-text-storage-sensitive-data,Claude Sonnet 4,30,0.23333333333333334
+CodeQL,py/clear-text-storage-sensitive-data,DeepSeek V3.2,30,0.06666666666666667
+CodeQL,py/clear-text-storage-sensitive-data,DeepSeek R1,30,0.1
+CodeQL,py/commented-out-code,Claude Opus 4.6,30,0.0
+CodeQL,py/commented-out-code,Claude Sonnet 4,30,0.0
+CodeQL,py/commented-out-code,DeepSeek V3.2,30,0.0
+CodeQL,py/commented-out-code,DeepSeek R1,30,0.0
+CodeQL,py/comparison-of-identical-expressions,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/comparison-of-identical-expressions,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/comparison-of-identical-expressions,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/comparison-of-identical-expressions,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/conflicting-attributes,Claude Opus 4.6,30,0.13333333333333333
+CodeQL,py/conflicting-attributes,Claude Sonnet 4,30,0.13333333333333333
+CodeQL,py/conflicting-attributes,DeepSeek V3.2,30,0.16666666666666666
+CodeQL,py/conflicting-attributes,DeepSeek R1,30,0.16666666666666666
+CodeQL,py/cyclic-import,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/cyclic-import,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/cyclic-import,DeepSeek V3.2,30,0.06666666666666667
+CodeQL,py/cyclic-import,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/empty-except,Claude Opus 4.6,30,0.1
+CodeQL,py/empty-except,Claude Sonnet 4,30,0.13333333333333333
+CodeQL,py/empty-except,DeepSeek V3.2,30,0.13333333333333333
+CodeQL,py/empty-except,DeepSeek R1,30,0.13333333333333333
+CodeQL,py/equals-hash-mismatch,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/equals-hash-mismatch,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/equals-hash-mismatch,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/equals-hash-mismatch,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/file-not-closed,Claude Opus 4.6,30,0.0
+CodeQL,py/file-not-closed,Claude Sonnet 4,30,0.0
+CodeQL,py/file-not-closed,DeepSeek V3.2,30,0.0
+CodeQL,py/file-not-closed,DeepSeek R1,30,0.0
+CodeQL,py/hash-unhashable-value,Claude Opus 4.6,30,0.0
+CodeQL,py/hash-unhashable-value,Claude Sonnet 4,30,0.0
+CodeQL,py/hash-unhashable-value,DeepSeek V3.2,30,0.0
+CodeQL,py/hash-unhashable-value,DeepSeek R1,30,0.0
+CodeQL,py/implicit-string-concatenation-in-list,Claude Opus 4.6,30,0.0
+CodeQL,py/implicit-string-concatenation-in-list,Claude Sonnet 4,30,0.0
+CodeQL,py/implicit-string-concatenation-in-list,DeepSeek V3.2,30,0.0
+CodeQL,py/implicit-string-concatenation-in-list,DeepSeek R1,30,0.0
+CodeQL,py/import-and-import-from,Claude Opus 4.6,30,0.0
+CodeQL,py/import-and-import-from,Claude Sonnet 4,30,0.0
+CodeQL,py/import-and-import-from,DeepSeek V3.2,30,0.0
+CodeQL,py/import-and-import-from,DeepSeek R1,30,0.0
+CodeQL,py/import-own-module,Claude Opus 4.6,30,0.0
+CodeQL,py/import-own-module,Claude Sonnet 4,30,0.0
+CodeQL,py/import-own-module,DeepSeek V3.2,30,0.0
+CodeQL,py/import-own-module,DeepSeek R1,30,0.0
+CodeQL,py/incomplete-ordering,Claude Opus 4.6,30,0.0
+CodeQL,py/incomplete-ordering,Claude Sonnet 4,30,0.0
+CodeQL,py/incomplete-ordering,DeepSeek V3.2,30,0.0
+CodeQL,py/incomplete-ordering,DeepSeek R1,30,0.0
+CodeQL,py/ineffectual-statement,Claude Opus 4.6,30,0.06666666666666667
+CodeQL,py/ineffectual-statement,Claude Sonnet 4,30,0.06666666666666667
+CodeQL,py/ineffectual-statement,DeepSeek V3.2,30,0.1
+CodeQL,py/ineffectual-statement,DeepSeek R1,30,0.06666666666666667
+CodeQL,py/inheritance/incorrect-overridden-signature,Claude Opus 4.6,30,0.0
+CodeQL,py/inheritance/incorrect-overridden-signature,Claude Sonnet 4,30,0.0
+CodeQL,py/inheritance/incorrect-overridden-signature,DeepSeek V3.2,30,0.0
+CodeQL,py/inheritance/incorrect-overridden-signature,DeepSeek R1,30,0.0
+CodeQL,py/inheritance/signature-mismatch,Claude Opus 4.6,30,0.0
+CodeQL,py/inheritance/signature-mismatch,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/inheritance/signature-mismatch,DeepSeek V3.2,30,0.06666666666666667
+CodeQL,py/inheritance/signature-mismatch,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/init-calls-subclass,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/init-calls-subclass,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/init-calls-subclass,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/init-calls-subclass,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/mismatched-multiple-assignment,Claude Opus 4.6,30,0.0
+CodeQL,py/mismatched-multiple-assignment,Claude Sonnet 4,30,0.0
+CodeQL,py/mismatched-multiple-assignment,DeepSeek V3.2,30,0.0
+CodeQL,py/mismatched-multiple-assignment,DeepSeek R1,30,0.0
+CodeQL,py/missing-call-to-init,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/missing-call-to-init,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/missing-call-to-init,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/missing-call-to-init,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/missing-equals,Claude Opus 4.6,30,0.1
+CodeQL,py/missing-equals,Claude Sonnet 4,30,0.13333333333333333
+CodeQL,py/missing-equals,DeepSeek V3.2,30,0.13333333333333333
+CodeQL,py/missing-equals,DeepSeek R1,30,0.1
+CodeQL,py/mixed-returns,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/mixed-returns,Claude Sonnet 4,30,0.1
+CodeQL,py/mixed-returns,DeepSeek V3.2,30,0.1
+CodeQL,py/mixed-returns,DeepSeek R1,30,0.1
+CodeQL,py/mixed-tuple-returns,Claude Opus 4.6,30,0.0
+CodeQL,py/mixed-tuple-returns,Claude Sonnet 4,30,0.0
+CodeQL,py/mixed-tuple-returns,DeepSeek V3.2,30,0.0
+CodeQL,py/mixed-tuple-returns,DeepSeek R1,30,0.0
+CodeQL,py/modification-of-default-value,Claude Opus 4.6,30,0.0
+CodeQL,py/modification-of-default-value,Claude Sonnet 4,30,0.0
+CodeQL,py/modification-of-default-value,DeepSeek V3.2,30,0.0
+CodeQL,py/modification-of-default-value,DeepSeek R1,30,0.0
+CodeQL,py/modification-of-locals,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/modification-of-locals,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/modification-of-locals,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/modification-of-locals,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/multiple-calls-to-init,Claude Opus 4.6,30,0.0
+CodeQL,py/multiple-calls-to-init,Claude Sonnet 4,30,0.0
+CodeQL,py/multiple-calls-to-init,DeepSeek V3.2,30,0.0
+CodeQL,py/multiple-calls-to-init,DeepSeek R1,30,0.0
+CodeQL,py/multiple-definition,Claude Opus 4.6,30,0.0
+CodeQL,py/multiple-definition,Claude Sonnet 4,30,0.0
+CodeQL,py/multiple-definition,DeepSeek V3.2,30,0.0
+CodeQL,py/multiple-definition,DeepSeek R1,30,0.0
+CodeQL,py/nested-loops-with-same-variable,Claude Opus 4.6,30,0.0
+CodeQL,py/nested-loops-with-same-variable,Claude Sonnet 4,30,0.0
+CodeQL,py/nested-loops-with-same-variable,DeepSeek V3.2,30,0.0
+CodeQL,py/nested-loops-with-same-variable,DeepSeek R1,30,0.0
+CodeQL,py/not-named-cls,Claude Opus 4.6,30,0.0
+CodeQL,py/not-named-cls,Claude Sonnet 4,30,0.0
+CodeQL,py/not-named-cls,DeepSeek V3.2,30,0.0
+CodeQL,py/not-named-cls,DeepSeek R1,30,0.0
+CodeQL,py/not-named-self,Claude Opus 4.6,30,0.0
+CodeQL,py/not-named-self,Claude Sonnet 4,30,0.0
+CodeQL,py/not-named-self,DeepSeek V3.2,30,0.0
+CodeQL,py/not-named-self,DeepSeek R1,30,0.0
+CodeQL,py/overly-complex-delete,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/overly-complex-delete,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/overly-complex-delete,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/overly-complex-delete,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/overly-large-range,Claude Opus 4.6,30,0.0
+CodeQL,py/overly-large-range,Claude Sonnet 4,30,0.0
+CodeQL,py/overly-large-range,DeepSeek V3.2,30,0.0
+CodeQL,py/overly-large-range,DeepSeek R1,30,0.0
+CodeQL,py/overwritten-inherited-attribute,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/overwritten-inherited-attribute,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/overwritten-inherited-attribute,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/overwritten-inherited-attribute,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/polluting-import,Claude Opus 4.6,30,0.0
+CodeQL,py/polluting-import,Claude Sonnet 4,30,0.0
+CodeQL,py/polluting-import,DeepSeek V3.2,30,0.0
+CodeQL,py/polluting-import,DeepSeek R1,30,0.0
+CodeQL,py/procedure-return-value-used,Claude Opus 4.6,30,0.0
+CodeQL,py/procedure-return-value-used,Claude Sonnet 4,30,0.0
+CodeQL,py/procedure-return-value-used,DeepSeek V3.2,30,0.0
+CodeQL,py/procedure-return-value-used,DeepSeek R1,30,0.0
+CodeQL,py/redundant-assignment,Claude Opus 4.6,30,0.0
+CodeQL,py/redundant-assignment,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/redundant-assignment,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/redundant-assignment,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/redundant-comparison,Claude Opus 4.6,30,0.0
+CodeQL,py/redundant-comparison,Claude Sonnet 4,30,0.0
+CodeQL,py/redundant-comparison,DeepSeek V3.2,30,0.0
+CodeQL,py/redundant-comparison,DeepSeek R1,30,0.0
+CodeQL,py/redundant-else,Claude Opus 4.6,30,0.0
+CodeQL,py/redundant-else,Claude Sonnet 4,30,0.0
+CodeQL,py/redundant-else,DeepSeek V3.2,30,0.0
+CodeQL,py/redundant-else,DeepSeek R1,30,0.0
+CodeQL,py/regex/duplicate-in-character-class,Claude Opus 4.6,30,0.0
+CodeQL,py/regex/duplicate-in-character-class,Claude Sonnet 4,30,0.0
+CodeQL,py/regex/duplicate-in-character-class,DeepSeek V3.2,30,0.0
+CodeQL,py/regex/duplicate-in-character-class,DeepSeek R1,30,0.0
+CodeQL,py/shell-command-constructed-from-input,Claude Opus 4.6,30,0.0
+CodeQL,py/shell-command-constructed-from-input,Claude Sonnet 4,30,0.0
+CodeQL,py/shell-command-constructed-from-input,DeepSeek V3.2,30,0.0
+CodeQL,py/shell-command-constructed-from-input,DeepSeek R1,30,0.0
+CodeQL,py/should-use-with,Claude Opus 4.6,30,0.0
+CodeQL,py/should-use-with,Claude Sonnet 4,30,0.0
+CodeQL,py/should-use-with,DeepSeek V3.2,30,0.0
+CodeQL,py/should-use-with,DeepSeek R1,30,0.0
+CodeQL,py/str-format/surplus-named-argument,Claude Opus 4.6,30,0.0
+CodeQL,py/str-format/surplus-named-argument,Claude Sonnet 4,30,0.0
+CodeQL,py/str-format/surplus-named-argument,DeepSeek V3.2,30,0.0
+CodeQL,py/str-format/surplus-named-argument,DeepSeek R1,30,0.0
+CodeQL,py/super-not-enclosing-class,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/super-not-enclosing-class,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/super-not-enclosing-class,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/super-not-enclosing-class,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/test-equals-none,Claude Opus 4.6,30,0.0
+CodeQL,py/test-equals-none,Claude Sonnet 4,30,0.0
+CodeQL,py/test-equals-none,DeepSeek V3.2,30,0.0
+CodeQL,py/test-equals-none,DeepSeek R1,30,0.0
+CodeQL,py/undefined-export,Claude Opus 4.6,30,0.0
+CodeQL,py/undefined-export,Claude Sonnet 4,30,0.0
+CodeQL,py/undefined-export,DeepSeek V3.2,30,0.0
+CodeQL,py/undefined-export,DeepSeek R1,30,0.0
+CodeQL,py/unexpected-raise-in-special-method,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/unexpected-raise-in-special-method,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/unexpected-raise-in-special-method,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/unexpected-raise-in-special-method,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/uninitialized-local-variable,Claude Opus 4.6,30,0.1
+CodeQL,py/uninitialized-local-variable,Claude Sonnet 4,30,0.13333333333333333
+CodeQL,py/uninitialized-local-variable,DeepSeek V3.2,30,0.13333333333333333
+CodeQL,py/uninitialized-local-variable,DeepSeek R1,30,0.1
+CodeQL,py/unnecessary-lambda,Claude Opus 4.6,30,0.0
+CodeQL,py/unnecessary-lambda,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/unnecessary-lambda,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/unnecessary-lambda,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/unreachable-except,Claude Opus 4.6,30,0.0
+CodeQL,py/unreachable-except,Claude Sonnet 4,30,0.0
+CodeQL,py/unreachable-except,DeepSeek V3.2,30,0.0
+CodeQL,py/unreachable-except,DeepSeek R1,30,0.0
+CodeQL,py/unreachable-statement,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/unreachable-statement,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/unreachable-statement,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/unreachable-statement,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/unsafe-cyclic-import,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/unsafe-cyclic-import,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/unsafe-cyclic-import,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/unsafe-cyclic-import,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/unused-exception-object,Claude Opus 4.6,30,0.0
+CodeQL,py/unused-exception-object,Claude Sonnet 4,30,0.0
+CodeQL,py/unused-exception-object,DeepSeek V3.2,30,0.0
+CodeQL,py/unused-exception-object,DeepSeek R1,30,0.0
+CodeQL,py/unused-global-variable,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/unused-global-variable,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/unused-global-variable,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/unused-global-variable,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/unused-import,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/unused-import,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/unused-import,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/unused-import,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/unused-local-variable,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/unused-local-variable,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/unused-local-variable,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/unused-local-variable,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/unused-loop-variable,Claude Opus 4.6,30,0.03333333333333333
+CodeQL,py/unused-loop-variable,Claude Sonnet 4,30,0.03333333333333333
+CodeQL,py/unused-loop-variable,DeepSeek V3.2,30,0.03333333333333333
+CodeQL,py/unused-loop-variable,DeepSeek R1,30,0.03333333333333333
+CodeQL,py/use-of-exit-or-quit,Claude Opus 4.6,30,0.0
+CodeQL,py/use-of-exit-or-quit,Claude Sonnet 4,30,0.0
+CodeQL,py/use-of-exit-or-quit,DeepSeek V3.2,30,0.0
+CodeQL,py/use-of-exit-or-quit,DeepSeek R1,30,0.0
+CodeQL,py/useless-except,Claude Opus 4.6,30,0.0
+CodeQL,py/useless-except,Claude Sonnet 4,30,0.0
+CodeQL,py/useless-except,DeepSeek V3.2,30,0.0
+CodeQL,py/useless-except,DeepSeek R1,30,0.0
+CodeQL,py/weak-sensitive-data-hashing,Claude Opus 4.6,30,0.0
+CodeQL,py/weak-sensitive-data-hashing,Claude Sonnet 4,30,0.0
+CodeQL,py/weak-sensitive-data-hashing,DeepSeek V3.2,30,0.0
+CodeQL,py/weak-sensitive-data-hashing,DeepSeek R1,30,0.0
+CodeScene,Bumpy Road Ahead,Claude Opus 4.6,30,0.0
+CodeScene,Bumpy Road Ahead,Claude Sonnet 4,30,0.0
+CodeScene,Bumpy Road Ahead,DeepSeek V3.2,30,0.03333333333333333
+CodeScene,Bumpy Road Ahead,DeepSeek R1,30,0.0
+CodeScene,Code Duplication,Claude Opus 4.6,30,0.0
+CodeScene,Code Duplication,Claude Sonnet 4,30,0.0
+CodeScene,Code Duplication,DeepSeek V3.2,30,0.0
+CodeScene,Code Duplication,DeepSeek R1,30,0.0
+CodeScene,Complex Conditional,Claude Opus 4.6,30,0.0
+CodeScene,Complex Conditional,Claude Sonnet 4,30,0.0
+CodeScene,Complex Conditional,DeepSeek V3.2,30,0.0
+CodeScene,Complex Conditional,DeepSeek R1,30,0.0
+CodeScene,Complex Method,Claude Opus 4.6,30,0.1
+CodeScene,Complex Method,Claude Sonnet 4,30,0.13333333333333333
+CodeScene,Complex Method,DeepSeek V3.2,30,0.16666666666666666
+CodeScene,Complex Method,DeepSeek R1,30,0.13333333333333333
+CodeScene,"Deep, Nested Complexity",Claude Opus 4.6,30,0.0
+CodeScene,"Deep, Nested Complexity",Claude Sonnet 4,30,0.0
+CodeScene,"Deep, Nested Complexity",DeepSeek V3.2,30,0.0
+CodeScene,"Deep, Nested Complexity",DeepSeek R1,30,0.0
+CodeScene,Excess Number of Function Arguments,Claude Opus 4.6,30,0.0
+CodeScene,Excess Number of Function Arguments,Claude Sonnet 4,30,0.0
+CodeScene,Excess Number of Function Arguments,DeepSeek V3.2,30,0.0
+CodeScene,Excess Number of Function Arguments,DeepSeek R1,30,0.0
+CodeScene,Large Method,Claude Opus 4.6,30,0.0
+CodeScene,Large Method,Claude Sonnet 4,30,0.0
+CodeScene,Large Method,DeepSeek V3.2,30,0.0
+CodeScene,Large Method,DeepSeek R1,30,0.0
+CodeScene,Lines of Code in a Single File,Claude Opus 4.6,30,0.06666666666666667
+CodeScene,Lines of Code in a Single File,Claude Sonnet 4,30,0.16666666666666666
+CodeScene,Lines of Code in a Single File,DeepSeek V3.2,30,0.1
+CodeScene,Lines of Code in a Single File,DeepSeek R1,30,0.03333333333333333
+CodeScene,Low Cohesion,Claude Opus 4.6,30,0.0
+CodeScene,Low Cohesion,Claude Sonnet 4,30,0.0
+CodeScene,Low Cohesion,DeepSeek V3.2,30,0.0
+CodeScene,Low Cohesion,DeepSeek R1,30,0.0
+CodeScene,Missing Arguments Abstractions,Claude Opus 4.6,30,0.0
+CodeScene,Missing Arguments Abstractions,Claude Sonnet 4,30,0.0
+CodeScene,Missing Arguments Abstractions,DeepSeek V3.2,30,0.0
+CodeScene,Missing Arguments Abstractions,DeepSeek R1,30,0.0
+CodeScene,Number of Functions in a Single Module,Claude Opus 4.6,30,0.0
+CodeScene,Number of Functions in a Single Module,Claude Sonnet 4,30,0.0
+CodeScene,Number of Functions in a Single Module,DeepSeek V3.2,30,0.0
+CodeScene,Number of Functions in a Single Module,DeepSeek R1,30,0.0
+CodeScene,Overall Code Complexity,Claude Opus 4.6,30,0.03333333333333333
+CodeScene,Overall Code Complexity,Claude Sonnet 4,30,0.03333333333333333
+CodeScene,Overall Code Complexity,DeepSeek V3.2,30,0.03333333333333333
+CodeScene,Overall Code Complexity,DeepSeek R1,30,0.03333333333333333
+CodeScene,Overall Function Size,Claude Opus 4.6,30,0.0
+CodeScene,Overall Function Size,Claude Sonnet 4,30,0.0
+CodeScene,Overall Function Size,DeepSeek V3.2,30,0.0
+CodeScene,Overall Function Size,DeepSeek R1,30,0.0

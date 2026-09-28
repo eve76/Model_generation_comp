@@ -1,0 +1,147 @@
+{
+  "summary": {
+    "before_count": 622,
+    "after_count": 625,
+    "added": 3,
+    "removed": 0,
+    "unchanged": 622
+  },
+  "added_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.solvers.polysys](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/solvers/solveset.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 34
+            },
+            "region": {
+              "startLine": 50,
+              "endColumn": 52
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e3b58a1ce38e808f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/solvers/polysys.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 88
+            }
+          },
+          "message": {
+            "text": "sympy.solvers.polysys"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.solvers.polysys](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/solvers/solvers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 5
+            },
+            "region": {
+              "startLine": 59,
+              "endColumn": 52
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "70c470c8b2628d57:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/solvers/polysys.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 88
+            }
+          },
+          "message": {
+            "text": "sympy.solvers.polysys"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.expr](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/solvers/polysys.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 88
+            },
+            "region": {
+              "startLine": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "36c8cf83f47efd89:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            }
+          },
+          "message": {
+            "text": "sympy.core.expr"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": []
+}

@@ -1,0 +1,668 @@
+{
+  "summary": {
+    "before_count": 216,
+    "after_count": 217,
+    "added": 4,
+    "removed": 3,
+    "unchanged": 213
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'is_stationary': [Function is_stationary](1) and [abstractmethod()](2).\nBase classes have conflicting values for attribute 'diag': [Function diag](3) and [abstractmethod()](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1531,
+              "endColumn": 76
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5e695465ddcd757a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 401,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function is_stationary"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 364,
+              "startColumn": 6,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "abstractmethod()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 375,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "Function diag"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 345,
+              "startColumn": 6,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "abstractmethod()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable I is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/cluster/_affinity_propagation.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 95
+            },
+            "region": {
+              "startLine": 210,
+              "startColumn": 9,
+              "endColumn": 10
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "75555bd9d72d3266:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'is_stationary': [Function is_stationary](1) and [abstractmethod()](2).\nBase classes have conflicting values for attribute 'diag': [Function diag](3) and [abstractmethod()](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1415,
+              "endColumn": 79
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d9dee38b6288d0a9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 401,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function is_stationary"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 364,
+              "startColumn": 6,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "abstractmethod()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 375,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "Function diag"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 345,
+              "startColumn": 6,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "abstractmethod()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'is_stationary': [Function is_stationary](1) and [abstractmethod()](2).\nBase classes have conflicting values for attribute 'diag': [Function diag](3) and [abstractmethod()](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1151,
+              "endColumn": 65
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b626f6fb672d9db3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 401,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function is_stationary"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 364,
+              "startColumn": 6,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "abstractmethod()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 375,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "Function diag"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 345,
+              "startColumn": 6,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "abstractmethod()"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'diag': [Function diag](1) and [abstractmethod()](2).\nBase classes have conflicting values for attribute 'is_stationary': [Function is_stationary](3) and [abstractmethod()](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 1151,
+              "endColumn": 65
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b626f6fb672d9db3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 375,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "Function diag"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 345,
+              "startColumn": 6,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "abstractmethod()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 401,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function is_stationary"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 364,
+              "startColumn": 6,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "abstractmethod()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'diag': [Function diag](1) and [abstractmethod()](2).\nBase classes have conflicting values for attribute 'is_stationary': [Function is_stationary](3) and [abstractmethod()](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 1531,
+              "endColumn": 76
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5e695465ddcd757a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 375,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "Function diag"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 345,
+              "startColumn": 6,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "abstractmethod()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 401,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function is_stationary"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 364,
+              "startColumn": 6,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "abstractmethod()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'diag': [Function diag](1) and [abstractmethod()](2).\nBase classes have conflicting values for attribute 'is_stationary': [Function is_stationary](3) and [abstractmethod()](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 1415,
+              "endColumn": 79
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d9dee38b6288d0a9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 375,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "Function diag"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 345,
+              "startColumn": 6,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "abstractmethod()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 401,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function is_stationary"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/gaussian_process/kernels.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 60
+            },
+            "region": {
+              "startLine": 364,
+              "startColumn": 6,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "abstractmethod()"
+          }
+        }
+      ]
+    }
+  ]
+}

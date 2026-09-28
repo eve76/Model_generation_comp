@@ -1,0 +1,199 @@
+{
+  "summary": {
+    "before_count": 513,
+    "after_count": 513,
+    "added": 3,
+    "removed": 3,
+    "unchanged": 510
+  },
+  "added_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 594
+            },
+            "region": {
+              "startLine": 393,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cfd8c509151595cd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 594
+            },
+            "region": {
+              "startLine": 604,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c8bba0c50070c33b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/redundant-else",
+      "ruleIndex": 141,
+      "rule": {
+        "id": "py/redundant-else",
+        "index": 141
+      },
+      "message": {
+        "text": "This 'while' statement has a redundant 'else' as no 'break' is present in the body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 594
+            },
+            "region": {
+              "startLine": 279,
+              "startColumn": 9,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6da089f9059898c5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 599,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c8bba0c50070c33b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/redundant-else",
+      "ruleIndex": 141,
+      "rule": {
+        "id": "py/redundant-else",
+        "index": 141
+      },
+      "message": {
+        "text": "This 'while' statement has a redundant 'else' as no 'break' is present in the body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 274,
+              "startColumn": 9,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6da089f9059898c5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 388,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cfd8c509151595cd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

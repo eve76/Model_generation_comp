@@ -1,0 +1,5139 @@
+{
+  "summary": {
+    "before_count": 624,
+    "after_count": 624,
+    "added": 6,
+    "removed": 6,
+    "unchanged": 618
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'as_real_imag': [Function as_real_imag](1) and [Function as_real_imag](2).\nBase classes have conflicting values for attribute '_eval_adjoint': [Function _eval_adjoint](3) and [Function _eval_adjoint](4).\nBase classes have conflicting values for attribute '_eval_conjugate': [Function _eval_conjugate](5) and [Function _eval_conjugate](6).\nBase classes have conflicting values for attribute '_eval_transpose': [Function _eval_transpose](7) and [Function _eval_transpose](8).\nBase classes have conflicting values for attribute 'doit': [Function doit](9) and [Function doit](10).\nBase classes have conflicting values for attribute 'copy': [Function copy](11) and [Function copy](12).\nBase classes have conflicting values for attribute '_repr_latex_': [Function _repr_latex_](13) and [Function _repr_latex_](14).\nBase classes have conflicting values for attribute '_repr_latex_orig': [Function _repr_latex_](13) and [Function _repr_latex_](14).\nBase classes have conflicting values for attribute 'atoms': [Function atoms](15) and [Function atoms](16).\nBase classes have conflicting values for attribute 'free_symbols': [Property free_symbols](17) and [Property free_symbols](18).\nBase classes have conflicting values for attribute 'subs': [Function subs](19) and [Function subs](20).\nBase classes have conflicting values for attribute 'xreplace': [Function xreplace](21) and [Function xreplace](22).\nBase classes have conflicting values for attribute 'has': [Function has](23) and [Function has](24).\nBase classes have conflicting values for attribute 'has': [Function has](23) and [cacheit()](25).\nBase classes have conflicting values for attribute 'has': [Function has](23) and [Function wrapper](26).\nBase classes have conflicting values for attribute 'has': [Function has](23) and [wraps()()](27).\nBase classes have conflicting values for attribute 'replace': [Function replace](28) and [Function replace](29).\nBase classes have conflicting values for attribute 'simplify': [Function simplify](30) and [Function simplify](31).\nBase classes have conflicting values for attribute '_accept_eval_derivative': [Function _accept_eval_derivative](32) and [Function _accept_eval_derivative](33).\nBase classes have conflicting values for attribute '_visit_eval_derivative_scalar': [Function _visit_eval_derivative_scalar](34) and [Function _visit_eval_derivative_scalar](35).\nBase classes have conflicting values for attribute '_visit_eval_derivative_array': [Function _visit_eval_derivative_array](36) and [Function _visit_eval_derivative_array](37).\nBase classes have conflicting values for attribute '_eval_simplify': [Function _eval_simplify](38) and [Function _eval_simplify](39).\nBase classes have conflicting values for attribute 'transpose': [Function transpose](40) and [Function transpose](41).\nBase classes have conflicting values for attribute 'is_Identity': [Property is_Identity](42) and [NoneType None](43).\nBase classes have conflicting values for attribute '_eval_inverse': [Function _eval_inverse](44) and [Function _eval_inverse](45).\nBase classes have conflicting values for attribute 'is_square': [Property is_square](46) and [Property is_square](47).\nBase classes have conflicting values for attribute 'adjoint': [Function adjoint](48) and [Function adjoint](49).\nBase classes have conflicting values for attribute 'applyfunc': [Function applyfunc](50) and [Function applyfunc](51).\nBase classes have conflicting values for attribute 'conjugate': [Function conjugate](52) and [Function conjugate](53).\nBase classes have conflicting values for attribute 'evalf': [Function evalf](54) and [Function evalf](55).\nBase classes have conflicting values for attribute 'expand': [Function expand](56) and [cacheit()](57).\nBase classes have conflicting values for attribute 'refine': [Function refine](58) and [Function refine](59).\nBase classes have conflicting values for attribute 'T': [Property T](60) and [Property T](61).\nBase classes have conflicting values for attribute 'n': [Function n](62) and [Function evalf](55).\nBase classes have conflicting values for attribute 'as_mutable': [Function as_mutable](63) and [Function as_mutable](64).\nBase classes have conflicting values for attribute 'equals': [Function equals](65) and [Function equals](66).\nBase classes have conflicting values for attribute 'limit': [Function limit](67) and [Function limit](68).\nBase classes have conflicting values for attribute 'diff': [Function diff](69) and [Function diff](70).\nBase classes have conflicting values for attribute 'integrate': [Function integrate](71) and [Function integrate](72).\nBase classes have conflicting values for attribute 'inv': [Function inv](73) and [Function inv](74)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/immutable.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 66
+            },
+            "region": {
+              "startLine": 18,
+              "endColumn": 53
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6a83a3cbd7667726:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1733,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          },
+          "message": {
+            "text": "Function as_real_imag"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 177,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          },
+          "message": {
+            "text": "Function as_real_imag"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1667,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_adjoint"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 199,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_adjoint"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1679,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function _eval_conjugate"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 172,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function _eval_conjugate"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1703,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function _eval_transpose"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 187,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function _eval_transpose"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1767,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function doit"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1626,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function doit"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 1219,
+              "startColumn": 5,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "Function copy"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 103,
+              "startColumn": 5,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "Function copy"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 769,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "Function _repr_latex_"
+          }
+        },
+        {
+          "id": 14,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 419,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "Function _repr_latex_"
+          }
+        },
+        {
+          "id": 15,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1163,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function atoms"
+          }
+        },
+        {
+          "id": 16,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 434,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function atoms"
+          }
+        },
+        {
+          "id": 17,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1182,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property free_symbols"
+          }
+        },
+        {
+          "id": 18,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 513,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property free_symbols"
+          }
+        },
+        {
+          "id": 19,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 2037,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function subs"
+          }
+        },
+        {
+          "id": 20,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 777,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function subs"
+          }
+        },
+        {
+          "id": 21,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 2121,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function xreplace"
+          }
+        },
+        {
+          "id": 22,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1086,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function xreplace"
+          }
+        },
+        {
+          "id": 23,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1196,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 24,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1174,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 25,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1173,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 26,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 94,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 27,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 160,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 28,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 2000,
+              "startColumn": 5,
+              "endColumn": 71
+            }
+          },
+          "message": {
+            "text": "Function replace"
+          }
+        },
+        {
+          "id": 29,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1245,
+              "startColumn": 5,
+              "endColumn": 79
+            }
+          },
+          "message": {
+            "text": "Function replace"
+          }
+        },
+        {
+          "id": 30,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 2021,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function simplify"
+          }
+        },
+        {
+          "id": 31,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1652,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function simplify"
+          }
+        },
+        {
+          "id": 32,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 461,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _accept_eval_derivative"
+          }
+        },
+        {
+          "id": 33,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 226,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _accept_eval_derivative"
+          }
+        },
+        {
+          "id": 34,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 464,
+              "startColumn": 5,
+              "endColumn": 51
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_scalar"
+          }
+        },
+        {
+          "id": 35,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 212,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_scalar"
+          }
+        },
+        {
+          "id": 36,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 468,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_array"
+          }
+        },
+        {
+          "id": 37,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 219,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_array"
+          }
+        },
+        {
+          "id": 38,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 2138,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _eval_simplify"
+          }
+        },
+        {
+          "id": 39,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 193,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _eval_simplify"
+          }
+        },
+        {
+          "id": 40,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 2072,
+              "startColumn": 5,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "Function transpose"
+          }
+        },
+        {
+          "id": 41,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 258,
+              "startColumn": 5,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "Function transpose"
+          }
+        },
+        {
+          "id": 42,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1369,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property is_Identity"
+          }
+        },
+        {
+          "id": 43,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 109
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 44,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/dense.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 174,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function _eval_inverse"
+          }
+        },
+        {
+          "id": 45,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 183,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_inverse"
+          }
+        },
+        {
+          "id": 46,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1449,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property is_square"
+          }
+        },
+        {
+          "id": 47,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 168,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property is_square"
+          }
+        },
+        {
+          "id": 48,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1706,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "Function adjoint"
+          }
+        },
+        {
+          "id": 49,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 248,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "Function adjoint"
+          }
+        },
+        {
+          "id": 50,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1710,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "Function applyfunc"
+          }
+        },
+        {
+          "id": 51,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 590,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function applyfunc"
+          }
+        },
+        {
+          "id": 52,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1738,
+              "startColumn": 5,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "Function conjugate"
+          }
+        },
+        {
+          "id": 53,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 255,
+              "startColumn": 5,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "Function conjugate"
+          }
+        },
+        {
+          "id": 54,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1770,
+              "startColumn": 5,
+              "endColumn": 100
+            }
+          },
+          "message": {
+            "text": "Function evalf"
+          }
+        },
+        {
+          "id": 55,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 10
+            },
+            "region": {
+              "startLine": 1373,
+              "startColumn": 5,
+              "endColumn": 100
+            }
+          },
+          "message": {
+            "text": "Function evalf"
+          }
+        },
+        {
+          "id": 56,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1776,
+              "startColumn": 5,
+              "endLine": 1777,
+              "endColumn": 75
+            }
+          },
+          "message": {
+            "text": "Function expand"
+          }
+        },
+        {
+          "id": 57,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 27
+            },
+            "region": {
+              "startLine": 3432,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 58,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1980,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function refine"
+          }
+        },
+        {
+          "id": 59,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 27
+            },
+            "region": {
+              "startLine": 3591,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function refine"
+          }
+        },
+        {
+          "id": 60,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 2107,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property T"
+          }
+        },
+        {
+          "id": 61,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 262,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property T"
+          }
+        },
+        {
+          "id": 62,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 2117,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function n"
+          }
+        },
+        {
+          "id": 63,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/dense.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 200,
+              "startColumn": 5,
+              "endColumn": 26
+            }
+          },
+          "message": {
+            "text": "Function as_mutable"
+          }
+        },
+        {
+          "id": 64,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 349,
+              "startColumn": 5,
+              "endColumn": 26
+            }
+          },
+          "message": {
+            "text": "Function as_mutable"
+          }
+        },
+        {
+          "id": 65,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/dense.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 217,
+              "startColumn": 5,
+              "endColumn": 55
+            }
+          },
+          "message": {
+            "text": "Function equals"
+          }
+        },
+        {
+          "id": 66,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 382,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function equals"
+          }
+        },
+        {
+          "id": 67,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 557,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "Function limit"
+          }
+        },
+        {
+          "id": 68,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 27
+            },
+            "region": {
+              "startLine": 3245,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function limit"
+          }
+        },
+        {
+          "id": 69,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 428,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function diff"
+          }
+        },
+        {
+          "id": 70,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 27
+            },
+            "region": {
+              "startLine": 3387,
+              "startColumn": 5,
+              "endColumn": 45
+            }
+          },
+          "message": {
+            "text": "Function diff"
+          }
+        },
+        {
+          "id": 71,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 473,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function integrate"
+          }
+        },
+        {
+          "id": 72,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 27
+            },
+            "region": {
+              "startLine": 3526,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function integrate"
+          }
+        },
+        {
+          "id": 73,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 2230,
+              "startColumn": 5,
+              "endColumn": 74
+            }
+          },
+          "message": {
+            "text": "Function inv"
+          }
+        },
+        {
+          "id": 74,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 19
+            }
+          },
+          "message": {
+            "text": "Function inv"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_subs': [Function _subs](1) and [cacheit()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](1) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [Function _subs](1) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [cacheit()](2) and [Function _subs](1).\nBase classes have conflicting values for attribute '_subs': [cacheit()](2) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [cacheit()](2) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [Function _subs](1).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [cacheit()](2).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [Function _subs](1).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [cacheit()](2).\nBase classes have conflicting values for attribute 'has': [Function has](5) and [cacheit()](6).\nBase classes have conflicting values for attribute 'has': [Function has](5) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [Function has](5) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [cacheit()](6) and [Function has](5).\nBase classes have conflicting values for attribute 'has': [cacheit()](6) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [cacheit()](6) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [Function has](5).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [cacheit()](6).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [Function has](5).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [cacheit()](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 8
+            },
+            "region": {
+              "startLine": 352,
+              "endColumn": 35
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fd9a5ad0ca60579c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 964,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 963,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 94,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 160,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1174,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1173,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_subs': [Function _subs](1) and [cacheit()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](1) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [Function _subs](1) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [cacheit()](2) and [Function _subs](1).\nBase classes have conflicting values for attribute '_subs': [cacheit()](2) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [cacheit()](2) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [Function _subs](1).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [cacheit()](2).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [Function _subs](1).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [cacheit()](2).\nBase classes have conflicting values for attribute 'has': [Function has](5) and [cacheit()](6).\nBase classes have conflicting values for attribute 'has': [Function has](5) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [Function has](5) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [cacheit()](6) and [Function has](5).\nBase classes have conflicting values for attribute 'has': [cacheit()](6) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [cacheit()](6) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [Function has](5).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [cacheit()](6).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [Function has](5).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [cacheit()](6).\nBase classes have conflicting values for attribute '_eval_evalf': [Function _eval_evalf](7) and [Function _eval_evalf](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 73,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f7255e101dcf210:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 964,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 963,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 94,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 160,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1174,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1173,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 10
+            },
+            "region": {
+              "startLine": 1483,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function _eval_evalf"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/operations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 305,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function _eval_evalf"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_subs': [Function _subs](1) and [cacheit()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](1) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [Function _subs](1) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [cacheit()](2) and [Function _subs](1).\nBase classes have conflicting values for attribute '_subs': [cacheit()](2) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [cacheit()](2) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [Function _subs](1).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [cacheit()](2).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [Function _subs](1).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [cacheit()](2).\nBase classes have conflicting values for attribute 'has': [Function has](5) and [cacheit()](6).\nBase classes have conflicting values for attribute 'has': [Function has](5) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [Function has](5) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [cacheit()](6) and [Function has](5).\nBase classes have conflicting values for attribute 'has': [cacheit()](6) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [cacheit()](6) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [Function has](5).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [cacheit()](6).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [Function has](5).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [cacheit()](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/mul.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 91,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7153ab7cd1c85667:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 964,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 963,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 94,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 160,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1174,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1173,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'sort_key': [Function sort_key](1) and [cacheit()](2).\nBase classes have conflicting values for attribute 'sort_key': [cacheit()](3) and [cacheit()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](4) and [cacheit()](5).\nBase classes have conflicting values for attribute '_subs': [Function _subs](4) and [Function wrapper](6).\nBase classes have conflicting values for attribute '_subs': [Function _subs](4) and [wraps()()](7).\nBase classes have conflicting values for attribute '_subs': [cacheit()](5) and [Function _subs](4).\nBase classes have conflicting values for attribute '_subs': [cacheit()](5) and [Function wrapper](6).\nBase classes have conflicting values for attribute '_subs': [cacheit()](5) and [wraps()()](7).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](6) and [Function _subs](4).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](6) and [cacheit()](5).\nBase classes have conflicting values for attribute '_subs': [wraps()()](7) and [Function _subs](4).\nBase classes have conflicting values for attribute '_subs': [wraps()()](7) and [cacheit()](5).\nBase classes have conflicting values for attribute 'has': [Function has](8) and [cacheit()](9).\nBase classes have conflicting values for attribute 'has': [Function has](8) and [Function wrapper](6).\nBase classes have conflicting values for attribute 'has': [Function has](8) and [wraps()()](7).\nBase classes have conflicting values for attribute 'has': [cacheit()](9) and [Function has](8).\nBase classes have conflicting values for attribute 'has': [cacheit()](9) and [Function wrapper](6).\nBase classes have conflicting values for attribute 'has': [cacheit()](9) and [wraps()()](7).\nBase classes have conflicting values for attribute 'has': [Function wrapper](6) and [Function has](8).\nBase classes have conflicting values for attribute 'has': [Function wrapper](6) and [cacheit()](9).\nBase classes have conflicting values for attribute 'has': [wraps()()](7) and [Function has](8).\nBase classes have conflicting values for attribute 'has': [wraps()()](7) and [cacheit()](9)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 27
+            },
+            "region": {
+              "startLine": 3781,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "154a5aa26f18a5be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1842,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function sort_key"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 27
+            },
+            "region": {
+              "startLine": 78,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1841,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 964,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 963,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 94,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 160,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1174,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1173,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'doit': [Function doit](1) and [Function doit](2).\nBase classes have conflicting values for attribute 'copy': [Function copy](3) and [Function copy](4).\nBase classes have conflicting values for attribute '_repr_latex_': [Function _repr_latex_](5) and [Function _repr_latex_](6).\nBase classes have conflicting values for attribute '_repr_latex_orig': [Function _repr_latex_](5) and [Function _repr_latex_](6).\nBase classes have conflicting values for attribute 'atoms': [Function atoms](7) and [Function atoms](8).\nBase classes have conflicting values for attribute 'free_symbols': [Property free_symbols](9) and [Property free_symbols](10).\nBase classes have conflicting values for attribute 'subs': [Function subs](11) and [Function subs](12).\nBase classes have conflicting values for attribute 'xreplace': [Function xreplace](13) and [Function xreplace](14).\nBase classes have conflicting values for attribute 'has': [Function has](15) and [Function has](16).\nBase classes have conflicting values for attribute 'has': [Function has](15) and [cacheit()](17).\nBase classes have conflicting values for attribute 'has': [Function has](15) and [Function wrapper](18).\nBase classes have conflicting values for attribute 'has': [Function has](15) and [wraps()()](19).\nBase classes have conflicting values for attribute 'replace': [Function replace](20) and [Function replace](21).\nBase classes have conflicting values for attribute 'simplify': [Function simplify](22) and [Function simplify](23).\nBase classes have conflicting values for attribute '_accept_eval_derivative': [Function _accept_eval_derivative](24) and [Function _accept_eval_derivative](25).\nBase classes have conflicting values for attribute '_visit_eval_derivative_scalar': [Function _visit_eval_derivative_scalar](26) and [Function _visit_eval_derivative_scalar](27).\nBase classes have conflicting values for attribute '_visit_eval_derivative_array': [Function _visit_eval_derivative_array](28) and [Function _visit_eval_derivative_array](29)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/immutable.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 66
+            },
+            "region": {
+              "startLine": 135,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e7130148207200b1:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1767,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function doit"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1626,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function doit"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/sparse.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 5
+            },
+            "region": {
+              "startLine": 537,
+              "startColumn": 5,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "Function copy"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 103,
+              "startColumn": 5,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "Function copy"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 769,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "Function _repr_latex_"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 419,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "Function _repr_latex_"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1163,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function atoms"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 434,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function atoms"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1182,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property free_symbols"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 513,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property free_symbols"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 2037,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function subs"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 777,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function subs"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 2121,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function xreplace"
+          }
+        },
+        {
+          "id": 14,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1086,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function xreplace"
+          }
+        },
+        {
+          "id": 15,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1196,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 16,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1174,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 17,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1173,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 18,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 94,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 19,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 160,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 20,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 2000,
+              "startColumn": 5,
+              "endColumn": 71
+            }
+          },
+          "message": {
+            "text": "Function replace"
+          }
+        },
+        {
+          "id": 21,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1245,
+              "startColumn": 5,
+              "endColumn": 79
+            }
+          },
+          "message": {
+            "text": "Function replace"
+          }
+        },
+        {
+          "id": 22,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 2021,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function simplify"
+          }
+        },
+        {
+          "id": 23,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1652,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function simplify"
+          }
+        },
+        {
+          "id": 24,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 461,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _accept_eval_derivative"
+          }
+        },
+        {
+          "id": 25,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1678,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _accept_eval_derivative"
+          }
+        },
+        {
+          "id": 26,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 464,
+              "startColumn": 5,
+              "endColumn": 51
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_scalar"
+          }
+        },
+        {
+          "id": 27,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1682,
+              "startColumn": 5,
+              "endColumn": 51
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_scalar"
+          }
+        },
+        {
+          "id": 28,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 468,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_array"
+          }
+        },
+        {
+          "id": 29,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 1687,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_array"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_repr_latex_': [Function _repr_latex_](1) and [Function _repr_latex_](2).\nBase classes have conflicting values for attribute '_repr_latex_orig': [Function _repr_latex_](1) and [Function _repr_latex_](2).\nBase classes have conflicting values for attribute 'atoms': [Function atoms](3) and [Function atoms](4).\nBase classes have conflicting values for attribute 'free_symbols': [Property free_symbols](5) and [Property free_symbols](6).\nBase classes have conflicting values for attribute 'as_real_imag': [Function as_real_imag](7) and [Function as_real_imag](8).\nBase classes have conflicting values for attribute '_eval_adjoint': [Function _eval_adjoint](9) and [Function _eval_adjoint](10).\nBase classes have conflicting values for attribute '_eval_conjugate': [Function _eval_conjugate](11) and [Function _eval_conjugate](12).\nBase classes have conflicting values for attribute '_eval_transpose': [Function _eval_transpose](13) and [Function _eval_transpose](14).\nBase classes have conflicting values for attribute 'doit': [Function doit](15) and [Function doit](16).\nBase classes have conflicting values for attribute 'copy': [Function copy](17) and [Function copy](18).\nBase classes have conflicting values for attribute 'is_Identity': [Property is_Identity](19) and [NoneType None](20).\nBase classes have conflicting values for attribute 'conjugate': [Function conjugate](21) and [Function conjugate](22).\nBase classes have conflicting values for attribute 'transpose': [Function transpose](23) and [Function transpose](24).\nBase classes have conflicting values for attribute '_eval_inverse': [Function _eval_inverse](25) and [Function _eval_inverse](26).\nBase classes have conflicting values for attribute 'has': [Function has](27) and [Function has](28).\nBase classes have conflicting values for attribute 'has': [Function has](27) and [cacheit()](29).\nBase classes have conflicting values for attribute 'has': [Function has](27) and [Function wrapper](30).\nBase classes have conflicting values for attribute 'has': [Function has](27) and [wraps()()](31).\nBase classes have conflicting values for attribute 'evalf': [Function evalf](32) and [Function evalf](33).\nBase classes have conflicting values for attribute 'applyfunc': [Function applyfunc](34) and [Function applyfunc](35).\nBase classes have conflicting values for attribute 'as_mutable': [Function as_mutable](36) and [Function as_mutable](37).\nBase classes have conflicting values for attribute 'subs': [Function subs](38) and [Function subs](39).\nBase classes have conflicting values for attribute 'replace': [Function replace](40) and [Function replace](41).\nBase classes have conflicting values for attribute '_eval_simplify': [Function _eval_simplify](42) and [Function _eval_simplify](43).\nBase classes have conflicting values for attribute 'is_square': [Property is_square](44) and [Property is_square](45).\nBase classes have conflicting values for attribute 'adjoint': [Function adjoint](46) and [Function adjoint](47).\nBase classes have conflicting values for attribute 'expand': [Function expand](48) and [cacheit()](49).\nBase classes have conflicting values for attribute 'diff': [Function diff](50) and [Function diff](51).\nBase classes have conflicting values for attribute '_accept_eval_derivative': [Function _accept_eval_derivative](52) and [Function _accept_eval_derivative](53).\nBase classes have conflicting values for attribute 'refine': [Function refine](54) and [Function refine](55).\nBase classes have conflicting values for attribute 'equals': [Function equals](56) and [Function equals](57).\nBase classes have conflicting values for attribute 'simplify': [Function simplify](58) and [Function simplify](59).\nBase classes have conflicting values for attribute 'inv': [Function inv](60) and [Function inv](61).\nBase classes have conflicting values for attribute 'n': [Function n](62) and [Function evalf](33).\nBase classes have conflicting values for attribute 'xreplace': [Function xreplace](63) and [Function xreplace](64).\nBase classes have conflicting values for attribute 'T': [Property T](65) and [Property T](66).\nBase classes have conflicting values for attribute '_visit_eval_derivative_scalar': [Function _visit_eval_derivative_scalar](67) and [Function _visit_eval_derivative_scalar](68).\nBase classes have conflicting values for attribute '_visit_eval_derivative_array': [Function _visit_eval_derivative_array](69) and [Function _visit_eval_derivative_array](70).\nBase classes have conflicting values for attribute 'integrate': [Function integrate](71) and [Function integrate](72).\nBase classes have conflicting values for attribute 'limit': [Function limit](73) and [Function limit](74)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/immutable.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 18,
+              "endColumn": 53
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6a83a3cbd7667726:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 769,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "Function _repr_latex_"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 419,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "Function _repr_latex_"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1163,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function atoms"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 434,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function atoms"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1182,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property free_symbols"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 513,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property free_symbols"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1733,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          },
+          "message": {
+            "text": "Function as_real_imag"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 177,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          },
+          "message": {
+            "text": "Function as_real_imag"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1667,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_adjoint"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 199,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_adjoint"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1679,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function _eval_conjugate"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 172,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function _eval_conjugate"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1703,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function _eval_transpose"
+          }
+        },
+        {
+          "id": 14,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 187,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function _eval_transpose"
+          }
+        },
+        {
+          "id": 15,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1767,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function doit"
+          }
+        },
+        {
+          "id": 16,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1626,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function doit"
+          }
+        },
+        {
+          "id": 17,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 1219,
+              "startColumn": 5,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "Function copy"
+          }
+        },
+        {
+          "id": 18,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 103,
+              "startColumn": 5,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "Function copy"
+          }
+        },
+        {
+          "id": 19,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1369,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property is_Identity"
+          }
+        },
+        {
+          "id": 20,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 107
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 21,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1738,
+              "startColumn": 5,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "Function conjugate"
+          }
+        },
+        {
+          "id": 22,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 255,
+              "startColumn": 5,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "Function conjugate"
+          }
+        },
+        {
+          "id": 23,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 2072,
+              "startColumn": 5,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "Function transpose"
+          }
+        },
+        {
+          "id": 24,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 258,
+              "startColumn": 5,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "Function transpose"
+          }
+        },
+        {
+          "id": 25,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/dense.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            },
+            "region": {
+              "startLine": 174,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function _eval_inverse"
+          }
+        },
+        {
+          "id": 26,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 183,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_inverse"
+          }
+        },
+        {
+          "id": 27,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1196,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 28,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1174,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 29,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1173,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 30,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 94,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 31,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 160,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 32,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1770,
+              "startColumn": 5,
+              "endColumn": 100
+            }
+          },
+          "message": {
+            "text": "Function evalf"
+          }
+        },
+        {
+          "id": 33,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 1373,
+              "startColumn": 5,
+              "endColumn": 100
+            }
+          },
+          "message": {
+            "text": "Function evalf"
+          }
+        },
+        {
+          "id": 34,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1710,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "Function applyfunc"
+          }
+        },
+        {
+          "id": 35,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 590,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function applyfunc"
+          }
+        },
+        {
+          "id": 36,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/dense.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            },
+            "region": {
+              "startLine": 200,
+              "startColumn": 5,
+              "endColumn": 26
+            }
+          },
+          "message": {
+            "text": "Function as_mutable"
+          }
+        },
+        {
+          "id": 37,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 349,
+              "startColumn": 5,
+              "endColumn": 26
+            }
+          },
+          "message": {
+            "text": "Function as_mutable"
+          }
+        },
+        {
+          "id": 38,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 2037,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function subs"
+          }
+        },
+        {
+          "id": 39,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 777,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function subs"
+          }
+        },
+        {
+          "id": 40,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 2000,
+              "startColumn": 5,
+              "endColumn": 71
+            }
+          },
+          "message": {
+            "text": "Function replace"
+          }
+        },
+        {
+          "id": 41,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1245,
+              "startColumn": 5,
+              "endColumn": 79
+            }
+          },
+          "message": {
+            "text": "Function replace"
+          }
+        },
+        {
+          "id": 42,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 2138,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _eval_simplify"
+          }
+        },
+        {
+          "id": 43,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 193,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _eval_simplify"
+          }
+        },
+        {
+          "id": 44,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1449,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property is_square"
+          }
+        },
+        {
+          "id": 45,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 168,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property is_square"
+          }
+        },
+        {
+          "id": 46,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1706,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "Function adjoint"
+          }
+        },
+        {
+          "id": 47,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 248,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "Function adjoint"
+          }
+        },
+        {
+          "id": 48,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1776,
+              "startColumn": 5,
+              "endLine": 1777,
+              "endColumn": 75
+            }
+          },
+          "message": {
+            "text": "Function expand"
+          }
+        },
+        {
+          "id": 49,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 92
+            },
+            "region": {
+              "startLine": 3432,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 50,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 428,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function diff"
+          }
+        },
+        {
+          "id": 51,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 92
+            },
+            "region": {
+              "startLine": 3387,
+              "startColumn": 5,
+              "endColumn": 45
+            }
+          },
+          "message": {
+            "text": "Function diff"
+          }
+        },
+        {
+          "id": 52,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 461,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _accept_eval_derivative"
+          }
+        },
+        {
+          "id": 53,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 226,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _accept_eval_derivative"
+          }
+        },
+        {
+          "id": 54,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1980,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function refine"
+          }
+        },
+        {
+          "id": 55,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 92
+            },
+            "region": {
+              "startLine": 3591,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function refine"
+          }
+        },
+        {
+          "id": 56,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/dense.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            },
+            "region": {
+              "startLine": 217,
+              "startColumn": 5,
+              "endColumn": 55
+            }
+          },
+          "message": {
+            "text": "Function equals"
+          }
+        },
+        {
+          "id": 57,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 382,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function equals"
+          }
+        },
+        {
+          "id": 58,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 2021,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function simplify"
+          }
+        },
+        {
+          "id": 59,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1652,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function simplify"
+          }
+        },
+        {
+          "id": 60,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 2230,
+              "startColumn": 5,
+              "endColumn": 74
+            }
+          },
+          "message": {
+            "text": "Function inv"
+          }
+        },
+        {
+          "id": 61,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 19
+            }
+          },
+          "message": {
+            "text": "Function inv"
+          }
+        },
+        {
+          "id": 62,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 2117,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function n"
+          }
+        },
+        {
+          "id": 63,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 2121,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function xreplace"
+          }
+        },
+        {
+          "id": 64,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1086,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function xreplace"
+          }
+        },
+        {
+          "id": 65,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 2107,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property T"
+          }
+        },
+        {
+          "id": 66,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 262,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property T"
+          }
+        },
+        {
+          "id": 67,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 464,
+              "startColumn": 5,
+              "endColumn": 51
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_scalar"
+          }
+        },
+        {
+          "id": 68,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 212,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_scalar"
+          }
+        },
+        {
+          "id": 69,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 468,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_array"
+          }
+        },
+        {
+          "id": 70,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/expressions/matexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 219,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_array"
+          }
+        },
+        {
+          "id": 71,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 473,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function integrate"
+          }
+        },
+        {
+          "id": 72,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 92
+            },
+            "region": {
+              "startLine": 3526,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function integrate"
+          }
+        },
+        {
+          "id": 73,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 557,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "Function limit"
+          }
+        },
+        {
+          "id": 74,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 92
+            },
+            "region": {
+              "startLine": 3245,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function limit"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'has': [Function has](1) and [cacheit()](2).\nBase classes have conflicting values for attribute 'has': [Function has](1) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [Function has](1) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [cacheit()](2) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [cacheit()](2) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [cacheit()](2) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [cacheit()](2).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [cacheit()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [cacheit()](6).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [cacheit()](6) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [cacheit()](6) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [cacheit()](6) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [cacheit()](6).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [cacheit()](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 352,
+              "endColumn": 35
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fd9a5ad0ca60579c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1174,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1173,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 94,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 160,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 964,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 963,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'has': [Function has](1) and [cacheit()](2).\nBase classes have conflicting values for attribute 'has': [Function has](1) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [Function has](1) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [cacheit()](2) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [cacheit()](2) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [cacheit()](2) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [cacheit()](2).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [cacheit()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [cacheit()](6).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [cacheit()](6) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [cacheit()](6) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [cacheit()](6) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [cacheit()](6).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [cacheit()](6).\nBase classes have conflicting values for attribute 'sort_key': [Function sort_key](7) and [cacheit()](8).\nBase classes have conflicting values for attribute 'sort_key': [cacheit()](9) and [cacheit()](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 92
+            },
+            "region": {
+              "startLine": 3781,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "154a5aa26f18a5be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1174,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1173,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 94,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 160,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 964,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 963,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1842,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function sort_key"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 92
+            },
+            "region": {
+              "startLine": 78,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1841,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'has': [Function has](1) and [cacheit()](2).\nBase classes have conflicting values for attribute 'has': [Function has](1) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [Function has](1) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [cacheit()](2) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [cacheit()](2) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [cacheit()](2) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [cacheit()](2).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [cacheit()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [cacheit()](6).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [cacheit()](6) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [cacheit()](6) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [cacheit()](6) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [cacheit()](6).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [cacheit()](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/mul.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 55
+            },
+            "region": {
+              "startLine": 91,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7153ab7cd1c85667:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1174,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1173,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 94,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 160,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 964,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 963,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'has': [Function has](1) and [cacheit()](2).\nBase classes have conflicting values for attribute 'has': [Function has](1) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [Function has](1) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [cacheit()](2) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [cacheit()](2) and [Function wrapper](3).\nBase classes have conflicting values for attribute 'has': [cacheit()](2) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [Function wrapper](3) and [cacheit()](2).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [cacheit()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [cacheit()](6).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [cacheit()](6) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [cacheit()](6) and [Function wrapper](3).\nBase classes have conflicting values for attribute '_subs': [cacheit()](6) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](3) and [cacheit()](6).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [cacheit()](6).\nBase classes have conflicting values for attribute '_eval_evalf': [Function _eval_evalf](7) and [Function _eval_evalf](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 24
+            },
+            "region": {
+              "startLine": 73,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f7255e101dcf210:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1174,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1173,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 94,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 160,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 964,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 963,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 1483,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function _eval_evalf"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/operations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 305,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function _eval_evalf"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_repr_latex_': [Function _repr_latex_](1) and [Function _repr_latex_](2).\nBase classes have conflicting values for attribute '_repr_latex_orig': [Function _repr_latex_](1) and [Function _repr_latex_](2).\nBase classes have conflicting values for attribute 'atoms': [Function atoms](3) and [Function atoms](4).\nBase classes have conflicting values for attribute 'free_symbols': [Property free_symbols](5) and [Property free_symbols](6).\nBase classes have conflicting values for attribute 'doit': [Function doit](7) and [Function doit](8).\nBase classes have conflicting values for attribute 'copy': [Function copy](9) and [Function copy](10).\nBase classes have conflicting values for attribute 'has': [Function has](11) and [Function has](12).\nBase classes have conflicting values for attribute 'has': [Function has](11) and [cacheit()](13).\nBase classes have conflicting values for attribute 'has': [Function has](11) and [Function wrapper](14).\nBase classes have conflicting values for attribute 'has': [Function has](11) and [wraps()()](15).\nBase classes have conflicting values for attribute 'subs': [Function subs](16) and [Function subs](17).\nBase classes have conflicting values for attribute 'replace': [Function replace](18) and [Function replace](19).\nBase classes have conflicting values for attribute '_accept_eval_derivative': [Function _accept_eval_derivative](20) and [Function _accept_eval_derivative](21).\nBase classes have conflicting values for attribute 'simplify': [Function simplify](22) and [Function simplify](23).\nBase classes have conflicting values for attribute 'xreplace': [Function xreplace](24) and [Function xreplace](25).\nBase classes have conflicting values for attribute '_visit_eval_derivative_scalar': [Function _visit_eval_derivative_scalar](26) and [Function _visit_eval_derivative_scalar](27).\nBase classes have conflicting values for attribute '_visit_eval_derivative_array': [Function _visit_eval_derivative_array](28) and [Function _visit_eval_derivative_array](29)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/immutable.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 135,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e7130148207200b1:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 769,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "Function _repr_latex_"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 419,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "Function _repr_latex_"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1163,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function atoms"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 434,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function atoms"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1182,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property free_symbols"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 513,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property free_symbols"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1767,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function doit"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1626,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function doit"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/sparse.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 48
+            },
+            "region": {
+              "startLine": 537,
+              "startColumn": 5,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "Function copy"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 103,
+              "startColumn": 5,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "Function copy"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1196,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1174,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1173,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 14,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 94,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 15,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 160,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 16,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 2037,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function subs"
+          }
+        },
+        {
+          "id": 17,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 777,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function subs"
+          }
+        },
+        {
+          "id": 18,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 2000,
+              "startColumn": 5,
+              "endColumn": 71
+            }
+          },
+          "message": {
+            "text": "Function replace"
+          }
+        },
+        {
+          "id": 19,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1245,
+              "startColumn": 5,
+              "endColumn": 79
+            }
+          },
+          "message": {
+            "text": "Function replace"
+          }
+        },
+        {
+          "id": 20,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 461,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _accept_eval_derivative"
+          }
+        },
+        {
+          "id": 21,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1678,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _accept_eval_derivative"
+          }
+        },
+        {
+          "id": 22,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 2021,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function simplify"
+          }
+        },
+        {
+          "id": 23,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1652,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function simplify"
+          }
+        },
+        {
+          "id": 24,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 2121,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function xreplace"
+          }
+        },
+        {
+          "id": 25,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1086,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function xreplace"
+          }
+        },
+        {
+          "id": 26,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 464,
+              "startColumn": 5,
+              "endColumn": 51
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_scalar"
+          }
+        },
+        {
+          "id": 27,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1682,
+              "startColumn": 5,
+              "endColumn": 51
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_scalar"
+          }
+        },
+        {
+          "id": 28,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/matrices.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            },
+            "region": {
+              "startLine": 468,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_array"
+          }
+        },
+        {
+          "id": 29,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1687,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "Function _visit_eval_derivative_array"
+          }
+        }
+      ]
+    }
+  ]
+}

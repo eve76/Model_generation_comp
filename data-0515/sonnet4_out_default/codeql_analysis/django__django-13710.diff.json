@@ -1,0 +1,115 @@
+{
+  "summary": {
+    "before_count": 567,
+    "after_count": 567,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 566
+  },
+  "added_results": [
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires 3 positional arguments, whereas overridden [BaseModelAdmin.has_add_permission](1) requires 2."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/options.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 315
+            },
+            "region": {
+              "startLine": 2188,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9f7f5405185db248:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/options.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 315
+            },
+            "region": {
+              "startLine": 475,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          },
+          "message": {
+            "text": "BaseModelAdmin.has_add_permission"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires 3 positional arguments, whereas overridden [BaseModelAdmin.has_add_permission](1) requires 2."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/options.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 474
+            },
+            "region": {
+              "startLine": 2183,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9f7f5405185db248:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/options.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 474
+            },
+            "region": {
+              "startLine": 475,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          },
+          "message": {
+            "text": "BaseModelAdmin.has_add_permission"
+          }
+        }
+      ]
+    }
+  ]
+}

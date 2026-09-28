@@ -1,0 +1,15 @@
+{
+  "python": "3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "numpy": "1.26.4",
+  "pandas": "2.1.1",
+  "matplotlib": "3.8.3",
+  "scripts": [
+    "00_direction_share.py",
+    "01_resolved_sets.py",
+    "02_matched_static_quality.py",
+    "03_matched_dynamic_performance.py",
+    "04_matched_issue_patterns.py",
+    "05_selection_bias.py",
+    "06_patch_size_analysis.py"
+  ]
+}

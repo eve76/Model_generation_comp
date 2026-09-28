@@ -1,0 +1,6 @@
+numpy==1.26.4
+pandas==2.1.1
+matplotlib==3.8.3
+scipy>=1.11,<2
+seaborn>=0.13,<1
+jupyterlab>=4,<5

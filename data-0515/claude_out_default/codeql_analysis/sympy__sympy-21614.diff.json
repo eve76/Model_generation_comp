@@ -1,0 +1,2445 @@
+{
+  "summary": {
+    "before_count": 474,
+    "after_count": 474,
+    "added": 12,
+    "removed": 12,
+    "unchanged": 462
+  },
+  "added_results": [
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at most 2 positional arguments, whereas overridden [EvalfMixin.evalf](1) may be called with 8. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 2327,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3810b87dbdc3cb7c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 1425,
+              "startColumn": 5,
+              "endColumn": 100
+            }
+          },
+          "message": {
+            "text": "EvalfMixin.evalf"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 1499,
+              "startColumn": 18,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 2861,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5e471f7ad77bf722:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_subs': [Function _subs](1) and [wraps()()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](1) and [wraps()()](3).\nBase classes have conflicting values for attribute '_subs': [wraps()()](2) and [Function _subs](1).\nBase classes have conflicting values for attribute '_subs': [wraps()()](3) and [Function _subs](1).\nBase classes have conflicting values for attribute 'has': [Function has](4) and [wraps()()](2).\nBase classes have conflicting values for attribute 'has': [Function has](4) and [wraps()()](3).\nBase classes have conflicting values for attribute 'has': [wraps()()](2) and [Function has](4).\nBase classes have conflicting values for attribute 'has': [wraps()()](3) and [Function has](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/mul.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 88,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ace832d1c4e542ee:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 959,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 1169,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'class_key': [classmethod()](1) and [classmethod()](2).\nBase classes have conflicting values for attribute '_eval_derivative': [Function _eval_derivative](3) and [Function _eval_derivative](4).\nBase classes have conflicting values for attribute '_eval_nseries': [Function _eval_nseries](5) and [Function _eval_nseries](6).\nBase classes have conflicting values for attribute '_eval_is_meromorphic': [Function _eval_is_meromorphic](7) and [Function _eval_is_meromorphic](8).\nBase classes have conflicting values for attribute 'sort_key': [cacheit()](9) and [Function sort_key](10).\nBase classes have conflicting values for attribute '_subs': [Function _subs](11) and [wraps()()](12).\nBase classes have conflicting values for attribute '_subs': [Function _subs](11) and [wraps()()](13).\nBase classes have conflicting values for attribute '_subs': [wraps()()](12) and [Function _subs](11).\nBase classes have conflicting values for attribute '_subs': [wraps()()](13) and [Function _subs](11).\nBase classes have conflicting values for attribute 'has': [Function has](14) and [wraps()()](12).\nBase classes have conflicting values for attribute 'has': [Function has](14) and [wraps()()](13).\nBase classes have conflicting values for attribute 'has': [wraps()()](12) and [Function has](14).\nBase classes have conflicting values for attribute 'has': [wraps()()](13) and [Function has](14)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 978,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "41b24196e82cd7ce:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 508,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 1847,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 603,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 3898,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 667,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 3927,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 622,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _eval_is_meromorphic"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 3920,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _eval_is_meromorphic"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 1852,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function sort_key"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 959,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 14,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 1169,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.power](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 3326,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fb65b4f14ca70874:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 53
+            }
+          },
+          "message": {
+            "text": "sympy.core.power"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.relational](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 3165,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "242da1adf64af9f6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/relational.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            }
+          },
+          "message": {
+            "text": "sympy.core.relational"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'sort_key': [Function sort_key](1) and [cacheit()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](3) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [Function _subs](3) and [wraps()()](5).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [Function _subs](3).\nBase classes have conflicting values for attribute '_subs': [wraps()()](5) and [Function _subs](3).\nBase classes have conflicting values for attribute 'has': [Function has](6) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [Function has](6) and [wraps()()](5).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [Function has](6).\nBase classes have conflicting values for attribute 'has': [wraps()()](5) and [Function has](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 3886,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "154a5aa26f18a5be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 1852,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function sort_key"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 959,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 1169,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Dummy' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Dummy occurs after the cyclic [import](4) of sympy.core.function.\n'Dummy' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Dummy occurs after the cyclic [import](5) of sympy.core.function."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 3393,
+              "startColumn": 31,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f981a3f5ebdf7a3b:1",
+        "primaryLocationStartColumnFingerprint": "30"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 10
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 10
+            },
+            "region": {
+              "startLine": 358,
+              "startColumn": 7,
+              "endColumn": 12
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 10
+            },
+            "region": {
+              "startLine": 6,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 10
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_subs': [Function _subs](1) and [wraps()()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](1) and [wraps()()](3).\nBase classes have conflicting values for attribute '_subs': [wraps()()](2) and [Function _subs](1).\nBase classes have conflicting values for attribute '_subs': [wraps()()](3) and [Function _subs](1).\nBase classes have conflicting values for attribute 'has': [Function has](4) and [wraps()()](2).\nBase classes have conflicting values for attribute 'has': [Function has](4) and [wraps()()](3).\nBase classes have conflicting values for attribute 'has': [wraps()()](2) and [Function has](4).\nBase classes have conflicting values for attribute 'has': [wraps()()](3) and [Function has](4).\nBase classes have conflicting values for attribute '_eval_evalf': [Function _eval_evalf](5) and [Function _eval_evalf](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 45
+            },
+            "region": {
+              "startLine": 72,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "90de96613955d7b4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 959,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 1169,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 1553,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function _eval_evalf"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/operations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 70
+            },
+            "region": {
+              "startLine": 354,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function _eval_evalf"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-loop-variable",
+      "ruleIndex": 83,
+      "rule": {
+        "id": "py/unused-loop-variable",
+        "index": 83
+      },
+      "message": {
+        "text": "For loop variable 'i' is not used in the loop body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 2416,
+              "startColumn": 16,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f6472b65d8b2b14f:1",
+        "primaryLocationStartColumnFingerprint": "7"
+      }
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Symbol' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Symbol occurs after the cyclic [import](4) of sympy.core.function.\n'Symbol' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Symbol occurs after the cyclic [import](5) of sympy.core.function."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 3393,
+              "startColumn": 38,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f981a3f5ebdf7a3b:1",
+        "primaryLocationStartColumnFingerprint": "37"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 10
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 10
+            },
+            "region": {
+              "startLine": 183,
+              "startColumn": 7,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 10
+            },
+            "region": {
+              "startLine": 6,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 10
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_subs': [Function _subs](1) and [wraps()()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](1) and [wraps()()](3).\nBase classes have conflicting values for attribute '_subs': [wraps()()](2) and [Function _subs](1).\nBase classes have conflicting values for attribute '_subs': [wraps()()](3) and [Function _subs](1).\nBase classes have conflicting values for attribute 'has': [Function has](4) and [wraps()()](2).\nBase classes have conflicting values for attribute 'has': [Function has](4) and [wraps()()](3).\nBase classes have conflicting values for attribute 'has': [wraps()()](2) and [Function has](4).\nBase classes have conflicting values for attribute 'has': [wraps()()](3) and [Function has](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 359,
+              "endColumn": 35
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fd9a5ad0ca60579c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 959,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 1169,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Dummy' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Dummy occurs after the cyclic [import](4) of sympy.core.function.\n'Dummy' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Dummy occurs after the cyclic [import](5) of sympy.core.function."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 3389,
+              "startColumn": 31,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f981a3f5ebdf7a3b:1",
+        "primaryLocationStartColumnFingerprint": "30"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 358,
+              "startColumn": 7,
+              "endColumn": 12
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 6,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'class_key': [classmethod()](1) and [classmethod()](2).\nBase classes have conflicting values for attribute 'sort_key': [cacheit()](3) and [Function sort_key](4).\nBase classes have conflicting values for attribute '_eval_is_meromorphic': [Function _eval_is_meromorphic](5) and [Function _eval_is_meromorphic](6).\nBase classes have conflicting values for attribute '_eval_derivative': [Function _eval_derivative](7) and [Function _eval_derivative](8).\nBase classes have conflicting values for attribute '_eval_nseries': [Function _eval_nseries](9) and [Function _eval_nseries](10).\nBase classes have conflicting values for attribute 'has': [Function has](11) and [wraps()()](12).\nBase classes have conflicting values for attribute 'has': [Function has](11) and [wraps()()](13).\nBase classes have conflicting values for attribute 'has': [wraps()()](12) and [Function has](11).\nBase classes have conflicting values for attribute 'has': [wraps()()](13) and [Function has](11).\nBase classes have conflicting values for attribute '_subs': [Function _subs](14) and [wraps()()](12).\nBase classes have conflicting values for attribute '_subs': [Function _subs](14) and [wraps()()](13).\nBase classes have conflicting values for attribute '_subs': [wraps()()](12) and [Function _subs](14).\nBase classes have conflicting values for attribute '_subs': [wraps()()](13) and [Function _subs](14)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 978,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "41b24196e82cd7ce:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 508,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 1847,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 1852,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function sort_key"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 622,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _eval_is_meromorphic"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 3920,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _eval_is_meromorphic"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 603,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 3898,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 667,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 3927,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 1169,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 14,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 959,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'has': [Function has](1) and [wraps()()](2).\nBase classes have conflicting values for attribute 'has': [Function has](1) and [wraps()()](3).\nBase classes have conflicting values for attribute 'has': [wraps()()](2) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [wraps()()](3) and [Function has](1).\nBase classes have conflicting values for attribute '_subs': [Function _subs](4) and [wraps()()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](4) and [wraps()()](3).\nBase classes have conflicting values for attribute '_subs': [wraps()()](2) and [Function _subs](4).\nBase classes have conflicting values for attribute '_subs': [wraps()()](3) and [Function _subs](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 359,
+              "endColumn": 35
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fd9a5ad0ca60579c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 1169,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 959,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 2857,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5e471f7ad77bf722:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at most 2 positional arguments, whereas overridden [EvalfMixin.evalf](1) may be called with 8. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 2323,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3810b87dbdc3cb7c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 26
+            },
+            "region": {
+              "startLine": 1425,
+              "startColumn": 5,
+              "endColumn": 100
+            }
+          },
+          "message": {
+            "text": "EvalfMixin.evalf"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 26
+            },
+            "region": {
+              "startLine": 1499,
+              "startColumn": 18,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'has': [Function has](1) and [wraps()()](2).\nBase classes have conflicting values for attribute 'has': [Function has](1) and [wraps()()](3).\nBase classes have conflicting values for attribute 'has': [wraps()()](2) and [Function has](1).\nBase classes have conflicting values for attribute 'has': [wraps()()](3) and [Function has](1).\nBase classes have conflicting values for attribute '_subs': [Function _subs](4) and [wraps()()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](4) and [wraps()()](3).\nBase classes have conflicting values for attribute '_subs': [wraps()()](2) and [Function _subs](4).\nBase classes have conflicting values for attribute '_subs': [wraps()()](3) and [Function _subs](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/mul.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 64
+            },
+            "region": {
+              "startLine": 88,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ace832d1c4e542ee:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 1169,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 959,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.relational](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 3161,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "242da1adf64af9f6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/relational.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 58
+            }
+          },
+          "message": {
+            "text": "sympy.core.relational"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_eval_evalf': [Function _eval_evalf](1) and [Function _eval_evalf](2).\nBase classes have conflicting values for attribute 'has': [Function has](3) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [Function has](3) and [wraps()()](5).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [Function has](3).\nBase classes have conflicting values for attribute 'has': [wraps()()](5) and [Function has](3).\nBase classes have conflicting values for attribute '_subs': [Function _subs](6) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [Function _subs](6) and [wraps()()](5).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [Function _subs](6).\nBase classes have conflicting values for attribute '_subs': [wraps()()](5) and [Function _subs](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 66
+            },
+            "region": {
+              "startLine": 72,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "90de96613955d7b4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 26
+            },
+            "region": {
+              "startLine": 1553,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function _eval_evalf"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/operations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 43
+            },
+            "region": {
+              "startLine": 354,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function _eval_evalf"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 1169,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 959,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Symbol' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Symbol occurs after the cyclic [import](4) of sympy.core.function.\n'Symbol' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Symbol occurs after the cyclic [import](5) of sympy.core.function."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 3389,
+              "startColumn": 38,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f981a3f5ebdf7a3b:1",
+        "primaryLocationStartColumnFingerprint": "37"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 183,
+              "startColumn": 7,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 6,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.power](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 3322,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fb65b4f14ca70874:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            }
+          },
+          "message": {
+            "text": "sympy.core.power"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'sort_key': [Function sort_key](1) and [cacheit()](2).\nBase classes have conflicting values for attribute 'has': [Function has](3) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [Function has](3) and [wraps()()](5).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [Function has](3).\nBase classes have conflicting values for attribute 'has': [wraps()()](5) and [Function has](3).\nBase classes have conflicting values for attribute '_subs': [Function _subs](6) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [Function _subs](6) and [wraps()()](5).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [Function _subs](6).\nBase classes have conflicting values for attribute '_subs': [wraps()()](5) and [Function _subs](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 3886,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "154a5aa26f18a5be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 1852,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function sort_key"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 1169,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 959,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-loop-variable",
+      "ruleIndex": 83,
+      "rule": {
+        "id": "py/unused-loop-variable",
+        "index": 83
+      },
+      "message": {
+        "text": "For loop variable 'i' is not used in the loop body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 2412,
+              "startColumn": 16,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f6472b65d8b2b14f:1",
+        "primaryLocationStartColumnFingerprint": "7"
+      }
+    }
+  ]
+}

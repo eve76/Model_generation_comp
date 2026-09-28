@@ -1,0 +1,1313 @@
+{
+  "summary": {
+    "before_count": 258,
+    "after_count": 258,
+    "added": 17,
+    "removed": 17,
+    "unchanged": 241
+  },
+  "added_results": [
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'ObjectMember' does not override ['__eq__'](1), but adds the new attribute [__name__](2).\nThe class 'ObjectMember' does not override ['__eq__'](1), but adds the new attribute [object](3).\nThe class 'ObjectMember' does not override ['__eq__'](1), but adds the new attribute [docstring](4).\nThe class 'ObjectMember' does not override ['__eq__'](1), but adds the new attribute [skipped](5).\nThe class 'ObjectMember' does not override ['__eq__'](1), but adds the new attribute [class_](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 267,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b11897db7c430283:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/",
+              "index": 178
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 286,
+              "startColumn": 9,
+              "endColumn": 22
+            }
+          },
+          "message": {
+            "text": "__name__"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 287,
+              "startColumn": 9,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "object"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 288,
+              "startColumn": 9,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "docstring"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 289,
+              "startColumn": 9,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "skipped"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 290,
+              "startColumn": 9,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "class_"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 944,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "dfcadfea067213ee:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 2613,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b07fdac87b5ed780:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 2463,
+              "startColumn": 13,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "29fee5815de43837:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable _args is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1277,
+              "startColumn": 17,
+              "endColumn": 22
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "af4afea4a1fbec8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 2484,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "73383b03aff1781c:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 2688,
+              "startColumn": 13,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7cd2b06cc5fe9661:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 2540,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "73383b03aff1781c:3",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 2021,
+              "startColumn": 9,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a8bd75ebf05e3a58:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 2703,
+              "startColumn": 13,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5fe3d4caac5a9a12:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 2066,
+              "startColumn": 13,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "860a1212071d57fa:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 2634,
+              "startColumn": 17,
+              "endColumn": 54
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2ebde04806e4fb5a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/overwritten-inherited-attribute",
+      "ruleIndex": 121,
+      "rule": {
+        "id": "py/overwritten-inherited-attribute",
+        "index": 121
+      },
+      "message": {
+        "text": "Assignment overwrites attribute options, which was previously defined in superclass [Documenter](1)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1461,
+              "startColumn": 13,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a77aa541971d1122:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 341,
+              "startColumn": 9,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Documenter"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1643,
+              "startColumn": 17,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9b9ec2d43959f33c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 2083,
+              "startColumn": 9,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "78b58781b3af75df:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1972,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "73383b03aff1781c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1790,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "45bb411131856564:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable _args is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 1275,
+              "startColumn": 17,
+              "endColumn": 22
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "af4afea4a1fbec8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 1788,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "45bb411131856564:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/overwritten-inherited-attribute",
+      "ruleIndex": 121,
+      "rule": {
+        "id": "py/overwritten-inherited-attribute",
+        "index": 121
+      },
+      "message": {
+        "text": "Assignment overwrites attribute options, which was previously defined in superclass [Documenter](1)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 1459,
+              "startColumn": 13,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a77aa541971d1122:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 339,
+              "startColumn": 9,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Documenter"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'ObjectMember' does not override ['__eq__'](1), but adds the new attribute [__name__](2).\nThe class 'ObjectMember' does not override ['__eq__'](1), but adds the new attribute [object](3).\nThe class 'ObjectMember' does not override ['__eq__'](1), but adds the new attribute [docstring](4).\nThe class 'ObjectMember' does not override ['__eq__'](1), but adds the new attribute [skipped](5).\nThe class 'ObjectMember' does not override ['__eq__'](1), but adds the new attribute [class_](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 265,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b11897db7c430283:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/",
+              "index": 176
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 284,
+              "startColumn": 9,
+              "endColumn": 22
+            }
+          },
+          "message": {
+            "text": "__name__"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 285,
+              "startColumn": 9,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "object"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 286,
+              "startColumn": 9,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "docstring"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 287,
+              "startColumn": 9,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "skipped"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 288,
+              "startColumn": 9,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "class_"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 1641,
+              "startColumn": 17,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9b9ec2d43959f33c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 2538,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "73383b03aff1781c:3",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 2461,
+              "startColumn": 13,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "29fee5815de43837:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 2701,
+              "startColumn": 13,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5fe3d4caac5a9a12:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 2064,
+              "startColumn": 13,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "860a1212071d57fa:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 2686,
+              "startColumn": 13,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7cd2b06cc5fe9661:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 2632,
+              "startColumn": 17,
+              "endColumn": 54
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2ebde04806e4fb5a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 2019,
+              "startColumn": 9,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a8bd75ebf05e3a58:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 942,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "dfcadfea067213ee:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 2081,
+              "startColumn": 9,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "78b58781b3af75df:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 2482,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "73383b03aff1781c:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 2611,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b07fdac87b5ed780:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/ext/autodoc/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 65
+            },
+            "region": {
+              "startLine": 1970,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "73383b03aff1781c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

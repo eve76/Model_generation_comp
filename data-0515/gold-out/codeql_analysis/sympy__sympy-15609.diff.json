@@ -1,0 +1,261 @@
+{
+  "summary": {
+    "before_count": 628,
+    "after_count": 628,
+    "added": 4,
+    "removed": 4,
+    "unchanged": 624
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unnecessary-lambda",
+      "ruleIndex": 69,
+      "rule": {
+        "id": "py/unnecessary-lambda",
+        "index": 69
+      },
+      "message": {
+        "text": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/latex.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 56
+            },
+            "region": {
+              "startLine": 2263,
+              "startColumn": 53,
+              "endColumn": 68
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d45485fb0ad40a2a:1",
+        "primaryLocationStartColumnFingerprint": "44"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/latex.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 56
+            },
+            "region": {
+              "startLine": 2059,
+              "startColumn": 9,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e55a7f41d4a4d169:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unreachable-statement",
+      "ruleIndex": 145,
+      "rule": {
+        "id": "py/unreachable-statement",
+        "index": 145
+      },
+      "message": {
+        "text": "This statement is unreachable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/latex.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 56
+            },
+            "region": {
+              "startLine": 2186,
+              "startColumn": 13,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9e45ca8878471aeb:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unreachable-statement",
+      "ruleIndex": 145,
+      "rule": {
+        "id": "py/unreachable-statement",
+        "index": 145
+      },
+      "message": {
+        "text": "This statement is unreachable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/latex.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 56
+            },
+            "region": {
+              "startLine": 1656,
+              "startColumn": 9,
+              "endColumn": 41
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c192745f71b9d3cc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/latex.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            },
+            "region": {
+              "startLine": 2056,
+              "startColumn": 9,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e55a7f41d4a4d169:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unreachable-statement",
+      "ruleIndex": 145,
+      "rule": {
+        "id": "py/unreachable-statement",
+        "index": 145
+      },
+      "message": {
+        "text": "This statement is unreachable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/latex.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            },
+            "region": {
+              "startLine": 1653,
+              "startColumn": 9,
+              "endColumn": 41
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c192745f71b9d3cc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unreachable-statement",
+      "ruleIndex": 145,
+      "rule": {
+        "id": "py/unreachable-statement",
+        "index": 145
+      },
+      "message": {
+        "text": "This statement is unreachable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/latex.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            },
+            "region": {
+              "startLine": 2183,
+              "startColumn": 13,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9e45ca8878471aeb:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unnecessary-lambda",
+      "ruleIndex": 69,
+      "rule": {
+        "id": "py/unnecessary-lambda",
+        "index": 69
+      },
+      "message": {
+        "text": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/latex.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            },
+            "region": {
+              "startLine": 2260,
+              "startColumn": 53,
+              "endColumn": 68
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d45485fb0ad40a2a:1",
+        "primaryLocationStartColumnFingerprint": "44"
+      }
+    }
+  ]
+}

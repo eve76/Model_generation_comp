@@ -1,0 +1,499 @@
+{
+  "summary": {
+    "before_count": 224,
+    "after_count": 224,
+    "added": 5,
+    "removed": 5,
+    "unchanged": 219
+  },
+  "added_results": [
+    {
+      "ruleId": "py/catch-base-exception",
+      "ruleIndex": 167,
+      "rule": {
+        "id": "py/catch-base-exception",
+        "index": 167
+      },
+      "message": {
+        "text": "Except block directly handles BaseException."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/main.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 214,
+              "startColumn": 9,
+              "endColumn": 16
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8467622d1d45f8c9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [_pytest.python](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/main.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 504,
+              "startColumn": 9,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1e97a10f84567c7d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 66
+            }
+          },
+          "message": {
+            "text": "_pytest.python"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/main.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 236,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "be13534bb69b3c65:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'reportinfo': [Function reportinfo](1) and [Function reportinfo](2).\nBase classes have conflicting values for attribute 'repr_failure': [Function repr_failure](3) and [Function repr_failure](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 66
+            },
+            "region": {
+              "startLine": 1335,
+              "endColumn": 76
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2921f38f4bf24ab8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 66
+            },
+            "region": {
+              "startLine": 292,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "Function reportinfo"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 448,
+              "startColumn": 5,
+              "endColumn": 60
+            }
+          },
+          "message": {
+            "text": "Function reportinfo"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 66
+            },
+            "region": {
+              "startLine": 814,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "Function repr_failure"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 318,
+              "startColumn": 5,
+              "endLine": 320,
+              "endColumn": 84
+            }
+          },
+          "message": {
+            "text": "Function repr_failure"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable excinfo is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/main.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 222,
+              "startColumn": 9,
+              "endColumn": 16
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7eda2f10a152b516:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/catch-base-exception",
+      "ruleIndex": 167,
+      "rule": {
+        "id": "py/catch-base-exception",
+        "index": 167
+      },
+      "message": {
+        "text": "Except block directly handles BaseException."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/main.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 213,
+              "startColumn": 9,
+              "endColumn": 16
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8467622d1d45f8c9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [_pytest.python](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/main.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 503,
+              "startColumn": 9,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1e97a10f84567c7d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 24
+            }
+          },
+          "message": {
+            "text": "_pytest.python"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'repr_failure': [Function repr_failure](1) and [Function repr_failure](2).\nBase classes have conflicting values for attribute 'reportinfo': [Function reportinfo](3) and [Function reportinfo](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 24
+            },
+            "region": {
+              "startLine": 1335,
+              "endColumn": 76
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2921f38f4bf24ab8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 24
+            },
+            "region": {
+              "startLine": 814,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "Function repr_failure"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 318,
+              "startColumn": 5,
+              "endLine": 320,
+              "endColumn": 84
+            }
+          },
+          "message": {
+            "text": "Function repr_failure"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 24
+            },
+            "region": {
+              "startLine": 292,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "Function reportinfo"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 448,
+              "startColumn": 5,
+              "endColumn": 60
+            }
+          },
+          "message": {
+            "text": "Function reportinfo"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/main.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 235,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "be13534bb69b3c65:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable excinfo is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/main.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 221,
+              "startColumn": 9,
+              "endColumn": 16
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7eda2f10a152b516:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

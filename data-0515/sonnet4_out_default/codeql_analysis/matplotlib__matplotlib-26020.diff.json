@@ -1,0 +1,120 @@
+{
+  "summary": {
+    "before_count": 773,
+    "after_count": 774,
+    "added": 2,
+    "removed": 1,
+    "unchanged": 772
+  },
+  "added_results": [
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 93,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 93
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-26020/lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'locator' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/axes_grid1/axes_grid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 175
+            },
+            "region": {
+              "startLine": 462,
+              "startColumn": 48,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "dcdf659e06b0ea4a:1",
+        "primaryLocationStartColumnFingerprint": "35"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'locator' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/axes_grid1/axes_grid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 446,
+              "startColumn": 48,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "dcdf659e06b0ea4a:1",
+        "primaryLocationStartColumnFingerprint": "35"
+      }
+    }
+  ]
+}

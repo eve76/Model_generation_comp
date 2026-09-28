@@ -1,0 +1,278 @@
+model,generation,family,ruleId,category,severity,added_count,removed_count
+Claude Opus 4.6,newer,Claude,py/attribute-shadows-method,reliability,error,2,0
+Claude Opus 4.6,newer,Claude,py/call-to-non-callable,reliability,error,1,2
+Claude Opus 4.6,newer,Claude,py/call/wrong-arguments,reliability,error,4,1
+Claude Opus 4.6,newer,Claude,py/call/wrong-named-class-argument,reliability,error,19,8
+Claude Opus 4.6,newer,Claude,py/catch-base-exception,reliability,recommendation,2,1
+Claude Opus 4.6,newer,Claude,py/clear-text-storage-sensitive-data,security,error,18,18
+Claude Opus 4.6,newer,Claude,py/commented-out-code,maintainability,recommendation,5,1
+Claude Opus 4.6,newer,Claude,py/comparison-of-identical-expressions,maintainability,warning,2,0
+Claude Opus 4.6,newer,Claude,py/conflicting-attributes,reliability,warning,545,99
+Claude Opus 4.6,newer,Claude,py/cyclic-import,maintainability,recommendation,1126,582
+Claude Opus 4.6,newer,Claude,py/empty-except,reliability,recommendation,80,27
+Claude Opus 4.6,newer,Claude,py/equals-hash-mismatch,reliability,warning,7,2
+Claude Opus 4.6,newer,Claude,py/file-not-closed,reliability,warning,6,1
+Claude Opus 4.6,newer,Claude,py/hash-unhashable-value,reliability,error,16,0
+Claude Opus 4.6,newer,Claude,py/implicit-string-concatenation-in-list,maintainability,warning,1,0
+Claude Opus 4.6,newer,Claude,py/import-and-import-from,maintainability,recommendation,4,0
+Claude Opus 4.6,newer,Claude,py/import-own-module,maintainability,recommendation,2,2
+Claude Opus 4.6,newer,Claude,py/incomplete-ordering,reliability,warning,2,0
+Claude Opus 4.6,newer,Claude,py/ineffectual-statement,maintainability,recommendation,14,1
+Claude Opus 4.6,newer,Claude,py/inheritance/incorrect-overridden-signature,reliability,recommendation,1,0
+Claude Opus 4.6,newer,Claude,py/inheritance/signature-mismatch,reliability,warning,37,9
+Claude Opus 4.6,newer,Claude,py/init-calls-subclass,reliability,warning,6,1
+Claude Opus 4.6,newer,Claude,py/missing-call-to-init,reliability,error,18,7
+Claude Opus 4.6,newer,Claude,py/missing-equals,reliability,warning,34,15
+Claude Opus 4.6,newer,Claude,py/mixed-returns,reliability,recommendation,127,54
+Claude Opus 4.6,newer,Claude,py/mixed-tuple-returns,reliability,recommendation,5,1
+Claude Opus 4.6,newer,Claude,py/modification-of-default-value,reliability,error,59,26
+Claude Opus 4.6,newer,Claude,py/modification-of-locals,reliability,warning,44,0
+Claude Opus 4.6,newer,Claude,py/multiple-calls-to-init,reliability,warning,2,1
+Claude Opus 4.6,newer,Claude,py/multiple-definition,maintainability,warning,13,2
+Claude Opus 4.6,newer,Claude,py/nested-loops-with-same-variable,maintainability,recommendation,2,0
+Claude Opus 4.6,newer,Claude,py/not-named-cls,maintainability,recommendation,9,8
+Claude Opus 4.6,newer,Claude,py/not-named-self,maintainability,recommendation,70,1
+Claude Opus 4.6,newer,Claude,py/overly-complex-delete,maintainability,recommendation,3,0
+Claude Opus 4.6,newer,Claude,py/overly-large-range,security,warning,1,0
+Claude Opus 4.6,newer,Claude,py/overwritten-inherited-attribute,maintainability,warning,46,19
+Claude Opus 4.6,newer,Claude,py/polluting-import,maintainability,recommendation,14,7
+Claude Opus 4.6,newer,Claude,py/procedure-return-value-used,maintainability,warning,1,0
+Claude Opus 4.6,newer,Claude,py/redundant-assignment,reliability,error,3,0
+Claude Opus 4.6,newer,Claude,py/redundant-comparison,maintainability,warning,1,1
+Claude Opus 4.6,newer,Claude,py/redundant-else,maintainability,warning,19,2
+Claude Opus 4.6,newer,Claude,py/regex/duplicate-in-character-class,maintainability,warning,1,0
+Claude Opus 4.6,newer,Claude,py/shell-command-constructed-from-input,security,error,1,0
+Claude Opus 4.6,newer,Claude,py/should-use-with,maintainability,recommendation,16,8
+Claude Opus 4.6,newer,Claude,py/super-not-enclosing-class,reliability,error,10,4
+Claude Opus 4.6,newer,Claude,py/undefined-export,reliability,error,1,0
+Claude Opus 4.6,newer,Claude,py/unexpected-raise-in-special-method,reliability,recommendation,46,8
+Claude Opus 4.6,newer,Claude,py/uninitialized-local-variable,reliability,error,70,12
+Claude Opus 4.6,newer,Claude,py/unreachable-statement,maintainability,warning,11,2
+Claude Opus 4.6,newer,Claude,py/unsafe-cyclic-import,reliability,error,183,6
+Claude Opus 4.6,newer,Claude,py/unused-exception-object,reliability,error,1,0
+Claude Opus 4.6,newer,Claude,py/unused-global-variable,maintainability,recommendation,30,0
+Claude Opus 4.6,newer,Claude,py/unused-import,maintainability,recommendation,53,1
+Claude Opus 4.6,newer,Claude,py/unused-local-variable,maintainability,recommendation,166,7
+Claude Opus 4.6,newer,Claude,py/unused-loop-variable,reliability,error,5,1
+Claude Opus 4.6,newer,Claude,py/useless-except,reliability,error,3,0
+Claude Opus 4.6,newer,Claude,py/weak-sensitive-data-hashing,security,warning,4,4
+Claude Sonnet 4,older,Claude,py/attribute-shadows-method,reliability,error,2,0
+Claude Sonnet 4,older,Claude,py/call-to-non-callable,reliability,error,1,2
+Claude Sonnet 4,older,Claude,py/call/wrong-arguments,reliability,error,4,1
+Claude Sonnet 4,older,Claude,py/call/wrong-named-class-argument,reliability,error,19,8
+Claude Sonnet 4,older,Claude,py/catch-base-exception,reliability,recommendation,1,0
+Claude Sonnet 4,older,Claude,py/clear-text-storage-sensitive-data,security,error,28,28
+Claude Sonnet 4,older,Claude,py/commented-out-code,maintainability,recommendation,2,1
+Claude Sonnet 4,older,Claude,py/comparison-of-identical-expressions,maintainability,warning,3,1
+Claude Sonnet 4,older,Claude,py/conflicting-attributes,reliability,warning,159,43
+Claude Sonnet 4,older,Claude,py/cyclic-import,maintainability,recommendation,1086,564
+Claude Sonnet 4,older,Claude,py/empty-except,reliability,recommendation,56,15
+Claude Sonnet 4,older,Claude,py/equals-hash-mismatch,reliability,warning,5,0
+Claude Sonnet 4,older,Claude,py/file-not-closed,reliability,warning,3,9
+Claude Sonnet 4,older,Claude,py/hash-unhashable-value,reliability,error,4,0
+Claude Sonnet 4,older,Claude,py/implicit-string-concatenation-in-list,maintainability,warning,2,1
+Claude Sonnet 4,older,Claude,py/import-and-import-from,maintainability,recommendation,3,0
+Claude Sonnet 4,older,Claude,py/incomplete-ordering,reliability,warning,2,0
+Claude Sonnet 4,older,Claude,py/ineffectual-statement,maintainability,recommendation,17,7
+Claude Sonnet 4,older,Claude,py/inheritance/incorrect-overridden-signature,reliability,recommendation,1,0
+Claude Sonnet 4,older,Claude,py/inheritance/signature-mismatch,reliability,warning,35,19
+Claude Sonnet 4,older,Claude,py/init-calls-subclass,reliability,warning,8,2
+Claude Sonnet 4,older,Claude,py/mismatched-multiple-assignment,reliability,error,1,1
+Claude Sonnet 4,older,Claude,py/missing-call-to-init,reliability,error,19,11
+Claude Sonnet 4,older,Claude,py/missing-equals,reliability,warning,54,33
+Claude Sonnet 4,older,Claude,py/mixed-returns,reliability,recommendation,64,18
+Claude Sonnet 4,older,Claude,py/mixed-tuple-returns,reliability,recommendation,5,4
+Claude Sonnet 4,older,Claude,py/modification-of-default-value,reliability,error,14,5
+Claude Sonnet 4,older,Claude,py/modification-of-locals,reliability,warning,44,0
+Claude Sonnet 4,older,Claude,py/multiple-calls-to-init,reliability,warning,2,1
+Claude Sonnet 4,older,Claude,py/multiple-definition,maintainability,warning,12,4
+Claude Sonnet 4,older,Claude,py/nested-loops-with-same-variable,maintainability,recommendation,2,0
+Claude Sonnet 4,older,Claude,py/not-named-cls,maintainability,recommendation,1,0
+Claude Sonnet 4,older,Claude,py/not-named-self,maintainability,recommendation,32,0
+Claude Sonnet 4,older,Claude,py/overly-complex-delete,maintainability,recommendation,3,0
+Claude Sonnet 4,older,Claude,py/overly-large-range,security,warning,1,0
+Claude Sonnet 4,older,Claude,py/overwritten-inherited-attribute,maintainability,warning,32,13
+Claude Sonnet 4,older,Claude,py/polluting-import,maintainability,recommendation,24,7
+Claude Sonnet 4,older,Claude,py/procedure-return-value-used,maintainability,warning,1,0
+Claude Sonnet 4,older,Claude,py/redundant-assignment,reliability,error,4,0
+Claude Sonnet 4,older,Claude,py/redundant-comparison,maintainability,warning,0,1
+Claude Sonnet 4,older,Claude,py/redundant-else,maintainability,warning,13,1
+Claude Sonnet 4,older,Claude,py/regex/duplicate-in-character-class,maintainability,warning,1,0
+Claude Sonnet 4,older,Claude,py/shell-command-constructed-from-input,security,error,1,0
+Claude Sonnet 4,older,Claude,py/should-use-with,maintainability,recommendation,16,8
+Claude Sonnet 4,older,Claude,py/str-format/surplus-named-argument,maintainability,warning,1,1
+Claude Sonnet 4,older,Claude,py/super-not-enclosing-class,reliability,error,11,5
+Claude Sonnet 4,older,Claude,py/undefined-export,reliability,error,1,0
+Claude Sonnet 4,older,Claude,py/unexpected-raise-in-special-method,reliability,recommendation,26,0
+Claude Sonnet 4,older,Claude,py/uninitialized-local-variable,reliability,error,44,17
+Claude Sonnet 4,older,Claude,py/unnecessary-lambda,maintainability,recommendation,1,1
+Claude Sonnet 4,older,Claude,py/unreachable-except,reliability,error,2,0
+Claude Sonnet 4,older,Claude,py/unreachable-statement,maintainability,warning,9,0
+Claude Sonnet 4,older,Claude,py/unsafe-cyclic-import,reliability,error,209,0
+Claude Sonnet 4,older,Claude,py/unused-exception-object,reliability,error,1,0
+Claude Sonnet 4,older,Claude,py/unused-global-variable,maintainability,recommendation,23,0
+Claude Sonnet 4,older,Claude,py/unused-import,maintainability,recommendation,58,0
+Claude Sonnet 4,older,Claude,py/unused-local-variable,maintainability,recommendation,163,4
+Claude Sonnet 4,older,Claude,py/unused-loop-variable,reliability,error,3,0
+Claude Sonnet 4,older,Claude,py/use-of-exit-or-quit,reliability,warning,3,0
+Claude Sonnet 4,older,Claude,py/useless-except,reliability,error,3,0
+Claude Sonnet 4,older,Claude,py/weak-sensitive-data-hashing,security,warning,8,8
+DeepSeek V3.2,newer,DeepSeek,py/attribute-shadows-method,reliability,error,2,0
+DeepSeek V3.2,newer,DeepSeek,py/call-to-non-callable,reliability,error,1,2
+DeepSeek V3.2,newer,DeepSeek,py/call/wrong-arguments,reliability,error,3,1
+DeepSeek V3.2,newer,DeepSeek,py/call/wrong-named-class-argument,reliability,error,19,8
+DeepSeek V3.2,newer,DeepSeek,py/catch-base-exception,reliability,recommendation,5,2
+DeepSeek V3.2,newer,DeepSeek,py/clear-text-storage-sensitive-data,security,error,18,18
+DeepSeek V3.2,newer,DeepSeek,py/commented-out-code,maintainability,recommendation,4,2
+DeepSeek V3.2,newer,DeepSeek,py/comparison-of-identical-expressions,maintainability,warning,1,0
+DeepSeek V3.2,newer,DeepSeek,py/conflicting-attributes,reliability,warning,482,146
+DeepSeek V3.2,newer,DeepSeek,py/cyclic-import,maintainability,recommendation,789,420
+DeepSeek V3.2,newer,DeepSeek,py/empty-except,reliability,recommendation,75,26
+DeepSeek V3.2,newer,DeepSeek,py/equals-hash-mismatch,reliability,warning,4,0
+DeepSeek V3.2,newer,DeepSeek,py/file-not-closed,reliability,warning,5,0
+DeepSeek V3.2,newer,DeepSeek,py/hash-unhashable-value,reliability,error,12,0
+DeepSeek V3.2,newer,DeepSeek,py/implicit-string-concatenation-in-list,maintainability,warning,1,0
+DeepSeek V3.2,newer,DeepSeek,py/import-and-import-from,maintainability,recommendation,7,0
+DeepSeek V3.2,newer,DeepSeek,py/import-own-module,maintainability,recommendation,1,1
+DeepSeek V3.2,newer,DeepSeek,py/incomplete-ordering,reliability,warning,5,2
+DeepSeek V3.2,newer,DeepSeek,py/ineffectual-statement,maintainability,recommendation,14,3
+DeepSeek V3.2,newer,DeepSeek,py/inheritance/incorrect-overridden-signature,reliability,recommendation,5,4
+DeepSeek V3.2,newer,DeepSeek,py/inheritance/signature-mismatch,reliability,warning,43,19
+DeepSeek V3.2,newer,DeepSeek,py/init-calls-subclass,reliability,warning,6,1
+DeepSeek V3.2,newer,DeepSeek,py/missing-call-to-init,reliability,error,11,5
+DeepSeek V3.2,newer,DeepSeek,py/missing-equals,reliability,warning,30,21
+DeepSeek V3.2,newer,DeepSeek,py/mixed-returns,reliability,recommendation,97,36
+DeepSeek V3.2,newer,DeepSeek,py/mixed-tuple-returns,reliability,recommendation,6,2
+DeepSeek V3.2,newer,DeepSeek,py/modification-of-default-value,reliability,error,36,13
+DeepSeek V3.2,newer,DeepSeek,py/modification-of-locals,reliability,warning,22,0
+DeepSeek V3.2,newer,DeepSeek,py/multiple-calls-to-init,reliability,warning,2,1
+DeepSeek V3.2,newer,DeepSeek,py/multiple-definition,maintainability,warning,12,2
+DeepSeek V3.2,newer,DeepSeek,py/nested-loops-with-same-variable,maintainability,recommendation,2,0
+DeepSeek V3.2,newer,DeepSeek,py/not-named-cls,maintainability,recommendation,9,8
+DeepSeek V3.2,newer,DeepSeek,py/not-named-self,maintainability,recommendation,58,1
+DeepSeek V3.2,newer,DeepSeek,py/overly-complex-delete,maintainability,recommendation,2,0
+DeepSeek V3.2,newer,DeepSeek,py/overly-large-range,security,warning,1,0
+DeepSeek V3.2,newer,DeepSeek,py/overwritten-inherited-attribute,maintainability,warning,38,15
+DeepSeek V3.2,newer,DeepSeek,py/polluting-import,maintainability,recommendation,14,7
+DeepSeek V3.2,newer,DeepSeek,py/procedure-return-value-used,maintainability,warning,1,0
+DeepSeek V3.2,newer,DeepSeek,py/redundant-assignment,reliability,error,3,0
+DeepSeek V3.2,newer,DeepSeek,py/redundant-comparison,maintainability,warning,1,1
+DeepSeek V3.2,newer,DeepSeek,py/redundant-else,maintainability,warning,18,2
+DeepSeek V3.2,newer,DeepSeek,py/regex/duplicate-in-character-class,maintainability,warning,1,0
+DeepSeek V3.2,newer,DeepSeek,py/shell-command-constructed-from-input,security,error,1,0
+DeepSeek V3.2,newer,DeepSeek,py/should-use-with,maintainability,recommendation,16,8
+DeepSeek V3.2,newer,DeepSeek,py/super-not-enclosing-class,reliability,error,9,3
+DeepSeek V3.2,newer,DeepSeek,py/undefined-export,reliability,error,1,0
+DeepSeek V3.2,newer,DeepSeek,py/unexpected-raise-in-special-method,reliability,recommendation,34,5
+DeepSeek V3.2,newer,DeepSeek,py/uninitialized-local-variable,reliability,error,57,7
+DeepSeek V3.2,newer,DeepSeek,py/unnecessary-lambda,maintainability,recommendation,4,4
+DeepSeek V3.2,newer,DeepSeek,py/unreachable-statement,maintainability,warning,11,2
+DeepSeek V3.2,newer,DeepSeek,py/unsafe-cyclic-import,reliability,error,148,2
+DeepSeek V3.2,newer,DeepSeek,py/unused-exception-object,reliability,error,1,0
+DeepSeek V3.2,newer,DeepSeek,py/unused-global-variable,maintainability,recommendation,27,1
+DeepSeek V3.2,newer,DeepSeek,py/unused-import,maintainability,recommendation,54,2
+DeepSeek V3.2,newer,DeepSeek,py/unused-local-variable,maintainability,recommendation,165,10
+DeepSeek V3.2,newer,DeepSeek,py/unused-loop-variable,reliability,error,4,1
+DeepSeek V3.2,newer,DeepSeek,py/useless-except,reliability,error,3,0
+DeepSeek V3.2,newer,DeepSeek,py/weak-sensitive-data-hashing,security,warning,2,2
+DeepSeek R1,older,DeepSeek,py/call/wrong-arguments,reliability,error,1,0
+DeepSeek R1,older,DeepSeek,py/clear-text-storage-sensitive-data,security,error,6,6
+DeepSeek R1,older,DeepSeek,py/commented-out-code,maintainability,recommendation,1,1
+DeepSeek R1,older,DeepSeek,py/comparison-of-identical-expressions,maintainability,warning,1,0
+DeepSeek R1,older,DeepSeek,py/conflicting-attributes,reliability,warning,142,32
+DeepSeek R1,older,DeepSeek,py/cyclic-import,maintainability,recommendation,389,207
+DeepSeek R1,older,DeepSeek,py/empty-except,reliability,recommendation,39,30
+DeepSeek R1,older,DeepSeek,py/equals-hash-mismatch,reliability,warning,2,1
+DeepSeek R1,older,DeepSeek,py/file-not-closed,reliability,warning,1,0
+DeepSeek R1,older,DeepSeek,py/hash-unhashable-value,reliability,error,5,1
+DeepSeek R1,older,DeepSeek,py/import-and-import-from,maintainability,recommendation,1,0
+DeepSeek R1,older,DeepSeek,py/incomplete-ordering,reliability,warning,1,0
+DeepSeek R1,older,DeepSeek,py/ineffectual-statement,maintainability,recommendation,9,1
+DeepSeek R1,older,DeepSeek,py/inheritance/incorrect-overridden-signature,reliability,recommendation,1,1
+DeepSeek R1,older,DeepSeek,py/inheritance/signature-mismatch,reliability,warning,12,8
+DeepSeek R1,older,DeepSeek,py/init-calls-subclass,reliability,warning,1,0
+DeepSeek R1,older,DeepSeek,py/mismatched-multiple-assignment,reliability,error,1,1
+DeepSeek R1,older,DeepSeek,py/missing-call-to-init,reliability,error,2,0
+DeepSeek R1,older,DeepSeek,py/missing-equals,reliability,warning,18,13
+DeepSeek R1,older,DeepSeek,py/mixed-returns,reliability,recommendation,24,10
+DeepSeek R1,older,DeepSeek,py/mixed-tuple-returns,reliability,recommendation,1,1
+DeepSeek R1,older,DeepSeek,py/modification-of-default-value,reliability,error,14,6
+DeepSeek R1,older,DeepSeek,py/modification-of-locals,reliability,warning,22,0
+DeepSeek R1,older,DeepSeek,py/multiple-definition,maintainability,warning,1,0
+DeepSeek R1,older,DeepSeek,py/not-named-cls,maintainability,recommendation,5,5
+DeepSeek R1,older,DeepSeek,py/not-named-self,maintainability,recommendation,13,0
+DeepSeek R1,older,DeepSeek,py/overly-complex-delete,maintainability,recommendation,1,0
+DeepSeek R1,older,DeepSeek,py/overwritten-inherited-attribute,maintainability,warning,7,4
+DeepSeek R1,older,DeepSeek,py/polluting-import,maintainability,recommendation,5,0
+DeepSeek R1,older,DeepSeek,py/redundant-assignment,reliability,error,1,0
+DeepSeek R1,older,DeepSeek,py/redundant-else,maintainability,warning,3,0
+DeepSeek R1,older,DeepSeek,py/super-not-enclosing-class,reliability,error,1,1
+DeepSeek R1,older,DeepSeek,py/test-equals-none,reliability,recommendation,1,1
+DeepSeek R1,older,DeepSeek,py/unexpected-raise-in-special-method,reliability,recommendation,19,9
+DeepSeek R1,older,DeepSeek,py/uninitialized-local-variable,reliability,error,17,3
+DeepSeek R1,older,DeepSeek,py/unnecessary-lambda,maintainability,recommendation,1,1
+DeepSeek R1,older,DeepSeek,py/unreachable-statement,maintainability,warning,2,0
+DeepSeek R1,older,DeepSeek,py/unsafe-cyclic-import,reliability,error,142,2
+DeepSeek R1,older,DeepSeek,py/unused-global-variable,maintainability,recommendation,9,0
+DeepSeek R1,older,DeepSeek,py/unused-import,maintainability,recommendation,19,0
+DeepSeek R1,older,DeepSeek,py/unused-local-variable,maintainability,recommendation,9,2
+DeepSeek R1,older,DeepSeek,py/unused-loop-variable,reliability,error,2,1
+Gold (developer),gold,Gold,py/call-to-non-callable,reliability,error,1,2
+Gold (developer),gold,Gold,py/call/wrong-arguments,reliability,error,2,1
+Gold (developer),gold,Gold,py/call/wrong-named-class-argument,reliability,error,25,14
+Gold (developer),gold,Gold,py/call/wrong-number-class-arguments,reliability,error,8,8
+Gold (developer),gold,Gold,py/catch-base-exception,reliability,recommendation,2,1
+Gold (developer),gold,Gold,py/clear-text-logging-sensitive-data,security,error,1,1
+Gold (developer),gold,Gold,py/clear-text-storage-sensitive-data,security,error,18,18
+Gold (developer),gold,Gold,py/commented-out-code,maintainability,recommendation,5,1
+Gold (developer),gold,Gold,py/comparison-of-identical-expressions,maintainability,warning,1,1
+Gold (developer),gold,Gold,py/conflicting-attributes,reliability,warning,1128,747
+Gold (developer),gold,Gold,py/cyclic-import,maintainability,recommendation,619,407
+Gold (developer),gold,Gold,py/empty-except,reliability,recommendation,102,46
+Gold (developer),gold,Gold,py/equals-hash-mismatch,reliability,warning,4,2
+Gold (developer),gold,Gold,py/file-not-closed,reliability,warning,13,2
+Gold (developer),gold,Gold,py/hash-unhashable-value,reliability,error,13,0
+Gold (developer),gold,Gold,py/implicit-string-concatenation-in-list,maintainability,warning,1,0
+Gold (developer),gold,Gold,py/import-and-import-from,maintainability,recommendation,31,1
+Gold (developer),gold,Gold,py/import-own-module,maintainability,recommendation,12,2
+Gold (developer),gold,Gold,py/incomplete-ordering,reliability,warning,3,0
+Gold (developer),gold,Gold,py/ineffectual-statement,maintainability,recommendation,5,1
+Gold (developer),gold,Gold,py/inheritance/incorrect-overridden-signature,reliability,recommendation,6,2
+Gold (developer),gold,Gold,py/inheritance/signature-mismatch,reliability,warning,23,10
+Gold (developer),gold,Gold,py/init-calls-subclass,reliability,warning,6,2
+Gold (developer),gold,Gold,py/member-test-non-container,reliability,error,2,2
+Gold (developer),gold,Gold,py/mismatched-multiple-assignment,reliability,error,15,15
+Gold (developer),gold,Gold,py/missing-call-to-init,reliability,error,25,22
+Gold (developer),gold,Gold,py/missing-equals,reliability,warning,43,28
+Gold (developer),gold,Gold,py/mixed-returns,reliability,recommendation,172,99
+Gold (developer),gold,Gold,py/mixed-tuple-returns,reliability,recommendation,8,6
+Gold (developer),gold,Gold,py/modification-of-default-value,reliability,error,45,20
+Gold (developer),gold,Gold,py/multiple-calls-to-init,reliability,warning,1,0
+Gold (developer),gold,Gold,py/multiple-definition,maintainability,warning,14,3
+Gold (developer),gold,Gold,py/nested-loops-with-same-variable,maintainability,recommendation,2,0
+Gold (developer),gold,Gold,py/not-named-cls,maintainability,recommendation,9,8
+Gold (developer),gold,Gold,py/not-named-self,maintainability,recommendation,206,150
+Gold (developer),gold,Gold,py/overly-complex-delete,maintainability,recommendation,1,0
+Gold (developer),gold,Gold,py/overly-large-range,security,warning,1,0
+Gold (developer),gold,Gold,py/overwritten-inherited-attribute,maintainability,warning,42,18
+Gold (developer),gold,Gold,py/polluting-import,maintainability,recommendation,39,15
+Gold (developer),gold,Gold,py/procedure-return-value-used,maintainability,warning,1,0
+Gold (developer),gold,Gold,py/redundant-assignment,reliability,error,2,0
+Gold (developer),gold,Gold,py/redundant-comparison,maintainability,warning,1,1
+Gold (developer),gold,Gold,py/redundant-else,maintainability,warning,16,2
+Gold (developer),gold,Gold,py/regex/duplicate-in-character-class,maintainability,warning,1,0
+Gold (developer),gold,Gold,py/shell-command-constructed-from-input,security,error,1,0
+Gold (developer),gold,Gold,py/should-use-with,maintainability,recommendation,0,1
+Gold (developer),gold,Gold,py/super-not-enclosing-class,reliability,error,9,3
+Gold (developer),gold,Gold,py/undefined-export,reliability,error,3,0
+Gold (developer),gold,Gold,py/unexpected-raise-in-special-method,reliability,recommendation,24,7
+Gold (developer),gold,Gold,py/uninitialized-local-variable,reliability,error,66,26
+Gold (developer),gold,Gold,py/unnecessary-lambda,maintainability,recommendation,3,3
+Gold (developer),gold,Gold,py/unreachable-statement,maintainability,warning,18,4
+Gold (developer),gold,Gold,py/unsafe-cyclic-import,reliability,error,24,18
+Gold (developer),gold,Gold,py/unused-global-variable,maintainability,recommendation,183,0
+Gold (developer),gold,Gold,py/unused-import,maintainability,recommendation,93,0
+Gold (developer),gold,Gold,py/unused-local-variable,maintainability,recommendation,163,10
+Gold (developer),gold,Gold,py/unused-loop-variable,reliability,error,11,1
+Gold (developer),gold,Gold,py/useless-except,reliability,error,4,1
+Gold (developer),gold,Gold,py/weak-sensitive-data-hashing,security,warning,8,8

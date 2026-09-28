@@ -1,0 +1,642 @@
+{
+  "summary": {
+    "before_count": 696,
+    "after_count": 697,
+    "added": 8,
+    "removed": 7,
+    "unchanged": 689
+  },
+  "added_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 163
+            },
+            "region": {
+              "startLine": 882,
+              "startColumn": 9,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d3ed2ffc5a0abc44:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable zs is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 163
+            },
+            "region": {
+              "startLine": 571,
+              "startColumn": 17,
+              "endColumn": 19
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a879e00034f0970:1",
+        "primaryLocationStartColumnFingerprint": "8"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable ys is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 163
+            },
+            "region": {
+              "startLine": 571,
+              "startColumn": 13,
+              "endColumn": 15
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a879e00034f0970:1",
+        "primaryLocationStartColumnFingerprint": "4"
+      }
+    },
+    {
+      "ruleId": "py/init-calls-subclass",
+      "ruleIndex": 108,
+      "rule": {
+        "id": "py/init-calls-subclass",
+        "index": 108
+      },
+      "message": {
+        "text": "This call to [Patch3D.set_3d_properties](1) in an initialization method is overridden by [PathPatch3D.set_3d_properties](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 163
+            },
+            "region": {
+              "startLine": 351,
+              "startColumn": 9,
+              "endColumn": 41
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e72c7f839abb4a88:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 163
+            },
+            "region": {
+              "startLine": 353,
+              "startColumn": 5,
+              "endColumn": 56
+            }
+          },
+          "message": {
+            "text": "Patch3D.set_3d_properties"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 163
+            },
+            "region": {
+              "startLine": 380,
+              "startColumn": 5,
+              "endColumn": 55
+            }
+          },
+          "message": {
+            "text": "PathPatch3D.set_3d_properties"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [Patch3D.__init__](1) during initialization. ([PathPatch3D.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 163
+            },
+            "region": {
+              "startLine": 370,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "676ceeb50a3f32bd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 163
+            },
+            "region": {
+              "startLine": 349,
+              "startColumn": 5,
+              "endColumn": 58
+            }
+          },
+          "message": {
+            "text": "Patch3D.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 163
+            },
+            "region": {
+              "startLine": 375,
+              "startColumn": 5,
+              "endColumn": 60
+            }
+          },
+          "message": {
+            "text": "PathPatch3D.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable xs is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 163
+            },
+            "region": {
+              "startLine": 571,
+              "startColumn": 9,
+              "endColumn": 11
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a879e00034f0970:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 93,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 93
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23563/lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 19
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 163
+            },
+            "region": {
+              "startLine": 887,
+              "startColumn": 9,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6d9d4f02c40d2790:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable zs is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            },
+            "region": {
+              "startLine": 549,
+              "startColumn": 17,
+              "endColumn": 19
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a879e00034f0970:1",
+        "primaryLocationStartColumnFingerprint": "8"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            },
+            "region": {
+              "startLine": 860,
+              "startColumn": 9,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d3ed2ffc5a0abc44:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            },
+            "region": {
+              "startLine": 865,
+              "startColumn": 9,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6d9d4f02c40d2790:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable ys is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            },
+            "region": {
+              "startLine": 549,
+              "startColumn": 13,
+              "endColumn": 15
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a879e00034f0970:1",
+        "primaryLocationStartColumnFingerprint": "4"
+      }
+    },
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [Patch3D.__init__](1) during initialization. ([PathPatch3D.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            },
+            "region": {
+              "startLine": 348,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "676ceeb50a3f32bd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            },
+            "region": {
+              "startLine": 327,
+              "startColumn": 5,
+              "endColumn": 58
+            }
+          },
+          "message": {
+            "text": "Patch3D.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            },
+            "region": {
+              "startLine": 353,
+              "startColumn": 5,
+              "endColumn": 60
+            }
+          },
+          "message": {
+            "text": "PathPatch3D.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/init-calls-subclass",
+      "ruleIndex": 108,
+      "rule": {
+        "id": "py/init-calls-subclass",
+        "index": 108
+      },
+      "message": {
+        "text": "This call to [Patch3D.set_3d_properties](1) in an initialization method is overridden by [PathPatch3D.set_3d_properties](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            },
+            "region": {
+              "startLine": 329,
+              "startColumn": 9,
+              "endColumn": 41
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e72c7f839abb4a88:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            },
+            "region": {
+              "startLine": 331,
+              "startColumn": 5,
+              "endColumn": 56
+            }
+          },
+          "message": {
+            "text": "Patch3D.set_3d_properties"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            },
+            "region": {
+              "startLine": 358,
+              "startColumn": 5,
+              "endColumn": 55
+            }
+          },
+          "message": {
+            "text": "PathPatch3D.set_3d_properties"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable xs is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            },
+            "region": {
+              "startLine": 549,
+              "startColumn": 9,
+              "endColumn": 11
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a879e00034f0970:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

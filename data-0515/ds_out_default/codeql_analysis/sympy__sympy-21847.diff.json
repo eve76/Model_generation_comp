@@ -1,0 +1,217 @@
+{
+  "summary": {
+    "before_count": 1825,
+    "after_count": 1825,
+    "added": 2,
+    "removed": 2,
+    "unchanged": 1823
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ExactQuotientFailed](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/monomials.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 586,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5fa66643340e03a1:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/monomials.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 599,
+              "startColumn": 19,
+              "endColumn": 61
+            }
+          },
+          "message": {
+            "text": "ExactQuotientFailed"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/monomials.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 603,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "933a698c8a4ede4b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/monomials.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 616,
+              "startColumn": 19,
+              "endColumn": 80
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ExactQuotientFailed](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/monomials.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 582,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5fa66643340e03a1:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/monomials.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 595,
+              "startColumn": 19,
+              "endColumn": 61
+            }
+          },
+          "message": {
+            "text": "ExactQuotientFailed"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/monomials.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 599,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "933a698c8a4ede4b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/monomials.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 612,
+              "startColumn": 19,
+              "endColumn": 80
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    }
+  ]
+}

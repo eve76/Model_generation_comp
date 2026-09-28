@@ -1,0 +1,105 @@
+{
+  "summary": {
+    "before_count": 202,
+    "after_count": 202,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 201
+  },
+  "added_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sklearn.utils.extmath](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/utils/validation.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 129
+            },
+            "region": {
+              "startLine": 40,
+              "startColumn": 5,
+              "endColumn": 46
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4c9387d8c42b7d7a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/utils/extmath.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 4
+            }
+          },
+          "message": {
+            "text": "sklearn.utils.extmath"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sklearn.utils.extmath](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/utils/validation.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 50
+            },
+            "region": {
+              "startLine": 39,
+              "startColumn": 5,
+              "endColumn": 46
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4c9387d8c42b7d7a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/utils/extmath.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 169
+            }
+          },
+          "message": {
+            "text": "sklearn.utils.extmath"
+          }
+        }
+      ]
+    }
+  ]
+}

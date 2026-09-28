@@ -1,0 +1,197 @@
+{
+  "summary": {
+    "before_count": 561,
+    "after_count": 561,
+    "added": 2,
+    "removed": 2,
+    "unchanged": 559
+  },
+  "added_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.geometry.point](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/util.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 25
+            },
+            "region": {
+              "startLine": 659,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8e135770f2d1977f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/point.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            }
+          },
+          "message": {
+            "text": "sympy.geometry.point"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.geometry.entity](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/util.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 25
+            },
+            "region": {
+              "startLine": 658,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "85b59b2a2e91ffaf:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/entity.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            }
+          },
+          "message": {
+            "text": "sympy.geometry.entity"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.geometry.entity](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/util.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 651,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "85b59b2a2e91ffaf:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/entity.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            }
+          },
+          "message": {
+            "text": "sympy.geometry.entity"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.geometry.point](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/util.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 652,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8e135770f2d1977f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/point.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            }
+          },
+          "message": {
+            "text": "sympy.geometry.point"
+          }
+        }
+      ]
+    }
+  ]
+}

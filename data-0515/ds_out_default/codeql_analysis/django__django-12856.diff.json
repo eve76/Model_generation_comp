@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "before_count": 524,
+    "after_count": 525,
+    "added": 1,
+    "removed": 0,
+    "unchanged": 524
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'UniqueConstraint' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 537
+            },
+            "region": {
+              "startLine": 23,
+              "endColumn": 75
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c5e0d7a36aa7c3b6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": []
+}

@@ -1,0 +1,261 @@
+{
+  "summary": {
+    "before_count": 560,
+    "after_count": 560,
+    "added": 4,
+    "removed": 4,
+    "unchanged": 556
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable col is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/point.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 1283,
+              "startColumn": 9,
+              "endColumn": 12
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b390404f2333be9b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable row is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/point.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 1005,
+              "startColumn": 14,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1164d4ee57fa6166:1",
+        "primaryLocationStartColumnFingerprint": "5"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable row is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/point.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 1283,
+              "startColumn": 14,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b390404f2333be9b:1",
+        "primaryLocationStartColumnFingerprint": "5"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable col is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/point.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 1005,
+              "startColumn": 9,
+              "endColumn": 12
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1164d4ee57fa6166:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable col is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/point.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1279,
+              "startColumn": 9,
+              "endColumn": 12
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b390404f2333be9b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable row is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/point.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1001,
+              "startColumn": 14,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1164d4ee57fa6166:1",
+        "primaryLocationStartColumnFingerprint": "5"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable col is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/point.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1001,
+              "startColumn": 9,
+              "endColumn": 12
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1164d4ee57fa6166:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable row is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/geometry/point.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 1279,
+              "startColumn": 14,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b390404f2333be9b:1",
+        "primaryLocationStartColumnFingerprint": "5"
+      }
+    }
+  ]
+}

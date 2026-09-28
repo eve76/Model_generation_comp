@@ -1,0 +1,627 @@
+{
+  "summary": {
+    "before_count": 513,
+    "after_count": 525,
+    "added": 15,
+    "removed": 3,
+    "unchanged": 510
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'os' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "test_autoreload_null_byte.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 368
+            },
+            "region": {
+              "startLine": 9,
+              "endColumn": 10
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bcedbb54c3d65cac:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unreachable-statement",
+      "ruleIndex": 145,
+      "rule": {
+        "id": "py/unreachable-statement",
+        "index": 145
+      },
+      "message": {
+        "text": "This statement is unreachable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "test_realistic_scenario.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 184
+            },
+            "region": {
+              "startLine": 84,
+              "startColumn": 5,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2f0e64fe2b3665cd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 772
+            },
+            "region": {
+              "startLine": 615,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c8bba0c50070c33b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'os' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "test_fix.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 78
+            },
+            "region": {
+              "startLine": 9,
+              "endColumn": 10
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bcedbb54c3d65cac:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'Path' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "test_autoreload_null_byte.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 368
+            },
+            "region": {
+              "startLine": 10,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "983ce10ba6583d6d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable result is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "test_edge_cases.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 464
+            },
+            "region": {
+              "startLine": 115,
+              "startColumn": 13,
+              "endColumn": 19
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f6bfa32072dbab3f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'os' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "test_edge_cases.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 464
+            },
+            "region": {
+              "startLine": 9,
+              "endColumn": 10
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bcedbb54c3d65cac:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'tempfile' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "test_edge_cases.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 464
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 16
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6ddd4f256cb80bd7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'iter_modules_and_files' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "reproduce_issue.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 748
+            },
+            "region": {
+              "startLine": 11,
+              "endColumn": 59
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5709bca6b90365f9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 772
+            },
+            "region": {
+              "startLine": 404,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cfd8c509151595cd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/redundant-else",
+      "ruleIndex": 141,
+      "rule": {
+        "id": "py/redundant-else",
+        "index": 141
+      },
+      "message": {
+        "text": "This 'while' statement has a redundant 'else' as no 'break' is present in the body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 772
+            },
+            "region": {
+              "startLine": 290,
+              "startColumn": 9,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6da089f9059898c5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'tempfile' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "test_autoreload_null_byte.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 368
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 16
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6ddd4f256cb80bd7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'tempfile' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "test_fix.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 78
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 16
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6ddd4f256cb80bd7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unreachable-except",
+      "ruleIndex": 164,
+      "rule": {
+        "id": "py/unreachable-except",
+        "index": 164
+      },
+      "message": {
+        "text": "This except block handling [ValueError](1) is unreachable; as [this except block](2) also handles [ValueError](1)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 772
+            },
+            "region": {
+              "startLine": 204,
+              "startColumn": 9,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "aa91b9b1c35c5fb0:4",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/",
+              "index": 838
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 772
+            },
+            "region": {
+              "startLine": 200,
+              "startColumn": 9,
+              "endColumn": 27
+            }
+          },
+          "message": {
+            "text": "this except block"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unreachable-except",
+      "ruleIndex": 164,
+      "rule": {
+        "id": "py/unreachable-except",
+        "index": 164
+      },
+      "message": {
+        "text": "This except block handling [ValueError](1) is unreachable; as [this except block](2) also handles [ValueError](1)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 772
+            },
+            "region": {
+              "startLine": 150,
+              "startColumn": 9,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "aa91b9b1c35c5fb0:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/",
+              "index": 838
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 772
+            },
+            "region": {
+              "startLine": 146,
+              "startColumn": 9,
+              "endColumn": 27
+            }
+          },
+          "message": {
+            "text": "this except block"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 378
+            },
+            "region": {
+              "startLine": 599,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c8bba0c50070c33b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/redundant-else",
+      "ruleIndex": 141,
+      "rule": {
+        "id": "py/redundant-else",
+        "index": 141
+      },
+      "message": {
+        "text": "This 'while' statement has a redundant 'else' as no 'break' is present in the body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 378
+            },
+            "region": {
+              "startLine": 274,
+              "startColumn": 9,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6da089f9059898c5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 378
+            },
+            "region": {
+              "startLine": 388,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cfd8c509151595cd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

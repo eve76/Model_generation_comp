@@ -1,0 +1,43 @@
+{
+  "summary": {
+    "before_count": 348,
+    "after_count": 349,
+    "added": 1,
+    "removed": 0,
+    "unchanged": 348
+  },
+  "added_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 129,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 129
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/assertion/rewrite.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 38
+            },
+            "region": {
+              "startLine": 996,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b7afad8e957f4ec1:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": []
+}

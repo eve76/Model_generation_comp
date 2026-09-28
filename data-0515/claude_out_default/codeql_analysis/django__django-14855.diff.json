@@ -1,0 +1,105 @@
+{
+  "summary": {
+    "before_count": 567,
+    "after_count": 567,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 566
+  },
+  "added_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [django.contrib.admin.templatetags.admin_list](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/helpers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 547
+            },
+            "region": {
+              "startLine": 222,
+              "startColumn": 9,
+              "endColumn": 79
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "29f1d1bbb248331:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/templatetags/admin_list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            }
+          },
+          "message": {
+            "text": "django.contrib.admin.templatetags.admin_list"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [django.contrib.admin.templatetags.admin_list](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/helpers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 570
+            },
+            "region": {
+              "startLine": 218,
+              "startColumn": 9,
+              "endColumn": 79
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "29f1d1bbb248331:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/templatetags/admin_list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 172
+            }
+          },
+          "message": {
+            "text": "django.contrib.admin.templatetags.admin_list"
+          }
+        }
+      ]
+    }
+  ]
+}

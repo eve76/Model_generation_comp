@@ -1,0 +1,155 @@
+{
+  "summary": {
+    "before_count": 583,
+    "after_count": 583,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 582
+  },
+  "added_results": [
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 1. [This call](2) correctly calls the base method, but does not match the signature of the overriding method.\nThis method requires 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 42
+            },
+            "region": {
+              "startLine": 1931,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8e1824c0ae845383:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 42
+            },
+            "region": {
+              "startLine": 1486,
+              "startColumn": 5,
+              "endLine": 1488,
+              "endColumn": 7
+            }
+          },
+          "message": {
+            "text": "SQLCompiler.execute_sql"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 42
+            },
+            "region": {
+              "startLine": 1467,
+              "startColumn": 23,
+              "endLine": 1469,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method.\nThis method requires 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 1. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 45
+            },
+            "region": {
+              "startLine": 1931,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8e1824c0ae845383:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 45
+            },
+            "region": {
+              "startLine": 1486,
+              "startColumn": 5,
+              "endLine": 1488,
+              "endColumn": 7
+            }
+          },
+          "message": {
+            "text": "SQLCompiler.execute_sql"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 45
+            },
+            "region": {
+              "startLine": 1467,
+              "startColumn": 23,
+              "endLine": 1469,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    }
+  ]
+}

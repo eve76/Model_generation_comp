@@ -1,0 +1,435 @@
+{
+  "summary": {
+    "before_count": 86,
+    "after_count": 86,
+    "added": 2,
+    "removed": 2,
+    "unchanged": 84
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'config': [Property config](1) and [Property config](2).\nBase classes have conflicting values for attribute 'set_option': [Function set_option](3) and [Function set_option](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/pyreverse/main.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            },
+            "region": {
+              "startLine": 207,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "82569e8149925f03:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_manager.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 116
+            },
+            "region": {
+              "startLine": 111,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property config"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_provider.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 32
+            },
+            "region": {
+              "startLine": 71,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property config"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_manager.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 116
+            },
+            "region": {
+              "startLine": 767,
+              "startColumn": 5,
+              "endLine": 773,
+              "endColumn": 15
+            }
+          },
+          "message": {
+            "text": "Function set_option"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_provider.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 32
+            },
+            "region": {
+              "startLine": 125,
+              "startColumn": 5,
+              "endColumn": 69
+            }
+          },
+          "message": {
+            "text": "Function set_option"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'config': [Property config](1) and [Property config](2).\nBase classes have conflicting values for attribute 'set_option': [Function set_option](3) and [Function set_option](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/lint/pylinter.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 100
+            },
+            "region": {
+              "startLine": 239,
+              "endLine": 244,
+              "endColumn": 3
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9edcce4e263d1f5f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_manager.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 116
+            },
+            "region": {
+              "startLine": 111,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property config"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_provider.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 32
+            },
+            "region": {
+              "startLine": 71,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property config"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_manager.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 116
+            },
+            "region": {
+              "startLine": 767,
+              "startColumn": 5,
+              "endLine": 773,
+              "endColumn": 15
+            }
+          },
+          "message": {
+            "text": "Function set_option"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_provider.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 32
+            },
+            "region": {
+              "startLine": 125,
+              "startColumn": 5,
+              "endColumn": 69
+            }
+          },
+          "message": {
+            "text": "Function set_option"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'set_option': [Function set_option](1) and [Function set_option](2).\nBase classes have conflicting values for attribute 'config': [Property config](3) and [Property config](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/lint/pylinter.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 82
+            },
+            "region": {
+              "startLine": 239,
+              "endLine": 244,
+              "endColumn": 3
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9edcce4e263d1f5f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_manager.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 767,
+              "startColumn": 5,
+              "endLine": 773,
+              "endColumn": 15
+            }
+          },
+          "message": {
+            "text": "Function set_option"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_provider.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 43
+            },
+            "region": {
+              "startLine": 125,
+              "startColumn": 5,
+              "endColumn": 69
+            }
+          },
+          "message": {
+            "text": "Function set_option"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_manager.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 111,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property config"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_provider.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 43
+            },
+            "region": {
+              "startLine": 71,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property config"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'set_option': [Function set_option](1) and [Function set_option](2).\nBase classes have conflicting values for attribute 'config': [Property config](3) and [Property config](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/pyreverse/main.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 161
+            },
+            "region": {
+              "startLine": 207,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "82569e8149925f03:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_manager.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 767,
+              "startColumn": 5,
+              "endLine": 773,
+              "endColumn": 15
+            }
+          },
+          "message": {
+            "text": "Function set_option"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_provider.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 43
+            },
+            "region": {
+              "startLine": 125,
+              "startColumn": 5,
+              "endColumn": 69
+            }
+          },
+          "message": {
+            "text": "Function set_option"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_manager.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 111,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property config"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/config/arguments_provider.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 43
+            },
+            "region": {
+              "startLine": 71,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property config"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "summary": {
+    "before_count": 570,
+    "after_count": 570,
+    "added": 2,
+    "removed": 2,
+    "unchanged": 568
+  },
+  "added_results": [
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [ChoiceField.__init__](1) during initialization. ([ModelChoiceField.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 222
+            },
+            "region": {
+              "startLine": 1209,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e647f869e851aa30:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/fields.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 781,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "ChoiceField.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 222
+            },
+            "region": {
+              "startLine": 1219,
+              "startColumn": 5,
+              "endLine": 1222,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "ModelChoiceField.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/super-not-enclosing-class",
+      "ruleIndex": 64,
+      "rule": {
+        "id": "py/super-not-enclosing-class",
+        "index": 64
+      },
+      "message": {
+        "text": "First argument to super() should be ModelChoiceField."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 222
+            },
+            "region": {
+              "startLine": 1251,
+              "startColumn": 18,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fd589c4a0fb63587:1",
+        "primaryLocationStartColumnFingerprint": "9"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [ChoiceField.__init__](1) during initialization. ([ModelChoiceField.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 816
+            },
+            "region": {
+              "startLine": 1206,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e647f869e851aa30:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/fields.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 444
+            },
+            "region": {
+              "startLine": 781,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "ChoiceField.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 816
+            },
+            "region": {
+              "startLine": 1216,
+              "startColumn": 5,
+              "endLine": 1219,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "ModelChoiceField.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/super-not-enclosing-class",
+      "ruleIndex": 64,
+      "rule": {
+        "id": "py/super-not-enclosing-class",
+        "index": 64
+      },
+      "message": {
+        "text": "First argument to super() should be ModelChoiceField."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 816
+            },
+            "region": {
+              "startLine": 1248,
+              "startColumn": 18,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fd589c4a0fb63587:1",
+        "primaryLocationStartColumnFingerprint": "9"
+      }
+    }
+  ]
+}

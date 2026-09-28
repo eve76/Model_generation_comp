@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "before_count": 122,
+    "after_count": 123,
+    "added": 1,
+    "removed": 0,
+    "unchanged": 122
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'BaseTimeoutError' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/exceptions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 10,
+              "endColumn": 134
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7dd4660de5bea8bd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": []
+}

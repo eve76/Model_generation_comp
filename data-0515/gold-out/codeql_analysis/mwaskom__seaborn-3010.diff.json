@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "before_count": 225,
+    "after_count": 225,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 224
+  },
+  "added_results": [
+    {
+      "ruleId": "py/ineffectual-statement",
+      "ruleIndex": 142,
+      "rule": {
+        "id": "py/ineffectual-statement",
+        "index": 142
+      },
+      "message": {
+        "text": "This statement has no effect."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_stats/regression.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 58
+            },
+            "region": {
+              "startLine": 50,
+              "startColumn": 5,
+              "endColumn": 8
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5afb563d96b49037:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/ineffectual-statement",
+      "ruleIndex": 142,
+      "rule": {
+        "id": "py/ineffectual-statement",
+        "index": 142
+      },
+      "message": {
+        "text": "This statement has no effect."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_stats/regression.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 47,
+              "startColumn": 5,
+              "endColumn": 8
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5afb563d96b49037:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

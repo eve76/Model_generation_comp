@@ -1,0 +1,137 @@
+{
+  "summary": {
+    "before_count": 518,
+    "after_count": 518,
+    "added": 2,
+    "removed": 2,
+    "unchanged": 516
+  },
+  "added_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/debug.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 415
+            },
+            "region": {
+              "startLine": 351,
+              "startColumn": 13,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1aef442291def6d8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/debug.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 415
+            },
+            "region": {
+              "startLine": 343,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1e8376bf37c9ce1c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/debug.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 320
+            },
+            "region": {
+              "startLine": 341,
+              "startColumn": 13,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1e8376bf37c9ce1c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/debug.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 320
+            },
+            "region": {
+              "startLine": 349,
+              "startColumn": 13,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1aef442291def6d8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

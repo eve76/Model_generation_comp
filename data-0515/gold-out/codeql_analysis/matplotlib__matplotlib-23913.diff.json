@@ -1,0 +1,3660 @@
+{
+  "summary": {
+    "before_count": 1050,
+    "after_count": 1074,
+    "added": 47,
+    "removed": 23,
+    "unchanged": 1027
+  },
+  "added_results": [
+    {
+      "ruleId": "py/import-own-module",
+      "ruleIndex": 96,
+      "rule": {
+        "id": "py/import-own-module",
+        "index": 96
+      },
+      "message": {
+        "text": "The module 'matplotlib' imports itself."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 268
+            },
+            "region": {
+              "startLine": 786,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "696187b852208a38:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib.artist](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            },
+            "region": {
+              "startLine": 55,
+              "startColumn": 9,
+              "endColumn": 52
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7e6f148325bb1356:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/artist.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 809
+            }
+          },
+          "message": {
+            "text": "matplotlib.artist"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'np' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 314
+            },
+            "region": {
+              "startLine": 43,
+              "endColumn": 19
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c825a110c14567c8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle.\nImport of module [matplotlib.colors](3) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/lines.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 844
+            },
+            "region": {
+              "startLine": 13,
+              "endColumn": 57
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "14d8aa16b135d45c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colors.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 903
+            }
+          },
+          "message": {
+            "text": "matplotlib.colors"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-global-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-global-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "The global variable '_validators' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/rcsetup.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 79
+            },
+            "region": {
+              "startLine": 1263,
+              "endColumn": 12
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a8caac3e03fb103e:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-loop-variable",
+      "ruleIndex": 81,
+      "rule": {
+        "id": "py/unused-loop-variable",
+        "index": 81
+      },
+      "message": {
+        "text": "For loop variable 'stacklevel' is not used in the loop body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_api/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 348
+            },
+            "region": {
+              "startLine": 354,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8d636184b92337e4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib.figure](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/legend.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 711
+            },
+            "region": {
+              "startLine": 382,
+              "startColumn": 9,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e82615f7e2207301:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/figure.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 142
+            }
+          },
+          "message": {
+            "text": "matplotlib.figure"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_enums.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 906
+            },
+            "region": {
+              "startLine": 14,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ee16a20ab0193346:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pyplot](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 314
+            },
+            "region": {
+              "startLine": 36,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cf3a7a500c9363fc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pyplot.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 411
+            }
+          },
+          "message": {
+            "text": "matplotlib.pyplot"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 129,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 129
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_api/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 348
+            },
+            "region": {
+              "startLine": 285,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e8341cc4df3be307:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'YearLocator' is not used.\nImport of 'MonthLocator' is not used.\nImport of 'DayLocator' is not used.\nImport of 'WeekdayLocator' is not used.\nImport of 'HourLocator' is not used.\nImport of 'MinuteLocator' is not used.\nImport of 'SecondLocator' is not used.\nImport of 'RRuleLocator' is not used.\nImport of 'MONTHLY' is not used.\nImport of 'MO' is not used.\nImport of 'TU' is not used.\nImport of 'WE' is not used.\nImport of 'TH' is not used.\nImport of 'FR' is not used.\nImport of 'SA' is not used.\nImport of 'SU' is not used.\nImport of 'date2num' is not used.\nImport of 'num2date' is not used.\nImport of 'datestr2num' is not used.\nImport of 'drange' is not used.\nImport of 'epoch2num' is not used.\nImport of 'num2epoch' is not used.\nImport of 'DateFormatter' is not used.\nImport of 'DateLocator' is not used.\nImport of 'rrule' is not used.\nImport of 'YEARLY' is not used.\nImport of 'WEEKLY' is not used.\nImport of 'DAILY' is not used.\nImport of 'HOURLY' is not used.\nImport of 'MINUTELY' is not used.\nImport of 'SECONDLY' is not used.\nImport of 'relativedelta' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 314
+            },
+            "region": {
+              "startLine": 18,
+              "endLine": 24,
+              "endColumn": 19
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4f962a8d53f6dfa4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle.\nImport of module [matplotlib.backend_bases](3) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/figure.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 142
+            },
+            "region": {
+              "startLine": 26,
+              "endColumn": 79
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ab5b2d180b89e241:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/backend_bases.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 738
+            }
+          },
+          "message": {
+            "text": "matplotlib.backend_bases"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-global-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-global-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "The global variable '_hardcoded_defaults' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/rcsetup.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 79
+            },
+            "region": {
+              "startLine": 1256,
+              "endColumn": 20
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cfd96a99f770abfa:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/mlab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 327
+            },
+            "region": {
+              "startLine": 58,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f8998f6243b83690:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle.\nImport of module [matplotlib.artist](3) begins an import cycle.\nImport of module [matplotlib.colors](4) begins an import cycle.\nImport of module [matplotlib.lines](5) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/patches.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 639
+            },
+            "region": {
+              "startLine": 15,
+              "endLine": 16,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7a5166cf9fc0161c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/artist.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 809
+            }
+          },
+          "message": {
+            "text": "matplotlib.artist"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colors.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 903
+            }
+          },
+          "message": {
+            "text": "matplotlib.colors"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/lines.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 844
+            }
+          },
+          "message": {
+            "text": "matplotlib.lines"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 164,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 164
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/legend.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 711
+            },
+            "region": {
+              "startLine": 570,
+              "startColumn": 21,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2083f5444e914cb5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle.\nImport of module [matplotlib.artist](3) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/text.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 652
+            },
+            "region": {
+              "startLine": 14,
+              "endColumn": 46
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2dcb4f6bb19dae01:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/artist.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 809
+            }
+          },
+          "message": {
+            "text": "matplotlib.artist"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'mpl' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 314
+            },
+            "region": {
+              "startLine": 16,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ff6f1a14d12bfcc3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'detrend' is not used.\nImport of 'detrend_linear' is not used.\nImport of 'detrend_mean' is not used.\nImport of 'detrend_none' is not used.\nImport of 'window_hanning' is not used.\nImport of 'window_none' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 314
+            },
+            "region": {
+              "startLine": 31,
+              "endLine": 33,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a43a9b6eae35c4d1:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/contour.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 125
+            },
+            "region": {
+              "startLine": 12,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d4e8d59ca5ecd274:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/spines.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 214
+            },
+            "region": {
+              "startLine": 7,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9fd51872d5eed0be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle.\nImport of module [matplotlib.colors](3) begins an import cycle.\nImport of module [matplotlib.offsetbox](4) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/legend.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 711
+            },
+            "region": {
+              "startLine": 31,
+              "endColumn": 59
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2df39df478654cf3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colors.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 903
+            }
+          },
+          "message": {
+            "text": "matplotlib.colors"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/offsetbox.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 806
+            }
+          },
+          "message": {
+            "text": "matplotlib.offsetbox"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib.rcsetup](1) begins an import cycle.\nImport of module [matplotlib.rcsetup](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/font_manager.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 787
+            },
+            "region": {
+              "startLine": 45,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "71f02705f2a0dcc5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/rcsetup.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 79
+            }
+          },
+          "message": {
+            "text": "matplotlib.rcsetup"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/rcsetup.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            }
+          },
+          "message": {
+            "text": "matplotlib.rcsetup"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 164,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 164
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/tools/cache_zenodo_svg.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 243
+            },
+            "region": {
+              "startLine": 43,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "152fbf0a748c67c9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'.\nImport pollutes the enclosing namespace, as the imported module [matplotlib.pylab](2) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 141
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 314
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 287
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'datetime' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 314
+            },
+            "region": {
+              "startLine": 47,
+              "endColumn": 16
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a3bf25b141521120:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'.\nImport pollutes the enclosing namespace, as the imported module [matplotlib.pylab](2) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 888
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 314
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 287
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'flatten' is not used.\nImport of 'silent_list' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 314
+            },
+            "region": {
+              "startLine": 14,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bd40eaf60f541a44:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'ma' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 314
+            },
+            "region": {
+              "startLine": 44,
+              "endColumn": 22
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f49e978202ff338a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._enums](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/rcsetup.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 79
+            },
+            "region": {
+              "startLine": 29,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "716ed2afe3cce7e6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_enums.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 906
+            }
+          },
+          "message": {
+            "text": "matplotlib._enums"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib.colors](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/rcsetup.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 79
+            },
+            "region": {
+              "startLine": 27,
+              "endColumn": 54
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "195917f2a76f5bab:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colors.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 903
+            }
+          },
+          "message": {
+            "text": "matplotlib.colors"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/scale.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 371
+            },
+            "region": {
+              "startLine": 21,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "720083ba032c9d3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/offsetbox.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 806
+            },
+            "region": {
+              "startLine": 28,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cbe0149a046eb2ec:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib.rcsetup](1) begins an import cycle.\nImport of module [matplotlib.rcsetup](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pyplot.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 411
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 65
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "666d8ac25bbde463:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/rcsetup.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 79
+            }
+          },
+          "message": {
+            "text": "matplotlib.rcsetup"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/rcsetup.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            }
+          },
+          "message": {
+            "text": "matplotlib.rcsetup"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib._docstring](1) does not define '__all__'.\nImport pollutes the enclosing namespace, as the imported module [matplotlib._docstring](2) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 334
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a61ce8c50d6e5c93:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/import-and-import-from",
+      "ruleIndex": 92,
+      "rule": {
+        "id": "py/import-and-import-from",
+        "index": 92
+      },
+      "message": {
+        "text": "Module 'matplotlib' is imported with both 'import' and 'import from'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 268
+            },
+            "region": {
+              "startLine": 786,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "696187b852208a38:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'cbook' is not used.\nImport of 'mlab' is not used.\nImport of 'plt' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 314
+            },
+            "region": {
+              "startLine": 35,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8ff45eff8f19ad69:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle.\nImport of module [matplotlib.cm](3) begins an import cycle.\nImport of module [matplotlib.colors](4) begins an import cycle.\nImport of module [matplotlib.lines](5) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/collections.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 119
+            },
+            "region": {
+              "startLine": 20,
+              "endLine": 21,
+              "endColumn": 76
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bd5a6b09ecf53e4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/cm.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 289
+            }
+          },
+          "message": {
+            "text": "matplotlib.cm"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colors.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 903
+            }
+          },
+          "message": {
+            "text": "matplotlib.colors"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/lines.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 844
+            }
+          },
+          "message": {
+            "text": "matplotlib.lines"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pyplot.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 411
+            },
+            "region": {
+              "startLine": 58,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6048f44be493ee69:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 109,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 109
+      },
+      "message": {
+        "text": "Class _ArtistPropertiesSubstitution may not be initialized properly as [method Substitution.__init__](1) is not called from its [__init__ method](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            },
+            "region": {
+              "startLine": 64,
+              "endColumn": 51
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6a90a05c52980078:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            },
+            "region": {
+              "startLine": 33,
+              "startColumn": 5,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "method Substitution.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            },
+            "region": {
+              "startLine": 76,
+              "startColumn": 5,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "__init__ method"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colorbar.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 209
+            },
+            "region": {
+              "startLine": 26,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f23bb2fb877b792c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 164,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 164
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 268
+            },
+            "region": {
+              "startLine": 402,
+              "startColumn": 17,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f9a3cb4252cfe270:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib.rcsetup](1) begins an import cycle.\nImport of module [matplotlib.rcsetup](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pyplot.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 411
+            },
+            "region": {
+              "startLine": 55,
+              "endColumn": 38
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7c904ab815aee9cb:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/rcsetup.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 79
+            }
+          },
+          "message": {
+            "text": "matplotlib.rcsetup"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/rcsetup.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 238
+            }
+          },
+          "message": {
+            "text": "matplotlib.rcsetup"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/import-and-import-from",
+      "ruleIndex": 92,
+      "rule": {
+        "id": "py/import-and-import-from",
+        "index": 92
+      },
+      "message": {
+        "text": "Module 'matplotlib' is imported with both 'import' and 'import from'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 314
+            },
+            "region": {
+              "startLine": 16,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ff6f1a14d12bfcc3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle.\nImport of module [matplotlib.backend_tools](3) begins an import cycle.\nImport of module [matplotlib.colors](4) begins an import cycle.\nImport of module [matplotlib.textpath](5) begins an import cycle.\nImport of module [matplotlib.widgets](6) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/backend_bases.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 738
+            },
+            "region": {
+              "startLine": 45,
+              "endLine": 47,
+              "endColumn": 77
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5eef22810005d4ea:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/backend_tools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 772
+            }
+          },
+          "message": {
+            "text": "matplotlib.backend_tools"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colors.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 903
+            }
+          },
+          "message": {
+            "text": "matplotlib.colors"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/textpath.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 183
+            }
+          },
+          "message": {
+            "text": "matplotlib.textpath"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/widgets.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 656
+            }
+          },
+          "message": {
+            "text": "matplotlib.widgets"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/import-and-import-from",
+      "ruleIndex": 92,
+      "rule": {
+        "id": "py/import-and-import-from",
+        "index": 92
+      },
+      "message": {
+        "text": "Module 'matplotlib' is imported with both 'import' and 'import from'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/style/core.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 205
+            },
+            "region": {
+              "startLine": 21,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b584916c57ff6f6c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib._docstring](2) begins an import cycle.\nImport of module [matplotlib.backend_tools](3) begins an import cycle.\nImport of module [matplotlib.colors](4) begins an import cycle.\nImport of module [matplotlib.ticker](5) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/widgets.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 656
+            },
+            "region": {
+              "startLine": 19,
+              "endLine": 20,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4e40a4e4711e8808:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 754
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 310
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/backend_tools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 772
+            }
+          },
+          "message": {
+            "text": "matplotlib.backend_tools"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colors.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 903
+            }
+          },
+          "message": {
+            "text": "matplotlib.colors"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/ticker.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 530
+            }
+          },
+          "message": {
+            "text": "matplotlib.ticker"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib.colors](2) begins an import cycle.\nImport of module [matplotlib.offsetbox](3) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/legend.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 200
+            },
+            "region": {
+              "startLine": 31,
+              "endColumn": 59
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2df39df478654cf3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colors.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 609
+            }
+          },
+          "message": {
+            "text": "matplotlib.colors"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/offsetbox.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 762
+            }
+          },
+          "message": {
+            "text": "matplotlib.offsetbox"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pyplot.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 157
+            },
+            "region": {
+              "startLine": 58,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6048f44be493ee69:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib._docstring](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 701
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a61ce8c50d6e5c93:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib.artist](2) begins an import cycle.\nImport of module [matplotlib.colors](3) begins an import cycle.\nImport of module [matplotlib.lines](4) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/patches.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 424
+            },
+            "region": {
+              "startLine": 15,
+              "endLine": 16,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7a5166cf9fc0161c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/artist.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 827
+            }
+          },
+          "message": {
+            "text": "matplotlib.artist"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colors.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 609
+            }
+          },
+          "message": {
+            "text": "matplotlib.colors"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/lines.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 417
+            }
+          },
+          "message": {
+            "text": "matplotlib.lines"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 172
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 423
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib.rcsetup](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/font_manager.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 503
+            },
+            "region": {
+              "startLine": 45,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "71f02705f2a0dcc5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/rcsetup.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 524
+            }
+          },
+          "message": {
+            "text": "matplotlib.rcsetup"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib.backend_tools](2) begins an import cycle.\nImport of module [matplotlib.colors](3) begins an import cycle.\nImport of module [matplotlib.textpath](4) begins an import cycle.\nImport of module [matplotlib.widgets](5) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/backend_bases.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 718
+            },
+            "region": {
+              "startLine": 45,
+              "endLine": 47,
+              "endColumn": 77
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5eef22810005d4ea:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/backend_tools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 486
+            }
+          },
+          "message": {
+            "text": "matplotlib.backend_tools"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colors.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 609
+            }
+          },
+          "message": {
+            "text": "matplotlib.colors"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/textpath.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 775
+            }
+          },
+          "message": {
+            "text": "matplotlib.textpath"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/widgets.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 232
+            }
+          },
+          "message": {
+            "text": "matplotlib.widgets"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib.rcsetup](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pyplot.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 157
+            },
+            "region": {
+              "startLine": 55,
+              "endColumn": 38
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7c904ab815aee9cb:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/rcsetup.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 524
+            }
+          },
+          "message": {
+            "text": "matplotlib.rcsetup"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib.cm](2) begins an import cycle.\nImport of module [matplotlib.colors](3) begins an import cycle.\nImport of module [matplotlib.lines](4) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/collections.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 555
+            },
+            "region": {
+              "startLine": 20,
+              "endLine": 21,
+              "endColumn": 76
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bd5a6b09ecf53e4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/cm.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 471
+            }
+          },
+          "message": {
+            "text": "matplotlib.cm"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colors.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 609
+            }
+          },
+          "message": {
+            "text": "matplotlib.colors"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/lines.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 417
+            }
+          },
+          "message": {
+            "text": "matplotlib.lines"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib.figure](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/legend.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 200
+            },
+            "region": {
+              "startLine": 378,
+              "startColumn": 9,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e82615f7e2207301:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/figure.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 284
+            }
+          },
+          "message": {
+            "text": "matplotlib.figure"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib.rcsetup](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pyplot.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 157
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 65
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "666d8ac25bbde463:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/rcsetup.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 524
+            }
+          },
+          "message": {
+            "text": "matplotlib.rcsetup"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/mlab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 452
+            },
+            "region": {
+              "startLine": 58,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f8998f6243b83690:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colorbar.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 737
+            },
+            "region": {
+              "startLine": 26,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f23bb2fb877b792c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib.backend_bases](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/figure.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 284
+            },
+            "region": {
+              "startLine": 26,
+              "endColumn": 79
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ab5b2d180b89e241:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/backend_bases.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 718
+            }
+          },
+          "message": {
+            "text": "matplotlib.backend_bases"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib.colors](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/lines.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 417
+            },
+            "region": {
+              "startLine": 13,
+              "endColumn": 57
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "14d8aa16b135d45c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colors.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 609
+            }
+          },
+          "message": {
+            "text": "matplotlib.colors"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/scale.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 21,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "720083ba032c9d3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib.backend_tools](2) begins an import cycle.\nImport of module [matplotlib.colors](3) begins an import cycle.\nImport of module [matplotlib.ticker](4) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/widgets.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 232
+            },
+            "region": {
+              "startLine": 19,
+              "endLine": 20,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4e40a4e4711e8808:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/backend_tools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 486
+            }
+          },
+          "message": {
+            "text": "matplotlib.backend_tools"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/colors.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 609
+            }
+          },
+          "message": {
+            "text": "matplotlib.colors"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/ticker.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 863
+            }
+          },
+          "message": {
+            "text": "matplotlib.ticker"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/spines.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 499
+            },
+            "region": {
+              "startLine": 7,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9fd51872d5eed0be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/contour.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 258
+            },
+            "region": {
+              "startLine": 12,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d4e8d59ca5ecd274:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_enums.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 786
+            },
+            "region": {
+              "startLine": 14,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ee16a20ab0193346:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle.\nImport of module [matplotlib.artist](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/text.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 221
+            },
+            "region": {
+              "startLine": 14,
+              "endColumn": 46
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2dcb4f6bb19dae01:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/artist.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 827
+            }
+          },
+          "message": {
+            "text": "matplotlib.artist"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 164,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 164
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/legend.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 200
+            },
+            "region": {
+              "startLine": 564,
+              "startColumn": 21,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2083f5444e914cb5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [matplotlib._docstring](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/offsetbox.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 762
+            },
+            "region": {
+              "startLine": 28,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cbe0149a046eb2ec:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/_docstring.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 158
+            }
+          },
+          "message": {
+            "text": "matplotlib._docstring"
+          }
+        }
+      ]
+    }
+  ]
+}

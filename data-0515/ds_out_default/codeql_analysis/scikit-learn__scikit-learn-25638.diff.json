@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "before_count": 320,
+    "after_count": 320,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 319
+  },
+  "added_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/utils/multiclass.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 246
+            },
+            "region": {
+              "startLine": 352,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5879133cead7aa30:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/utils/multiclass.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 123
+            },
+            "region": {
+              "startLine": 329,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5879133cead7aa30:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "summary": {
+    "before_count": 302,
+    "after_count": 302,
+    "added": 2,
+    "removed": 2,
+    "unchanged": 300
+  },
+  "added_results": [
+    {
+      "ruleId": "py/file-not-closed",
+      "ruleIndex": 48,
+      "rule": {
+        "id": "py/file-not-closed",
+        "index": 48
+      },
+      "message": {
+        "text": "File may not be closed if an exception is raised."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/junitxml.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 99
+            },
+            "region": {
+              "startLine": 649,
+              "startColumn": 19,
+              "endColumn": 60
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "982071bc77cc2b5c:1",
+        "primaryLocationStartColumnFingerprint": "10"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 164,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 164
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/junitxml.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 99
+            },
+            "region": {
+              "startLine": 458,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a6ffeba327f038be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 164,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 164
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/junitxml.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 140
+            },
+            "region": {
+              "startLine": 456,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a6ffeba327f038be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/file-not-closed",
+      "ruleIndex": 48,
+      "rule": {
+        "id": "py/file-not-closed",
+        "index": 48
+      },
+      "message": {
+        "text": "File may not be closed if an exception is raised."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/junitxml.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 140
+            },
+            "region": {
+              "startLine": 647,
+              "startColumn": 19,
+              "endColumn": 60
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "982071bc77cc2b5c:1",
+        "primaryLocationStartColumnFingerprint": "10"
+      }
+    }
+  ]
+}

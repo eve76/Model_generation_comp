@@ -1,0 +1,99 @@
+{
+  "summary": {
+    "before_count": 531,
+    "after_count": 532,
+    "added": 1,
+    "removed": 0,
+    "unchanged": 531
+  },
+  "added_results": [
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 139,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 139
+      },
+      "message": {
+        "text": "ValidationError._as_tuple returns [tuple of size 2](1) and [tuple of size 4](2).\nValidationError._as_tuple returns [tuple of size 2](3) and [tuple of size 4](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/exceptions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 541
+            },
+            "region": {
+              "startLine": 194,
+              "startColumn": 5,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4c05cbbf7b07b26c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/exceptions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 541
+            },
+            "region": {
+              "startLine": 210,
+              "startColumn": 21,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/exceptions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 541
+            },
+            "region": {
+              "startLine": 215,
+              "startColumn": 25,
+              "endColumn": 101
+            }
+          },
+          "message": {
+            "text": "tuple of size 4"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/exceptions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 541
+            },
+            "region": {
+              "startLine": 218,
+              "startColumn": 25,
+              "endColumn": 86
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": []
+}

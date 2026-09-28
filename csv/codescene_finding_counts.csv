@@ -1,0 +1,181 @@
+model,generation,family,level,category,change_type,count
+Claude Opus 4.6,newer,Claude,finding,Complex Method,unchanged,7
+Claude Opus 4.6,newer,Claude,finding,Overall Code Complexity,unchanged,27
+Claude Opus 4.6,newer,Claude,finding,Lines of Code in a Single File,unchanged,23
+Claude Opus 4.6,newer,Claude,finding,Complex Method,degraded,20
+Claude Opus 4.6,newer,Claude,finding,Complex Method,introduced,1
+Claude Opus 4.6,newer,Claude,finding,Bumpy Road Ahead,unchanged,4
+Claude Opus 4.6,newer,Claude,finding,Complex Conditional,degraded,2
+Claude Opus 4.6,newer,Claude,finding,Large Method,degraded,2
+Claude Opus 4.6,newer,Claude,finding,Bumpy Road Ahead,improved,1
+Claude Opus 4.6,newer,Claude,finding,Bumpy Road Ahead,degraded,2
+Claude Opus 4.6,newer,Claude,finding,Missing Arguments Abstractions,unchanged,1
+Claude Opus 4.6,newer,Claude,finding,Excess Number of Function Arguments,unchanged,1
+Claude Opus 4.6,newer,Claude,finding,"Deep, Nested Complexity",unchanged,1
+Claude Opus 4.6,newer,Claude,finding,Number of Functions in a Single Module,unchanged,2
+Claude Opus 4.6,newer,Claude,finding,Code Duplication,unchanged,1
+Claude Opus 4.6,newer,Claude,detail,Complex Method,degraded,25
+Claude Opus 4.6,newer,Claude,detail,Overall Code Complexity,degraded,23
+Claude Opus 4.6,newer,Claude,detail,Lines of Code in a Single File,degraded,23
+Claude Opus 4.6,newer,Claude,detail,Complex Method,introduced,6
+Claude Opus 4.6,newer,Claude,detail,Bumpy Road Ahead,degraded,1
+Claude Opus 4.6,newer,Claude,detail,Bumpy Road Ahead,introduced,5
+Claude Opus 4.6,newer,Claude,detail,Complex Conditional,introduced,1
+Claude Opus 4.6,newer,Claude,detail,Complex Method,fixed,1
+Claude Opus 4.6,newer,Claude,detail,Bumpy Road Ahead,fixed,2
+Claude Opus 4.6,newer,Claude,detail,Overall Code Complexity,improved,4
+Claude Opus 4.6,newer,Claude,detail,Large Method,degraded,2
+Claude Opus 4.6,newer,Claude,detail,Complex Conditional,degraded,1
+Claude Opus 4.6,newer,Claude,detail,Missing Arguments Abstractions,degraded,1
+Claude Opus 4.6,newer,Claude,detail,Excess Number of Function Arguments,degraded,1
+Claude Opus 4.6,newer,Claude,detail,"Deep, Nested Complexity",introduced,1
+Claude Opus 4.6,newer,Claude,detail,Number of Functions in a Single Module,degraded,2
+Claude Opus 4.6,newer,Claude,detail,Code Duplication,degraded,1
+Claude Sonnet 4,older,Claude,finding,Lines of Code in a Single File,unchanged,38
+Claude Sonnet 4,older,Claude,finding,Number of Functions in a Single Module,unchanged,5
+Claude Sonnet 4,older,Claude,finding,Complex Method,unchanged,7
+Claude Sonnet 4,older,Claude,finding,Complex Method,degraded,21
+Claude Sonnet 4,older,Claude,finding,Overall Code Complexity,unchanged,24
+Claude Sonnet 4,older,Claude,finding,Complex Method,improved,3
+Claude Sonnet 4,older,Claude,finding,Complex Conditional,degraded,5
+Claude Sonnet 4,older,Claude,finding,Bumpy Road Ahead,degraded,6
+Claude Sonnet 4,older,Claude,finding,Bumpy Road Ahead,unchanged,6
+Claude Sonnet 4,older,Claude,finding,Low Cohesion,unchanged,3
+Claude Sonnet 4,older,Claude,finding,Code Duplication,unchanged,3
+Claude Sonnet 4,older,Claude,finding,Lines of Code in a Single File,degraded,1
+Claude Sonnet 4,older,Claude,finding,Excess Number of Function Arguments,unchanged,1
+Claude Sonnet 4,older,Claude,finding,Complex Conditional,introduced,3
+Claude Sonnet 4,older,Claude,finding,"Deep, Nested Complexity",introduced,3
+Claude Sonnet 4,older,Claude,finding,Code Duplication,fixed,1
+Claude Sonnet 4,older,Claude,finding,Complex Method,introduced,1
+Claude Sonnet 4,older,Claude,finding,Bumpy Road Ahead,introduced,1
+Claude Sonnet 4,older,Claude,finding,Large Method,degraded,1
+Claude Sonnet 4,older,Claude,finding,Overall Code Complexity,introduced,3
+Claude Sonnet 4,older,Claude,finding,Global Conditionals,fixed,1
+Claude Sonnet 4,older,Claude,detail,Lines of Code in a Single File,degraded,39
+Claude Sonnet 4,older,Claude,detail,Number of Functions in a Single Module,degraded,5
+Claude Sonnet 4,older,Claude,detail,Complex Method,degraded,26
+Claude Sonnet 4,older,Claude,detail,Overall Code Complexity,degraded,21
+Claude Sonnet 4,older,Claude,detail,Complex Method,introduced,9
+Claude Sonnet 4,older,Claude,detail,Complex Conditional,degraded,2
+Claude Sonnet 4,older,Claude,detail,Complex Conditional,introduced,6
+Claude Sonnet 4,older,Claude,detail,Bumpy Road Ahead,introduced,7
+Claude Sonnet 4,older,Claude,detail,Overall Code Complexity,improved,3
+Claude Sonnet 4,older,Claude,detail,Low Cohesion,degraded,3
+Claude Sonnet 4,older,Claude,detail,Code Duplication,degraded,3
+Claude Sonnet 4,older,Claude,detail,Bumpy Road Ahead,degraded,6
+Claude Sonnet 4,older,Claude,detail,Excess Number of Function Arguments,degraded,1
+Claude Sonnet 4,older,Claude,detail,"Deep, Nested Complexity",introduced,3
+Claude Sonnet 4,older,Claude,detail,Code Duplication,fixed,1
+Claude Sonnet 4,older,Claude,detail,Large Method,degraded,1
+Claude Sonnet 4,older,Claude,detail,Overall Code Complexity,introduced,3
+Claude Sonnet 4,older,Claude,detail,Global Conditionals,fixed,1
+DeepSeek V3.2,newer,DeepSeek,finding,Lines of Code in a Single File,unchanged,26
+DeepSeek V3.2,newer,DeepSeek,finding,Complex Method,degraded,38
+DeepSeek V3.2,newer,DeepSeek,finding,Complex Method,unchanged,5
+DeepSeek V3.2,newer,DeepSeek,finding,Overall Code Complexity,unchanged,34
+DeepSeek V3.2,newer,DeepSeek,finding,Bumpy Road Ahead,unchanged,6
+DeepSeek V3.2,newer,DeepSeek,finding,Bumpy Road Ahead,degraded,11
+DeepSeek V3.2,newer,DeepSeek,finding,Complex Conditional,degraded,3
+DeepSeek V3.2,newer,DeepSeek,finding,Low Cohesion,fixed,1
+DeepSeek V3.2,newer,DeepSeek,finding,Complex Method,introduced,1
+DeepSeek V3.2,newer,DeepSeek,finding,"Deep, Nested Complexity",introduced,1
+DeepSeek V3.2,newer,DeepSeek,finding,Missing Arguments Abstractions,unchanged,1
+DeepSeek V3.2,newer,DeepSeek,finding,Excess Number of Function Arguments,unchanged,3
+DeepSeek V3.2,newer,DeepSeek,finding,"Deep, Nested Complexity",unchanged,1
+DeepSeek V3.2,newer,DeepSeek,finding,Complex Conditional,fixed,1
+DeepSeek V3.2,newer,DeepSeek,finding,Number of Functions in a Single Module,unchanged,2
+DeepSeek V3.2,newer,DeepSeek,finding,"Deep, Nested Complexity",degraded,1
+DeepSeek V3.2,newer,DeepSeek,finding,Overall Function Size,unchanged,1
+DeepSeek V3.2,newer,DeepSeek,finding,Complex Method,improved,1
+DeepSeek V3.2,newer,DeepSeek,detail,Lines of Code in a Single File,degraded,26
+DeepSeek V3.2,newer,DeepSeek,detail,Complex Method,degraded,39
+DeepSeek V3.2,newer,DeepSeek,detail,Complex Method,introduced,9
+DeepSeek V3.2,newer,DeepSeek,detail,Overall Code Complexity,degraded,31
+DeepSeek V3.2,newer,DeepSeek,detail,Bumpy Road Ahead,introduced,10
+DeepSeek V3.2,newer,DeepSeek,detail,Complex Method,fixed,1
+DeepSeek V3.2,newer,DeepSeek,detail,Bumpy Road Ahead,fixed,1
+DeepSeek V3.2,newer,DeepSeek,detail,Overall Code Complexity,improved,3
+DeepSeek V3.2,newer,DeepSeek,detail,Bumpy Road Ahead,degraded,7
+DeepSeek V3.2,newer,DeepSeek,detail,Complex Conditional,degraded,2
+DeepSeek V3.2,newer,DeepSeek,detail,Low Cohesion,fixed,1
+DeepSeek V3.2,newer,DeepSeek,detail,"Deep, Nested Complexity",introduced,3
+DeepSeek V3.2,newer,DeepSeek,detail,Missing Arguments Abstractions,degraded,1
+DeepSeek V3.2,newer,DeepSeek,detail,Excess Number of Function Arguments,degraded,3
+DeepSeek V3.2,newer,DeepSeek,detail,Complex Conditional,fixed,1
+DeepSeek V3.2,newer,DeepSeek,detail,Number of Functions in a Single Module,degraded,2
+DeepSeek V3.2,newer,DeepSeek,detail,Overall Function Size,degraded,1
+DeepSeek V3.2,newer,DeepSeek,detail,Complex Conditional,introduced,1
+DeepSeek R1,older,DeepSeek,finding,Complex Method,unchanged,5
+DeepSeek R1,older,DeepSeek,finding,Lines of Code in a Single File,unchanged,18
+DeepSeek R1,older,DeepSeek,finding,Complex Method,degraded,15
+DeepSeek R1,older,DeepSeek,finding,Overall Code Complexity,unchanged,20
+DeepSeek R1,older,DeepSeek,finding,Bumpy Road Ahead,unchanged,3
+DeepSeek R1,older,DeepSeek,finding,Number of Functions in a Single Module,unchanged,3
+DeepSeek R1,older,DeepSeek,finding,Low Cohesion,unchanged,1
+DeepSeek R1,older,DeepSeek,finding,Missing Arguments Abstractions,unchanged,1
+DeepSeek R1,older,DeepSeek,finding,Excess Number of Function Arguments,unchanged,1
+DeepSeek R1,older,DeepSeek,finding,Bumpy Road Ahead,degraded,2
+DeepSeek R1,older,DeepSeek,finding,Bumpy Road Ahead,introduced,1
+DeepSeek R1,older,DeepSeek,finding,Complex Method,introduced,1
+DeepSeek R1,older,DeepSeek,finding,Overall Code Complexity,introduced,1
+DeepSeek R1,older,DeepSeek,finding,Complex Method,improved,2
+DeepSeek R1,older,DeepSeek,finding,Complex Conditional,degraded,2
+DeepSeek R1,older,DeepSeek,finding,Code Duplication,improved,1
+DeepSeek R1,older,DeepSeek,detail,Complex Method,degraded,18
+DeepSeek R1,older,DeepSeek,detail,Lines of Code in a Single File,degraded,18
+DeepSeek R1,older,DeepSeek,detail,Complex Method,introduced,5
+DeepSeek R1,older,DeepSeek,detail,Overall Code Complexity,degraded,18
+DeepSeek R1,older,DeepSeek,detail,Complex Method,fixed,1
+DeepSeek R1,older,DeepSeek,detail,Bumpy Road Ahead,fixed,1
+DeepSeek R1,older,DeepSeek,detail,Bumpy Road Ahead,introduced,5
+DeepSeek R1,older,DeepSeek,detail,Number of Functions in a Single Module,degraded,3
+DeepSeek R1,older,DeepSeek,detail,Low Cohesion,degraded,1
+DeepSeek R1,older,DeepSeek,detail,Overall Code Complexity,improved,2
+DeepSeek R1,older,DeepSeek,detail,Bumpy Road Ahead,degraded,1
+DeepSeek R1,older,DeepSeek,detail,Missing Arguments Abstractions,degraded,1
+DeepSeek R1,older,DeepSeek,detail,Excess Number of Function Arguments,degraded,1
+DeepSeek R1,older,DeepSeek,detail,Overall Code Complexity,introduced,1
+DeepSeek R1,older,DeepSeek,detail,Complex Conditional,introduced,1
+DeepSeek R1,older,DeepSeek,detail,Code Duplication,improved,1
+DeepSeek R1,older,DeepSeek,detail,Complex Conditional,degraded,1
+Gold (developer),gold,Gold,finding,Complex Method,unchanged,15
+Gold (developer),gold,Gold,finding,Complex Method,introduced,1
+Gold (developer),gold,Gold,finding,Lines of Code in a Single File,unchanged,46
+Gold (developer),gold,Gold,finding,Overall Code Complexity,unchanged,47
+Gold (developer),gold,Gold,finding,Complex Method,degraded,33
+Gold (developer),gold,Gold,finding,Complex Method,improved,2
+Gold (developer),gold,Gold,finding,Complex Conditional,degraded,7
+Gold (developer),gold,Gold,finding,Bumpy Road Ahead,unchanged,3
+Gold (developer),gold,Gold,finding,Number of Functions in a Single Module,unchanged,3
+Gold (developer),gold,Gold,finding,Excess Number of Function Arguments,unchanged,3
+Gold (developer),gold,Gold,finding,"Deep, Nested Complexity",fixed,1
+Gold (developer),gold,Gold,finding,Bumpy Road Ahead,improved,1
+Gold (developer),gold,Gold,finding,Overall Code Complexity,introduced,1
+Gold (developer),gold,Gold,finding,Global Conditionals,fixed,1
+Gold (developer),gold,Gold,finding,Large Method,degraded,1
+Gold (developer),gold,Gold,finding,Bumpy Road Ahead,degraded,4
+Gold (developer),gold,Gold,finding,Missing Arguments Abstractions,unchanged,1
+Gold (developer),gold,Gold,finding,"Deep, Nested Complexity",unchanged,1
+Gold (developer),gold,Gold,finding,Code Duplication,unchanged,1
+Gold (developer),gold,Gold,detail,Complex Method,degraded,43
+Gold (developer),gold,Gold,detail,Complex Method,introduced,10
+Gold (developer),gold,Gold,detail,Lines of Code in a Single File,degraded,45
+Gold (developer),gold,Gold,detail,Overall Code Complexity,degraded,43
+Gold (developer),gold,Gold,detail,Complex Conditional,degraded,4
+Gold (developer),gold,Gold,detail,Bumpy Road Ahead,degraded,2
+Gold (developer),gold,Gold,detail,Complex Conditional,introduced,4
+Gold (developer),gold,Gold,detail,Overall Code Complexity,improved,4
+Gold (developer),gold,Gold,detail,Number of Functions in a Single Module,degraded,3
+Gold (developer),gold,Gold,detail,Excess Number of Function Arguments,degraded,3
+Gold (developer),gold,Gold,detail,Complex Method,improved,1
+Gold (developer),gold,Gold,detail,"Deep, Nested Complexity",fixed,1
+Gold (developer),gold,Gold,detail,Bumpy Road Ahead,fixed,2
+Gold (developer),gold,Gold,detail,Overall Code Complexity,introduced,1
+Gold (developer),gold,Gold,detail,Global Conditionals,fixed,1
+Gold (developer),gold,Gold,detail,Large Method,degraded,1
+Gold (developer),gold,Gold,detail,Bumpy Road Ahead,introduced,5
+Gold (developer),gold,Gold,detail,Missing Arguments Abstractions,degraded,1
+Gold (developer),gold,Gold,detail,"Deep, Nested Complexity",introduced,1
+Gold (developer),gold,Gold,detail,Lines of Code in a Single File,improved,1
+Gold (developer),gold,Gold,detail,Code Duplication,degraded,1

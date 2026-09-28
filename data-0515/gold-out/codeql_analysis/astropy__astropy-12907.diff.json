@@ -1,0 +1,1812 @@
+{
+  "summary": {
+    "before_count": 2259,
+    "after_count": 2287,
+    "added": 35,
+    "removed": 7,
+    "unchanged": 2252
+  },
+  "added_results": [
+    {
+      "ruleId": "py/call/wrong-number-class-arguments",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/call/wrong-number-class-arguments",
+        "index": 111
+      },
+      "message": {
+        "text": "Call to [NDData.__init__](1) with too few arguments; should be no fewer than 1.\nCall to [NDData.__init__](2) with too few arguments; should be no fewer than 1."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/nddata/tests/test_nddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 534
+            },
+            "region": {
+              "startLine": 106,
+              "startColumn": 9,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f84e91ec66db6172:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/nddata/nddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 654
+            },
+            "region": {
+              "startLine": 119,
+              "startColumn": 5,
+              "endLine": 120,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "NDData.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/nddata/nddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 123
+            },
+            "region": {
+              "startLine": 119,
+              "startColumn": 5,
+              "endLine": 120,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "NDData.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/not-named-self",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/not-named-self",
+        "index": 128
+      },
+      "message": {
+        "text": "Normal methods should have 'self', rather than 'method', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/utils/shapes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 475
+            },
+            "region": {
+              "startLine": 170,
+              "startColumn": 5,
+              "endColumn": 41
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "62d517b70229c73c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'copy': [Function copy](1) and [Builtin-method copy](2).\nBase classes have conflicting values for attribute 'copy': [Function copy](3) and [Builtin-method copy](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/utils/masked/tests/test_masked.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 647
+            },
+            "region": {
+              "startLine": 145,
+              "startColumn": 9,
+              "endColumn": 70
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1d4d9f778b29b4e0:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/utils/shapes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 475
+            },
+            "region": {
+              "startLine": 44,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function copy"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 1005
+            }
+          },
+          "message": {
+            "text": "Builtin-method copy"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/utils/shapes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 385
+            },
+            "region": {
+              "startLine": 44,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function copy"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 85,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 85
+      },
+      "message": {
+        "text": "Variable v is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/nddata/bitmask.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 955
+            },
+            "region": {
+              "startLine": 82,
+              "startColumn": 17,
+              "endColumn": 18
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3ec8991e6ed076ed:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'SlicedLowLevelWCS' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/nddata/nddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 654
+            },
+            "region": {
+              "startLine": 13,
+              "endLine": 14,
+              "endColumn": 72
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c0c5043468bf920e:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [astropy.utils.data](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/utils/misc.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 603
+            },
+            "region": {
+              "startLine": 210,
+              "startColumn": 5,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b4a8f881de3eec55:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/utils/data.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 639
+            }
+          },
+          "message": {
+            "text": "astropy.utils.data"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 85,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 85
+      },
+      "message": {
+        "text": "Variable result_data is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/nddata/nduncertainty.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 348
+            },
+            "region": {
+              "startLine": 577,
+              "startColumn": 13,
+              "endColumn": 24
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "eae35fd043420b91:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [astropy.config.paths](1) begins an import cycle.\nImport of module [astropy.config.paths](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 663
+            },
+            "region": {
+              "startLine": 29,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6ba5285843ac6405:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/config/paths.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 539
+            }
+          },
+          "message": {
+            "text": "astropy.config.paths"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/paths.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 635
+            }
+          },
+          "message": {
+            "text": "astropy.config.paths"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'BaseLowLevelWCS' is not used.\nImport of 'BaseHighLevelWCS' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/nddata/mixins/ndslicing.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 656
+            },
+            "region": {
+              "startLine": 6,
+              "endLine": 7,
+              "endColumn": 72
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c0c5043468bf920e:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'UnitsError' is not used.\nImport of 'UnitConversionError' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/nddata/compat.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 288
+            },
+            "region": {
+              "startLine": 7,
+              "endColumn": 64
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "31536c52a0942267:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'erfa' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/.pyinstaller/run_astropy_tests.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 5,
+              "endColumn": 12
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b7e08bcb64ccedcf:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 129,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 129
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 663
+            },
+            "region": {
+              "startLine": 146,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7a22b98f15356250:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [astropy.utils.misc](1) begins an import cycle.\nImport of module [astropy.utils.misc](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/utils/console.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 29,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d94c2ff0f70f1ddc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/utils/misc.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 603
+            }
+          },
+          "message": {
+            "text": "astropy.utils.misc"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/utils/misc.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 377
+            }
+          },
+          "message": {
+            "text": "astropy.utils.misc"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 85,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 85
+      },
+      "message": {
+        "text": "Variable unit is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/nddata/nduncertainty.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 348
+            },
+            "region": {
+              "startLine": 95,
+              "startColumn": 13,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7599842f270747ea:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [astropy.config.configuration](1) begins an import cycle.\nImport of module [astropy.config.configuration](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/paths.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 635
+            },
+            "region": {
+              "startLine": 244,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "86b07f1a1160e87:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 663
+            }
+          },
+          "message": {
+            "text": "astropy.config.configuration"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 872
+            }
+          },
+          "message": {
+            "text": "astropy.config.configuration"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'astropy' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/.pyinstaller/run_astropy_tests.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 15
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a3f8238a87e70842:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [astropy.config.configuration](1) begins an import cycle.\nImport of module [astropy.config.configuration](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/config/paths.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 539
+            },
+            "region": {
+              "startLine": 250,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "755c4b370e16d456:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 663
+            }
+          },
+          "message": {
+            "text": "astropy.config.configuration"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 872
+            }
+          },
+          "message": {
+            "text": "astropy.config.configuration"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 85,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 85
+      },
+      "message": {
+        "text": "Variable module is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/utils/introspection.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 727
+            },
+            "region": {
+              "startLine": 147,
+              "startColumn": 13,
+              "endColumn": 19
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "28ba387a7b7cf67b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [astropy.config.paths](1) begins an import cycle.\nImport of module [astropy.config.paths](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 872
+            },
+            "region": {
+              "startLine": 29,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6ba5285843ac6405:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/config/paths.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 539
+            }
+          },
+          "message": {
+            "text": "astropy.config.paths"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/paths.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 635
+            }
+          },
+          "message": {
+            "text": "astropy.config.paths"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/overwritten-inherited-attribute",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/overwritten-inherited-attribute",
+        "index": 118
+      },
+      "message": {
+        "text": "Assignment overwrites attribute _wcs, which was previously defined in superclass [NDData](1).\nAssignment overwrites attribute _wcs, which was previously defined in superclass [NDData](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/nddata/ccddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 386
+            },
+            "region": {
+              "startLine": 193,
+              "startColumn": 13,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a9ed249a57ba3cd7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/nddata/nddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 654
+            },
+            "region": {
+              "startLine": 228,
+              "startColumn": 9,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "NDData"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/nddata/nddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 123
+            },
+            "region": {
+              "startLine": 228,
+              "startColumn": 9,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "NDData"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [astropy.config.configuration](1) begins an import cycle.\nImport of module [astropy.config.configuration](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/paths.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 635
+            },
+            "region": {
+              "startLine": 250,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "755c4b370e16d456:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 663
+            }
+          },
+          "message": {
+            "text": "astropy.config.configuration"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 872
+            }
+          },
+          "message": {
+            "text": "astropy.config.configuration"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 129,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 129
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/nddata/mixins/ndslicing.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 656
+            },
+            "region": {
+              "startLine": 118,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9d10e5ceec74ca4d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-global-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-global-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "The global variable '_NOT_OVERWRITING_MSG_MATCH' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/utils/misc.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 603
+            },
+            "region": {
+              "startLine": 41,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b477f0c78f52d8e7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'ErfaError' is not used.\nImport of 'ErfaWarning' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/utils/exceptions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 240
+            },
+            "region": {
+              "startLine": 11,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ca2431d6f4285143:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-global-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-global-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "The global variable 'init_filename' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/.pyinstaller/run_astropy_tests.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 41,
+              "startColumn": 13,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3f4c48cf0785f1d2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-global-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-global-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "The global variable 'NOT_OVERWRITING_MSG' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/utils/misc.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 603
+            },
+            "region": {
+              "startLine": 38,
+              "endColumn": 20
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "495e4dff948c5469:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 129,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 129
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/utils/introspection.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 727
+            },
+            "region": {
+              "startLine": 172,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cda19ba74f2630ec:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 164,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 164
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/version.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 185
+            },
+            "region": {
+              "startLine": 29,
+              "startColumn": 5,
+              "endColumn": 22
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c50b979a82d251fa:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/import-and-import-from",
+      "ruleIndex": 92,
+      "rule": {
+        "id": "py/import-and-import-from",
+        "index": 92
+      },
+      "message": {
+        "text": "Module 'importlib' is imported with both 'import' and 'import from'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/utils/introspection.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 727
+            },
+            "region": {
+              "startLine": 10,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c336bd727b3bd5f9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [astropy.config.configuration](1) begins an import cycle.\nImport of module [astropy.config.configuration](2) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/config/paths.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 539
+            },
+            "region": {
+              "startLine": 244,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "86b07f1a1160e87:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 663
+            }
+          },
+          "message": {
+            "text": "astropy.config.configuration"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 872
+            }
+          },
+          "message": {
+            "text": "astropy.config.configuration"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 164,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 164
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/tests/runner.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 122,
+              "startColumn": 13,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cf5dc1aefba9b70f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unreachable-statement",
+      "ruleIndex": 143,
+      "rule": {
+        "id": "py/unreachable-statement",
+        "index": 143
+      },
+      "message": {
+        "text": "This statement is unreachable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/utils/introspection.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 727
+            },
+            "region": {
+              "startLine": 93,
+              "startColumn": 17,
+              "endColumn": 22
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8f4e8a86defc1d4a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unreachable-statement",
+      "ruleIndex": 143,
+      "rule": {
+        "id": "py/unreachable-statement",
+        "index": 143
+      },
+      "message": {
+        "text": "This statement is unreachable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/tests/runner.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 530,
+              "startColumn": 13,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8e609dae14ff3744:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/overwritten-inherited-attribute",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/overwritten-inherited-attribute",
+        "index": 118
+      },
+      "message": {
+        "text": "Assignment overwrites attribute _wcs, which was previously defined in superclass [NDData](1).\nAssignment overwrites attribute _wcs, which was previously defined in superclass [NDData](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/nddata/ccddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 600
+            },
+            "region": {
+              "startLine": 193,
+              "startColumn": 13,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a9ed249a57ba3cd7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/nddata/nddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 654
+            },
+            "region": {
+              "startLine": 228,
+              "startColumn": 9,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "NDData"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/nddata/nddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 123
+            },
+            "region": {
+              "startLine": 228,
+              "startColumn": 9,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "NDData"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/file-not-closed",
+      "ruleIndex": 48,
+      "rule": {
+        "id": "py/file-not-closed",
+        "index": 48
+      },
+      "message": {
+        "text": "File is opened but is not closed."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/astropy__astropy-12907/astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 663
+            },
+            "region": {
+              "startLine": 641,
+              "startColumn": 38,
+              "endColumn": 57
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2cad31b50f3f766d:1",
+        "primaryLocationStartColumnFingerprint": "25"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/overwritten-inherited-attribute",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/overwritten-inherited-attribute",
+        "index": 118
+      },
+      "message": {
+        "text": "Assignment overwrites attribute _wcs, which was previously defined in superclass [NDData](1)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/nddata/ccddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 249
+            },
+            "region": {
+              "startLine": 193,
+              "startColumn": 13,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a9ed249a57ba3cd7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/nddata/nddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 620
+            },
+            "region": {
+              "startLine": 228,
+              "startColumn": 9,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "NDData"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [astropy.config.configuration](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/paths.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 269
+            },
+            "region": {
+              "startLine": 244,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "86b07f1a1160e87:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 205
+            }
+          },
+          "message": {
+            "text": "astropy.config.configuration"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'copy': [Function copy](1) and [Builtin-method copy](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/utils/masked/tests/test_masked.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 267
+            },
+            "region": {
+              "startLine": 145,
+              "startColumn": 9,
+              "endColumn": 70
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1d4d9f778b29b4e0:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/utils/shapes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 606
+            },
+            "region": {
+              "startLine": 44,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function copy"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 954
+            }
+          },
+          "message": {
+            "text": "Builtin-method copy"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/call/wrong-number-class-arguments",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/call/wrong-number-class-arguments",
+        "index": 111
+      },
+      "message": {
+        "text": "Call to [NDData.__init__](1) with too few arguments; should be no fewer than 1."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/nddata/tests/test_nddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 829
+            },
+            "region": {
+              "startLine": 106,
+              "startColumn": 9,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f84e91ec66db6172:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/nddata/nddata.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 620
+            },
+            "region": {
+              "startLine": 119,
+              "startColumn": 5,
+              "endLine": 120,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "NDData.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [astropy.config.paths](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 205
+            },
+            "region": {
+              "startLine": 29,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6ba5285843ac6405:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/paths.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 269
+            }
+          },
+          "message": {
+            "text": "astropy.config.paths"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [astropy.utils.misc](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/utils/console.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 29,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d94c2ff0f70f1ddc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/utils/misc.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 247
+            }
+          },
+          "message": {
+            "text": "astropy.utils.misc"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "Import of module [astropy.config.configuration](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/paths.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 269
+            },
+            "region": {
+              "startLine": 250,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "755c4b370e16d456:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "astropy/config/configuration.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 205
+            }
+          },
+          "message": {
+            "text": "astropy.config.configuration"
+          }
+        }
+      ]
+    }
+  ]
+}

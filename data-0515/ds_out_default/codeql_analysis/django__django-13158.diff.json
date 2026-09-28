@@ -1,0 +1,413 @@
+{
+  "summary": {
+    "before_count": 527,
+    "after_count": 527,
+    "added": 4,
+    "removed": 4,
+    "unchanged": 523
+  },
+  "added_results": [
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at most 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 777
+            },
+            "region": {
+              "startLine": 1396,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ba1fbd14b2907585:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 777
+            },
+            "region": {
+              "startLine": 1135,
+              "startColumn": 5,
+              "endColumn": 103
+            }
+          },
+          "message": {
+            "text": "SQLCompiler.execute_sql"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 777
+            },
+            "region": {
+              "startLine": 1115,
+              "startColumn": 23,
+              "endColumn": 98
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 1. [This call](2) correctly calls the base method, but does not match the signature of the overriding method.\nThis method requires 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 777
+            },
+            "region": {
+              "startLine": 1517,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8e1824c0ae845383:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 777
+            },
+            "region": {
+              "startLine": 1135,
+              "startColumn": 5,
+              "endColumn": 103
+            }
+          },
+          "message": {
+            "text": "SQLCompiler.execute_sql"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 777
+            },
+            "region": {
+              "startLine": 1115,
+              "startColumn": 23,
+              "endColumn": 98
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 777
+            },
+            "region": {
+              "startLine": 1135,
+              "startColumn": 5,
+              "endColumn": 103
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9dd8ef645ee661bc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 777
+            },
+            "region": {
+              "startLine": 1004,
+              "startColumn": 9,
+              "endColumn": 60
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3eef1954ea9930df:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 743
+            },
+            "region": {
+              "startLine": 1133,
+              "startColumn": 5,
+              "endColumn": 103
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9dd8ef645ee661bc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at most 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 743
+            },
+            "region": {
+              "startLine": 1394,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ba1fbd14b2907585:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 743
+            },
+            "region": {
+              "startLine": 1133,
+              "startColumn": 5,
+              "endColumn": 103
+            }
+          },
+          "message": {
+            "text": "SQLCompiler.execute_sql"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 743
+            },
+            "region": {
+              "startLine": 1113,
+              "startColumn": 23,
+              "endColumn": 98
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 1. [This call](2) correctly calls the base method, but does not match the signature of the overriding method.\nThis method requires 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 743
+            },
+            "region": {
+              "startLine": 1515,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8e1824c0ae845383:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 743
+            },
+            "region": {
+              "startLine": 1133,
+              "startColumn": 5,
+              "endColumn": 103
+            }
+          },
+          "message": {
+            "text": "SQLCompiler.execute_sql"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 743
+            },
+            "region": {
+              "startLine": 1113,
+              "startColumn": 23,
+              "endColumn": 98
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 743
+            },
+            "region": {
+              "startLine": 1002,
+              "startColumn": 9,
+              "endColumn": 60
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3eef1954ea9930df:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

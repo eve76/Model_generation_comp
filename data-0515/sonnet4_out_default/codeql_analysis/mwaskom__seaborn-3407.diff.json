@@ -1,0 +1,1213 @@
+{
+  "summary": {
+    "before_count": 148,
+    "after_count": 148,
+    "added": 13,
+    "removed": 13,
+    "unchanged": 135
+  },
+  "added_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.regression](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 2181,
+              "startColumn": 9,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fe73312ca5b5df2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/regression.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 5
+            }
+          },
+          "message": {
+            "text": "seaborn.regression"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.distributions](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 2184,
+              "startColumn": 9,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e29803c5142c061a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/distributions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 12
+            }
+          },
+          "message": {
+            "text": "seaborn.distributions"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/str-format/surplus-named-argument",
+      "ruleIndex": 79,
+      "rule": {
+        "id": "py/str-format/surplus-named-argument",
+        "index": 79
+      },
+      "message": {
+        "text": "Surplus named argument for string format. An argument named 'returns' is provided, but it is not required by [format \"Set up the grid of subplots and store data internally for easy plotting.\n\nParameters\n----------\n{params.core.data}\n{params.core.xy}\nheight : number\n    Size of each side of the figure in inches (it will be square).\nratio : number\n    Ratio of joint axes height to marginal axes height.\nspace : number\n    Space between the joint and marginal axes\ndropna : bool\n    If True, remove missing observations before plotting.\n{{x, y}}lim : pairs of numbers\n    Set axis limits to these values before plotting.\nmarginal_ticks : bool\n    If False, suppress ticks on the count/density axis of the marginal plots.\n{params.core.hue}\n    Note: unlike in :class:`FacetGrid` or :class:`PairGrid`, the axes-level\n    functions must support ``hue`` to use it in :class:`JointGrid`.\n{params.core.palette}\n{params.core.hue_order}\n{params.core.hue_norm}\n\nSee Also\n--------\n{seealso.jointplot}\n{seealso.pairgrid}\n{seealso.pairplot}\n\nExamples\n--------\n\n.. include:: ../docstrings/JointGrid.rst\n\n\"](1)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 1982,
+              "startColumn": 30,
+              "endLine": 2023,
+              "endColumn": 2
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7c0eeadcfcf0b128:1",
+        "primaryLocationStartColumnFingerprint": "29"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 1982,
+              "startColumn": 30,
+              "endLine": 2019,
+              "endColumn": 4
+            }
+          },
+          "message": {
+            "text": "format \"Set up the grid of subplots and store data internally for easy plotting.\n\nParameters\n----------\n{{params.core.data}}\n{{params.core.xy}}\nheight : number\n    Size of each side of the figure in inches (it will be square).\nratio : number\n    Ratio of joint axes height to marginal axes height.\nspace : number\n    Space between the joint and marginal axes\ndropna : bool\n    If True, remove missing observations before plotting.\n{{{{x, y}}}}lim : pairs of numbers\n    Set axis limits to these values before plotting.\nmarginal_ticks : bool\n    If False, suppress ticks on the count/density axis of the marginal plots.\n{{params.core.hue}}\n    Note: unlike in :class:`FacetGrid` or :class:`PairGrid`, the axes-level\n    functions must support ``hue`` to use it in :class:`JointGrid`.\n{{params.core.palette}}\n{{params.core.hue_order}}\n{{params.core.hue_norm}}\n\nSee Also\n--------\n{{seealso.jointplot}}\n{{seealso.pairgrid}}\n{{seealso.pairplot}}\n\nExamples\n--------\n\n.. include:: ../docstrings/JointGrid.rst\n\n\""
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.regression](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 2209,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a8044fb849dd8870:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/regression.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 5
+            }
+          },
+          "message": {
+            "text": "seaborn.regression"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.relational](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 2208,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7605c0b01271a326:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/relational.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            }
+          },
+          "message": {
+            "text": "seaborn.relational"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.distributions](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 2210,
+              "startColumn": 5,
+              "endColumn": 74
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a7c33a815dd0d1f1:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/distributions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 12
+            }
+          },
+          "message": {
+            "text": "seaborn.distributions"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/implicit-string-concatenation-in-list",
+      "ruleIndex": 57,
+      "rule": {
+        "id": "py/implicit-string-concatenation-in-list",
+        "index": 57
+      },
+      "message": {
+        "text": "Implicit string concatenation. Maybe missing a comma?"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 2223,
+              "startColumn": 35,
+              "endColumn": 57
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "35c4ec3e20e01f7d:1",
+        "primaryLocationStartColumnFingerprint": "26"
+      }
+    },
+    {
+      "ruleId": "py/overwritten-inherited-attribute",
+      "ruleIndex": 121,
+      "rule": {
+        "id": "py/overwritten-inherited-attribute",
+        "index": 121
+      },
+      "message": {
+        "text": "Assignment overwrites attribute _tight_layout_rect, which was previously defined in superclass [Grid](1)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 1374,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "94c14e8cb156ccb4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 105,
+              "startColumn": 9,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Grid"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/overwritten-inherited-attribute",
+      "ruleIndex": 121,
+      "rule": {
+        "id": "py/overwritten-inherited-attribute",
+        "index": 121
+      },
+      "message": {
+        "text": "Assignment overwrites attribute _tight_layout_pad, which was previously defined in superclass [Grid](1)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 1375,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c03cb40b059e1179:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 106,
+              "startColumn": 9,
+              "endColumn": 38
+            }
+          },
+          "message": {
+            "text": "Grid"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.distributions](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 2109,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d467864418044261:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/distributions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 12
+            }
+          },
+          "message": {
+            "text": "seaborn.distributions"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.relational](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 2178,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bb8456388e8466ec:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/relational.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            }
+          },
+          "message": {
+            "text": "seaborn.relational"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.distributions](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 2188,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f7b898cc3a4145ab:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/distributions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 12
+            }
+          },
+          "message": {
+            "text": "seaborn.distributions"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.distributions](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 1578,
+              "startColumn": 9,
+              "endColumn": 53
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9cf105d7d88f4508:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/distributions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 12
+            }
+          },
+          "message": {
+            "text": "seaborn.distributions"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.distributions](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 2189,
+              "startColumn": 5,
+              "endColumn": 74
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a7c33a815dd0d1f1:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/distributions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            }
+          },
+          "message": {
+            "text": "seaborn.distributions"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.regression](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 2188,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a8044fb849dd8870:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/regression.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 45
+            }
+          },
+          "message": {
+            "text": "seaborn.regression"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/str-format/surplus-named-argument",
+      "ruleIndex": 79,
+      "rule": {
+        "id": "py/str-format/surplus-named-argument",
+        "index": 79
+      },
+      "message": {
+        "text": "Surplus named argument for string format. An argument named 'returns' is provided, but it is not required by [format \"Set up the grid of subplots and store data internally for easy plotting.\n\nParameters\n----------\n{params.core.data}\n{params.core.xy}\nheight : number\n    Size of each side of the figure in inches (it will be square).\nratio : number\n    Ratio of joint axes height to marginal axes height.\nspace : number\n    Space between the joint and marginal axes\ndropna : bool\n    If True, remove missing observations before plotting.\n{{x, y}}lim : pairs of numbers\n    Set axis limits to these values before plotting.\nmarginal_ticks : bool\n    If False, suppress ticks on the count/density axis of the marginal plots.\n{params.core.hue}\n    Note: unlike in :class:`FacetGrid` or :class:`PairGrid`, the axes-level\n    functions must support ``hue`` to use it in :class:`JointGrid`.\n{params.core.palette}\n{params.core.hue_order}\n{params.core.hue_norm}\n\nSee Also\n--------\n{seealso.jointplot}\n{seealso.pairgrid}\n{seealso.pairplot}\n\nExamples\n--------\n\n.. include:: ../docstrings/JointGrid.rst\n\n\"](1)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 1961,
+              "startColumn": 30,
+              "endLine": 2002,
+              "endColumn": 2
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7c0eeadcfcf0b128:1",
+        "primaryLocationStartColumnFingerprint": "29"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 1961,
+              "startColumn": 30,
+              "endLine": 1998,
+              "endColumn": 4
+            }
+          },
+          "message": {
+            "text": "format \"Set up the grid of subplots and store data internally for easy plotting.\n\nParameters\n----------\n{{params.core.data}}\n{{params.core.xy}}\nheight : number\n    Size of each side of the figure in inches (it will be square).\nratio : number\n    Ratio of joint axes height to marginal axes height.\nspace : number\n    Space between the joint and marginal axes\ndropna : bool\n    If True, remove missing observations before plotting.\n{{{{x, y}}}}lim : pairs of numbers\n    Set axis limits to these values before plotting.\nmarginal_ticks : bool\n    If False, suppress ticks on the count/density axis of the marginal plots.\n{{params.core.hue}}\n    Note: unlike in :class:`FacetGrid` or :class:`PairGrid`, the axes-level\n    functions must support ``hue`` to use it in :class:`JointGrid`.\n{{params.core.palette}}\n{{params.core.hue_order}}\n{{params.core.hue_norm}}\n\nSee Also\n--------\n{{seealso.jointplot}}\n{{seealso.pairgrid}}\n{{seealso.pairplot}}\n\nExamples\n--------\n\n.. include:: ../docstrings/JointGrid.rst\n\n\""
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.relational](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 2187,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7605c0b01271a326:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/relational.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            }
+          },
+          "message": {
+            "text": "seaborn.relational"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.regression](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 2160,
+              "startColumn": 9,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fe73312ca5b5df2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/regression.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 45
+            }
+          },
+          "message": {
+            "text": "seaborn.regression"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.distributions](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 1557,
+              "startColumn": 9,
+              "endColumn": 53
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9cf105d7d88f4508:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/distributions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            }
+          },
+          "message": {
+            "text": "seaborn.distributions"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/overwritten-inherited-attribute",
+      "ruleIndex": 121,
+      "rule": {
+        "id": "py/overwritten-inherited-attribute",
+        "index": 121
+      },
+      "message": {
+        "text": "Assignment overwrites attribute _tight_layout_rect, which was previously defined in superclass [Grid](1)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 1353,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "94c14e8cb156ccb4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 105,
+              "startColumn": 9,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Grid"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.distributions](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 2163,
+              "startColumn": 9,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e29803c5142c061a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/distributions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            }
+          },
+          "message": {
+            "text": "seaborn.distributions"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/overwritten-inherited-attribute",
+      "ruleIndex": 121,
+      "rule": {
+        "id": "py/overwritten-inherited-attribute",
+        "index": 121
+      },
+      "message": {
+        "text": "Assignment overwrites attribute _tight_layout_pad, which was previously defined in superclass [Grid](1)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 1354,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c03cb40b059e1179:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 106,
+              "startColumn": 9,
+              "endColumn": 38
+            }
+          },
+          "message": {
+            "text": "Grid"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.relational](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 2157,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bb8456388e8466ec:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/relational.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            }
+          },
+          "message": {
+            "text": "seaborn.relational"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/implicit-string-concatenation-in-list",
+      "ruleIndex": 57,
+      "rule": {
+        "id": "py/implicit-string-concatenation-in-list",
+        "index": 57
+      },
+      "message": {
+        "text": "Implicit string concatenation. Maybe missing a comma?"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 2202,
+              "startColumn": 35,
+              "endColumn": 57
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "35c4ec3e20e01f7d:1",
+        "primaryLocationStartColumnFingerprint": "26"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.distributions](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 2167,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f7b898cc3a4145ab:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/distributions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            }
+          },
+          "message": {
+            "text": "seaborn.distributions"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [seaborn.distributions](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/axisgrid.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 2088,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d467864418044261:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/distributions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            }
+          },
+          "message": {
+            "text": "seaborn.distributions"
+          }
+        }
+      ]
+    }
+  ]
+}

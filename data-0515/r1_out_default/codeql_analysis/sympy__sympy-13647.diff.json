@@ -1,0 +1,1379 @@
+{
+  "summary": {
+    "before_count": 586,
+    "after_count": 586,
+    "added": 16,
+    "removed": 16,
+    "unchanged": 570
+  },
+  "added_results": [
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'kls', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 784,
+              "startColumn": 5,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "46e823f7bd6f710b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1635,
+              "startColumn": 5,
+              "endColumn": 70
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3d9ab001db60fe37:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ShapeError](1) - should raise an ArithmeticError or return NotImplemented instead.\nThis method raises [TypeError](2) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1980,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "87015ef2738b5ed6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2012,
+              "startColumn": 23,
+              "endLine": 2013,
+              "endColumn": 46
+            }
+          },
+          "message": {
+            "text": "ShapeError"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2027,
+              "startColumn": 15,
+              "endColumn": 81
+            }
+          },
+          "message": {
+            "text": "TypeError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'kls', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 859,
+              "startColumn": 5,
+              "endColumn": 46
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3f71387d16a69a03:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/hash-unhashable-value",
+      "ruleIndex": 66,
+      "rule": {
+        "id": "py/hash-unhashable-value",
+        "index": 66
+      },
+      "message": {
+        "text": "This [instance](1) of [slice](2) is unhashable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2214,
+              "startColumn": 61,
+              "endColumn": 62
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bda9c97e9a9e3c63:1",
+        "primaryLocationStartColumnFingerprint": "23"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2211,
+              "startColumn": 20,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "instance"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/",
+              "index": 93
+            }
+          },
+          "message": {
+            "text": "slice"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2170,
+              "startColumn": 9,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2395d1ba6970235f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/test-equals-none",
+      "ruleIndex": 59,
+      "rule": {
+        "id": "py/test-equals-none",
+        "index": 59
+      },
+      "message": {
+        "text": "Testing for None should use the 'is' operator."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 964,
+              "startColumn": 16,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c1d1b2e03b2e102c:1",
+        "primaryLocationStartColumnFingerprint": "7"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'kls', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 656,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6263fff2ec02712c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'kls', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 880,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2e456af9cdb36f10:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [NonSquareMatrixError](1) - should raise an ArithmeticError or return NotImplemented instead.\nThis method raises [TypeError](2) - should raise an ArithmeticError or return NotImplemented instead.\nThis method raises [TypeError](3) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2033,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2768048c87bae5d3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2035,
+              "startColumn": 19,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "NonSquareMatrixError"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2059,
+              "startColumn": 23,
+              "endLine": 2060,
+              "endColumn": 97
+            }
+          },
+          "message": {
+            "text": "TypeError"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2062,
+              "startColumn": 19,
+              "endColumn": 92
+            }
+          },
+          "message": {
+            "text": "TypeError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ShapeError](1) - should raise an ArithmeticError or return NotImplemented instead.\nThis method raises [TypeError](2) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2073,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "19258a84a4b9aad3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2079,
+              "startColumn": 23,
+              "endColumn": 58
+            }
+          },
+          "message": {
+            "text": "ShapeError"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2093,
+              "startColumn": 15,
+              "endColumn": 81
+            }
+          },
+          "message": {
+            "text": "TypeError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'kls', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 763,
+              "startColumn": 5,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9a10ffaee5abc488:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2179,
+              "startColumn": 9,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "db9a03b45b09c243:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1703,
+              "startColumn": 9,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b74252a8f323f927:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ShapeError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1948,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8bf864bd39cac88b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 1955,
+              "startColumn": 23,
+              "endLine": 1956,
+              "endColumn": 46
+            }
+          },
+          "message": {
+            "text": "ShapeError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 2318,
+              "startColumn": 5,
+              "endColumn": 22
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2f0e41e9b4e75391:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/hash-unhashable-value",
+      "ruleIndex": 66,
+      "rule": {
+        "id": "py/hash-unhashable-value",
+        "index": 66
+      },
+      "message": {
+        "text": "This [instance](1) of [slice](2) is unhashable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2212,
+              "startColumn": 61,
+              "endColumn": 62
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7adc3efb0bd456ba:1",
+        "primaryLocationStartColumnFingerprint": "44"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2210,
+              "startColumn": 17,
+              "endColumn": 18
+            }
+          },
+          "message": {
+            "text": "instance"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/",
+              "index": 91
+            }
+          },
+          "message": {
+            "text": "slice"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 1702,
+              "startColumn": 9,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b74252a8f323f927:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [NonSquareMatrixError](1) - should raise an ArithmeticError or return NotImplemented instead.\nThis method raises [TypeError](2) - should raise an ArithmeticError or return NotImplemented instead.\nThis method raises [TypeError](3) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2032,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2768048c87bae5d3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2034,
+              "startColumn": 19,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "NonSquareMatrixError"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2058,
+              "startColumn": 23,
+              "endLine": 2059,
+              "endColumn": 97
+            }
+          },
+          "message": {
+            "text": "TypeError"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2061,
+              "startColumn": 19,
+              "endColumn": 92
+            }
+          },
+          "message": {
+            "text": "TypeError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ShapeError](1) - should raise an ArithmeticError or return NotImplemented instead.\nThis method raises [TypeError](2) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2072,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "19258a84a4b9aad3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2078,
+              "startColumn": 23,
+              "endColumn": 58
+            }
+          },
+          "message": {
+            "text": "ShapeError"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2092,
+              "startColumn": 15,
+              "endColumn": 81
+            }
+          },
+          "message": {
+            "text": "TypeError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'kls', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 879,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2e456af9cdb36f10:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 1634,
+              "startColumn": 5,
+              "endColumn": 70
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3d9ab001db60fe37:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2178,
+              "startColumn": 9,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "db9a03b45b09c243:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2317,
+              "startColumn": 5,
+              "endColumn": 22
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2f0e41e9b4e75391:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'kls', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 783,
+              "startColumn": 5,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "46e823f7bd6f710b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'kls', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 655,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6263fff2ec02712c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2169,
+              "startColumn": 9,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2395d1ba6970235f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/test-equals-none",
+      "ruleIndex": 59,
+      "rule": {
+        "id": "py/test-equals-none",
+        "index": 59
+      },
+      "message": {
+        "text": "Testing for None should use the 'is' operator."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 963,
+              "startColumn": 16,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c1d1b2e03b2e102c:1",
+        "primaryLocationStartColumnFingerprint": "7"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'kls', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 858,
+              "startColumn": 5,
+              "endColumn": 46
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3f71387d16a69a03:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ShapeError](1) - should raise an ArithmeticError or return NotImplemented instead.\nThis method raises [TypeError](2) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 1979,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "87015ef2738b5ed6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2011,
+              "startColumn": 23,
+              "endLine": 2012,
+              "endColumn": 46
+            }
+          },
+          "message": {
+            "text": "ShapeError"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 2026,
+              "startColumn": 15,
+              "endColumn": 81
+            }
+          },
+          "message": {
+            "text": "TypeError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'kls', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 762,
+              "startColumn": 5,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9a10ffaee5abc488:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ShapeError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 1947,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8bf864bd39cac88b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/matrices/common.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 1954,
+              "startColumn": 23,
+              "endLine": 1955,
+              "endColumn": 46
+            }
+          },
+          "message": {
+            "text": "ShapeError"
+          }
+        }
+      ]
+    }
+  ]
+}

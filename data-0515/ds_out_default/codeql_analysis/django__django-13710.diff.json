@@ -1,0 +1,579 @@
+{
+  "summary": {
+    "before_count": 567,
+    "after_count": 567,
+    "added": 3,
+    "removed": 3,
+    "unchanged": 564
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_combine': [Function _combine](1) and [Function _combine](2).\nBase classes have conflicting values for attribute 'BITOR': [str u'||'](3) and [str u'|'](4).\nBase classes have conflicting values for attribute 'BITAND': [str u'&&'](5) and [str u'&'](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 222
+            },
+            "region": {
+              "startLine": 198,
+              "endColumn": 70
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5afc83db9dc981f2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 222
+            },
+            "region": {
+              "startLine": 134,
+              "startColumn": 5,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "Function _combine"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 813
+            },
+            "region": {
+              "startLine": 58,
+              "startColumn": 5,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "Function _combine"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 860
+            }
+          },
+          "message": {
+            "text": "str u'||'"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 860
+            }
+          },
+          "message": {
+            "text": "str u'|'"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 860
+            }
+          },
+          "message": {
+            "text": "str u'&&'"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 860
+            }
+          },
+          "message": {
+            "text": "str u'&'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_combine': [Function _combine](1) and [Function _combine](2).\nBase classes have conflicting values for attribute 'BITOR': [str u'||'](3) and [str u'|'](4).\nBase classes have conflicting values for attribute 'BITAND': [str u'&&'](5) and [str u'&'](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 222
+            },
+            "region": {
+              "startLine": 160,
+              "endColumn": 48
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4fbee29119830ee9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 222
+            },
+            "region": {
+              "startLine": 134,
+              "startColumn": 5,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "Function _combine"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 813
+            },
+            "region": {
+              "startLine": 58,
+              "startColumn": 5,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "Function _combine"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 860
+            }
+          },
+          "message": {
+            "text": "str u'||'"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 860
+            }
+          },
+          "message": {
+            "text": "str u'|'"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 860
+            }
+          },
+          "message": {
+            "text": "str u'&&'"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 860
+            }
+          },
+          "message": {
+            "text": "str u'&'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires 3 positional arguments, whereas overridden [BaseModelAdmin.has_add_permission](1) requires 2."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/options.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 46
+            },
+            "region": {
+              "startLine": 2187,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9f7f5405185db248:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/options.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 46
+            },
+            "region": {
+              "startLine": 475,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          },
+          "message": {
+            "text": "BaseModelAdmin.has_add_permission"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_combine': [Function _combine](1) and [Function _combine](2).\nBase classes have conflicting values for attribute 'BITAND': [str u'&&'](3) and [str u'&'](4).\nBase classes have conflicting values for attribute 'BITOR': [str u'||'](5) and [str u'|'](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 186
+            },
+            "region": {
+              "startLine": 160,
+              "endColumn": 48
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4fbee29119830ee9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 186
+            },
+            "region": {
+              "startLine": 134,
+              "startColumn": 5,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "Function _combine"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 704
+            },
+            "region": {
+              "startLine": 58,
+              "startColumn": 5,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "Function _combine"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 858
+            }
+          },
+          "message": {
+            "text": "str u'&&'"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 858
+            }
+          },
+          "message": {
+            "text": "str u'&'"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 858
+            }
+          },
+          "message": {
+            "text": "str u'||'"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 858
+            }
+          },
+          "message": {
+            "text": "str u'|'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires 3 positional arguments, whereas overridden [BaseModelAdmin.has_add_permission](1) requires 2."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/options.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 227
+            },
+            "region": {
+              "startLine": 2183,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9f7f5405185db248:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/options.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 227
+            },
+            "region": {
+              "startLine": 475,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          },
+          "message": {
+            "text": "BaseModelAdmin.has_add_permission"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_combine': [Function _combine](1) and [Function _combine](2).\nBase classes have conflicting values for attribute 'BITAND': [str u'&&'](3) and [str u'&'](4).\nBase classes have conflicting values for attribute 'BITOR': [str u'||'](5) and [str u'|'](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 186
+            },
+            "region": {
+              "startLine": 198,
+              "endColumn": 70
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5afc83db9dc981f2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 186
+            },
+            "region": {
+              "startLine": 134,
+              "startColumn": 5,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "Function _combine"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 704
+            },
+            "region": {
+              "startLine": 58,
+              "startColumn": 5,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "Function _combine"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 858
+            }
+          },
+          "message": {
+            "text": "str u'&&'"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 858
+            }
+          },
+          "message": {
+            "text": "str u'&'"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 858
+            }
+          },
+          "message": {
+            "text": "str u'||'"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 858
+            }
+          },
+          "message": {
+            "text": "str u'|'"
+          }
+        }
+      ]
+    }
+  ]
+}

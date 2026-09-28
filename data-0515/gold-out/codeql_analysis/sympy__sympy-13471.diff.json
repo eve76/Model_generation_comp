@@ -1,0 +1,2401 @@
+{
+  "summary": {
+    "before_count": 462,
+    "after_count": 462,
+    "added": 26,
+    "removed": 26,
+    "unchanged": 436
+  },
+  "added_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 1658,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9591b66bba4f7b0f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'integer_nthroot' may not be defined if module [sympy.core.power](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of integer_nthroot occurs after the cyclic [import](4) of sympy.core.numbers.\n'integer_nthroot' may not be defined if module [sympy.core.power](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of integer_nthroot occurs after the cyclic [import](5) of sympy.core.numbers."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 3872,
+              "startColumn": 25,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6f369693333c4db0:1",
+        "primaryLocationStartColumnFingerprint": "24"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            }
+          },
+          "message": {
+            "text": "sympy.core.power"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            }
+          },
+          "message": {
+            "text": "sympy.core.numbers"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 30,
+              "startColumn": 5,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 10,
+              "endLine": 11,
+              "endColumn": 16
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 2929,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bd9cced0cf19280f:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 3013,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4f6ab60423322be0:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Mul' may not be defined if module [sympy.core.mul](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of Mul occurs after the cyclic [import](4) of sympy.core.numbers."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 3873,
+              "startColumn": 18,
+              "endColumn": 21
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b625a91338a9d254:1",
+        "primaryLocationStartColumnFingerprint": "17"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/mul.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 52
+            }
+          },
+          "message": {
+            "text": "sympy.core.mul"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            }
+          },
+          "message": {
+            "text": "sympy.core.numbers"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/mul.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 52
+            },
+            "region": {
+              "startLine": 91,
+              "startColumn": 7,
+              "endColumn": 10
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/mul.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 52
+            },
+            "region": {
+              "startLine": 14,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 3852,
+              "endColumn": 20
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bd594c897ff53b78:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 3620,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1b61c253bae495ac:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Add' may not be defined if module [sympy.core.add](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of Add occurs after the cyclic [import](4) of sympy.core.numbers.\n'Add' may not be defined if module [sympy.core.add](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of Add occurs after the cyclic [import](5) of sympy.core.numbers."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 3875,
+              "startColumn": 18,
+              "endColumn": 21
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d7a4ca6b4434ba85:1",
+        "primaryLocationStartColumnFingerprint": "17"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            }
+          },
+          "message": {
+            "text": "sympy.core.add"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            }
+          },
+          "message": {
+            "text": "sympy.core.numbers"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 70,
+              "startColumn": 7,
+              "endColumn": 10
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 12,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 13,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 1212,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6d009b96910a762d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 2602,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "10bfe58de2b3ed0e:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 3475,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d3c8dadd03fdf080:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 3557,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d3c8dadd9cebd149:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 2487,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c6446b1a2e757a84:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Pow' may not be defined if module [sympy.core.power](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of Pow occurs after the cyclic [import](4) of sympy.core.numbers.\n'Pow' may not be defined if module [sympy.core.power](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of Pow occurs after the cyclic [import](5) of sympy.core.numbers."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 3872,
+              "startColumn": 20,
+              "endColumn": 23
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6f369693333c4db0:1",
+        "primaryLocationStartColumnFingerprint": "19"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            }
+          },
+          "message": {
+            "text": "sympy.core.power"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            }
+          },
+          "message": {
+            "text": "sympy.core.numbers"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 102,
+              "startColumn": 7,
+              "endColumn": 10
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 10,
+              "endLine": 11,
+              "endColumn": 16
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.containers](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 2019,
+              "startColumn": 9,
+              "endColumn": 38
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d7f4a8ff846cd5d5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/containers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 26
+            }
+          },
+          "message": {
+            "text": "sympy.core.containers"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 3791,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ab2ad651a6893ca8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 2706,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bd9cced0cf19280f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 3302,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "94d4a9020d940092:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/equals-hash-mismatch",
+      "ruleIndex": 115,
+      "rule": {
+        "id": "py/equals-hash-mismatch",
+        "index": 115
+      },
+      "message": {
+        "text": "This class implements [__hash__](1), but does not implement __eq__."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 2303,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "baf5f988e604219f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 2369,
+              "startColumn": 5,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "__hash__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 2789,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4f6ab60423322be0:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [TypeError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 2018,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d6b74d448f95520f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 2029,
+              "startColumn": 23,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "TypeError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 2169,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ea6a2d50680a2d45:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 3735,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f312445e44eb4b67:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.symbol](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 2317,
+              "startColumn": 9,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "db52363638fa6b90:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 13
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.containers](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 2012,
+              "startColumn": 9,
+              "endColumn": 38
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "282ba49af4057a5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/containers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 26
+            }
+          },
+          "message": {
+            "text": "sympy.core.containers"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 20
+            },
+            "region": {
+              "startLine": 3682,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f312445e44eb4b67:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3730,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f312445e44eb4b67:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 2597,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "10bfe58de2b3ed0e:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/equals-hash-mismatch",
+      "ruleIndex": 115,
+      "rule": {
+        "id": "py/equals-hash-mismatch",
+        "index": 115
+      },
+      "message": {
+        "text": "This class implements [__hash__](1), but does not implement __eq__."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 2298,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "baf5f988e604219f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 2364,
+              "startColumn": 5,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "__hash__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 2784,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4f6ab60423322be0:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'integer_nthroot' may not be defined if module [sympy.core.power](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of integer_nthroot occurs after the cyclic [import](4) of sympy.core.numbers.\n'integer_nthroot' may not be defined if module [sympy.core.power](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of integer_nthroot occurs after the cyclic [import](5) of sympy.core.numbers."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3867,
+              "startColumn": 25,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6f369693333c4db0:1",
+        "primaryLocationStartColumnFingerprint": "24"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            }
+          },
+          "message": {
+            "text": "sympy.core.power"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            }
+          },
+          "message": {
+            "text": "sympy.core.numbers"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 30,
+              "startColumn": 5,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 10,
+              "endLine": 11,
+              "endColumn": 16
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3552,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d3c8dadd9cebd149:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3677,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f312445e44eb4b67:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3615,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1b61c253bae495ac:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.containers](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 2014,
+              "startColumn": 9,
+              "endColumn": 38
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d7f4a8ff846cd5d5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/containers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 14
+            }
+          },
+          "message": {
+            "text": "sympy.core.containers"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 2924,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bd9cced0cf19280f:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Pow' may not be defined if module [sympy.core.power](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of Pow occurs after the cyclic [import](4) of sympy.core.numbers.\n'Pow' may not be defined if module [sympy.core.power](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of Pow occurs after the cyclic [import](5) of sympy.core.numbers."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3867,
+              "startColumn": 20,
+              "endColumn": 23
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6f369693333c4db0:1",
+        "primaryLocationStartColumnFingerprint": "19"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            }
+          },
+          "message": {
+            "text": "sympy.core.power"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            }
+          },
+          "message": {
+            "text": "sympy.core.numbers"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 102,
+              "startColumn": 7,
+              "endColumn": 10
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 35
+            },
+            "region": {
+              "startLine": 10,
+              "endLine": 11,
+              "endColumn": 16
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3786,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ab2ad651a6893ca8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 2701,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bd9cced0cf19280f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.containers](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 2007,
+              "startColumn": 9,
+              "endColumn": 38
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "282ba49af4057a5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/containers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 14
+            }
+          },
+          "message": {
+            "text": "sympy.core.containers"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Add' may not be defined if module [sympy.core.add](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of Add occurs after the cyclic [import](4) of sympy.core.numbers.\n'Add' may not be defined if module [sympy.core.add](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of Add occurs after the cyclic [import](5) of sympy.core.numbers."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3870,
+              "startColumn": 18,
+              "endColumn": 21
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d7a4ca6b4434ba85:1",
+        "primaryLocationStartColumnFingerprint": "17"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            }
+          },
+          "message": {
+            "text": "sympy.core.add"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            }
+          },
+          "message": {
+            "text": "sympy.core.numbers"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 70,
+              "startColumn": 7,
+              "endColumn": 10
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 12,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 13,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3847,
+              "endColumn": 20
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bd594c897ff53b78:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 2482,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c6446b1a2e757a84:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [TypeError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 2013,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d6b74d448f95520f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 2024,
+              "startColumn": 23,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "TypeError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Mul' may not be defined if module [sympy.core.mul](1) is imported before module [sympy.core.numbers](2), as the [definition](3) of Mul occurs after the cyclic [import](4) of sympy.core.numbers."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3868,
+              "startColumn": 18,
+              "endColumn": 21
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b625a91338a9d254:1",
+        "primaryLocationStartColumnFingerprint": "17"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/mul.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 38
+            }
+          },
+          "message": {
+            "text": "sympy.core.mul"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            }
+          },
+          "message": {
+            "text": "sympy.core.numbers"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/mul.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 38
+            },
+            "region": {
+              "startLine": 91,
+              "startColumn": 7,
+              "endColumn": 10
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/mul.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 38
+            },
+            "region": {
+              "startLine": 14,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.symbol](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 2312,
+              "startColumn": 9,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "db52363638fa6b90:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 42
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 1207,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6d009b96910a762d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 1653,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9591b66bba4f7b0f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3008,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4f6ab60423322be0:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3470,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d3c8dadd03fdf080:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3297,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "94d4a9020d940092:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/numbers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 2164,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ea6a2d50680a2d45:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

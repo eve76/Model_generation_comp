@@ -1,0 +1,199 @@
+{
+  "summary": {
+    "before_count": 157,
+    "after_count": 159,
+    "added": 4,
+    "removed": 2,
+    "unchanged": 155
+  },
+  "added_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/_io/saferepr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 97,
+              "startColumn": 5,
+              "endColumn": 74
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8bf04653beea659c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/catch-base-exception",
+      "ruleIndex": 167,
+      "rule": {
+        "id": "py/catch-base-exception",
+        "index": 167
+      },
+      "message": {
+        "text": "Except block directly handles BaseException."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/_io/saferepr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 25,
+              "startColumn": 5,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "269d54fdad375d24:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/catch-base-exception",
+      "ruleIndex": 167,
+      "rule": {
+        "id": "py/catch-base-exception",
+        "index": 167
+      },
+      "message": {
+        "text": "Except block directly handles BaseException."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/_io/saferepr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 29,
+              "startColumn": 5,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9d1f7be603de161:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/catch-base-exception",
+      "ruleIndex": 167,
+      "rule": {
+        "id": "py/catch-base-exception",
+        "index": 167
+      },
+      "message": {
+        "text": "Except block directly handles BaseException."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/_io/saferepr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 68,
+              "startColumn": 9,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c89ecdffa5200125:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/_io/saferepr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 66
+            },
+            "region": {
+              "startLine": 88,
+              "startColumn": 5,
+              "endColumn": 74
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8bf04653beea659c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/catch-base-exception",
+      "ruleIndex": 167,
+      "rule": {
+        "id": "py/catch-base-exception",
+        "index": 167
+      },
+      "message": {
+        "text": "Except block directly handles BaseException."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/_io/saferepr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 66
+            },
+            "region": {
+              "startLine": 50,
+              "startColumn": 9,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c89ed5c589c29e78:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

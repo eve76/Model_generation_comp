@@ -1,0 +1,43 @@
+{
+  "summary": {
+    "before_count": 907,
+    "after_count": 906,
+    "added": 0,
+    "removed": 1,
+    "unchanged": 906
+  },
+  "added_results": [],
+  "removed_results": [
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable cothm is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/functions/elementary/hyperbolic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 589,
+              "startColumn": 21,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fe4f4cfc22b2e30f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

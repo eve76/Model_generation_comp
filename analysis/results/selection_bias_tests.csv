@@ -1,0 +1,17 @@
+family,comparison,feature,n_common,n_other,common_median,other_median,cliffs_delta_common_vs_other,permutation_p,holm_p
+Claude,common vs newer_only,Gold CPU time (s),71,62,5.966,5.698,0.09359382099045893,0.11664416779161042,1.0
+Claude,common vs newer_only,Gold peak memory (MiB),71,62,235.046,174.636,0.5011358473421172,4.999750012499375e-05,0.0007999600019999
+Claude,common vs newer_only,Gold patch churn,71,62,4.0,4.0,-0.13289413902771469,1.0,1.0
+Claude,common vs newer_only,Gold files touched,71,62,1.0,1.0,0.0,1.0,1.0
+Claude,common vs older_only,Gold CPU time (s),71,37,5.966,6.85,-0.38028169014084506,0.000999950002499875,0.014999250037498125
+Claude,common vs older_only,Gold peak memory (MiB),71,37,235.046,253.264,-0.3604872478111915,0.053347332633368334,0.64016799160042
+Claude,common vs older_only,Gold patch churn,71,37,4.0,7.0,-0.3148077655119909,0.022598870056497175,0.3163841807909604
+Claude,common vs older_only,Gold files touched,71,37,1.0,1.0,0.0,1.0,1.0
+DeepSeek,common vs newer_only,Gold CPU time (s),56,77,5.923,5.85,0.08603896103896103,0.6806159692015399,1.0
+DeepSeek,common vs newer_only,Gold peak memory (MiB),56,77,216.05599999999998,212.62,0.02968460111317256,0.5066746662666867,1.0
+DeepSeek,common vs newer_only,Gold patch churn,56,77,4.0,5.0,-0.13265306122448983,0.7258637068146593,1.0
+DeepSeek,common vs newer_only,Gold files touched,56,77,1.0,1.0,0.0,1.0,1.0
+DeepSeek,common vs older_only,Gold CPU time (s),56,23,5.923,6.63,-0.21195652173913043,0.09989500524973752,1.0
+DeepSeek,common vs older_only,Gold peak memory (MiB),56,23,216.05599999999998,238.796,-0.19565217391304346,0.23983800809959502,1.0
+DeepSeek,common vs older_only,Gold patch churn,56,23,4.0,7.0,-0.3315217391304348,0.04844757762111895,0.6298185090745463
+DeepSeek,common vs older_only,Gold files touched,56,23,1.0,1.0,0.0,1.0,1.0

@@ -1,0 +1,153 @@
+tool,family,pattern,category,n_instances,newer_patch_prevalence,older_patch_prevalence,rate_difference,ci_2.5,ci_97.5,newer_only_discordant,older_only_discordant,mcnemar_p,holm_p_within_tool_family
+CodeQL,Claude,py/attribute-shadows-method,reliability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/call-to-non-callable,reliability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/call/wrong-arguments,reliability,71,0.04225352112676056,0.04225352112676056,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/call/wrong-named-class-argument,reliability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/catch-base-exception,reliability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/clear-text-storage-sensitive-data,security,71,0.1267605633802817,0.15492957746478872,-0.028169014084507043,-0.11267605633802817,0.04225352112676056,3,5,0.7265625,1.0
+CodeQL,Claude,py/commented-out-code,maintainability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/comparison-of-identical-expressions,maintainability,71,0.028169014084507043,0.028169014084507043,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/conflicting-attributes,reliability,71,0.15492957746478872,0.14084507042253522,0.014084507042253521,-0.07042253521126761,0.09859154929577464,6,5,1.0,1.0
+CodeQL,Claude,py/cyclic-import,maintainability,71,0.056338028169014086,0.056338028169014086,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/empty-except,reliability,71,0.1267605633802817,0.14084507042253522,-0.014084507042253521,-0.07042253521126761,0.028169014084507043,1,2,1.0,1.0
+CodeQL,Claude,py/equals-hash-mismatch,reliability,71,0.04225352112676056,0.04225352112676056,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/file-not-closed,reliability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/hash-unhashable-value,reliability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/implicit-string-concatenation-in-list,maintainability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/import-and-import-from,maintainability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/import-own-module,maintainability,71,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/incomplete-ordering,reliability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/ineffectual-statement,maintainability,71,0.056338028169014086,0.056338028169014086,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/inheritance/incorrect-overridden-signature,reliability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/inheritance/signature-mismatch,reliability,71,0.014084507042253521,0.04225352112676056,-0.028169014084507043,-0.07042253521126761,0.0,0,2,0.5,1.0
+CodeQL,Claude,py/init-calls-subclass,reliability,71,0.028169014084507043,0.04225352112676056,-0.014084507042253521,-0.04225352112676056,0.0,0,1,1.0,1.0
+CodeQL,Claude,py/mismatched-multiple-assignment,reliability,71,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/missing-call-to-init,reliability,71,0.08450704225352113,0.08450704225352113,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/missing-equals,reliability,71,0.08450704225352113,0.14084507042253522,-0.056338028169014086,-0.11267605633802817,-0.014084507042253521,0,4,0.125,1.0
+CodeQL,Claude,py/mixed-returns,reliability,71,0.1267605633802817,0.16901408450704225,-0.04225352112676056,-0.09859154929577464,0.0,0,3,0.25,1.0
+CodeQL,Claude,py/mixed-tuple-returns,reliability,71,0.028169014084507043,0.028169014084507043,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/modification-of-default-value,reliability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/modification-of-locals,reliability,71,0.028169014084507043,0.028169014084507043,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/multiple-calls-to-init,reliability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/multiple-definition,maintainability,71,0.04225352112676056,0.04225352112676056,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/nested-loops-with-same-variable,maintainability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/not-named-cls,maintainability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/not-named-self,maintainability,71,0.028169014084507043,0.028169014084507043,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/overly-complex-delete,maintainability,71,0.04225352112676056,0.04225352112676056,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/overly-large-range,security,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/overwritten-inherited-attribute,maintainability,71,0.04225352112676056,0.04225352112676056,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/polluting-import,maintainability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/procedure-return-value-used,maintainability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/redundant-assignment,reliability,71,0.028169014084507043,0.04225352112676056,-0.014084507042253521,-0.04225352112676056,0.0,0,1,1.0,1.0
+CodeQL,Claude,py/redundant-comparison,maintainability,71,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/redundant-else,maintainability,71,0.028169014084507043,0.028169014084507043,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/regex/duplicate-in-character-class,maintainability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/shell-command-constructed-from-input,security,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/should-use-with,maintainability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/str-format/surplus-named-argument,maintainability,71,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/super-not-enclosing-class,reliability,71,0.07042253521126761,0.08450704225352113,-0.014084507042253521,-0.04225352112676056,0.0,0,1,1.0,1.0
+CodeQL,Claude,py/test-equals-none,reliability,71,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/undefined-export,reliability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/unexpected-raise-in-special-method,reliability,71,0.04225352112676056,0.04225352112676056,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/uninitialized-local-variable,reliability,71,0.1267605633802817,0.14084507042253522,-0.014084507042253521,-0.04225352112676056,0.0,0,1,1.0,1.0
+CodeQL,Claude,py/unnecessary-lambda,maintainability,71,0.0,0.014084507042253521,-0.014084507042253521,-0.04225352112676056,0.0,0,1,1.0,1.0
+CodeQL,Claude,py/unreachable-except,reliability,71,0.0,0.014084507042253521,-0.014084507042253521,-0.04225352112676056,0.0,0,1,1.0,1.0
+CodeQL,Claude,py/unreachable-statement,maintainability,71,0.04225352112676056,0.056338028169014086,-0.014084507042253521,-0.04225352112676056,0.0,0,1,1.0,1.0
+CodeQL,Claude,py/unsafe-cyclic-import,reliability,71,0.04225352112676056,0.04225352112676056,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/unused-exception-object,reliability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/unused-global-variable,maintainability,71,0.04225352112676056,0.04225352112676056,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/unused-import,maintainability,71,0.04225352112676056,0.07042253521126761,-0.028169014084507043,-0.07042253521126761,0.0,0,2,0.5,1.0
+CodeQL,Claude,py/unused-local-variable,maintainability,71,0.04225352112676056,0.056338028169014086,-0.014084507042253521,-0.04225352112676056,0.0,0,1,1.0,1.0
+CodeQL,Claude,py/unused-loop-variable,reliability,71,0.04225352112676056,0.028169014084507043,0.014084507042253521,0.0,0.04225352112676056,1,0,1.0,1.0
+CodeQL,Claude,py/use-of-exit-or-quit,reliability,71,0.0,0.014084507042253521,-0.014084507042253521,-0.04225352112676056,0.0,0,1,1.0,1.0
+CodeQL,Claude,py/useless-except,reliability,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,Claude,py/weak-sensitive-data-hashing,security,71,0.028169014084507043,0.056338028169014086,-0.028169014084507043,-0.07042253521126761,0.0,0,2,0.5,1.0
+CodeScene,Claude,Bumpy Road Ahead,Bumpy Road Ahead,71,0.0,0.04225352112676056,-0.04225352112676056,-0.09859154929577464,0.0,0,3,0.25,1.0
+CodeScene,Claude,Code Duplication,Code Duplication,71,0.0,0.04225352112676056,-0.04225352112676056,-0.09859154929577464,0.0,0,3,0.25,1.0
+CodeScene,Claude,Complex Conditional,Complex Conditional,71,0.014084507042253521,0.0,0.014084507042253521,0.0,0.04225352112676056,1,0,1.0,1.0
+CodeScene,Claude,Complex Method,Complex Method,71,0.11267605633802817,0.14084507042253522,-0.028169014084507043,-0.08450704225352113,0.028169014084507043,1,3,0.625,1.0
+CodeScene,Claude,"Deep, Nested Complexity","Deep, Nested Complexity",71,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeScene,Claude,Excess Number of Function Arguments,Excess Number of Function Arguments,71,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeScene,Claude,Large Method,Large Method,71,0.014084507042253521,0.014084507042253521,0.0,0.0,0.0,0,0,1.0,1.0
+CodeScene,Claude,Lines of Code in a Single File,Lines of Code in a Single File,71,0.19718309859154928,0.2535211267605634,-0.056338028169014086,-0.1267605633802817,0.0,1,5,0.21875,1.0
+CodeScene,Claude,Low Cohesion,Low Cohesion,71,0.0,0.028169014084507043,-0.028169014084507043,-0.07042253521126761,0.0,0,2,0.5,1.0
+CodeScene,Claude,Missing Arguments Abstractions,Missing Arguments Abstractions,71,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeScene,Claude,Number of Functions in a Single Module,Number of Functions in a Single Module,71,0.0,0.056338028169014086,-0.056338028169014086,-0.11267605633802817,-0.014084507042253521,0,4,0.125,1.0
+CodeScene,Claude,Overall Code Complexity,Overall Code Complexity,71,0.11267605633802817,0.11267605633802817,0.0,-0.056338028169014086,0.056338028169014086,2,2,1.0,1.0
+CodeScene,Claude,Overall Function Size,Overall Function Size,71,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/attribute-shadows-method,reliability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/call-to-non-callable,reliability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/call/wrong-arguments,reliability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/call/wrong-named-class-argument,reliability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/catch-base-exception,reliability,56,0.017857142857142856,0.0,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0
+CodeQL,DeepSeek,py/clear-text-storage-sensitive-data,security,56,0.03571428571428571,0.05357142857142857,-0.017857142857142856,-0.08928571428571429,0.05357142857142857,2,3,1.0,1.0
+CodeQL,DeepSeek,py/commented-out-code,maintainability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/comparison-of-identical-expressions,maintainability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/conflicting-attributes,reliability,56,0.25,0.16071428571428573,0.08928571428571429,-0.017857142857142856,0.19642857142857142,8,3,0.2265625,1.0
+CodeQL,DeepSeek,py/cyclic-import,maintainability,56,0.125,0.08928571428571429,0.03571428571428571,0.0,0.08928571428571429,2,0,0.5,1.0
+CodeQL,DeepSeek,py/empty-except,reliability,56,0.125,0.125,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/equals-hash-mismatch,reliability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/file-not-closed,reliability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/hash-unhashable-value,reliability,56,0.017857142857142856,0.03571428571428571,-0.017857142857142856,-0.05357142857142857,0.0,0,1,1.0,1.0
+CodeQL,DeepSeek,py/implicit-string-concatenation-in-list,maintainability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/import-and-import-from,maintainability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/import-own-module,maintainability,56,0.017857142857142856,0.0,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0
+CodeQL,DeepSeek,py/incomplete-ordering,reliability,56,0.03571428571428571,0.017857142857142856,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0
+CodeQL,DeepSeek,py/ineffectual-statement,maintainability,56,0.05357142857142857,0.03571428571428571,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0
+CodeQL,DeepSeek,py/inheritance/incorrect-overridden-signature,reliability,56,0.017857142857142856,0.0,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0
+CodeQL,DeepSeek,py/inheritance/signature-mismatch,reliability,56,0.10714285714285714,0.07142857142857142,0.03571428571428571,0.0,0.08928571428571429,2,0,0.5,1.0
+CodeQL,DeepSeek,py/init-calls-subclass,reliability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/mismatched-multiple-assignment,reliability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/missing-call-to-init,reliability,56,0.03571428571428571,0.03571428571428571,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/missing-equals,reliability,56,0.07142857142857142,0.05357142857142857,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0
+CodeQL,DeepSeek,py/mixed-returns,reliability,56,0.17857142857142858,0.16071428571428573,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0
+CodeQL,DeepSeek,py/mixed-tuple-returns,reliability,56,0.017857142857142856,0.0,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0
+CodeQL,DeepSeek,py/modification-of-default-value,reliability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/modification-of-locals,reliability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/multiple-calls-to-init,reliability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/multiple-definition,maintainability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/nested-loops-with-same-variable,maintainability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/not-named-cls,maintainability,56,0.03571428571428571,0.017857142857142856,0.017857142857142856,-0.03571428571428571,0.07142857142857142,2,1,1.0,1.0
+CodeQL,DeepSeek,py/not-named-self,maintainability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/overly-complex-delete,maintainability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/overly-large-range,security,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/overwritten-inherited-attribute,maintainability,56,0.03571428571428571,0.03571428571428571,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/polluting-import,maintainability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/procedure-return-value-used,maintainability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/redundant-assignment,reliability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/redundant-comparison,maintainability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/redundant-else,maintainability,56,0.03571428571428571,0.017857142857142856,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0
+CodeQL,DeepSeek,py/regex/duplicate-in-character-class,maintainability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/shell-command-constructed-from-input,security,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/should-use-with,maintainability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/str-format/surplus-named-argument,maintainability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/super-not-enclosing-class,reliability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/test-equals-none,reliability,56,0.0,0.017857142857142856,-0.017857142857142856,-0.05357142857142857,0.0,0,1,1.0,1.0
+CodeQL,DeepSeek,py/undefined-export,reliability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/unexpected-raise-in-special-method,reliability,56,0.08928571428571429,0.05357142857142857,0.03571428571428571,0.0,0.08928571428571429,2,0,0.5,1.0
+CodeQL,DeepSeek,py/uninitialized-local-variable,reliability,56,0.08928571428571429,0.07142857142857142,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0
+CodeQL,DeepSeek,py/unnecessary-lambda,maintainability,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/unreachable-except,reliability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/unreachable-statement,maintainability,56,0.03571428571428571,0.03571428571428571,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/unsafe-cyclic-import,reliability,56,0.03571428571428571,0.03571428571428571,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/unused-exception-object,reliability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/unused-global-variable,maintainability,56,0.03571428571428571,0.03571428571428571,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/unused-import,maintainability,56,0.07142857142857142,0.05357142857142857,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0
+CodeQL,DeepSeek,py/unused-local-variable,maintainability,56,0.05357142857142857,0.03571428571428571,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0
+CodeQL,DeepSeek,py/unused-loop-variable,reliability,56,0.03571428571428571,0.03571428571428571,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/use-of-exit-or-quit,reliability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/useless-except,reliability,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeQL,DeepSeek,py/weak-sensitive-data-hashing,security,56,0.017857142857142856,0.0,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0
+CodeScene,DeepSeek,Bumpy Road Ahead,Bumpy Road Ahead,56,0.03571428571428571,0.017857142857142856,0.017857142857142856,-0.03571428571428571,0.08928571428571429,2,1,1.0,1.0
+CodeScene,DeepSeek,Code Duplication,Code Duplication,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeScene,DeepSeek,Complex Conditional,Complex Conditional,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeScene,DeepSeek,Complex Method,Complex Method,56,0.21428571428571427,0.19642857142857142,0.017857142857142856,-0.05357142857142857,0.08928571428571429,3,2,1.0,1.0
+CodeScene,DeepSeek,"Deep, Nested Complexity","Deep, Nested Complexity",56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeScene,DeepSeek,Excess Number of Function Arguments,Excess Number of Function Arguments,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeScene,DeepSeek,Large Method,Large Method,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeScene,DeepSeek,Lines of Code in a Single File,Lines of Code in a Single File,56,0.16071428571428573,0.125,0.03571428571428571,-0.05357142857142857,0.125,4,2,0.6875,1.0
+CodeScene,DeepSeek,Low Cohesion,Low Cohesion,56,0.0,0.0,0.0,0.0,0.0,0,0,1.0,1.0
+CodeScene,DeepSeek,Missing Arguments Abstractions,Missing Arguments Abstractions,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeScene,DeepSeek,Number of Functions in a Single Module,Number of Functions in a Single Module,56,0.017857142857142856,0.017857142857142856,0.0,0.0,0.0,0,0,1.0,1.0
+CodeScene,DeepSeek,Overall Code Complexity,Overall Code Complexity,56,0.17857142857142858,0.17857142857142858,0.0,-0.05357142857142857,0.05357142857142857,1,1,1.0,1.0
+CodeScene,DeepSeek,Overall Function Size,Overall Function Size,56,0.017857142857142856,0.0,0.017857142857142856,0.0,0.05357142857142857,1,0,1.0,1.0

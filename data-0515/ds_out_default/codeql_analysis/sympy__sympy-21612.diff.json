@@ -1,0 +1,385 @@
+{
+  "summary": {
+    "before_count": 583,
+    "after_count": 583,
+    "added": 6,
+    "removed": 6,
+    "unchanged": 577
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable rhs is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/str.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 961,
+              "startColumn": 14,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fc170f1bf767c70b:1",
+        "primaryLocationStartColumnFingerprint": "5"
+      }
+    },
+    {
+      "ruleId": "py/unnecessary-lambda",
+      "ruleIndex": 69,
+      "rule": {
+        "id": "py/unnecessary-lambda",
+        "index": 69
+      },
+      "message": {
+        "text": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/str.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 654,
+              "startColumn": 50,
+              "endColumn": 78
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2d253ab928e59a03:1",
+        "primaryLocationStartColumnFingerprint": "33"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/str.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 904,
+              "startColumn": 9,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "748275dd3d1d14d6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unnecessary-lambda",
+      "ruleIndex": 69,
+      "rule": {
+        "id": "py/unnecessary-lambda",
+        "index": 69
+      },
+      "message": {
+        "text": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/str.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 506,
+              "startColumn": 28,
+              "endColumn": 54
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e7f33bd2b99d64f7:1",
+        "primaryLocationStartColumnFingerprint": "15"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable lhs is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/str.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 961,
+              "startColumn": 9,
+              "endColumn": 12
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fc170f1bf767c70b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unnecessary-lambda",
+      "ruleIndex": 69,
+      "rule": {
+        "id": "py/unnecessary-lambda",
+        "index": 69
+      },
+      "message": {
+        "text": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/str.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 511,
+              "startColumn": 28,
+              "endColumn": 54
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9e40d80108d0c86e:1",
+        "primaryLocationStartColumnFingerprint": "15"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/str.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 887,
+              "startColumn": 9,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "748275dd3d1d14d6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unnecessary-lambda",
+      "ruleIndex": 69,
+      "rule": {
+        "id": "py/unnecessary-lambda",
+        "index": 69
+      },
+      "message": {
+        "text": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/str.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 637,
+              "startColumn": 50,
+              "endColumn": 78
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2d253ab928e59a03:1",
+        "primaryLocationStartColumnFingerprint": "33"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable rhs is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/str.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 944,
+              "startColumn": 14,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fc170f1bf767c70b:1",
+        "primaryLocationStartColumnFingerprint": "5"
+      }
+    },
+    {
+      "ruleId": "py/unnecessary-lambda",
+      "ruleIndex": 69,
+      "rule": {
+        "id": "py/unnecessary-lambda",
+        "index": 69
+      },
+      "message": {
+        "text": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/str.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 494,
+              "startColumn": 28,
+              "endColumn": 54
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9e40d80108d0c86e:1",
+        "primaryLocationStartColumnFingerprint": "15"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable lhs is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/str.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 944,
+              "startColumn": 9,
+              "endColumn": 12
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fc170f1bf767c70b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unnecessary-lambda",
+      "ruleIndex": 69,
+      "rule": {
+        "id": "py/unnecessary-lambda",
+        "index": 69
+      },
+      "message": {
+        "text": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/str.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 101
+            },
+            "region": {
+              "startLine": 489,
+              "startColumn": 28,
+              "endColumn": 54
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e7f33bd2b99d64f7:1",
+        "primaryLocationStartColumnFingerprint": "15"
+      }
+    }
+  ]
+}

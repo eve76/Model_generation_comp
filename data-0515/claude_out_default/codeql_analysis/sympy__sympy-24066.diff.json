@@ -1,0 +1,2837 @@
+{
+  "summary": {
+    "before_count": 819,
+    "after_count": 819,
+    "added": 7,
+    "removed": 7,
+    "unchanged": 812
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_print_contents_latex': [Function _print_contents_latex](1) and [Function _print_contents_latex](2).\nBase classes have conflicting values for attribute '_print_contents': [Function _print_contents](3) and [Function _print_contents](4).\nBase classes have conflicting values for attribute '_print_contents_pretty': [Function _print_contents_pretty](5) and [Function _print_contents_pretty](6).\nBase classes have conflicting values for attribute '_eval_hilbert_space': [classmethod()](7) and [classmethod()](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 216,
+              "endColumn": 38
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f55af5ec9203b6d4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 97,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 143,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 122,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 92,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 131,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 80,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/qexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 174
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_print_contents_latex': [Function _print_contents_latex](1) and [Function _print_contents_latex](2).\nBase classes have conflicting values for attribute '_print_contents': [Function _print_contents](3) and [Function _print_contents](4).\nBase classes have conflicting values for attribute '_print_contents_pretty': [Function _print_contents_pretty](5) and [Function _print_contents_pretty](6).\nBase classes have conflicting values for attribute '_eval_hilbert_space': [classmethod()](7) and [classmethod()](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 327,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "39f46458b94a694f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 97,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 143,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 122,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 92,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 131,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 80,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/qexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 174
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_print_contents_latex': [Function _print_contents_latex](1) and [Function _print_contents_latex](2).\nBase classes have conflicting values for attribute '_print_contents': [Function _print_contents](3) and [Function _print_contents](4).\nBase classes have conflicting values for attribute '_print_contents_pretty': [Function _print_contents_pretty](5) and [Function _print_contents_pretty](6).\nBase classes have conflicting values for attribute '_eval_hilbert_space': [classmethod()](7) and [classmethod()](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 257,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fa9ebe0075253487:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 97,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 143,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 122,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 92,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 131,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 80,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/qexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 174
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_print_contents_latex': [Function _print_contents_latex](1) and [Function _print_contents_latex](2).\nBase classes have conflicting values for attribute '_print_contents': [Function _print_contents](3) and [Function _print_contents](4).\nBase classes have conflicting values for attribute '_print_contents_pretty': [Function _print_contents_pretty](5) and [Function _print_contents_pretty](6).\nBase classes have conflicting values for attribute '_eval_hilbert_space': [classmethod()](7) and [classmethod()](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 172,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e802cd779e42955d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 97,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 143,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 122,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 92,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 131,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 80,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/qexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 174
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_eval_power': [Function _eval_power](1) and [Function _eval_power](2).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](3) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](3) and [wraps()()](5).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](4) and [Function has_free](3).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](5) and [Function has_free](3).\nBase classes have conflicting values for attribute 'has': [Function has](6) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [Function has](6) and [wraps()()](5).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [Function has](6).\nBase classes have conflicting values for attribute 'has': [wraps()()](5) and [Function has](6).\nBase classes have conflicting values for attribute '_subs': [Function _subs](7) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [Function _subs](7) and [wraps()()](5).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [Function _subs](7).\nBase classes have conflicting values for attribute '_subs': [wraps()()](5) and [Function _subs](7).\nBase classes have conflicting values for attribute '_eval_inverse': [Function _eval_inverse](8) and [Function _eval_inverse](9).\nBase classes have conflicting values for attribute 'nqubits': [Property nqubits](10) and [Integer()](11)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 854,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3183e7313bd0c88:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 217,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _eval_power"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 479,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _eval_power"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 105
+            },
+            "region": {
+              "startLine": 1296,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function has_free"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 107
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 107
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 105
+            },
+            "region": {
+              "startLine": 1220,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 105
+            },
+            "region": {
+              "startLine": 1010,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 211,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_inverse"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 473,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_inverse"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 359,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property nqubits"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 609,
+              "startColumn": 15,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "Integer()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'class_key': [classmethod()](1) and [classmethod()](2).\nBase classes have conflicting values for attribute 'sort_key': [cacheit()](3) and [Function sort_key](4).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](5) and [wraps()()](6).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](5) and [wraps()()](7).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](6) and [Function has_free](5).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](7) and [Function has_free](5).\nBase classes have conflicting values for attribute '_eval_derivative': [Function _eval_derivative](8) and [Function _eval_derivative](9).\nBase classes have conflicting values for attribute 'has': [Function has](10) and [wraps()()](6).\nBase classes have conflicting values for attribute 'has': [Function has](10) and [wraps()()](7).\nBase classes have conflicting values for attribute 'has': [wraps()()](6) and [Function has](10).\nBase classes have conflicting values for attribute 'has': [wraps()()](7) and [Function has](10).\nBase classes have conflicting values for attribute '_subs': [Function _subs](11) and [wraps()()](6).\nBase classes have conflicting values for attribute '_subs': [Function _subs](11) and [wraps()()](7).\nBase classes have conflicting values for attribute '_subs': [wraps()()](6) and [Function _subs](11).\nBase classes have conflicting values for attribute '_subs': [wraps()()](7) and [Function _subs](11).\nBase classes have conflicting values for attribute '_eval_is_meromorphic': [Function _eval_is_meromorphic](12) and [Function _eval_is_meromorphic](13).\nBase classes have conflicting values for attribute '_eval_nseries': [Function _eval_nseries](14) and [Function _eval_nseries](15)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 43
+            },
+            "region": {
+              "startLine": 941,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "41b24196e82cd7ce:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 43
+            },
+            "region": {
+              "startLine": 503,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 105
+            },
+            "region": {
+              "startLine": 2044,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 113,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 105
+            },
+            "region": {
+              "startLine": 2049,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function sort_key"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 105
+            },
+            "region": {
+              "startLine": 1296,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function has_free"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 107
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 107
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 43
+            },
+            "region": {
+              "startLine": 597,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3963,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 105
+            },
+            "region": {
+              "startLine": 1220,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 105
+            },
+            "region": {
+              "startLine": 1010,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 43
+            },
+            "region": {
+              "startLine": 616,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _eval_is_meromorphic"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3987,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _eval_is_meromorphic"
+          }
+        },
+        {
+          "id": 14,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 43
+            },
+            "region": {
+              "startLine": 660,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 15,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 3994,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_print_contents_latex': [Function _print_contents_latex](1) and [Function _print_contents_latex](2).\nBase classes have conflicting values for attribute '_print_contents': [Function _print_contents](3) and [Function _print_contents](4).\nBase classes have conflicting values for attribute '_print_contents_pretty': [Function _print_contents_pretty](5) and [Function _print_contents_pretty](6).\nBase classes have conflicting values for attribute '_eval_hilbert_space': [classmethod()](7) and [classmethod()](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 292,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1a49912c9737ceeb:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 97,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 143,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 122,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 92,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 151
+            },
+            "region": {
+              "startLine": 131,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 80,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/qexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 174
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_print_contents': [Function _print_contents](1) and [Function _print_contents](2).\nBase classes have conflicting values for attribute '_print_contents_pretty': [Function _print_contents_pretty](3) and [Function _print_contents_pretty](4).\nBase classes have conflicting values for attribute '_print_contents_latex': [Function _print_contents_latex](5) and [Function _print_contents_latex](6).\nBase classes have conflicting values for attribute '_eval_hilbert_space': [classmethod()](7) and [classmethod()](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 257,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fa9ebe0075253487:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 122,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 92,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 131,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 97,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 143,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 80,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/qexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 147
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_print_contents': [Function _print_contents](1) and [Function _print_contents](2).\nBase classes have conflicting values for attribute '_print_contents_pretty': [Function _print_contents_pretty](3) and [Function _print_contents_pretty](4).\nBase classes have conflicting values for attribute '_print_contents_latex': [Function _print_contents_latex](5) and [Function _print_contents_latex](6).\nBase classes have conflicting values for attribute '_eval_hilbert_space': [classmethod()](7) and [classmethod()](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 172,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e802cd779e42955d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 122,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 92,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 131,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 97,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 143,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 80,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/qexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 147
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_print_contents': [Function _print_contents](1) and [Function _print_contents](2).\nBase classes have conflicting values for attribute '_print_contents_pretty': [Function _print_contents_pretty](3) and [Function _print_contents_pretty](4).\nBase classes have conflicting values for attribute '_print_contents_latex': [Function _print_contents_latex](5) and [Function _print_contents_latex](6).\nBase classes have conflicting values for attribute '_eval_hilbert_space': [classmethod()](7) and [classmethod()](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 292,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1a49912c9737ceeb:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 122,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 92,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 131,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 97,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 143,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 80,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/qexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 147
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'class_key': [classmethod()](1) and [classmethod()](2).\nBase classes have conflicting values for attribute '_eval_derivative': [Function _eval_derivative](3) and [Function _eval_derivative](4).\nBase classes have conflicting values for attribute '_eval_is_meromorphic': [Function _eval_is_meromorphic](5) and [Function _eval_is_meromorphic](6).\nBase classes have conflicting values for attribute '_eval_nseries': [Function _eval_nseries](7) and [Function _eval_nseries](8).\nBase classes have conflicting values for attribute 'sort_key': [cacheit()](9) and [Function sort_key](10).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](11) and [wraps()()](12).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](11) and [wraps()()](13).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](12) and [Function has_free](11).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](13) and [Function has_free](11).\nBase classes have conflicting values for attribute 'has': [Function has](14) and [wraps()()](12).\nBase classes have conflicting values for attribute 'has': [Function has](14) and [wraps()()](13).\nBase classes have conflicting values for attribute 'has': [wraps()()](12) and [Function has](14).\nBase classes have conflicting values for attribute 'has': [wraps()()](13) and [Function has](14).\nBase classes have conflicting values for attribute '_subs': [Function _subs](15) and [wraps()()](12).\nBase classes have conflicting values for attribute '_subs': [Function _subs](15) and [wraps()()](13).\nBase classes have conflicting values for attribute '_subs': [wraps()()](12) and [Function _subs](15).\nBase classes have conflicting values for attribute '_subs': [wraps()()](13) and [Function _subs](15)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 140
+            },
+            "region": {
+              "startLine": 941,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "41b24196e82cd7ce:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 140
+            },
+            "region": {
+              "startLine": 503,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 2044,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 140
+            },
+            "region": {
+              "startLine": 597,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 148
+            },
+            "region": {
+              "startLine": 3963,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 140
+            },
+            "region": {
+              "startLine": 616,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _eval_is_meromorphic"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 148
+            },
+            "region": {
+              "startLine": 3987,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _eval_is_meromorphic"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 140
+            },
+            "region": {
+              "startLine": 660,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 148
+            },
+            "region": {
+              "startLine": 3994,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 148
+            },
+            "region": {
+              "startLine": 113,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 2049,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function sort_key"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 1296,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function has_free"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 14,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 1220,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 15,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 1010,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_print_contents': [Function _print_contents](1) and [Function _print_contents](2).\nBase classes have conflicting values for attribute '_print_contents_pretty': [Function _print_contents_pretty](3) and [Function _print_contents_pretty](4).\nBase classes have conflicting values for attribute '_print_contents_latex': [Function _print_contents_latex](5) and [Function _print_contents_latex](6).\nBase classes have conflicting values for attribute '_eval_hilbert_space': [classmethod()](7) and [classmethod()](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 216,
+              "endColumn": 38
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f55af5ec9203b6d4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 122,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 92,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 131,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 97,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 143,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 80,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/qexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 147
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_print_contents': [Function _print_contents](1) and [Function _print_contents](2).\nBase classes have conflicting values for attribute '_print_contents_pretty': [Function _print_contents_pretty](3) and [Function _print_contents_pretty](4).\nBase classes have conflicting values for attribute '_print_contents_latex': [Function _print_contents_latex](5) and [Function _print_contents_latex](6).\nBase classes have conflicting values for attribute '_eval_hilbert_space': [classmethod()](7) and [classmethod()](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 327,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "39f46458b94a694f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 89,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 122,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function _print_contents"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 92,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 131,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_pretty"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 97,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 143,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _print_contents_latex"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/spin.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 76
+            },
+            "region": {
+              "startLine": 80,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/qexpr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 147
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_eval_power': [Function _eval_power](1) and [Function _eval_power](2).\nBase classes have conflicting values for attribute '_eval_inverse': [Function _eval_inverse](3) and [Function _eval_inverse](4).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](5) and [wraps()()](6).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](5) and [wraps()()](7).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](6) and [Function has_free](5).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](7) and [Function has_free](5).\nBase classes have conflicting values for attribute 'has': [Function has](8) and [wraps()()](6).\nBase classes have conflicting values for attribute 'has': [Function has](8) and [wraps()()](7).\nBase classes have conflicting values for attribute 'has': [wraps()()](6) and [Function has](8).\nBase classes have conflicting values for attribute 'has': [wraps()()](7) and [Function has](8).\nBase classes have conflicting values for attribute '_subs': [Function _subs](9) and [wraps()()](6).\nBase classes have conflicting values for attribute '_subs': [Function _subs](9) and [wraps()()](7).\nBase classes have conflicting values for attribute '_subs': [wraps()()](6) and [Function _subs](9).\nBase classes have conflicting values for attribute '_subs': [wraps()()](7) and [Function _subs](9).\nBase classes have conflicting values for attribute 'nqubits': [Property nqubits](10) and [Integer()](11)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 83
+            },
+            "region": {
+              "startLine": 854,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3183e7313bd0c88:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 217,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _eval_power"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 83
+            },
+            "region": {
+              "startLine": 479,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _eval_power"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 211,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_inverse"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 83
+            },
+            "region": {
+              "startLine": 473,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_inverse"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 1296,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function has_free"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 1220,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 47
+            },
+            "region": {
+              "startLine": 1010,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 83
+            },
+            "region": {
+              "startLine": 359,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property nqubits"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 83
+            },
+            "region": {
+              "startLine": 609,
+              "startColumn": 15,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "Integer()"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "summary": {
+    "before_count": 691,
+    "after_count": 692,
+    "added": 3,
+    "removed": 2,
+    "unchanged": 689
+  },
+  "added_results": [
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 93,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 93
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23913/lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 205
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 201
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [matplotlib.figure](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/legend.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 382,
+              "startColumn": 9,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e82615f7e2207301:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/figure.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 148
+            }
+          },
+          "message": {
+            "text": "matplotlib.figure"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/legend.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 572,
+              "startColumn": 21,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2083f5444e914cb5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [matplotlib.figure](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/legend.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 138
+            },
+            "region": {
+              "startLine": 378,
+              "startColumn": 9,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e82615f7e2207301:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/figure.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 98
+            }
+          },
+          "message": {
+            "text": "matplotlib.figure"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/legend.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 138
+            },
+            "region": {
+              "startLine": 564,
+              "startColumn": 21,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2083f5444e914cb5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

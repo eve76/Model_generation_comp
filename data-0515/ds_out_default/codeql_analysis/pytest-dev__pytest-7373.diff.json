@@ -1,0 +1,801 @@
+{
+  "summary": {
+    "before_count": 200,
+    "after_count": 201,
+    "added": 5,
+    "removed": 4,
+    "unchanged": 196
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'getparent': [Function getparent](1) and [Function getparent](2).\nBase classes have conflicting values for attribute 'listchain': [Function listchain](3) and [Function listchain](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 481,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9e90226de6d10774:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 344,
+              "startColumn": 5,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "Function getparent"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 260,
+              "startColumn": 9,
+              "endColumn": 86
+            }
+          },
+          "message": {
+            "text": "Function getparent"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 250,
+              "startColumn": 5,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Function listchain"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 263,
+              "startColumn": 9,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function listchain"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'getparent': [Function getparent](1) and [Function getparent](2).\nBase classes have conflicting values for attribute 'listchain': [Function listchain](3) and [Function listchain](4).\nBase classes have conflicting values for attribute 'reportinfo': [Function reportinfo](5) and [Function reportinfo](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 1438,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7515aac1ee593b7c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 260,
+              "startColumn": 9,
+              "endColumn": 86
+            }
+          },
+          "message": {
+            "text": "Function getparent"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 344,
+              "startColumn": 5,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "Function getparent"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 263,
+              "startColumn": 9,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function listchain"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 250,
+              "startColumn": 5,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Function listchain"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 326,
+              "startColumn": 5,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "Function reportinfo"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 654,
+              "startColumn": 5,
+              "endColumn": 82
+            }
+          },
+          "message": {
+            "text": "Function reportinfo"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/mark/evaluate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 39,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2790d1936712f08f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'Any' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/mark/evaluate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 5,
+              "endColumn": 23
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7d16dea9ed2cf637:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'getparent': [Function getparent](1) and [Function getparent](2).\nBase classes have conflicting values for attribute 'listchain': [Function listchain](3) and [Function listchain](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 344,
+              "endColumn": 48
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7afb89ce5ebb19bc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 260,
+              "startColumn": 9,
+              "endColumn": 86
+            }
+          },
+          "message": {
+            "text": "Function getparent"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 344,
+              "startColumn": 5,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "Function getparent"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 263,
+              "startColumn": 9,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function listchain"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 250,
+              "startColumn": 5,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Function listchain"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'listchain': [Function listchain](1) and [Function listchain](2).\nBase classes have conflicting values for attribute 'getparent': [Function getparent](3) and [Function getparent](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 344,
+              "endColumn": 48
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7afb89ce5ebb19bc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 263,
+              "startColumn": 9,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function listchain"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 53
+            },
+            "region": {
+              "startLine": 250,
+              "startColumn": 5,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Function listchain"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 260,
+              "startColumn": 9,
+              "endColumn": 86
+            }
+          },
+          "message": {
+            "text": "Function getparent"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 53
+            },
+            "region": {
+              "startLine": 344,
+              "startColumn": 5,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "Function getparent"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'reportinfo': [Function reportinfo](1) and [Function reportinfo](2).\nBase classes have conflicting values for attribute 'listchain': [Function listchain](3) and [Function listchain](4).\nBase classes have conflicting values for attribute 'getparent': [Function getparent](5) and [Function getparent](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 1438,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7515aac1ee593b7c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 326,
+              "startColumn": 5,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "Function reportinfo"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 53
+            },
+            "region": {
+              "startLine": 654,
+              "startColumn": 5,
+              "endColumn": 82
+            }
+          },
+          "message": {
+            "text": "Function reportinfo"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 263,
+              "startColumn": 9,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function listchain"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 53
+            },
+            "region": {
+              "startLine": 250,
+              "startColumn": 5,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Function listchain"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 260,
+              "startColumn": 9,
+              "endColumn": 86
+            }
+          },
+          "message": {
+            "text": "Function getparent"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 53
+            },
+            "region": {
+              "startLine": 344,
+              "startColumn": 5,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "Function getparent"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/mark/evaluate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 48
+            },
+            "region": {
+              "startLine": 57,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2790d1936712f08f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'listchain': [Function listchain](1) and [Function listchain](2).\nBase classes have conflicting values for attribute 'getparent': [Function getparent](3) and [Function getparent](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 481,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9e90226de6d10774:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 53
+            },
+            "region": {
+              "startLine": 250,
+              "startColumn": 5,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Function listchain"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 263,
+              "startColumn": 9,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function listchain"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 53
+            },
+            "region": {
+              "startLine": 344,
+              "startColumn": 5,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "Function getparent"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 260,
+              "startColumn": 9,
+              "endColumn": 86
+            }
+          },
+          "message": {
+            "text": "Function getparent"
+          }
+        }
+      ]
+    }
+  ]
+}

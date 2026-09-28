@@ -1,0 +1,591 @@
+{
+  "summary": {
+    "before_count": 505,
+    "after_count": 505,
+    "added": 5,
+    "removed": 5,
+    "unchanged": 500
+  },
+  "added_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 401
+            },
+            "region": {
+              "startLine": 595,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c8bba0c50070c33b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 401
+            },
+            "region": {
+              "startLine": 384,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cfd8c509151595cd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_combine': [Function _combine](1) and [Function _combine](2).\nBase classes have conflicting values for attribute 'BITOR': [str u'||'](3) and [str u'|'](4).\nBase classes have conflicting values for attribute 'BITAND': [str u'&&'](5) and [str u'&'](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 345
+            },
+            "region": {
+              "startLine": 182,
+              "endColumn": 70
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5afc83db9dc981f2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 345
+            },
+            "region": {
+              "startLine": 105,
+              "startColumn": 5,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "Function _combine"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 780
+            },
+            "region": {
+              "startLine": 55,
+              "startColumn": 5,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "Function _combine"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 825
+            }
+          },
+          "message": {
+            "text": "str u'||'"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 825
+            }
+          },
+          "message": {
+            "text": "str u'|'"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 825
+            }
+          },
+          "message": {
+            "text": "str u'&&'"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 825
+            }
+          },
+          "message": {
+            "text": "str u'&'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'BITOR': [str u'||'](1) and [str u'|'](2).\nBase classes have conflicting values for attribute 'BITAND': [str u'&&'](3) and [str u'&'](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 345
+            },
+            "region": {
+              "startLine": 131,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3af3228ab067f3cb:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 825
+            }
+          },
+          "message": {
+            "text": "str u'||'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 825
+            }
+          },
+          "message": {
+            "text": "str u'|'"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 825
+            }
+          },
+          "message": {
+            "text": "str u'&&'"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 825
+            }
+          },
+          "message": {
+            "text": "str u'&'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/redundant-else",
+      "ruleIndex": 141,
+      "rule": {
+        "id": "py/redundant-else",
+        "index": 141
+      },
+      "message": {
+        "text": "This 'while' statement has a redundant 'else' as no 'break' is present in the body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 401
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 9,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6da089f9059898c5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 185
+            },
+            "region": {
+              "startLine": 376,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cfd8c509151595cd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'BITAND': [str u'&&'](1) and [str u'&'](2).\nBase classes have conflicting values for attribute 'BITOR': [str u'||'](3) and [str u'|'](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 139
+            },
+            "region": {
+              "startLine": 131,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3af3228ab067f3cb:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 823
+            }
+          },
+          "message": {
+            "text": "str u'&&'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 823
+            }
+          },
+          "message": {
+            "text": "str u'&'"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 823
+            }
+          },
+          "message": {
+            "text": "str u'||'"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 823
+            }
+          },
+          "message": {
+            "text": "str u'|'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/redundant-else",
+      "ruleIndex": 141,
+      "rule": {
+        "id": "py/redundant-else",
+        "index": 141
+      },
+      "message": {
+        "text": "This 'while' statement has a redundant 'else' as no 'break' is present in the body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 185
+            },
+            "region": {
+              "startLine": 262,
+              "startColumn": 9,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6da089f9059898c5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_combine': [Function _combine](1) and [Function _combine](2).\nBase classes have conflicting values for attribute 'BITAND': [str u'&&'](3) and [str u'&'](4).\nBase classes have conflicting values for attribute 'BITOR': [str u'||'](5) and [str u'|'](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 139
+            },
+            "region": {
+              "startLine": 182,
+              "endColumn": 70
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5afc83db9dc981f2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/search.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 139
+            },
+            "region": {
+              "startLine": 105,
+              "startColumn": 5,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "Function _combine"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 550
+            },
+            "region": {
+              "startLine": 55,
+              "startColumn": 5,
+              "endColumn": 52
+            }
+          },
+          "message": {
+            "text": "Function _combine"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 823
+            }
+          },
+          "message": {
+            "text": "str u'&&'"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 823
+            }
+          },
+          "message": {
+            "text": "str u'&'"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 823
+            }
+          },
+          "message": {
+            "text": "str u'||'"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 823
+            }
+          },
+          "message": {
+            "text": "str u'|'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 185
+            },
+            "region": {
+              "startLine": 587,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c8bba0c50070c33b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

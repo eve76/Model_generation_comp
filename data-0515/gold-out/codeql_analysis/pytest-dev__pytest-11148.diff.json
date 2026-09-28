@@ -1,0 +1,43 @@
+{
+  "summary": {
+    "before_count": 387,
+    "after_count": 388,
+    "added": 1,
+    "removed": 0,
+    "unchanged": 387
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unreachable-statement",
+      "ruleIndex": 143,
+      "rule": {
+        "id": "py/unreachable-statement",
+        "index": 143
+      },
+      "message": {
+        "text": "This statement is unreachable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/pathlib.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2
+            },
+            "region": {
+              "startLine": 529,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "eecc4a40dffd2ef9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": []
+}

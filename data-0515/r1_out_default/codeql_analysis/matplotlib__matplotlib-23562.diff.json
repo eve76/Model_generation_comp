@@ -1,0 +1,182 @@
+{
+  "summary": {
+    "before_count": 696,
+    "after_count": 697,
+    "added": 3,
+    "removed": 2,
+    "unchanged": 694
+  },
+  "added_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 82
+            },
+            "region": {
+              "startLine": 869,
+              "startColumn": 9,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6d9d4f02c40d2790:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 82
+            },
+            "region": {
+              "startLine": 864,
+              "startColumn": 9,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d3ed2ffc5a0abc44:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 93,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 93
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23562/lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 138
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 106
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 197
+            },
+            "region": {
+              "startLine": 860,
+              "startColumn": 9,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d3ed2ffc5a0abc44:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/art3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 197
+            },
+            "region": {
+              "startLine": 865,
+              "startColumn": 9,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6d9d4f02c40d2790:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

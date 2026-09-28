@@ -1,0 +1,1393 @@
+{
+  "summary": {
+    "before_count": 819,
+    "after_count": 819,
+    "added": 3,
+    "removed": 3,
+    "unchanged": 816
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'has_free': [Function has_free](1) and [wraps()()](2).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](1) and [wraps()()](3).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](2) and [Function has_free](1).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](3) and [Function has_free](1).\nBase classes have conflicting values for attribute 'has': [Function has](4) and [wraps()()](2).\nBase classes have conflicting values for attribute 'has': [Function has](4) and [wraps()()](3).\nBase classes have conflicting values for attribute 'has': [wraps()()](2) and [Function has](4).\nBase classes have conflicting values for attribute 'has': [wraps()()](3) and [Function has](4).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [wraps()()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [wraps()()](3).\nBase classes have conflicting values for attribute '_subs': [wraps()()](2) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [wraps()()](3) and [Function _subs](5).\nBase classes have conflicting values for attribute '_eval_power': [Function _eval_power](6) and [Function _eval_power](7).\nBase classes have conflicting values for attribute '_eval_inverse': [Function _eval_inverse](8) and [Function _eval_inverse](9).\nBase classes have conflicting values for attribute 'nqubits': [Property nqubits](10) and [Integer()](11)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 854,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3183e7313bd0c88:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 1296,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function has_free"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 1220,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 1010,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 24
+            },
+            "region": {
+              "startLine": 217,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _eval_power"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 479,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _eval_power"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 24
+            },
+            "region": {
+              "startLine": 211,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_inverse"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 473,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_inverse"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 359,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property nqubits"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 609,
+              "startColumn": 15,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "Integer()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_eval_evalf': [Function _eval_evalf](1) and [Function _eval_evalf](2).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](3) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](3) and [wraps()()](5).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](4) and [Function has_free](3).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](5) and [Function has_free](3).\nBase classes have conflicting values for attribute 'has': [Function has](6) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [Function has](6) and [wraps()()](5).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [Function has](6).\nBase classes have conflicting values for attribute 'has': [wraps()()](5) and [Function has](6).\nBase classes have conflicting values for attribute '_subs': [Function _subs](7) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [Function _subs](7) and [wraps()()](5).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [Function _subs](7).\nBase classes have conflicting values for attribute '_subs': [wraps()()](5) and [Function _subs](7)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 67
+            },
+            "region": {
+              "startLine": 89,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a9cbfc1347cf65c1:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 171
+            },
+            "region": {
+              "startLine": 1687,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function _eval_evalf"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/operations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 377,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function _eval_evalf"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 1296,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function has_free"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 1220,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 1010,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'has_free': [Function has_free](1) and [wraps()()](2).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](1) and [wraps()()](3).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](2) and [Function has_free](1).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](3) and [Function has_free](1).\nBase classes have conflicting values for attribute '_eval_derivative': [Function _eval_derivative](4) and [Function _eval_derivative](5).\nBase classes have conflicting values for attribute 'has': [Function has](6) and [wraps()()](2).\nBase classes have conflicting values for attribute 'has': [Function has](6) and [wraps()()](3).\nBase classes have conflicting values for attribute 'has': [wraps()()](2) and [Function has](6).\nBase classes have conflicting values for attribute 'has': [wraps()()](3) and [Function has](6).\nBase classes have conflicting values for attribute '_subs': [Function _subs](7) and [wraps()()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](7) and [wraps()()](3).\nBase classes have conflicting values for attribute '_subs': [wraps()()](2) and [Function _subs](7).\nBase classes have conflicting values for attribute '_subs': [wraps()()](3) and [Function _subs](7).\nBase classes have conflicting values for attribute 'sort_key': [cacheit()](8) and [Function sort_key](9).\nBase classes have conflicting values for attribute 'class_key': [classmethod()](10) and [classmethod()](11).\nBase classes have conflicting values for attribute '_eval_nseries': [Function _eval_nseries](12) and [Function _eval_nseries](13).\nBase classes have conflicting values for attribute '_eval_is_meromorphic': [Function _eval_is_meromorphic](14) and [Function _eval_is_meromorphic](15)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 941,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "41b24196e82cd7ce:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 1296,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function has_free"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 597,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 164
+            },
+            "region": {
+              "startLine": 3963,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 1220,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 1010,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 164
+            },
+            "region": {
+              "startLine": 113,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 2049,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function sort_key"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 503,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 2044,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 660,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 164
+            },
+            "region": {
+              "startLine": 3994,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 14,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 616,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _eval_is_meromorphic"
+          }
+        },
+        {
+          "id": 15,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 164
+            },
+            "region": {
+              "startLine": 3987,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _eval_is_meromorphic"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'class_key': [classmethod()](1) and [classmethod()](2).\nBase classes have conflicting values for attribute '_eval_derivative': [Function _eval_derivative](3) and [Function _eval_derivative](4).\nBase classes have conflicting values for attribute '_eval_nseries': [Function _eval_nseries](5) and [Function _eval_nseries](6).\nBase classes have conflicting values for attribute '_eval_is_meromorphic': [Function _eval_is_meromorphic](7) and [Function _eval_is_meromorphic](8).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](9) and [wraps()()](10).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](9) and [wraps()()](11).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](10) and [Function has_free](9).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](11) and [Function has_free](9).\nBase classes have conflicting values for attribute 'has': [Function has](12) and [wraps()()](10).\nBase classes have conflicting values for attribute 'has': [Function has](12) and [wraps()()](11).\nBase classes have conflicting values for attribute 'has': [wraps()()](10) and [Function has](12).\nBase classes have conflicting values for attribute 'has': [wraps()()](11) and [Function has](12).\nBase classes have conflicting values for attribute '_subs': [Function _subs](13) and [wraps()()](10).\nBase classes have conflicting values for attribute '_subs': [Function _subs](13) and [wraps()()](11).\nBase classes have conflicting values for attribute '_subs': [wraps()()](10) and [Function _subs](13).\nBase classes have conflicting values for attribute '_subs': [wraps()()](11) and [Function _subs](13).\nBase classes have conflicting values for attribute 'sort_key': [cacheit()](14) and [Function sort_key](15)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 941,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "41b24196e82cd7ce:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 503,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 2044,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 597,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 121
+            },
+            "region": {
+              "startLine": 3963,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 660,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 121
+            },
+            "region": {
+              "startLine": 3994,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 616,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _eval_is_meromorphic"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 121
+            },
+            "region": {
+              "startLine": 3987,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function _eval_is_meromorphic"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1296,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function has_free"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 112
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 112
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1220,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1010,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 14,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 121
+            },
+            "region": {
+              "startLine": 113,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 15,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 2049,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function sort_key"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_eval_power': [Function _eval_power](1) and [Function _eval_power](2).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](3) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](3) and [wraps()()](5).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](4) and [Function has_free](3).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](5) and [Function has_free](3).\nBase classes have conflicting values for attribute 'has': [Function has](6) and [wraps()()](4).\nBase classes have conflicting values for attribute 'has': [Function has](6) and [wraps()()](5).\nBase classes have conflicting values for attribute 'has': [wraps()()](4) and [Function has](6).\nBase classes have conflicting values for attribute 'has': [wraps()()](5) and [Function has](6).\nBase classes have conflicting values for attribute '_subs': [Function _subs](7) and [wraps()()](4).\nBase classes have conflicting values for attribute '_subs': [Function _subs](7) and [wraps()()](5).\nBase classes have conflicting values for attribute '_subs': [wraps()()](4) and [Function _subs](7).\nBase classes have conflicting values for attribute '_subs': [wraps()()](5) and [Function _subs](7).\nBase classes have conflicting values for attribute 'nqubits': [Property nqubits](8) and [Integer()](9).\nBase classes have conflicting values for attribute '_eval_inverse': [Function _eval_inverse](10) and [Function _eval_inverse](11)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 38
+            },
+            "region": {
+              "startLine": 854,
+              "endColumn": 56
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3183e7313bd0c88:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 166
+            },
+            "region": {
+              "startLine": 217,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _eval_power"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 38
+            },
+            "region": {
+              "startLine": 479,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _eval_power"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1296,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function has_free"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 112
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 112
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1220,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1010,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 38
+            },
+            "region": {
+              "startLine": 359,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property nqubits"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 38
+            },
+            "region": {
+              "startLine": 609,
+              "startColumn": 15,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "Integer()"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/operator.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 166
+            },
+            "region": {
+              "startLine": 211,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_inverse"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/physics/quantum/gate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 38
+            },
+            "region": {
+              "startLine": 473,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Function _eval_inverse"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'has_free': [Function has_free](1) and [wraps()()](2).\nBase classes have conflicting values for attribute 'has_free': [Function has_free](1) and [wraps()()](3).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](2) and [Function has_free](1).\nBase classes have conflicting values for attribute 'has_free': [wraps()()](3) and [Function has_free](1).\nBase classes have conflicting values for attribute 'has': [Function has](4) and [wraps()()](2).\nBase classes have conflicting values for attribute 'has': [Function has](4) and [wraps()()](3).\nBase classes have conflicting values for attribute 'has': [wraps()()](2) and [Function has](4).\nBase classes have conflicting values for attribute 'has': [wraps()()](3) and [Function has](4).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [wraps()()](2).\nBase classes have conflicting values for attribute '_subs': [Function _subs](5) and [wraps()()](3).\nBase classes have conflicting values for attribute '_subs': [wraps()()](2) and [Function _subs](5).\nBase classes have conflicting values for attribute '_subs': [wraps()()](3) and [Function _subs](5).\nBase classes have conflicting values for attribute '_eval_evalf': [Function _eval_evalf](6) and [Function _eval_evalf](7)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 120
+            },
+            "region": {
+              "startLine": 89,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a9cbfc1347cf65c1:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1296,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function has_free"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 112
+            },
+            "region": {
+              "startLine": 69,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 112
+            },
+            "region": {
+              "startLine": 98,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1220,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 1010,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 90
+            },
+            "region": {
+              "startLine": 1687,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function _eval_evalf"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/operations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 132
+            },
+            "region": {
+              "startLine": 377,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function _eval_evalf"
+          }
+        }
+      ]
+    }
+  ]
+}

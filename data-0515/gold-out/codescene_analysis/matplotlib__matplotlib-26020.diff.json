@@ -1,0 +1,1 @@
+[{"name":"lib/mpl_toolkits/axes_grid1/axes_grid.py","findings":[{"category":"Overall Code Complexity","change-type":"unchanged","old-pp":2.0,"new-pp":2.0,"change-details":[{"description":"The mean cyclomatic complexity increases from 6.10 to 6.20, threshold = 4","change-type":"degraded","value-before":6.1,"value":6.2}],"threshold":4}],"old-score":2.57,"new-score":2.57}]

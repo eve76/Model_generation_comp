@@ -1,0 +1,137 @@
+{
+  "summary": {
+    "before_count": 554,
+    "after_count": 554,
+    "added": 2,
+    "removed": 2,
+    "unchanged": 552
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable dummyrepr is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 43
+            },
+            "region": {
+              "startLine": 650,
+              "startColumn": 17,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "52e5b2a9c8e6e9a7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable symbolrepr is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 43
+            },
+            "region": {
+              "startLine": 647,
+              "startColumn": 17,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1b4fdbc07d58a2c8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable dummyrepr is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 59
+            },
+            "region": {
+              "startLine": 649,
+              "startColumn": 17,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "52e5b2a9c8e6e9a7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable symbolrepr is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 59
+            },
+            "region": {
+              "startLine": 646,
+              "startColumn": 17,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1b4fdbc07d58a2c8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

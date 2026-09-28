@@ -1,0 +1,273 @@
+{
+  "summary": {
+    "before_count": 562,
+    "after_count": 562,
+    "added": 3,
+    "removed": 3,
+    "unchanged": 559
+  },
+  "added_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/sites.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 384
+            },
+            "region": {
+              "startLine": 475,
+              "startColumn": 17,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6119c806e746f56a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'DefaultAdminSite' does not override ['__eq__'](1), but adds the new attribute [_wrapped](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/sites.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 384
+            },
+            "region": {
+              "startLine": 560,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9f4da4b5f9aafaf0:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/functional.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 778
+            },
+            "region": {
+              "startLine": 246,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/sites.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 384
+            },
+            "region": {
+              "startLine": 563,
+              "startColumn": 9,
+              "endColumn": 22
+            }
+          },
+          "message": {
+            "text": "_wrapped"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/sites.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 384
+            },
+            "region": {
+              "startLine": 480,
+              "startColumn": 17,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bf4fcd569076ae17:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'DefaultAdminSite' does not override ['__eq__'](1), but adds the new attribute [_wrapped](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/sites.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 602
+            },
+            "region": {
+              "startLine": 559,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9f4da4b5f9aafaf0:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/functional.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 578
+            },
+            "region": {
+              "startLine": 246,
+              "startColumn": 5,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/sites.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 602
+            },
+            "region": {
+              "startLine": 562,
+              "startColumn": 9,
+              "endColumn": 22
+            }
+          },
+          "message": {
+            "text": "_wrapped"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/sites.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 602
+            },
+            "region": {
+              "startLine": 474,
+              "startColumn": 17,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6119c806e746f56a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/admin/sites.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 602
+            },
+            "region": {
+              "startLine": 479,
+              "startColumn": 17,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bf4fcd569076ae17:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "before_count": 793,
+    "after_count": 794,
+    "added": 1,
+    "removed": 0,
+    "unchanged": 793
+  },
+  "added_results": [
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 93,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 93
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24970/lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 26
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 133
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": []
+}

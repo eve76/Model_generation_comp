@@ -1,0 +1,1817 @@
+{
+  "summary": {
+    "before_count": 573,
+    "after_count": 573,
+    "added": 4,
+    "removed": 4,
+    "unchanged": 569
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_ns': [str u'std::'](1) and [str u''](2).\nBase classes have conflicting values for attribute '_print_Max': [Function _print_Max](3) and [Function _print_Max](4).\nBase classes have conflicting values for attribute '_print_Min': [Function _print_Min](5) and [Function _print_Min](6).\nBase classes have conflicting values for attribute 'printmethod': [str u'_cxxcode'](7) and [str u'_ccode'](8).\nBase classes have conflicting values for attribute 'language': [str u'C++'](9) and [str u'C'](10)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 131,
+              "endColumn": 61
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9046313426bbeea0:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'std::'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u''"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 87,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Max"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/ccode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 609,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Max"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 93,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Min"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/ccode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 612,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Min"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'_cxxcode'"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'_ccode'"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'C++'"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'C'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_ns': [str u'std::'](1) and [str u''](2).\nBase classes have conflicting values for attribute '_print_Max': [Function _print_Max](3) and [Function _print_Max](4).\nBase classes have conflicting values for attribute '_print_Min': [Function _print_Min](5) and [Function _print_Min](6).\nBase classes have conflicting values for attribute 'printmethod': [str u'_cxxcode'](7) and [str u'_ccode'](8).\nBase classes have conflicting values for attribute 'language': [str u'C++'](9) and [str u'C'](10)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 100,
+              "endColumn": 61
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b986ffd69e0b3f41:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'std::'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u''"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 87,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Max"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/ccode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 406,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Max"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 93,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Min"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/ccode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 415,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Min"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'_cxxcode'"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'_ccode'"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'C++'"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'C'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_ns': [str u'std::'](1) and [str u''](2).\nBase classes have conflicting values for attribute '_print_Max': [Function _print_Max](3) and [Function _print_Max](4).\nBase classes have conflicting values for attribute '_print_Min': [Function _print_Min](5) and [Function _print_Min](6).\nBase classes have conflicting values for attribute 'printmethod': [str u'_cxxcode'](7) and [str u'_ccode'](8).\nBase classes have conflicting values for attribute 'language': [str u'C++'](9) and [str u'C'](10)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 108,
+              "endColumn": 61
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a565ac29748008f4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'std::'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u''"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 87,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Max"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/ccode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 609,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Max"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            },
+            "region": {
+              "startLine": 93,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Min"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/ccode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 612,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Min"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'_cxxcode'"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'_ccode'"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'C++'"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 101
+            }
+          },
+          "message": {
+            "text": "str u'C'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'class_key': [classmethod()](1) and [classmethod()](2).\nBase classes have conflicting values for attribute 'sort_key': [cacheit()](3) and [Function sort_key](4).\nBase classes have conflicting values for attribute 'sort_key': [cacheit()](3) and [cacheit()](5).\nBase classes have conflicting values for attribute '_eval_derivative': [Function _eval_derivative](6) and [Function _eval_derivative](7).\nBase classes have conflicting values for attribute '_eval_nseries': [Function _eval_nseries](8) and [Function _eval_nseries](9).\nBase classes have conflicting values for attribute '_eval_subs': [Function _eval_subs](10) and [Function _eval_subs](11).\nBase classes have conflicting values for attribute 'func': [Property func](12) and [Property func](13).\nBase classes have conflicting values for attribute '_subs': [Function _subs](14) and [cacheit()](15).\nBase classes have conflicting values for attribute '_subs': [Function _subs](14) and [Function wrapper](16).\nBase classes have conflicting values for attribute '_subs': [Function _subs](14) and [wraps()()](17).\nBase classes have conflicting values for attribute '_subs': [cacheit()](15) and [Function _subs](14).\nBase classes have conflicting values for attribute '_subs': [cacheit()](15) and [Function wrapper](16).\nBase classes have conflicting values for attribute '_subs': [cacheit()](15) and [wraps()()](17).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](16) and [Function _subs](14).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](16) and [cacheit()](15).\nBase classes have conflicting values for attribute '_subs': [wraps()()](17) and [Function _subs](14).\nBase classes have conflicting values for attribute '_subs': [wraps()()](17) and [cacheit()](15).\nBase classes have conflicting values for attribute 'has': [Function has](18) and [cacheit()](19).\nBase classes have conflicting values for attribute 'has': [Function has](18) and [Function wrapper](16).\nBase classes have conflicting values for attribute 'has': [Function has](18) and [wraps()()](17).\nBase classes have conflicting values for attribute 'has': [cacheit()](19) and [Function has](18).\nBase classes have conflicting values for attribute 'has': [cacheit()](19) and [Function wrapper](16).\nBase classes have conflicting values for attribute 'has': [cacheit()](19) and [wraps()()](17).\nBase classes have conflicting values for attribute 'has': [Function wrapper](16) and [Function has](18).\nBase classes have conflicting values for attribute 'has': [Function wrapper](16) and [cacheit()](19).\nBase classes have conflicting values for attribute 'has': [wraps()()](17) and [Function has](18).\nBase classes have conflicting values for attribute 'has': [wraps()()](17) and [cacheit()](19)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 834,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c489ab1e103459fd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 473,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 1745,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 62,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 1750,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function sort_key"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 1749,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 560,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 3369,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 600,
+              "startColumn": 5,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 3394,
+              "startColumn": 5,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 312,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function _eval_subs"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 1036,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function _eval_subs"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 18
+            },
+            "region": {
+              "startLine": 308,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property func"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 619,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property func"
+          }
+        },
+        {
+          "id": 14,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 925,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 15,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 924,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 16,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 59
+            },
+            "region": {
+              "startLine": 91,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 17,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 59
+            },
+            "region": {
+              "startLine": 157,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 18,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 1129,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 19,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 1128,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_print_Max': [Function _print_Max](1) and [Function _print_Max](2).\nBase classes have conflicting values for attribute '_print_Min': [Function _print_Min](3) and [Function _print_Min](4).\nBase classes have conflicting values for attribute 'printmethod': [str u'_cxxcode'](5) and [str u'_ccode'](6).\nBase classes have conflicting values for attribute '_ns': [str u'std::'](7) and [str u''](8).\nBase classes have conflicting values for attribute 'language': [str u'C++'](9) and [str u'C'](10)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 131,
+              "endColumn": 61
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9046313426bbeea0:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 87,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Max"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/ccode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 7
+            },
+            "region": {
+              "startLine": 609,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Max"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 93,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Min"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/ccode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 7
+            },
+            "region": {
+              "startLine": 612,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Min"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'_cxxcode'"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'_ccode'"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'std::'"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u''"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'C++'"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'C'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_print_Max': [Function _print_Max](1) and [Function _print_Max](2).\nBase classes have conflicting values for attribute '_print_Min': [Function _print_Min](3) and [Function _print_Min](4).\nBase classes have conflicting values for attribute 'printmethod': [str u'_cxxcode'](5) and [str u'_ccode'](6).\nBase classes have conflicting values for attribute '_ns': [str u'std::'](7) and [str u''](8).\nBase classes have conflicting values for attribute 'language': [str u'C++'](9) and [str u'C'](10)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 100,
+              "endColumn": 61
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b986ffd69e0b3f41:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 87,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Max"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/ccode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 7
+            },
+            "region": {
+              "startLine": 406,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Max"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 93,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Min"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/ccode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 7
+            },
+            "region": {
+              "startLine": 415,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Min"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'_cxxcode'"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'_ccode'"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'std::'"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u''"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'C++'"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'C'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'class_key': [classmethod()](1) and [classmethod()](2).\nBase classes have conflicting values for attribute '_eval_derivative': [Function _eval_derivative](3) and [Function _eval_derivative](4).\nBase classes have conflicting values for attribute '_eval_nseries': [Function _eval_nseries](5) and [Function _eval_nseries](6).\nBase classes have conflicting values for attribute '_eval_subs': [Function _eval_subs](7) and [Function _eval_subs](8).\nBase classes have conflicting values for attribute 'sort_key': [cacheit()](9) and [Function sort_key](10).\nBase classes have conflicting values for attribute 'sort_key': [cacheit()](9) and [cacheit()](11).\nBase classes have conflicting values for attribute 'func': [Property func](12) and [Property func](13).\nBase classes have conflicting values for attribute '_subs': [Function _subs](14) and [cacheit()](15).\nBase classes have conflicting values for attribute '_subs': [Function _subs](14) and [Function wrapper](16).\nBase classes have conflicting values for attribute '_subs': [Function _subs](14) and [wraps()()](17).\nBase classes have conflicting values for attribute '_subs': [cacheit()](15) and [Function _subs](14).\nBase classes have conflicting values for attribute '_subs': [cacheit()](15) and [Function wrapper](16).\nBase classes have conflicting values for attribute '_subs': [cacheit()](15) and [wraps()()](17).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](16) and [Function _subs](14).\nBase classes have conflicting values for attribute '_subs': [Function wrapper](16) and [cacheit()](15).\nBase classes have conflicting values for attribute '_subs': [wraps()()](17) and [Function _subs](14).\nBase classes have conflicting values for attribute '_subs': [wraps()()](17) and [cacheit()](15).\nBase classes have conflicting values for attribute 'has': [Function has](18) and [cacheit()](19).\nBase classes have conflicting values for attribute 'has': [Function has](18) and [Function wrapper](16).\nBase classes have conflicting values for attribute 'has': [Function has](18) and [wraps()()](17).\nBase classes have conflicting values for attribute 'has': [cacheit()](19) and [Function has](18).\nBase classes have conflicting values for attribute 'has': [cacheit()](19) and [Function wrapper](16).\nBase classes have conflicting values for attribute 'has': [cacheit()](19) and [wraps()()](17).\nBase classes have conflicting values for attribute 'has': [Function wrapper](16) and [Function has](18).\nBase classes have conflicting values for attribute 'has': [Function wrapper](16) and [cacheit()](19).\nBase classes have conflicting values for attribute 'has': [wraps()()](17) and [Function has](18).\nBase classes have conflicting values for attribute 'has': [wraps()()](17) and [cacheit()](19)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 834,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c489ab1e103459fd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 473,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 1745,
+              "startColumn": 6,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "classmethod()"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 560,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 48
+            },
+            "region": {
+              "startLine": 3369,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function _eval_derivative"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 600,
+              "startColumn": 5,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 48
+            },
+            "region": {
+              "startLine": 3394,
+              "startColumn": 5,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Function _eval_nseries"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 312,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function _eval_subs"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 1036,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function _eval_subs"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 48
+            },
+            "region": {
+              "startLine": 62,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 1750,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Function sort_key"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 1749,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 28
+            },
+            "region": {
+              "startLine": 308,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property func"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 619,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property func"
+          }
+        },
+        {
+          "id": 14,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 925,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "Function _subs"
+          }
+        },
+        {
+          "id": 15,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 924,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        },
+        {
+          "id": 16,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 91,
+              "startColumn": 13,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function wrapper"
+          }
+        },
+        {
+          "id": 17,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/cache.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 37
+            },
+            "region": {
+              "startLine": 157,
+              "startColumn": 10,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "wraps()()"
+          }
+        },
+        {
+          "id": 18,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 1129,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "Function has"
+          }
+        },
+        {
+          "id": 19,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 1128,
+              "startColumn": 6,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "cacheit()"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_print_Max': [Function _print_Max](1) and [Function _print_Max](2).\nBase classes have conflicting values for attribute '_print_Min': [Function _print_Min](3) and [Function _print_Min](4).\nBase classes have conflicting values for attribute 'printmethod': [str u'_cxxcode'](5) and [str u'_ccode'](6).\nBase classes have conflicting values for attribute '_ns': [str u'std::'](7) and [str u''](8).\nBase classes have conflicting values for attribute 'language': [str u'C++'](9) and [str u'C'](10)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 108,
+              "endColumn": 61
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a565ac29748008f4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 87,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Max"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/ccode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 7
+            },
+            "region": {
+              "startLine": 609,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Max"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/cxxcode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 73
+            },
+            "region": {
+              "startLine": 93,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Min"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/ccode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 7
+            },
+            "region": {
+              "startLine": 612,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "Function _print_Min"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'_cxxcode'"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'_ccode'"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'std::'"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u''"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'C++'"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "str u'C'"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+model,instance_id,pattern,category,count,present
+Claude Opus 4.6,astropy__astropy-14995,Complex Method,Complex Method,1,1
+Claude Opus 4.6,astropy__astropy-14995,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,django__django-10924,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,django__django-10924,Complex Method,Complex Method,1,1
+Claude Opus 4.6,django__django-11039,Complex Method,Complex Method,1,1
+Claude Opus 4.6,django__django-11422,Complex Method,Complex Method,1,1
+Claude Opus 4.6,django__django-11422,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+Claude Opus 4.6,django__django-11583,Complex Method,Complex Method,1,1
+Claude Opus 4.6,django__django-11999,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,django__django-12700,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,django__django-12856,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,django__django-12856,Complex Method,Complex Method,1,1
+Claude Opus 4.6,django__django-12856,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,django__django-12908,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,django__django-13028,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,django__django-13028,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,django__django-13230,Complex Method,Complex Method,1,1
+Claude Opus 4.6,django__django-13315,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,django__django-13315,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,django__django-13401,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,django__django-13590,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,django__django-13590,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,django__django-13933,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,django__django-14915,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,django__django-14999,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,django__django-16046,Complex Method,Complex Method,1,1
+Claude Opus 4.6,django__django-16527,Complex Method,Complex Method,1,1
+Claude Opus 4.6,django__django-16873,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,psf__requests-2148,Complex Method,Complex Method,1,1
+Claude Opus 4.6,psf__requests-2148,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,psf__requests-2317,Large Method,Large Method,1,1
+Claude Opus 4.6,psf__requests-2674,Complex Method,Complex Method,1,1
+Claude Opus 4.6,psf__requests-2674,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,psf__requests-3362,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,psf__requests-863,Complex Method,Complex Method,1,1
+Claude Opus 4.6,psf__requests-863,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,pydata__xarray-4094,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,pytest-dev__pytest-11143,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,pytest-dev__pytest-11143,Complex Method,Complex Method,1,1
+Claude Opus 4.6,pytest-dev__pytest-11143,Complex Conditional,Complex Conditional,1,1
+Claude Opus 4.6,pytest-dev__pytest-11143,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,pytest-dev__pytest-6116,Large Method,Large Method,1,1
+Claude Opus 4.6,scikit-learn__scikit-learn-10297,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,scikit-learn__scikit-learn-10297,Missing Arguments Abstractions,Missing Arguments Abstractions,1,1
+Claude Opus 4.6,scikit-learn__scikit-learn-10297,Excess Number of Function Arguments,Excess Number of Function Arguments,1,1
+Claude Opus 4.6,scikit-learn__scikit-learn-12471,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,scikit-learn__scikit-learn-13779,Complex Method,Complex Method,1,1
+Claude Opus 4.6,scikit-learn__scikit-learn-14894,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,scikit-learn__scikit-learn-14894,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,sphinx-doc__sphinx-10325,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,sphinx-doc__sphinx-10325,Complex Method,Complex Method,1,1
+Claude Opus 4.6,sphinx-doc__sphinx-10325,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,sphinx-doc__sphinx-7738,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,sphinx-doc__sphinx-7975,Complex Method,Complex Method,1,1
+Claude Opus 4.6,sphinx-doc__sphinx-8713,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,sphinx-doc__sphinx-8713,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,sphinx-doc__sphinx-8721,Complex Method,Complex Method,1,1
+Claude Opus 4.6,sphinx-doc__sphinx-8721,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,sympy__sympy-14396,Complex Method,Complex Method,1,1
+Claude Opus 4.6,sympy__sympy-14396,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,sympy__sympy-16792,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,sympy__sympy-16792,Complex Method,Complex Method,1,1
+Claude Opus 4.6,sympy__sympy-16792,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,sympy__sympy-17139,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,sympy__sympy-17139,Complex Method,Complex Method,1,1
+Claude Opus 4.6,sympy__sympy-17139,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,sympy__sympy-17655,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,sympy__sympy-18532,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,sympy__sympy-19487,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,sympy__sympy-19487,Number of Functions in a Single Module,Number of Functions in a Single Module,1,1
+Claude Opus 4.6,sympy__sympy-20442,Complex Method,Complex Method,1,1
+Claude Opus 4.6,sympy__sympy-21055,Code Duplication,Code Duplication,1,1
+Claude Opus 4.6,sympy__sympy-21379,Complex Method,Complex Method,1,1
+Claude Opus 4.6,sympy__sympy-21614,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Opus 4.6,sympy__sympy-21614,Number of Functions in a Single Module,Number of Functions in a Single Module,1,1
+Claude Opus 4.6,sympy__sympy-23262,Complex Method,Complex Method,1,1
+Claude Opus 4.6,sympy__sympy-23262,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Opus 4.6,sympy__sympy-24152,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,django__django-10924,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-10924,Number of Functions in a Single Module,Number of Functions in a Single Module,1,1
+Claude Sonnet 4,django__django-11001,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-11001,Complex Method,Complex Method,1,1
+Claude Sonnet 4,django__django-11039,Complex Method,Complex Method,1,1
+Claude Sonnet 4,django__django-11049,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-11049,Number of Functions in a Single Module,Number of Functions in a Single Module,1,1
+Claude Sonnet 4,django__django-11583,Complex Method,Complex Method,1,1
+Claude Sonnet 4,django__django-11999,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-12113,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,django__django-12284,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-12308,Complex Method,Complex Method,1,1
+Claude Sonnet 4,django__django-12308,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,django__django-12470,Complex Method,Complex Method,1,1
+Claude Sonnet 4,django__django-12470,Complex Conditional,Complex Conditional,1,1
+Claude Sonnet 4,django__django-12470,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,django__django-12589,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-12589,Complex Method,Complex Method,1,1
+Claude Sonnet 4,django__django-12589,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,django__django-12856,Lines of Code in a Single File,Lines of Code in a Single File,2,1
+Claude Sonnet 4,django__django-12856,Complex Method,Complex Method,1,1
+Claude Sonnet 4,django__django-12856,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,django__django-12856,Number of Functions in a Single Module,Number of Functions in a Single Module,1,1
+Claude Sonnet 4,django__django-12856,Low Cohesion,Low Cohesion,1,1
+Claude Sonnet 4,django__django-12856,Code Duplication,Code Duplication,1,1
+Claude Sonnet 4,django__django-12908,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-13028,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-13028,Number of Functions in a Single Module,Number of Functions in a Single Module,1,1
+Claude Sonnet 4,django__django-13028,Low Cohesion,Low Cohesion,1,1
+Claude Sonnet 4,django__django-13028,Code Duplication,Code Duplication,1,1
+Claude Sonnet 4,django__django-13028,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,django__django-13158,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-13158,Complex Method,Complex Method,1,1
+Claude Sonnet 4,django__django-13158,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,django__django-13315,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-13401,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-13590,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-13590,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,django__django-13710,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-13710,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,django__django-13933,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-13964,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-14238,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-14915,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-14999,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-15213,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-15498,Code Duplication,Code Duplication,1,1
+Claude Sonnet 4,django__django-15790,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+Claude Sonnet 4,django__django-16046,Complex Method,Complex Method,1,1
+Claude Sonnet 4,django__django-16400,Complex Method,Complex Method,1,1
+Claude Sonnet 4,django__django-16400,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+Claude Sonnet 4,django__django-16527,Complex Method,Complex Method,1,1
+Claude Sonnet 4,django__django-16595,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-16873,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,django__django-17051,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23314,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23314,Complex Method,Complex Method,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23314,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23562,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23563,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23913,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23913,Complex Method,Complex Method,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23913,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23913,Excess Number of Function Arguments,Excess Number of Function Arguments,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23964,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23964,Complex Method,Complex Method,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23964,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,matplotlib__matplotlib-24149,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,matplotlib__matplotlib-24149,Complex Method,Complex Method,1,1
+Claude Sonnet 4,matplotlib__matplotlib-24149,Complex Conditional,Complex Conditional,1,1
+Claude Sonnet 4,matplotlib__matplotlib-24149,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,matplotlib__matplotlib-24334,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,matplotlib__matplotlib-25311,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,matplotlib__matplotlib-25311,Number of Functions in a Single Module,Number of Functions in a Single Module,1,1
+Claude Sonnet 4,matplotlib__matplotlib-25311,Complex Conditional,Complex Conditional,1,1
+Claude Sonnet 4,matplotlib__matplotlib-25442,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,matplotlib__matplotlib-25498,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,matplotlib__matplotlib-25498,Complex Method,Complex Method,1,1
+Claude Sonnet 4,matplotlib__matplotlib-25498,Complex Conditional,Complex Conditional,1,1
+Claude Sonnet 4,matplotlib__matplotlib-25498,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,matplotlib__matplotlib-25498,"Deep, Nested Complexity","Deep, Nested Complexity",1,1
+Claude Sonnet 4,matplotlib__matplotlib-26011,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,matplotlib__matplotlib-26011,Complex Method,Complex Method,1,1
+Claude Sonnet 4,matplotlib__matplotlib-26020,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,matplotlib__matplotlib-26020,Complex Method,Complex Method,1,1
+Claude Sonnet 4,matplotlib__matplotlib-26020,Complex Conditional,Complex Conditional,1,1
+Claude Sonnet 4,matplotlib__matplotlib-26020,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+Claude Sonnet 4,matplotlib__matplotlib-26020,"Deep, Nested Complexity","Deep, Nested Complexity",1,1
+Claude Sonnet 4,mwaskom__seaborn-3190,Complex Method,Complex Method,1,1
+Claude Sonnet 4,mwaskom__seaborn-3407,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,mwaskom__seaborn-3407,Complex Method,Complex Method,1,1
+Claude Sonnet 4,mwaskom__seaborn-3407,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,psf__requests-2317,Large Method,Large Method,1,1
+Claude Sonnet 4,psf__requests-3362,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+Claude Sonnet 4,psf__requests-3362,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,psf__requests-863,Complex Method,Complex Method,1,1
+Claude Sonnet 4,psf__requests-863,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,pydata__xarray-4094,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,pylint-dev__pylint-5859,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,pylint-dev__pylint-7114,Complex Method,Complex Method,1,1
+Claude Sonnet 4,pylint-dev__pylint-7114,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+Claude Sonnet 4,pytest-dev__pytest-11143,Complex Method,Complex Method,1,1
+Claude Sonnet 4,pytest-dev__pytest-11143,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,pytest-dev__pytest-11148,Complex Method,Complex Method,1,1
+Claude Sonnet 4,pytest-dev__pytest-11148,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+Claude Sonnet 4,pytest-dev__pytest-11148,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,pytest-dev__pytest-11148,"Deep, Nested Complexity","Deep, Nested Complexity",1,1
+Claude Sonnet 4,pytest-dev__pytest-5103,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,pytest-dev__pytest-5103,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,pytest-dev__pytest-7490,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+Claude Sonnet 4,pytest-dev__pytest-7490,Low Cohesion,Low Cohesion,1,1
+Claude Sonnet 4,pytest-dev__pytest-7490,Complex Method,Complex Method,1,1
+Claude Sonnet 4,pytest-dev__pytest-7490,Overall Code Complexity,Overall Code Complexity,1,1
+Claude Sonnet 4,sympy__sympy-24066,Complex Method,Complex Method,1,1
+Claude Sonnet 4,sympy__sympy-24066,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+Claude Sonnet 4,sympy__sympy-24066,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,django__django-10924,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,django__django-10924,Complex Method,Complex Method,1,1
+DeepSeek V3.2,django__django-11039,Complex Method,Complex Method,1,1
+DeepSeek V3.2,django__django-11999,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,django__django-12284,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,django__django-12700,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,django__django-12708,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,django__django-12708,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,django__django-12856,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,django__django-12856,Complex Method,Complex Method,1,1
+DeepSeek V3.2,django__django-12856,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,django__django-13028,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,django__django-13158,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,django__django-13158,Complex Method,Complex Method,1,1
+DeepSeek V3.2,django__django-13158,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,django__django-13220,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,django__django-13230,Complex Method,Complex Method,1,1
+DeepSeek V3.2,django__django-13590,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,django__django-13590,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,django__django-13710,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,django__django-13710,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,django__django-13933,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,django__django-13964,Complex Method,Complex Method,1,1
+DeepSeek V3.2,django__django-13964,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,django__django-14915,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,django__django-15498,Complex Method,Complex Method,1,1
+DeepSeek V3.2,django__django-16046,Complex Method,Complex Method,1,1
+DeepSeek V3.2,django__django-16046,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+DeepSeek V3.2,django__django-16527,Complex Method,Complex Method,1,1
+DeepSeek V3.2,django__django-16816,Complex Conditional,Complex Conditional,1,1
+DeepSeek V3.2,django__django-16816,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,django__django-16873,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,mwaskom__seaborn-3190,Complex Method,Complex Method,1,1
+DeepSeek V3.2,psf__requests-2148,Complex Method,Complex Method,3,1
+DeepSeek V3.2,psf__requests-2148,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,psf__requests-863,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,pylint-dev__pylint-7993,Complex Method,Complex Method,1,1
+DeepSeek V3.2,pytest-dev__pytest-11143,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,pytest-dev__pytest-11143,Complex Method,Complex Method,1,1
+DeepSeek V3.2,pytest-dev__pytest-11143,Complex Conditional,Complex Conditional,1,1
+DeepSeek V3.2,pytest-dev__pytest-11143,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,pytest-dev__pytest-7432,Complex Method,Complex Method,1,1
+DeepSeek V3.2,pytest-dev__pytest-7432,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+DeepSeek V3.2,pytest-dev__pytest-7432,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,pytest-dev__pytest-7432,"Deep, Nested Complexity","Deep, Nested Complexity",1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-10297,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-10297,Missing Arguments Abstractions,Missing Arguments Abstractions,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-10297,Excess Number of Function Arguments,Excess Number of Function Arguments,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-12471,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-13496,Excess Number of Function Arguments,Excess Number of Function Arguments,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-13779,Complex Method,Complex Method,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-14092,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-14092,Complex Method,Complex Method,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-14092,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-14092,Excess Number of Function Arguments,Excess Number of Function Arguments,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-14894,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-14894,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-15512,Complex Method,Complex Method,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-15512,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-25638,Complex Method,Complex Method,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-25638,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,sphinx-doc__sphinx-7975,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sphinx-doc__sphinx-8435,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,sphinx-doc__sphinx-8435,Number of Functions in a Single Module,Number of Functions in a Single Module,1,1
+DeepSeek V3.2,sphinx-doc__sphinx-8627,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sphinx-doc__sphinx-8627,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,sphinx-doc__sphinx-8713,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,sphinx-doc__sphinx-8713,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,sphinx-doc__sphinx-8721,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sphinx-doc__sphinx-8721,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,sympy__sympy-12481,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,sympy__sympy-12481,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sympy__sympy-12481,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,sympy__sympy-14396,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sympy__sympy-14396,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,sympy__sympy-14817,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,sympy__sympy-15011,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,sympy__sympy-15011,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sympy__sympy-15011,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,sympy__sympy-15678,Overall Function Size,Overall Function Size,1,1
+DeepSeek V3.2,sympy__sympy-15678,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sympy__sympy-15678,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,sympy__sympy-17139,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,sympy__sympy-17139,Complex Method,Complex Method,2,1
+DeepSeek V3.2,sympy__sympy-17139,Overall Code Complexity,Overall Code Complexity,2,1
+DeepSeek V3.2,sympy__sympy-17655,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,sympy__sympy-17655,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sympy__sympy-18698,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,sympy__sympy-18698,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sympy__sympy-18698,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+DeepSeek V3.2,sympy__sympy-18698,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,sympy__sympy-20442,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sympy__sympy-21612,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,sympy__sympy-21612,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sympy__sympy-21612,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+DeepSeek V3.2,sympy__sympy-21614,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,sympy__sympy-21614,Number of Functions in a Single Module,Number of Functions in a Single Module,1,1
+DeepSeek V3.2,sympy__sympy-21847,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sympy__sympy-21847,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+DeepSeek V3.2,sympy__sympy-22005,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sympy__sympy-22005,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+DeepSeek V3.2,sympy__sympy-23262,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek V3.2,sympy__sympy-23262,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sympy__sympy-23262,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek V3.2,sympy__sympy-24066,Complex Method,Complex Method,1,1
+DeepSeek V3.2,sympy__sympy-24066,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+DeepSeek V3.2,sympy__sympy-24152,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,django__django-11039,Complex Method,Complex Method,1,1
+DeepSeek R1,django__django-11999,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,django__django-12700,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,django__django-13230,Complex Method,Complex Method,1,1
+DeepSeek R1,django__django-13401,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,django__django-13710,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,django__django-13710,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,django__django-16046,Complex Method,Complex Method,1,1
+DeepSeek R1,django__django-16527,Complex Method,Complex Method,1,1
+DeepSeek R1,matplotlib__matplotlib-23314,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,matplotlib__matplotlib-23314,Number of Functions in a Single Module,Number of Functions in a Single Module,1,1
+DeepSeek R1,matplotlib__matplotlib-23314,Low Cohesion,Low Cohesion,1,1
+DeepSeek R1,matplotlib__matplotlib-23562,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,matplotlib__matplotlib-23964,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,matplotlib__matplotlib-23964,Complex Method,Complex Method,1,1
+DeepSeek R1,matplotlib__matplotlib-23964,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,matplotlib__matplotlib-24149,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,matplotlib__matplotlib-24149,Complex Method,Complex Method,1,1
+DeepSeek R1,matplotlib__matplotlib-25442,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,matplotlib__matplotlib-25442,Number of Functions in a Single Module,Number of Functions in a Single Module,1,1
+DeepSeek R1,mwaskom__seaborn-3190,Complex Method,Complex Method,1,1
+DeepSeek R1,psf__requests-2148,Complex Method,Complex Method,1,1
+DeepSeek R1,psf__requests-2148,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,psf__requests-2674,Complex Method,Complex Method,1,1
+DeepSeek R1,psf__requests-2674,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,pytest-dev__pytest-11148,Complex Method,Complex Method,1,1
+DeepSeek R1,pytest-dev__pytest-11148,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+DeepSeek R1,pytest-dev__pytest-11148,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,scikit-learn__scikit-learn-10297,Missing Arguments Abstractions,Missing Arguments Abstractions,1,1
+DeepSeek R1,scikit-learn__scikit-learn-10297,Excess Number of Function Arguments,Excess Number of Function Arguments,1,1
+DeepSeek R1,scikit-learn__scikit-learn-12471,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,scikit-learn__scikit-learn-13241,Complex Method,Complex Method,1,1
+DeepSeek R1,scikit-learn__scikit-learn-13241,Bumpy Road Ahead,Bumpy Road Ahead,1,1
+DeepSeek R1,scikit-learn__scikit-learn-13584,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,scikit-learn__scikit-learn-13779,Complex Method,Complex Method,1,1
+DeepSeek R1,scikit-learn__scikit-learn-14894,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,scikit-learn__scikit-learn-14894,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,scikit-learn__scikit-learn-15512,Complex Method,Complex Method,1,1
+DeepSeek R1,scikit-learn__scikit-learn-15512,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,scikit-learn__scikit-learn-15535,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,scikit-learn__scikit-learn-15535,Complex Method,Complex Method,1,1
+DeepSeek R1,scikit-learn__scikit-learn-15535,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,scikit-learn__scikit-learn-25570,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,sphinx-doc__sphinx-10325,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,sphinx-doc__sphinx-10325,Complex Method,Complex Method,1,1
+DeepSeek R1,sphinx-doc__sphinx-10325,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,sphinx-doc__sphinx-8713,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,sphinx-doc__sphinx-8713,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,sympy__sympy-13647,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,sympy__sympy-15678,Complex Method,Complex Method,1,1
+DeepSeek R1,sympy__sympy-15678,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,sympy__sympy-16792,Complex Method,Complex Method,1,1
+DeepSeek R1,sympy__sympy-16792,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,sympy__sympy-17022,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,sympy__sympy-17022,Complex Method,Complex Method,1,1
+DeepSeek R1,sympy__sympy-17022,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,sympy__sympy-18532,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,sympy__sympy-18532,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,sympy__sympy-21614,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,sympy__sympy-21614,Number of Functions in a Single Module,Number of Functions in a Single Module,1,1
+DeepSeek R1,sympy__sympy-22840,Lines of Code in a Single File,Lines of Code in a Single File,1,1
+DeepSeek R1,sympy__sympy-22840,Complex Method,Complex Method,1,1
+DeepSeek R1,sympy__sympy-22840,Complex Conditional,Complex Conditional,1,1
+DeepSeek R1,sympy__sympy-22840,Overall Code Complexity,Overall Code Complexity,1,1
+DeepSeek R1,sympy__sympy-24152,Overall Code Complexity,Overall Code Complexity,1,1

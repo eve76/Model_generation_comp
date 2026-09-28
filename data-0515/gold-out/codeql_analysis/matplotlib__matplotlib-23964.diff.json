@@ -1,0 +1,120 @@
+{
+  "summary": {
+    "before_count": 1050,
+    "after_count": 1051,
+    "added": 2,
+    "removed": 1,
+    "unchanged": 1049
+  },
+  "added_results": [
+    {
+      "ruleId": "py/file-not-closed",
+      "ruleIndex": 48,
+      "rule": {
+        "id": "py/file-not-closed",
+        "index": 48
+      },
+      "message": {
+        "text": "File may not be closed if an exception is raised."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/backends/backend_ps.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 505
+            },
+            "region": {
+              "startLine": 1157,
+              "startColumn": 10,
+              "endColumn": 23
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6ea91c9c44e4814e:1",
+        "primaryLocationStartColumnFingerprint": "5"
+      }
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23964/lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 103
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 422
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/file-not-closed",
+      "ruleIndex": 48,
+      "rule": {
+        "id": "py/file-not-closed",
+        "index": 48
+      },
+      "message": {
+        "text": "File may not be closed if an exception is raised."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/backends/backend_ps.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1156,
+              "startColumn": 10,
+              "endColumn": 23
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6ea91c9c44e4814e:1",
+        "primaryLocationStartColumnFingerprint": "5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+Matched issue-pattern analysis
+==============================
+The unit is patch-level presence, not the raw number of findings.
+CodeScene presence includes introduced findings or degraded details.
+McNemar exact tests are Holm-corrected within each tool and family.
+Claude | CodeQL | py/missing-equals | rate diff=-0.056 | p_adj=1
+Claude | CodeQL | py/mixed-returns | rate diff=-0.042 | p_adj=1
+Claude | CodeQL | py/clear-text-storage-sensitive-data | rate diff=-0.028 | p_adj=1
+DeepSeek | CodeQL | py/conflicting-attributes | rate diff=0.089 | p_adj=1
+DeepSeek | CodeQL | py/unexpected-raise-in-special-method | rate diff=0.036 | p_adj=1
+DeepSeek | CodeQL | py/cyclic-import | rate diff=0.036 | p_adj=1
+Claude | CodeScene | Lines of Code in a Single File | rate diff=-0.056 | p_adj=1
+Claude | CodeScene | Number of Functions in a Single Module | rate diff=-0.056 | p_adj=1
+Claude | CodeScene | Bumpy Road Ahead | rate diff=-0.042 | p_adj=1
+DeepSeek | CodeScene | Lines of Code in a Single File | rate diff=0.036 | p_adj=1
+DeepSeek | CodeScene | Bumpy Road Ahead | rate diff=0.018 | p_adj=1
+DeepSeek | CodeScene | Complex Method | rate diff=0.018 | p_adj=1
+

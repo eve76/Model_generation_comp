@@ -1,0 +1,197 @@
+{
+  "summary": {
+    "before_count": 549,
+    "after_count": 549,
+    "added": 2,
+    "removed": 2,
+    "unchanged": 547
+  },
+  "added_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [django.db.models.lookups](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/query_utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 656
+            },
+            "region": {
+              "startLine": 179,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "524144fd9975c906:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 376
+            }
+          },
+          "message": {
+            "text": "django.db.models.lookups"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [django.db.models.lookups](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/query_utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 656
+            },
+            "region": {
+              "startLine": 170,
+              "startColumn": 9,
+              "endColumn": 52
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6fef122d66c510b2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 376
+            }
+          },
+          "message": {
+            "text": "django.db.models.lookups"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [django.db.models.lookups](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/query_utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 181
+            },
+            "region": {
+              "startLine": 152,
+              "startColumn": 9,
+              "endColumn": 52
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6fef122d66c510b2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 787
+            }
+          },
+          "message": {
+            "text": "django.db.models.lookups"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [django.db.models.lookups](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/query_utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 181
+            },
+            "region": {
+              "startLine": 161,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "524144fd9975c906:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 787
+            }
+          },
+          "message": {
+            "text": "django.db.models.lookups"
+          }
+        }
+      ]
+    }
+  ]
+}

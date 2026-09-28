@@ -1,0 +1,165 @@
+{
+  "summary": {
+    "before_count": 200,
+    "after_count": 203,
+    "added": 4,
+    "removed": 1,
+    "unchanged": 199
+  },
+  "added_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/mark/evaluate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 44,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2790d1936712f08f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'StoreKey' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/mark/evaluate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 15,
+              "endColumn": 35
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a4d11c44706a4acb:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'Any' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/mark/evaluate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 5,
+              "endColumn": 23
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7d16dea9ed2cf637:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'Config' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/mark/evaluate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 13,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8094e23cc8736c7d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/mark/evaluate.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 40
+            },
+            "region": {
+              "startLine": 57,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2790d1936712f08f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

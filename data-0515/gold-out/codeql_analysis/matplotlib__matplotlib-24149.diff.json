@@ -1,0 +1,1375 @@
+{
+  "summary": {
+    "before_count": 1040,
+    "after_count": 1056,
+    "added": 25,
+    "removed": 9,
+    "unchanged": 1031
+  },
+  "added_results": [
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 84,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 84
+      },
+      "message": {
+        "text": "Local variable 'boffset' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 6791,
+              "startColumn": 17,
+              "endColumn": 24
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f78839c5fb4cd931:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 137,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 137
+      },
+      "message": {
+        "text": "Axes.psd returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 7102,
+              "startColumn": 5,
+              "endLine": 7104,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8b8daba703277b96:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 7207,
+              "startColumn": 20,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 7209,
+              "startColumn": 20,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/import-own-module",
+      "ruleIndex": 96,
+      "rule": {
+        "id": "py/import-own-module",
+        "index": 96
+      },
+      "message": {
+        "text": "The module 'matplotlib' imports itself."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 446
+            },
+            "region": {
+              "startLine": 787,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "696187b852208a38:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 137,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 137
+      },
+      "message": {
+        "text": "Axes.pie returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 3061,
+              "startColumn": 5,
+              "endLine": 3065,
+              "endColumn": 65
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7983173d34738e74:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 3281,
+              "startColumn": 20,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 3283,
+              "startColumn": 20,
+              "endColumn": 44
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'detrend' is not used.\nImport of 'detrend_linear' is not used.\nImport of 'detrend_mean' is not used.\nImport of 'detrend_none' is not used.\nImport of 'window_hanning' is not used.\nImport of 'window_none' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 271
+            },
+            "region": {
+              "startLine": 30,
+              "endLine": 32,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a43a9b6eae35c4d1:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'YearLocator' is not used.\nImport of 'MonthLocator' is not used.\nImport of 'DayLocator' is not used.\nImport of 'WeekdayLocator' is not used.\nImport of 'HourLocator' is not used.\nImport of 'MinuteLocator' is not used.\nImport of 'SecondLocator' is not used.\nImport of 'RRuleLocator' is not used.\nImport of 'MONTHLY' is not used.\nImport of 'MO' is not used.\nImport of 'TU' is not used.\nImport of 'WE' is not used.\nImport of 'TH' is not used.\nImport of 'FR' is not used.\nImport of 'SA' is not used.\nImport of 'SU' is not used.\nImport of 'date2num' is not used.\nImport of 'num2date' is not used.\nImport of 'datestr2num' is not used.\nImport of 'drange' is not used.\nImport of 'DateFormatter' is not used.\nImport of 'DateLocator' is not used.\nImport of 'rrule' is not used.\nImport of 'YEARLY' is not used.\nImport of 'WEEKLY' is not used.\nImport of 'DAILY' is not used.\nImport of 'HOURLY' is not used.\nImport of 'MINUTELY' is not used.\nImport of 'SECONDLY' is not used.\nImport of 'relativedelta' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 271
+            },
+            "region": {
+              "startLine": 18,
+              "endLine": 23,
+              "endColumn": 19
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4c279b9555e6742c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'cbook' is not used.\nImport of 'mlab' is not used.\nImport of 'plt' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 271
+            },
+            "region": {
+              "startLine": 34,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8ff45eff8f19ad69:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 84,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 84
+      },
+      "message": {
+        "text": "Local variable 'im' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 6382,
+              "startColumn": 28,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "68d1bdf45a2ee7d5:1",
+        "primaryLocationStartColumnFingerprint": "15"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'np' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 271
+            },
+            "region": {
+              "startLine": 42,
+              "endColumn": 19
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c825a110c14567c8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'.\nImport pollutes the enclosing namespace, as the imported module [matplotlib.pylab](2) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 676
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 159
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 271
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'ma' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 271
+            },
+            "region": {
+              "startLine": 43,
+              "endColumn": 22
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f49e978202ff338a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pyplot](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 271
+            },
+            "region": {
+              "startLine": 35,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cf3a7a500c9363fc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pyplot.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 82
+            }
+          },
+          "message": {
+            "text": "matplotlib.pyplot"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'mpl' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 271
+            },
+            "region": {
+              "startLine": 16,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "acf63082d2c2b1d6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 84,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 84
+      },
+      "message": {
+        "text": "Local variable 'dw' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 6815,
+              "startColumn": 28,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8a7b24fd36a9c9f1:1",
+        "primaryLocationStartColumnFingerprint": "11"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'flatten' is not used.\nImport of 'silent_list' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 271
+            },
+            "region": {
+              "startLine": 14,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bd40eaf60f541a44:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/import-and-import-from",
+      "ruleIndex": 92,
+      "rule": {
+        "id": "py/import-and-import-from",
+        "index": 92
+      },
+      "message": {
+        "text": "Module 'matplotlib' is imported with both 'import' and 'import from'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 271
+            },
+            "region": {
+              "startLine": 16,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "acf63082d2c2b1d6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'.\nImport pollutes the enclosing namespace, as the imported module [matplotlib.pylab](2) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 124
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 159
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 271
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-loop-variable",
+      "ruleIndex": 81,
+      "rule": {
+        "id": "py/unused-loop-variable",
+        "index": 81
+      },
+      "message": {
+        "text": "For loop variable 'stacklevel' is not used in the loop body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/_api/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 524
+            },
+            "region": {
+              "startLine": 354,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8d636184b92337e4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 164,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 164
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 446
+            },
+            "region": {
+              "startLine": 402,
+              "startColumn": 17,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f9a3cb4252cfe270:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 137,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 137
+      },
+      "message": {
+        "text": "Axes.csd returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 7213,
+              "startColumn": 5,
+              "endLine": 7215,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "22effea69a4e211b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 7309,
+              "startColumn": 20,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 7311,
+              "startColumn": 20,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 84,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 84
+      },
+      "message": {
+        "text": "Local variable 'boffset' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 6793,
+              "startColumn": 17,
+              "endColumn": 24
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "12170a20e58d140d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'datetime' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 271
+            },
+            "region": {
+              "startLine": 46,
+              "endColumn": 16
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a3bf25b141521120:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/comparison-of-identical-expressions",
+      "ruleIndex": 60,
+      "rule": {
+        "id": "py/comparison-of-identical-expressions",
+        "index": 60
+      },
+      "message": {
+        "text": "Comparison of identical values; use cmath.isnan() if testing for not-a-number."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 536
+            },
+            "region": {
+              "startLine": 3610,
+              "startColumn": 58,
+              "endColumn": 68
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ccf0983b593128d4:1",
+        "primaryLocationStartColumnFingerprint": "45"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 129,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 129
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/_api/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 524
+            },
+            "region": {
+              "startLine": 285,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e8341cc4df3be307:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/import-and-import-from",
+      "ruleIndex": 92,
+      "rule": {
+        "id": "py/import-and-import-from",
+        "index": 92
+      },
+      "message": {
+        "text": "Module 'matplotlib' is imported with both 'import' and 'import from'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/matplotlib/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 446
+            },
+            "region": {
+              "startLine": 787,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "696187b852208a38:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 84,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 84
+      },
+      "message": {
+        "text": "Local variable 'boffset' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 6783,
+              "startColumn": 17,
+              "endColumn": 24
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f78839c5fb4cd931:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 137,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 137
+      },
+      "message": {
+        "text": "Axes.psd returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 7094,
+              "startColumn": 5,
+              "endLine": 7096,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8b8daba703277b96:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 7199,
+              "startColumn": 20,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 7201,
+              "startColumn": 20,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 84,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 84
+      },
+      "message": {
+        "text": "Local variable 'boffset' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 6785,
+              "startColumn": 17,
+              "endColumn": 24
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "12170a20e58d140d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 52
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 567
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 84,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 84
+      },
+      "message": {
+        "text": "Local variable 'im' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 6374,
+              "startColumn": 28,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "68d1bdf45a2ee7d5:1",
+        "primaryLocationStartColumnFingerprint": "15"
+      }
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 84,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 84
+      },
+      "message": {
+        "text": "Local variable 'dw' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 6807,
+              "startColumn": 28,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8a7b24fd36a9c9f1:1",
+        "primaryLocationStartColumnFingerprint": "11"
+      }
+    },
+    {
+      "ruleId": "py/comparison-of-identical-expressions",
+      "ruleIndex": 60,
+      "rule": {
+        "id": "py/comparison-of-identical-expressions",
+        "index": 60
+      },
+      "message": {
+        "text": "Comparison of identical values; use cmath.isnan() if testing for not-a-number."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 3602,
+              "startColumn": 58,
+              "endColumn": 68
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ccf0983b593128d4:1",
+        "primaryLocationStartColumnFingerprint": "45"
+      }
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 137,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 137
+      },
+      "message": {
+        "text": "Axes.csd returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 7205,
+              "startColumn": 5,
+              "endLine": 7207,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "22effea69a4e211b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 7301,
+              "startColumn": 20,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 7303,
+              "startColumn": 20,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 137,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 137
+      },
+      "message": {
+        "text": "Axes.pie returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 3053,
+              "startColumn": 5,
+              "endLine": 3057,
+              "endColumn": 65
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7983173d34738e74:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 3273,
+              "startColumn": 20,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 3275,
+              "startColumn": 20,
+              "endColumn": 44
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    }
+  ]
+}

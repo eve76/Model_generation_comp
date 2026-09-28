@@ -1,0 +1,1432 @@
+model,instance_id,patch_files_touched,patch_lines_added,patch_lines_removed,patch_hunks,patch_total_chars
+Claude Opus 4.6,astropy__astropy-12907,1,1,1,1,504
+Claude Opus 4.6,astropy__astropy-14182,1,4,3,1,722
+Claude Opus 4.6,astropy__astropy-14365,1,2,2,2,989
+Claude Opus 4.6,astropy__astropy-14995,1,2,0,1,607
+Claude Opus 4.6,astropy__astropy-6938,1,1,1,1,519
+Claude Opus 4.6,astropy__astropy-7746,1,5,0,2,954
+Claude Opus 4.6,django__django-10914,1,1,1,1,625
+Claude Opus 4.6,django__django-10924,2,4,1,2,1042
+Claude Opus 4.6,django__django-11001,1,1,1,1,558
+Claude Opus 4.6,django__django-11019,0,0,0,0,0
+Claude Opus 4.6,django__django-11039,1,1,1,1,658
+Claude Opus 4.6,django__django-11049,1,1,1,1,566
+Claude Opus 4.6,django__django-11099,1,2,2,2,901
+Claude Opus 4.6,django__django-11133,1,2,2,2,1106
+Claude Opus 4.6,django__django-11179,1,1,0,1,614
+Claude Opus 4.6,django__django-11283,1,10,2,1,1395
+Claude Opus 4.6,django__django-11422,1,9,1,1,1073
+Claude Opus 4.6,django__django-11564,0,0,0,0,0
+Claude Opus 4.6,django__django-11583,1,5,0,1,699
+Claude Opus 4.6,django__django-11620,0,0,0,0,0
+Claude Opus 4.6,django__django-11630,0,0,0,0,0
+Claude Opus 4.6,django__django-11742,0,0,0,0,0
+Claude Opus 4.6,django__django-11797,0,0,0,0,0
+Claude Opus 4.6,django__django-11815,0,0,0,0,0
+Claude Opus 4.6,django__django-11848,1,4,4,1,689
+Claude Opus 4.6,django__django-11905,1,4,0,1,588
+Claude Opus 4.6,django__django-11910,0,0,0,0,0
+Claude Opus 4.6,django__django-11964,0,0,0,0,0
+Claude Opus 4.6,django__django-11999,1,3,2,1,821
+Claude Opus 4.6,django__django-12113,0,0,0,0,0
+Claude Opus 4.6,django__django-12125,0,0,0,0,0
+Claude Opus 4.6,django__django-12184,1,1,1,1,608
+Claude Opus 4.6,django__django-12284,1,1,1,1,659
+Claude Opus 4.6,django__django-12286,1,7,1,1,918
+Claude Opus 4.6,django__django-12308,0,0,0,0,0
+Claude Opus 4.6,django__django-12453,1,4,3,2,1025
+Claude Opus 4.6,django__django-12470,0,0,0,0,0
+Claude Opus 4.6,django__django-12497,1,2,2,2,1393
+Claude Opus 4.6,django__django-12589,0,0,0,0,0
+Claude Opus 4.6,django__django-12700,1,2,0,1,602
+Claude Opus 4.6,django__django-12708,1,1,1,1,754
+Claude Opus 4.6,django__django-12747,0,0,0,0,0
+Claude Opus 4.6,django__django-12856,1,3,0,1,614
+Claude Opus 4.6,django__django-12908,1,1,0,1,514
+Claude Opus 4.6,django__django-12915,1,6,0,1,623
+Claude Opus 4.6,django__django-12983,1,5,4,2,1189
+Claude Opus 4.6,django__django-13028,1,7,6,1,1099
+Claude Opus 4.6,django__django-13033,1,1,1,1,891
+Claude Opus 4.6,django__django-13158,0,0,0,0,0
+Claude Opus 4.6,django__django-13220,0,0,0,0,0
+Claude Opus 4.6,django__django-13230,1,1,0,1,618
+Claude Opus 4.6,django__django-13265,0,0,0,0,0
+Claude Opus 4.6,django__django-13315,1,2,0,1,613
+Claude Opus 4.6,django__django-13321,1,4,1,1,733
+Claude Opus 4.6,django__django-13401,1,23,3,1,2007
+Claude Opus 4.6,django__django-13447,1,4,3,4,1702
+Claude Opus 4.6,django__django-13448,0,0,0,0,0
+Claude Opus 4.6,django__django-13551,1,3,1,1,858
+Claude Opus 4.6,django__django-13590,1,5,1,1,878
+Claude Opus 4.6,django__django-13658,1,6,1,1,896
+Claude Opus 4.6,django__django-13660,1,2,2,1,917
+Claude Opus 4.6,django__django-13710,0,0,0,0,0
+Claude Opus 4.6,django__django-13757,0,0,0,0,0
+Claude Opus 4.6,django__django-13768,1,9,0,3,1043
+Claude Opus 4.6,django__django-13925,0,0,0,0,0
+Claude Opus 4.6,django__django-13933,1,6,2,2,1212
+Claude Opus 4.6,django__django-13964,0,0,0,0,0
+Claude Opus 4.6,django__django-14016,0,0,0,0,0
+Claude Opus 4.6,django__django-14017,0,0,0,0,0
+Claude Opus 4.6,django__django-14155,1,8,0,1,849
+Claude Opus 4.6,django__django-14238,1,1,1,1,651
+Claude Opus 4.6,django__django-14382,1,1,1,1,708
+Claude Opus 4.6,django__django-14411,1,3,0,1,520
+Claude Opus 4.6,django__django-14534,1,1,1,1,412
+Claude Opus 4.6,django__django-14580,1,1,1,1,599
+Claude Opus 4.6,django__django-14608,1,2,2,2,861
+Claude Opus 4.6,django__django-14667,1,1,1,1,521
+Claude Opus 4.6,django__django-14672,1,1,1,1,512
+Claude Opus 4.6,django__django-14730,0,0,0,0,0
+Claude Opus 4.6,django__django-14752,1,8,1,1,1113
+Claude Opus 4.6,django__django-14787,1,1,0,1,618
+Claude Opus 4.6,django__django-14855,1,5,1,1,698
+Claude Opus 4.6,django__django-14915,1,3,0,1,402
+Claude Opus 4.6,django__django-14997,0,0,0,0,0
+Claude Opus 4.6,django__django-14999,1,4,0,1,871
+Claude Opus 4.6,django__django-15061,1,1,3,1,422
+Claude Opus 4.6,django__django-15202,1,9,2,2,1375
+Claude Opus 4.6,django__django-15213,0,0,0,0,0
+Claude Opus 4.6,django__django-15252,0,0,0,0,0
+Claude Opus 4.6,django__django-15320,1,1,0,1,528
+Claude Opus 4.6,django__django-15347,1,1,1,1,711
+Claude Opus 4.6,django__django-15388,0,0,0,0,0
+Claude Opus 4.6,django__django-15400,1,5,0,1,583
+Claude Opus 4.6,django__django-15498,1,1,1,1,524
+Claude Opus 4.6,django__django-15695,1,2,0,1,649
+Claude Opus 4.6,django__django-15738,0,0,0,0,0
+Claude Opus 4.6,django__django-15781,1,3,0,1,532
+Claude Opus 4.6,django__django-15789,1,2,2,2,931
+Claude Opus 4.6,django__django-15790,1,4,4,2,1407
+Claude Opus 4.6,django__django-15814,1,1,1,1,705
+Claude Opus 4.6,django__django-15819,1,13,0,2,1803
+Claude Opus 4.6,django__django-15851,1,1,1,1,530
+Claude Opus 4.6,django__django-15902,1,2,0,1,468
+Claude Opus 4.6,django__django-15996,0,0,0,0,0
+Claude Opus 4.6,django__django-16041,1,3,1,1,716
+Claude Opus 4.6,django__django-16046,1,1,1,1,454
+Claude Opus 4.6,django__django-16139,1,1,1,1,703
+Claude Opus 4.6,django__django-16229,0,0,0,0,0
+Claude Opus 4.6,django__django-16255,1,1,1,1,524
+Claude Opus 4.6,django__django-16379,1,3,2,1,629
+Claude Opus 4.6,django__django-16400,0,0,0,0,0
+Claude Opus 4.6,django__django-16408,0,0,0,0,0
+Claude Opus 4.6,django__django-16527,1,1,0,1,549
+Claude Opus 4.6,django__django-16595,1,5,0,1,638
+Claude Opus 4.6,django__django-16816,0,0,0,0,0
+Claude Opus 4.6,django__django-16820,0,0,0,0,0
+Claude Opus 4.6,django__django-16873,1,2,1,1,592
+Claude Opus 4.6,django__django-16910,0,0,0,0,0
+Claude Opus 4.6,django__django-17051,0,0,0,0,0
+Claude Opus 4.6,django__django-17087,1,1,1,1,616
+Claude Opus 4.6,matplotlib__matplotlib-18869,1,39,2,2,2242
+Claude Opus 4.6,matplotlib__matplotlib-22711,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-22835,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-23299,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-23314,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-23476,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-23562,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-23563,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-23913,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-23964,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-23987,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-24149,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-24265,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-24334,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-24970,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-25079,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-25311,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-25332,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-25433,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-25442,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-25498,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-26011,0,0,0,0,0
+Claude Opus 4.6,matplotlib__matplotlib-26020,0,0,0,0,0
+Claude Opus 4.6,mwaskom__seaborn-2848,0,0,0,0,0
+Claude Opus 4.6,mwaskom__seaborn-3010,1,3,0,1,430
+Claude Opus 4.6,mwaskom__seaborn-3190,1,2,2,1,567
+Claude Opus 4.6,mwaskom__seaborn-3407,0,0,0,0,0
+Claude Opus 4.6,pallets__flask-4045,1,3,0,1,497
+Claude Opus 4.6,pallets__flask-4992,1,8,1,4,1776
+Claude Opus 4.6,pallets__flask-5063,0,0,0,0,0
+Claude Opus 4.6,psf__requests-1963,1,1,0,1,363
+Claude Opus 4.6,psf__requests-2148,1,4,0,3,1101
+Claude Opus 4.6,psf__requests-2317,1,5,1,1,551
+Claude Opus 4.6,psf__requests-2674,2,11,5,5,2971
+Claude Opus 4.6,psf__requests-3362,1,12,5,1,1044
+Claude Opus 4.6,psf__requests-863,1,5,1,1,553
+Claude Opus 4.6,pydata__xarray-3364,0,0,0,0,0
+Claude Opus 4.6,pydata__xarray-4094,1,2,0,1,513
+Claude Opus 4.6,pydata__xarray-4248,0,0,0,0,0
+Claude Opus 4.6,pydata__xarray-4493,0,0,0,0,0
+Claude Opus 4.6,pydata__xarray-5131,1,1,1,1,571
+Claude Opus 4.6,pylint-dev__pylint-5859,1,6,3,1,855
+Claude Opus 4.6,pylint-dev__pylint-6506,1,11,4,2,1227
+Claude Opus 4.6,pylint-dev__pylint-7080,0,0,0,0,0
+Claude Opus 4.6,pylint-dev__pylint-7114,0,0,0,0,0
+Claude Opus 4.6,pylint-dev__pylint-7228,0,0,0,0,0
+Claude Opus 4.6,pylint-dev__pylint-7993,1,3,1,1,734
+Claude Opus 4.6,pytest-dev__pytest-11143,1,1,0,1,557
+Claude Opus 4.6,pytest-dev__pytest-11148,0,0,0,0,0
+Claude Opus 4.6,pytest-dev__pytest-5103,0,0,0,0,0
+Claude Opus 4.6,pytest-dev__pytest-5221,1,1,0,1,448
+Claude Opus 4.6,pytest-dev__pytest-5227,1,1,1,1,514
+Claude Opus 4.6,pytest-dev__pytest-5413,1,1,3,1,512
+Claude Opus 4.6,pytest-dev__pytest-5495,0,0,0,0,0
+Claude Opus 4.6,pytest-dev__pytest-5692,1,4,0,2,861
+Claude Opus 4.6,pytest-dev__pytest-6116,1,2,0,1,486
+Claude Opus 4.6,pytest-dev__pytest-7168,1,1,1,1,546
+Claude Opus 4.6,pytest-dev__pytest-7220,0,0,0,0,0
+Claude Opus 4.6,pytest-dev__pytest-7373,1,4,20,3,1664
+Claude Opus 4.6,pytest-dev__pytest-7432,1,2,1,1,490
+Claude Opus 4.6,pytest-dev__pytest-7490,0,0,0,0,0
+Claude Opus 4.6,pytest-dev__pytest-8365,1,6,1,1,686
+Claude Opus 4.6,pytest-dev__pytest-8906,1,2,1,1,740
+Claude Opus 4.6,pytest-dev__pytest-9359,1,12,1,1,1202
+Claude Opus 4.6,scikit-learn__scikit-learn-10297,1,9,2,2,1555
+Claude Opus 4.6,scikit-learn__scikit-learn-10508,1,2,0,1,518
+Claude Opus 4.6,scikit-learn__scikit-learn-10949,1,10,0,1,879
+Claude Opus 4.6,scikit-learn__scikit-learn-11040,0,0,0,0,0
+Claude Opus 4.6,scikit-learn__scikit-learn-11281,1,26,0,1,1325
+Claude Opus 4.6,scikit-learn__scikit-learn-12471,1,11,1,1,1238
+Claude Opus 4.6,scikit-learn__scikit-learn-13142,1,5,5,2,1255
+Claude Opus 4.6,scikit-learn__scikit-learn-13241,1,5,0,1,825
+Claude Opus 4.6,scikit-learn__scikit-learn-13439,1,6,0,1,485
+Claude Opus 4.6,scikit-learn__scikit-learn-13496,0,0,0,0,0
+Claude Opus 4.6,scikit-learn__scikit-learn-13497,1,1,1,1,641
+Claude Opus 4.6,scikit-learn__scikit-learn-13584,0,0,0,0,0
+Claude Opus 4.6,scikit-learn__scikit-learn-13779,1,1,1,1,636
+Claude Opus 4.6,scikit-learn__scikit-learn-14087,0,0,0,0,0
+Claude Opus 4.6,scikit-learn__scikit-learn-14092,1,5,4,3,1479
+Claude Opus 4.6,scikit-learn__scikit-learn-14894,1,8,5,1,1082
+Claude Opus 4.6,scikit-learn__scikit-learn-14983,0,0,0,0,0
+Claude Opus 4.6,scikit-learn__scikit-learn-15512,0,0,0,0,0
+Claude Opus 4.6,scikit-learn__scikit-learn-15535,1,2,2,1,690
+Claude Opus 4.6,scikit-learn__scikit-learn-25500,0,0,0,0,0
+Claude Opus 4.6,scikit-learn__scikit-learn-25570,0,0,0,0,0
+Claude Opus 4.6,scikit-learn__scikit-learn-25638,0,0,0,0,0
+Claude Opus 4.6,scikit-learn__scikit-learn-25747,0,0,0,0,0
+Claude Opus 4.6,sphinx-doc__sphinx-10325,1,6,5,2,1468
+Claude Opus 4.6,sphinx-doc__sphinx-10451,1,6,6,2,1845
+Claude Opus 4.6,sphinx-doc__sphinx-11445,0,0,0,0,0
+Claude Opus 4.6,sphinx-doc__sphinx-7686,0,0,0,0,0
+Claude Opus 4.6,sphinx-doc__sphinx-7738,1,1,1,1,550
+Claude Opus 4.6,sphinx-doc__sphinx-7975,1,5,0,2,986
+Claude Opus 4.6,sphinx-doc__sphinx-8273,1,6,1,3,1396
+Claude Opus 4.6,sphinx-doc__sphinx-8282,0,0,0,0,0
+Claude Opus 4.6,sphinx-doc__sphinx-8435,0,0,0,0,0
+Claude Opus 4.6,sphinx-doc__sphinx-8474,0,0,0,0,0
+Claude Opus 4.6,sphinx-doc__sphinx-8506,1,1,1,1,453
+Claude Opus 4.6,sphinx-doc__sphinx-8595,1,1,1,1,638
+Claude Opus 4.6,sphinx-doc__sphinx-8627,0,0,0,0,0
+Claude Opus 4.6,sphinx-doc__sphinx-8713,1,6,1,1,923
+Claude Opus 4.6,sphinx-doc__sphinx-8721,1,2,0,1,584
+Claude Opus 4.6,sphinx-doc__sphinx-8801,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-11400,1,8,0,1,773
+Claude Opus 4.6,sympy__sympy-11870,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-11897,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-12171,1,7,0,1,671
+Claude Opus 4.6,sympy__sympy-12236,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-12419,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-12454,1,2,2,2,808
+Claude Opus 4.6,sympy__sympy-12481,1,2,6,1,794
+Claude Opus 4.6,sympy__sympy-13031,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-13043,1,6,3,4,1449
+Claude Opus 4.6,sympy__sympy-13146,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-13177,1,1,1,1,544
+Claude Opus 4.6,sympy__sympy-13437,1,4,0,1,585
+Claude Opus 4.6,sympy__sympy-13471,1,2,1,1,656
+Claude Opus 4.6,sympy__sympy-13480,1,1,1,1,590
+Claude Opus 4.6,sympy__sympy-13647,1,1,1,1,529
+Claude Opus 4.6,sympy__sympy-13773,2,20,2,4,2509
+Claude Opus 4.6,sympy__sympy-13895,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-13915,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-13971,1,2,2,1,521
+Claude Opus 4.6,sympy__sympy-14024,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-14308,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-14317,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-14396,1,26,6,2,2934
+Claude Opus 4.6,sympy__sympy-14774,1,1,1,1,588
+Claude Opus 4.6,sympy__sympy-14817,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-15011,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-15308,1,4,0,1,502
+Claude Opus 4.6,sympy__sympy-15345,1,6,0,1,646
+Claude Opus 4.6,sympy__sympy-15346,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-15609,1,1,1,1,532
+Claude Opus 4.6,sympy__sympy-15678,1,13,5,2,1415
+Claude Opus 4.6,sympy__sympy-16106,1,32,0,2,1891
+Claude Opus 4.6,sympy__sympy-16281,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-16503,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-16792,1,24,4,4,3052
+Claude Opus 4.6,sympy__sympy-16988,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-17022,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-17139,1,2,0,1,447
+Claude Opus 4.6,sympy__sympy-17630,1,17,1,1,1477
+Claude Opus 4.6,sympy__sympy-17655,1,5,0,2,752
+Claude Opus 4.6,sympy__sympy-18057,1,1,1,1,427
+Claude Opus 4.6,sympy__sympy-18087,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-18189,1,1,1,1,657
+Claude Opus 4.6,sympy__sympy-18199,1,3,0,1,674
+Claude Opus 4.6,sympy__sympy-18532,1,3,3,1,657
+Claude Opus 4.6,sympy__sympy-18621,1,1,1,1,594
+Claude Opus 4.6,sympy__sympy-18698,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-18835,1,4,0,1,684
+Claude Opus 4.6,sympy__sympy-19007,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-19254,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-19487,1,3,0,1,627
+Claude Opus 4.6,sympy__sympy-20049,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-20154,1,6,16,3,1714
+Claude Opus 4.6,sympy__sympy-20212,1,2,2,1,518
+Claude Opus 4.6,sympy__sympy-20322,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-20442,1,2,0,1,529
+Claude Opus 4.6,sympy__sympy-20590,1,2,0,1,476
+Claude Opus 4.6,sympy__sympy-20639,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-21055,1,26,1,2,1204
+Claude Opus 4.6,sympy__sympy-21171,1,3,1,1,747
+Claude Opus 4.6,sympy__sympy-21379,1,5,1,1,588
+Claude Opus 4.6,sympy__sympy-21612,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-21614,1,4,0,1,418
+Claude Opus 4.6,sympy__sympy-21627,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-21847,1,2,2,2,1051
+Claude Opus 4.6,sympy__sympy-22005,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-22714,1,1,1,1,699
+Claude Opus 4.6,sympy__sympy-22840,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-23117,1,3,0,1,509
+Claude Opus 4.6,sympy__sympy-23191,0,0,0,0,0
+Claude Opus 4.6,sympy__sympy-23262,1,1,1,1,664
+Claude Opus 4.6,sympy__sympy-24066,1,2,1,1,735
+Claude Opus 4.6,sympy__sympy-24102,1,1,1,1,447
+Claude Opus 4.6,sympy__sympy-24152,1,4,3,1,929
+Claude Opus 4.6,sympy__sympy-24213,1,1,1,1,691
+Claude Opus 4.6,sympy__sympy-24909,1,6,6,2,1044
+Claude Sonnet 4,astropy__astropy-12907,2,2,2,2,813
+Claude Sonnet 4,astropy__astropy-14182,2,23,4,2,1811
+Claude Sonnet 4,astropy__astropy-14365,1,1,1,1,619
+Claude Sonnet 4,astropy__astropy-14995,2,4,1,2,1024
+Claude Sonnet 4,astropy__astropy-6938,1,1,1,1,519
+Claude Sonnet 4,astropy__astropy-7746,1,14,0,2,1478
+Claude Sonnet 4,django__django-10914,1,1,1,1,625
+Claude Sonnet 4,django__django-10924,1,21,1,3,1723
+Claude Sonnet 4,django__django-11001,1,4,2,2,1378
+Claude Sonnet 4,django__django-11019,1,20,5,1,2229
+Claude Sonnet 4,django__django-11039,1,2,1,1,718
+Claude Sonnet 4,django__django-11049,1,5,1,1,804
+Claude Sonnet 4,django__django-11099,1,2,2,2,901
+Claude Sonnet 4,django__django-11133,1,15,1,2,1527
+Claude Sonnet 4,django__django-11179,1,1,0,1,614
+Claude Sonnet 4,django__django-11283,1,22,4,1,2280
+Claude Sonnet 4,django__django-11422,12,508,0,10,18418
+Claude Sonnet 4,django__django-11564,2,34,0,4,2810
+Claude Sonnet 4,django__django-11583,10,753,0,11,28150
+Claude Sonnet 4,django__django-11620,2,11,2,3,1731
+Claude Sonnet 4,django__django-11630,1,8,3,3,1939
+Claude Sonnet 4,django__django-11742,1,53,0,2,3046
+Claude Sonnet 4,django__django-11797,1,8,4,1,1280
+Claude Sonnet 4,django__django-11815,1,2,3,1,761
+Claude Sonnet 4,django__django-11848,1,16,3,1,1356
+Claude Sonnet 4,django__django-11905,1,10,0,1,853
+Claude Sonnet 4,django__django-11910,2,48,6,2,6242
+Claude Sonnet 4,django__django-11964,1,19,0,2,1241
+Claude Sonnet 4,django__django-11999,1,6,2,1,996
+Claude Sonnet 4,django__django-12113,1,4,0,1,697
+Claude Sonnet 4,django__django-12125,1,3,1,1,738
+Claude Sonnet 4,django__django-12184,1,1,1,1,638
+Claude Sonnet 4,django__django-12284,1,33,2,1,2596
+Claude Sonnet 4,django__django-12286,1,6,1,1,819
+Claude Sonnet 4,django__django-12308,1,6,0,1,833
+Claude Sonnet 4,django__django-12453,1,4,3,2,1025
+Claude Sonnet 4,django__django-12470,1,1,1,1,832
+Claude Sonnet 4,django__django-12497,1,2,2,2,1393
+Claude Sonnet 4,django__django-12589,2,11,1,2,1518
+Claude Sonnet 4,django__django-12700,1,28,1,1,1933
+Claude Sonnet 4,django__django-12708,1,1,1,1,754
+Claude Sonnet 4,django__django-12747,1,5,0,1,719
+Claude Sonnet 4,django__django-12856,2,62,0,2,3000
+Claude Sonnet 4,django__django-12908,2,2,0,2,980
+Claude Sonnet 4,django__django-12915,6,535,0,7,18179
+Claude Sonnet 4,django__django-12983,1,4,2,2,979
+Claude Sonnet 4,django__django-13028,3,89,3,4,6480
+Claude Sonnet 4,django__django-13033,1,1,1,1,891
+Claude Sonnet 4,django__django-13158,1,3,0,1,824
+Claude Sonnet 4,django__django-13220,1,69,0,1,3547
+Claude Sonnet 4,django__django-13230,4,134,1,5,8733
+Claude Sonnet 4,django__django-13265,1,1,1,1,711
+Claude Sonnet 4,django__django-13315,1,22,1,1,1622
+Claude Sonnet 4,django__django-13321,1,3,3,2,1397
+Claude Sonnet 4,django__django-13401,1,22,3,1,2135
+Claude Sonnet 4,django__django-13447,1,10,2,3,1710
+Claude Sonnet 4,django__django-13448,2,21,1,2,2387
+Claude Sonnet 4,django__django-13551,1,5,2,2,1675
+Claude Sonnet 4,django__django-13590,1,9,2,1,1046
+Claude Sonnet 4,django__django-13658,1,6,1,1,895
+Claude Sonnet 4,django__django-13660,1,2,2,1,917
+Claude Sonnet 4,django__django-13710,1,6,1,1,955
+Claude Sonnet 4,django__django-13757,1,6,2,1,1142
+Claude Sonnet 4,django__django-13768,1,8,0,3,1013
+Claude Sonnet 4,django__django-13925,1,18,1,1,1447
+Claude Sonnet 4,django__django-13933,1,6,2,2,1212
+Claude Sonnet 4,django__django-13964,1,5,2,1,1364
+Claude Sonnet 4,django__django-14016,2,60,0,2,3519
+Claude Sonnet 4,django__django-14017,1,11,2,2,1277
+Claude Sonnet 4,django__django-14155,1,9,3,1,1218
+Claude Sonnet 4,django__django-14238,1,5,1,1,756
+Claude Sonnet 4,django__django-14382,1,1,1,1,708
+Claude Sonnet 4,django__django-14411,1,7,0,1,624
+Claude Sonnet 4,django__django-14534,1,1,1,1,416
+Claude Sonnet 4,django__django-14580,1,1,1,1,599
+Claude Sonnet 4,django__django-14608,1,2,2,2,861
+Claude Sonnet 4,django__django-14667,1,9,1,1,1060
+Claude Sonnet 4,django__django-14672,1,1,1,1,512
+Claude Sonnet 4,django__django-14730,3,61,3,6,5108
+Claude Sonnet 4,django__django-14752,1,8,2,1,1155
+Claude Sonnet 4,django__django-14787,2,33,0,2,2487
+Claude Sonnet 4,django__django-14855,1,5,1,1,727
+Claude Sonnet 4,django__django-14915,1,3,0,1,402
+Claude Sonnet 4,django__django-14997,1,69,1,2,4003
+Claude Sonnet 4,django__django-14999,1,3,0,1,774
+Claude Sonnet 4,django__django-15061,1,0,5,1,531
+Claude Sonnet 4,django__django-15202,1,10,2,2,1477
+Claude Sonnet 4,django__django-15213,1,10,1,1,1149
+Claude Sonnet 4,django__django-15252,1,9,1,2,1127
+Claude Sonnet 4,django__django-15320,1,1,0,1,552
+Claude Sonnet 4,django__django-15347,1,1,1,1,711
+Claude Sonnet 4,django__django-15388,10,1246,8,10,46979
+Claude Sonnet 4,django__django-15400,8,621,0,7,21119
+Claude Sonnet 4,django__django-15498,2,30,1,3,2466
+Claude Sonnet 4,django__django-15695,1,15,1,1,1404
+Claude Sonnet 4,django__django-15738,1,8,1,2,1170
+Claude Sonnet 4,django__django-15781,1,2,2,2,798
+Claude Sonnet 4,django__django-15789,1,4,2,2,972
+Claude Sonnet 4,django__django-15790,1,2,1,1,647
+Claude Sonnet 4,django__django-15814,1,1,1,1,705
+Claude Sonnet 4,django__django-15819,3,53,0,4,4440
+Claude Sonnet 4,django__django-15851,1,1,1,1,530
+Claude Sonnet 4,django__django-15902,1,7,3,1,948
+Claude Sonnet 4,django__django-15996,1,20,0,1,1599
+Claude Sonnet 4,django__django-16041,1,5,1,1,852
+Claude Sonnet 4,django__django-16046,1,1,1,1,454
+Claude Sonnet 4,django__django-16139,1,1,1,1,703
+Claude Sonnet 4,django__django-16229,1,1,1,1,536
+Claude Sonnet 4,django__django-16255,1,1,1,1,524
+Claude Sonnet 4,django__django-16379,1,3,2,1,629
+Claude Sonnet 4,django__django-16400,1,7,5,1,912
+Claude Sonnet 4,django__django-16408,2,43,2,3,3821
+Claude Sonnet 4,django__django-16527,1,1,0,1,549
+Claude Sonnet 4,django__django-16595,2,19,0,2,1596
+Claude Sonnet 4,django__django-16816,1,2,2,2,965
+Claude Sonnet 4,django__django-16820,1,16,0,1,1405
+Claude Sonnet 4,django__django-16873,1,4,1,1,707
+Claude Sonnet 4,django__django-16910,1,7,1,1,1067
+Claude Sonnet 4,django__django-17051,1,5,2,2,1496
+Claude Sonnet 4,django__django-17087,1,1,1,1,616
+Claude Sonnet 4,matplotlib__matplotlib-18869,2,49,0,2,2832
+Claude Sonnet 4,matplotlib__matplotlib-22711,1,6,2,1,920
+Claude Sonnet 4,matplotlib__matplotlib-22835,1,10,4,1,1300
+Claude Sonnet 4,matplotlib__matplotlib-23299,1,10,1,1,1104
+Claude Sonnet 4,matplotlib__matplotlib-23314,1,2,0,1,438
+Claude Sonnet 4,matplotlib__matplotlib-23476,2,18,1,4,2412
+Claude Sonnet 4,matplotlib__matplotlib-23562,1,16,2,1,1278
+Claude Sonnet 4,matplotlib__matplotlib-23563,1,24,2,2,1917
+Claude Sonnet 4,matplotlib__matplotlib-23913,1,8,0,3,1226
+Claude Sonnet 4,matplotlib__matplotlib-23964,1,2,1,1,533
+Claude Sonnet 4,matplotlib__matplotlib-23987,1,8,6,1,1339
+Claude Sonnet 4,matplotlib__matplotlib-24149,1,23,7,5,3414
+Claude Sonnet 4,matplotlib__matplotlib-24265,1,26,0,1,1162
+Claude Sonnet 4,matplotlib__matplotlib-24334,1,20,0,1,1502
+Claude Sonnet 4,matplotlib__matplotlib-24970,1,3,3,1,730
+Claude Sonnet 4,matplotlib__matplotlib-25079,1,11,2,1,1131
+Claude Sonnet 4,matplotlib__matplotlib-25311,2,96,8,6,5652
+Claude Sonnet 4,matplotlib__matplotlib-25332,1,7,0,2,1061
+Claude Sonnet 4,matplotlib__matplotlib-25433,1,14,2,4,2111
+Claude Sonnet 4,matplotlib__matplotlib-25442,1,10,8,1,940
+Claude Sonnet 4,matplotlib__matplotlib-25498,1,26,2,1,1812
+Claude Sonnet 4,matplotlib__matplotlib-26011,1,9,2,1,1303
+Claude Sonnet 4,matplotlib__matplotlib-26020,2,89,11,5,6214
+Claude Sonnet 4,mwaskom__seaborn-2848,2,23,5,3,2942
+Claude Sonnet 4,mwaskom__seaborn-3010,2,11,3,2,1413
+Claude Sonnet 4,mwaskom__seaborn-3190,1,5,0,1,655
+Claude Sonnet 4,mwaskom__seaborn-3407,1,24,3,2,2000
+Claude Sonnet 4,pallets__flask-4045,1,2,0,1,491
+Claude Sonnet 4,pallets__flask-4992,1,7,3,4,1769
+Claude Sonnet 4,pallets__flask-5063,1,37,6,2,3276
+Claude Sonnet 4,psf__requests-1963,1,5,1,3,1136
+Claude Sonnet 4,psf__requests-2148,1,11,5,3,1850
+Claude Sonnet 4,psf__requests-2317,2,5,1521,2,54013
+Claude Sonnet 4,psf__requests-2674,1,14,1,4,2345
+Claude Sonnet 4,psf__requests-3362,1,19,2,1,1273
+Claude Sonnet 4,psf__requests-863,1,5,1,1,559
+Claude Sonnet 4,pydata__xarray-3364,1,181,15,11,13528
+Claude Sonnet 4,pydata__xarray-4094,1,5,1,1,752
+Claude Sonnet 4,pydata__xarray-4248,1,17,2,2,1497
+Claude Sonnet 4,pydata__xarray-4493,1,5,0,1,561
+Claude Sonnet 4,pydata__xarray-5131,1,1,1,1,571
+Claude Sonnet 4,pylint-dev__pylint-5859,1,16,3,1,1372
+Claude Sonnet 4,pylint-dev__pylint-6506,1,4,0,1,739
+Claude Sonnet 4,pylint-dev__pylint-7080,1,6,0,1,746
+Claude Sonnet 4,pylint-dev__pylint-7114,1,25,12,3,3213
+Claude Sonnet 4,pylint-dev__pylint-7228,1,31,3,3,2764
+Claude Sonnet 4,pylint-dev__pylint-7993,1,5,2,1,1320
+Claude Sonnet 4,pytest-dev__pytest-11143,1,1,1,1,586
+Claude Sonnet 4,pytest-dev__pytest-11148,2,26,4,3,3153
+Claude Sonnet 4,pytest-dev__pytest-5103,1,148,0,2,7635
+Claude Sonnet 4,pytest-dev__pytest-5221,1,4,4,2,1262
+Claude Sonnet 4,pytest-dev__pytest-5227,1,1,1,1,514
+Claude Sonnet 4,pytest-dev__pytest-5413,2,19,6,2,1704
+Claude Sonnet 4,pytest-dev__pytest-5495,1,6,2,3,1173
+Claude Sonnet 4,pytest-dev__pytest-5692,1,5,0,3,1068
+Claude Sonnet 4,pytest-dev__pytest-6116,1,1,0,1,367
+Claude Sonnet 4,pytest-dev__pytest-7168,1,1,1,1,546
+Claude Sonnet 4,pytest-dev__pytest-7220,2,14,1,6,2557
+Claude Sonnet 4,pytest-dev__pytest-7373,1,3,17,3,1718
+Claude Sonnet 4,pytest-dev__pytest-7432,1,5,5,2,1391
+Claude Sonnet 4,pytest-dev__pytest-7490,2,39,0,2,2869
+Claude Sonnet 4,pytest-dev__pytest-8365,2,71,0,4,4417
+Claude Sonnet 4,pytest-dev__pytest-8906,4,34,1,5,3269
+Claude Sonnet 4,pytest-dev__pytest-9359,1,7,1,1,950
+Claude Sonnet 4,scikit-learn__scikit-learn-10297,1,9,2,2,1551
+Claude Sonnet 4,scikit-learn__scikit-learn-10508,1,4,0,1,615
+Claude Sonnet 4,scikit-learn__scikit-learn-10949,1,5,1,1,794
+Claude Sonnet 4,scikit-learn__scikit-learn-11040,1,16,7,5,2081
+Claude Sonnet 4,scikit-learn__scikit-learn-11281,1,5,2,3,1164
+Claude Sonnet 4,scikit-learn__scikit-learn-12471,1,11,1,1,1192
+Claude Sonnet 4,scikit-learn__scikit-learn-13142,1,5,5,2,1255
+Claude Sonnet 4,scikit-learn__scikit-learn-13241,1,8,0,1,945
+Claude Sonnet 4,scikit-learn__scikit-learn-13439,1,12,0,2,913
+Claude Sonnet 4,scikit-learn__scikit-learn-13496,1,9,2,3,1383
+Claude Sonnet 4,scikit-learn__scikit-learn-13497,1,1,1,1,641
+Claude Sonnet 4,scikit-learn__scikit-learn-13584,1,25,1,2,1837
+Claude Sonnet 4,scikit-learn__scikit-learn-13779,1,1,1,1,636
+Claude Sonnet 4,scikit-learn__scikit-learn-14087,1,8,2,2,1718
+Claude Sonnet 4,scikit-learn__scikit-learn-14092,1,19,1,1,1219
+Claude Sonnet 4,scikit-learn__scikit-learn-14894,1,10,6,1,1244
+Claude Sonnet 4,scikit-learn__scikit-learn-14983,1,8,0,2,924
+Claude Sonnet 4,scikit-learn__scikit-learn-15512,1,4,2,3,1407
+Claude Sonnet 4,scikit-learn__scikit-learn-15535,1,2,2,1,690
+Claude Sonnet 4,scikit-learn__scikit-learn-25500,1,1,1,1,595
+Claude Sonnet 4,scikit-learn__scikit-learn-25570,1,7,2,2,1604
+Claude Sonnet 4,scikit-learn__scikit-learn-25638,1,89,2,2,4071
+Claude Sonnet 4,scikit-learn__scikit-learn-25747,1,13,3,1,1216
+Claude Sonnet 4,sphinx-doc__sphinx-10325,2,9,6,3,1875
+Claude Sonnet 4,sphinx-doc__sphinx-10451,2,9,2,2,1626
+Claude Sonnet 4,sphinx-doc__sphinx-11445,1,1,1,1,450
+Claude Sonnet 4,sphinx-doc__sphinx-7686,3,57,10,3,4149
+Claude Sonnet 4,sphinx-doc__sphinx-7738,3,21,11,4,3000
+Claude Sonnet 4,sphinx-doc__sphinx-7975,3,17,9,4,2491
+Claude Sonnet 4,sphinx-doc__sphinx-8273,5,25,22,9,5248
+Claude Sonnet 4,sphinx-doc__sphinx-8282,3,21,9,5,3601
+Claude Sonnet 4,sphinx-doc__sphinx-8435,3,33,11,4,4093
+Claude Sonnet 4,sphinx-doc__sphinx-8474,6,241,16,9,11552
+Claude Sonnet 4,sphinx-doc__sphinx-8506,3,10,10,3,1813
+Claude Sonnet 4,sphinx-doc__sphinx-8595,3,10,10,3,2032
+Claude Sonnet 4,sphinx-doc__sphinx-8627,3,26,9,5,3338
+Claude Sonnet 4,sphinx-doc__sphinx-8713,3,16,10,3,2403
+Claude Sonnet 4,sphinx-doc__sphinx-8721,3,11,9,3,1999
+Claude Sonnet 4,sphinx-doc__sphinx-8801,3,35,12,3,4168
+Claude Sonnet 4,sympy__sympy-11400,1,8,0,1,778
+Claude Sonnet 4,sympy__sympy-11870,1,157,0,2,7582
+Claude Sonnet 4,sympy__sympy-11897,2,0,373,2,12165
+Claude Sonnet 4,sympy__sympy-12171,1,7,0,1,706
+Claude Sonnet 4,sympy__sympy-12236,1,7,1,1,779
+Claude Sonnet 4,sympy__sympy-12419,2,44,4,2,3127
+Claude Sonnet 4,sympy__sympy-12454,1,2,2,2,808
+Claude Sonnet 4,sympy__sympy-12481,1,1,4,1,652
+Claude Sonnet 4,sympy__sympy-13031,1,8,0,1,662
+Claude Sonnet 4,sympy__sympy-13043,1,12,2,2,1500
+Claude Sonnet 4,sympy__sympy-13146,1,19,1,1,1434
+Claude Sonnet 4,sympy__sympy-13177,1,1,1,1,564
+Claude Sonnet 4,sympy__sympy-13437,1,3,0,1,549
+Claude Sonnet 4,sympy__sympy-13471,1,5,1,1,780
+Claude Sonnet 4,sympy__sympy-13480,1,1,1,1,592
+Claude Sonnet 4,sympy__sympy-13647,1,1,1,1,531
+Claude Sonnet 4,sympy__sympy-13773,2,63,2,4,4183
+Claude Sonnet 4,sympy__sympy-13895,1,10,0,1,924
+Claude Sonnet 4,sympy__sympy-13915,1,3,0,1,607
+Claude Sonnet 4,sympy__sympy-13971,1,2,2,1,510
+Claude Sonnet 4,sympy__sympy-14024,1,1,1,1,643
+Claude Sonnet 4,sympy__sympy-14308,1,26,0,1,1372
+Claude Sonnet 4,sympy__sympy-14317,1,44,3,1,2376
+Claude Sonnet 4,sympy__sympy-14396,1,12,4,3,1893
+Claude Sonnet 4,sympy__sympy-14774,1,1,1,1,588
+Claude Sonnet 4,sympy__sympy-14817,1,4,1,1,817
+Claude Sonnet 4,sympy__sympy-15011,1,17,0,1,1377
+Claude Sonnet 4,sympy__sympy-15308,1,4,0,1,611
+Claude Sonnet 4,sympy__sympy-15345,1,6,0,1,704
+Claude Sonnet 4,sympy__sympy-15346,1,1,1,1,611
+Claude Sonnet 4,sympy__sympy-15609,1,1,1,1,532
+Claude Sonnet 4,sympy__sympy-15678,1,23,4,2,1760
+Claude Sonnet 4,sympy__sympy-16106,2,76,0,3,4248
+Claude Sonnet 4,sympy__sympy-16281,2,20,51,3,4401
+Claude Sonnet 4,sympy__sympy-16503,1,16,5,8,3274
+Claude Sonnet 4,sympy__sympy-16792,1,24,4,4,3298
+Claude Sonnet 4,sympy__sympy-16988,1,2,0,1,545
+Claude Sonnet 4,sympy__sympy-17022,1,15,0,1,1163
+Claude Sonnet 4,sympy__sympy-17139,1,3,0,1,488
+Claude Sonnet 4,sympy__sympy-17630,1,20,1,1,1456
+Claude Sonnet 4,sympy__sympy-17655,1,58,0,3,3116
+Claude Sonnet 4,sympy__sympy-18057,1,1,1,1,427
+Claude Sonnet 4,sympy__sympy-18087,1,34,0,2,1816
+Claude Sonnet 4,sympy__sympy-18189,1,11,4,1,1519
+Claude Sonnet 4,sympy__sympy-18199,1,8,0,1,693
+Claude Sonnet 4,sympy__sympy-18532,1,11,6,1,1020
+Claude Sonnet 4,sympy__sympy-18621,1,1,1,1,594
+Claude Sonnet 4,sympy__sympy-18698,1,36,0,2,2083
+Claude Sonnet 4,sympy__sympy-18835,1,18,0,1,1112
+Claude Sonnet 4,sympy__sympy-19007,1,101,10,1,5738
+Claude Sonnet 4,sympy__sympy-19254,1,32,10,1,1961
+Claude Sonnet 4,sympy__sympy-19487,2,4,0,2,1199
+Claude Sonnet 4,sympy__sympy-20049,1,48,4,3,3749
+Claude Sonnet 4,sympy__sympy-20154,1,7,17,3,1774
+Claude Sonnet 4,sympy__sympy-20212,1,2,0,1,502
+Claude Sonnet 4,sympy__sympy-20322,1,24,0,2,1769
+Claude Sonnet 4,sympy__sympy-20442,1,36,0,1,2650
+Claude Sonnet 4,sympy__sympy-20590,1,2,0,1,476
+Claude Sonnet 4,sympy__sympy-20639,1,1,1,1,753
+Claude Sonnet 4,sympy__sympy-21055,2,46,1,4,2656
+Claude Sonnet 4,sympy__sympy-21171,1,3,1,1,743
+Claude Sonnet 4,sympy__sympy-21379,1,38,7,6,3709
+Claude Sonnet 4,sympy__sympy-21612,1,31,0,1,1981
+Claude Sonnet 4,sympy__sympy-21614,1,4,0,1,418
+Claude Sonnet 4,sympy__sympy-21627,1,13,1,1,1343
+Claude Sonnet 4,sympy__sympy-21847,1,6,3,3,1589
+Claude Sonnet 4,sympy__sympy-22005,1,7,1,1,667
+Claude Sonnet 4,sympy__sympy-22714,1,17,1,1,1273
+Claude Sonnet 4,sympy__sympy-22840,1,31,0,1,1833
+Claude Sonnet 4,sympy__sympy-23117,1,13,1,3,1786
+Claude Sonnet 4,sympy__sympy-23191,1,14,7,2,2054
+Claude Sonnet 4,sympy__sympy-23262,1,4,1,1,756
+Claude Sonnet 4,sympy__sympy-24066,1,42,2,1,3092
+Claude Sonnet 4,sympy__sympy-24102,1,2,2,2,823
+Claude Sonnet 4,sympy__sympy-24152,1,4,3,1,929
+Claude Sonnet 4,sympy__sympy-24213,1,1,1,1,691
+Claude Sonnet 4,sympy__sympy-24909,1,10,6,2,1499
+DeepSeek R1,astropy__astropy-12907,1,1,1,1,506
+DeepSeek R1,astropy__astropy-14182,1,2,2,1,554
+DeepSeek R1,astropy__astropy-14365,1,1,1,1,476
+DeepSeek R1,astropy__astropy-6938,0,0,0,0,0
+DeepSeek R1,astropy__astropy-7746,1,4,0,1,605
+DeepSeek R1,django__django-10914,1,1,1,1,625
+DeepSeek R1,django__django-10924,1,17,1,1,1419
+DeepSeek R1,django__django-11001,1,2,1,1,800
+DeepSeek R1,django__django-11019,1,3,0,1,622
+DeepSeek R1,django__django-11039,1,1,1,1,658
+DeepSeek R1,django__django-11049,1,3,1,1,782
+DeepSeek R1,django__django-11099,1,2,2,2,901
+DeepSeek R1,django__django-11133,1,2,0,1,491
+DeepSeek R1,django__django-11179,1,1,0,1,622
+DeepSeek R1,django__django-11283,1,12,2,1,1395
+DeepSeek R1,django__django-11422,1,4,0,1,737
+DeepSeek R1,django__django-11564,3,32,3,3,2737
+DeepSeek R1,django__django-11620,1,3,1,1,731
+DeepSeek R1,django__django-11630,1,14,11,3,2420
+DeepSeek R1,django__django-11742,1,26,0,2,1735
+DeepSeek R1,django__django-11815,1,2,3,1,763
+DeepSeek R1,django__django-11848,1,5,3,1,774
+DeepSeek R1,django__django-11910,0,0,0,0,0
+DeepSeek R1,django__django-11964,1,9,0,4,1458
+DeepSeek R1,django__django-11999,1,4,2,1,842
+DeepSeek R1,django__django-12113,1,21,0,1,1404
+DeepSeek R1,django__django-12125,1,10,1,2,1030
+DeepSeek R1,django__django-12184,0,0,0,0,0
+DeepSeek R1,django__django-12284,1,1,1,1,611
+DeepSeek R1,django__django-12286,1,4,1,1,729
+DeepSeek R1,django__django-12308,1,3,0,2,939
+DeepSeek R1,django__django-12470,3,64,0,4,4963
+DeepSeek R1,django__django-12497,1,2,2,2,1393
+DeepSeek R1,django__django-12589,1,7,1,1,922
+DeepSeek R1,django__django-12700,1,5,2,1,1285
+DeepSeek R1,django__django-12856,1,3,0,1,626
+DeepSeek R1,django__django-12915,1,7,0,2,981
+DeepSeek R1,django__django-12983,1,3,2,2,974
+DeepSeek R1,django__django-13028,0,0,0,0,0
+DeepSeek R1,django__django-13033,1,2,1,1,988
+DeepSeek R1,django__django-13158,1,1,3,1,925
+DeepSeek R1,django__django-13230,1,1,0,1,595
+DeepSeek R1,django__django-13265,0,0,0,0,0
+DeepSeek R1,django__django-13315,1,11,3,1,1134
+DeepSeek R1,django__django-13401,1,5,3,1,1293
+DeepSeek R1,django__django-13447,1,4,3,4,1741
+DeepSeek R1,django__django-13448,1,1,1,1,769
+DeepSeek R1,django__django-13551,1,2,1,1,836
+DeepSeek R1,django__django-13658,1,6,1,1,895
+DeepSeek R1,django__django-13660,1,2,2,1,917
+DeepSeek R1,django__django-13710,1,4,1,1,747
+DeepSeek R1,django__django-13925,0,0,0,0,0
+DeepSeek R1,django__django-13933,1,2,2,2,1144
+DeepSeek R1,django__django-13964,1,9,0,1,1201
+DeepSeek R1,django__django-14155,1,16,4,3,2376
+DeepSeek R1,django__django-14238,1,1,1,1,671
+DeepSeek R1,django__django-14382,1,1,1,1,708
+DeepSeek R1,django__django-14411,1,3,0,1,456
+DeepSeek R1,django__django-14534,1,1,1,1,470
+DeepSeek R1,django__django-14580,1,10,2,1,1278
+DeepSeek R1,django__django-14608,2,13,2,3,1769
+DeepSeek R1,django__django-14667,1,6,0,1,704
+DeepSeek R1,django__django-14672,1,1,1,1,512
+DeepSeek R1,django__django-14730,1,6,0,1,796
+DeepSeek R1,django__django-14787,1,1,5,1,856
+DeepSeek R1,django__django-14915,1,1,1,1,517
+DeepSeek R1,django__django-14997,0,0,0,0,0
+DeepSeek R1,django__django-14999,1,3,0,1,749
+DeepSeek R1,django__django-15061,1,0,4,1,458
+DeepSeek R1,django__django-15202,1,15,8,1,1912
+DeepSeek R1,django__django-15213,1,8,1,1,895
+DeepSeek R1,django__django-15252,1,4,0,1,620
+DeepSeek R1,django__django-15320,1,2,1,2,1018
+DeepSeek R1,django__django-15388,1,14,1,2,1360
+DeepSeek R1,django__django-15400,1,5,0,1,489
+DeepSeek R1,django__django-15738,0,0,0,0,0
+DeepSeek R1,django__django-15781,1,19,0,1,954
+DeepSeek R1,django__django-15789,1,10,2,1,1152
+DeepSeek R1,django__django-15814,1,1,1,1,751
+DeepSeek R1,django__django-15819,1,9,0,2,1599
+DeepSeek R1,django__django-15851,1,1,1,1,530
+DeepSeek R1,django__django-15902,1,10,0,1,728
+DeepSeek R1,django__django-15996,1,14,4,1,1176
+DeepSeek R1,django__django-16041,1,4,1,1,760
+DeepSeek R1,django__django-16046,1,2,0,1,432
+DeepSeek R1,django__django-16139,1,1,1,1,703
+DeepSeek R1,django__django-16229,0,0,0,0,0
+DeepSeek R1,django__django-16255,1,1,1,1,524
+DeepSeek R1,django__django-16408,1,4,2,1,1262
+DeepSeek R1,django__django-16527,1,1,0,1,549
+DeepSeek R1,django__django-16595,1,4,0,1,566
+DeepSeek R1,django__django-16816,1,9,2,1,1237
+DeepSeek R1,django__django-16820,0,0,0,0,0
+DeepSeek R1,django__django-16910,3,138,0,5,8333
+DeepSeek R1,django__django-17087,0,0,0,0,0
+DeepSeek R1,matplotlib__matplotlib-18869,1,1,0,1,659
+DeepSeek R1,matplotlib__matplotlib-22711,1,2,2,1,704
+DeepSeek R1,matplotlib__matplotlib-22835,1,9,5,1,1255
+DeepSeek R1,matplotlib__matplotlib-23314,1,15,0,1,814
+DeepSeek R1,matplotlib__matplotlib-23562,1,4,0,2,956
+DeepSeek R1,matplotlib__matplotlib-23563,1,3,0,1,664
+DeepSeek R1,matplotlib__matplotlib-23913,1,4,0,2,831
+DeepSeek R1,matplotlib__matplotlib-23964,7,3030,1,7,49585
+DeepSeek R1,matplotlib__matplotlib-23987,1,4,2,1,841
+DeepSeek R1,matplotlib__matplotlib-24149,1,4,1,1,628
+DeepSeek R1,matplotlib__matplotlib-24265,0,0,0,0,0
+DeepSeek R1,matplotlib__matplotlib-24334,1,12,0,1,1012
+DeepSeek R1,matplotlib__matplotlib-24970,1,3,3,1,730
+DeepSeek R1,matplotlib__matplotlib-25311,1,7,0,1,731
+DeepSeek R1,matplotlib__matplotlib-25433,0,0,0,0,0
+DeepSeek R1,matplotlib__matplotlib-25442,1,7,1,2,893
+DeepSeek R1,matplotlib__matplotlib-26011,1,1,1,1,614
+DeepSeek R1,matplotlib__matplotlib-26020,1,3,2,1,735
+DeepSeek R1,mwaskom__seaborn-3010,1,9,3,1,945
+DeepSeek R1,mwaskom__seaborn-3190,1,3,0,1,661
+DeepSeek R1,mwaskom__seaborn-3407,1,14,0,2,1389
+DeepSeek R1,pallets__flask-4992,1,4,2,4,1631
+DeepSeek R1,psf__requests-2148,1,4,1,2,1144
+DeepSeek R1,psf__requests-2674,2,11,1,3,1347
+DeepSeek R1,psf__requests-3362,1,10,6,3,2029
+DeepSeek R1,pydata__xarray-3364,1,36,12,2,3135
+DeepSeek R1,pydata__xarray-4094,1,21,0,1,1251
+DeepSeek R1,pydata__xarray-4248,1,6,1,1,708
+DeepSeek R1,pydata__xarray-4493,4,42,1,9,4245
+DeepSeek R1,pydata__xarray-5131,1,1,1,1,571
+DeepSeek R1,pylint-dev__pylint-5859,1,2,2,1,674
+DeepSeek R1,pylint-dev__pylint-6506,1,4,0,2,720
+DeepSeek R1,pylint-dev__pylint-7080,1,1,1,1,439
+DeepSeek R1,pylint-dev__pylint-7114,1,2,12,1,1112
+DeepSeek R1,pylint-dev__pylint-7993,1,2,2,1,1071
+DeepSeek R1,pytest-dev__pytest-11143,0,0,0,0,0
+DeepSeek R1,pytest-dev__pytest-11148,1,4,0,1,617
+DeepSeek R1,pytest-dev__pytest-5103,1,49,0,2,2989
+DeepSeek R1,pytest-dev__pytest-5221,0,0,0,0,0
+DeepSeek R1,pytest-dev__pytest-5495,1,9,7,1,1335
+DeepSeek R1,pytest-dev__pytest-7220,1,26,0,1,1112
+DeepSeek R1,pytest-dev__pytest-7373,1,2,14,2,1337
+DeepSeek R1,pytest-dev__pytest-8365,1,4,1,1,628
+DeepSeek R1,pytest-dev__pytest-8906,2,22,2,2,1893
+DeepSeek R1,scikit-learn__scikit-learn-10297,1,8,2,2,1630
+DeepSeek R1,scikit-learn__scikit-learn-11040,1,10,1,2,1409
+DeepSeek R1,scikit-learn__scikit-learn-12471,1,3,0,1,701
+DeepSeek R1,scikit-learn__scikit-learn-13142,1,2,6,2,1157
+DeepSeek R1,scikit-learn__scikit-learn-13241,1,5,0,1,762
+DeepSeek R1,scikit-learn__scikit-learn-13439,1,4,0,1,475
+DeepSeek R1,scikit-learn__scikit-learn-13584,1,5,1,2,1101
+DeepSeek R1,scikit-learn__scikit-learn-13779,1,1,1,1,636
+DeepSeek R1,scikit-learn__scikit-learn-14092,2,99,6,4,5721
+DeepSeek R1,scikit-learn__scikit-learn-14894,1,9,6,1,1165
+DeepSeek R1,scikit-learn__scikit-learn-15512,1,8,0,1,858
+DeepSeek R1,scikit-learn__scikit-learn-15535,1,12,6,1,1137
+DeepSeek R1,scikit-learn__scikit-learn-25500,1,1,1,1,585
+DeepSeek R1,scikit-learn__scikit-learn-25570,1,10,3,1,1285
+DeepSeek R1,scikit-learn__scikit-learn-25638,1,10,0,1,747
+DeepSeek R1,scikit-learn__scikit-learn-25747,1,1,2,1,589
+DeepSeek R1,sphinx-doc__sphinx-10325,1,6,4,2,1432
+DeepSeek R1,sphinx-doc__sphinx-10451,1,7,0,2,1023
+DeepSeek R1,sphinx-doc__sphinx-11445,31,3525,0,26,94164
+DeepSeek R1,sphinx-doc__sphinx-7686,1,7,1,1,889
+DeepSeek R1,sphinx-doc__sphinx-7738,1,4,0,1,584
+DeepSeek R1,sphinx-doc__sphinx-7975,1,1,1,1,720
+DeepSeek R1,sphinx-doc__sphinx-8282,955,100560,0,631,4940177
+DeepSeek R1,sphinx-doc__sphinx-8435,1,12,2,2,1847
+DeepSeek R1,sphinx-doc__sphinx-8474,1,4,0,1,687
+DeepSeek R1,sphinx-doc__sphinx-8506,1,6,8,1,1244
+DeepSeek R1,sphinx-doc__sphinx-8595,1,4,1,1,811
+DeepSeek R1,sphinx-doc__sphinx-8627,1,3,0,1,612
+DeepSeek R1,sphinx-doc__sphinx-8713,1,6,1,1,876
+DeepSeek R1,sphinx-doc__sphinx-8801,1,5,0,2,886
+DeepSeek R1,sympy__sympy-11400,2,10,0,2,1281
+DeepSeek R1,sympy__sympy-11870,1,65,0,5,3576
+DeepSeek R1,sympy__sympy-11897,1,103,68,1,8647
+DeepSeek R1,sympy__sympy-12171,1,7,0,1,671
+DeepSeek R1,sympy__sympy-12236,1,10,3,3,1312
+DeepSeek R1,sympy__sympy-12419,1,8,0,1,776
+DeepSeek R1,sympy__sympy-12481,2,18,6,2,1557
+DeepSeek R1,sympy__sympy-13031,0,0,0,0,0
+DeepSeek R1,sympy__sympy-13043,1,1,1,1,418
+DeepSeek R1,sympy__sympy-13146,2,21,104,3,5823
+DeepSeek R1,sympy__sympy-13471,1,1,1,1,577
+DeepSeek R1,sympy__sympy-13480,1,1,1,1,592
+DeepSeek R1,sympy__sympy-13647,1,2,1,1,594
+DeepSeek R1,sympy__sympy-13773,2,12,0,3,1262
+DeepSeek R1,sympy__sympy-13915,5,49,2,6,4270
+DeepSeek R1,sympy__sympy-13971,1,2,2,1,521
+DeepSeek R1,sympy__sympy-14024,1,8,0,1,918
+DeepSeek R1,sympy__sympy-14308,0,0,0,0,0
+DeepSeek R1,sympy__sympy-14317,1,10,1,1,921
+DeepSeek R1,sympy__sympy-14396,1,4,2,3,1464
+DeepSeek R1,sympy__sympy-14774,1,1,1,1,588
+DeepSeek R1,sympy__sympy-14817,1,4,4,1,1002
+DeepSeek R1,sympy__sympy-15011,1,4,2,1,1013
+DeepSeek R1,sympy__sympy-15308,1,3,1,1,689
+DeepSeek R1,sympy__sympy-15345,1,1,0,1,388
+DeepSeek R1,sympy__sympy-15346,1,21,4,8,4122
+DeepSeek R1,sympy__sympy-15609,1,3,2,1,670
+DeepSeek R1,sympy__sympy-15678,1,10,3,1,1028
+DeepSeek R1,sympy__sympy-16106,1,6,0,1,606
+DeepSeek R1,sympy__sympy-16281,1,4,3,1,950
+DeepSeek R1,sympy__sympy-16503,1,14,0,1,1093
+DeepSeek R1,sympy__sympy-16792,1,3,1,1,829
+DeepSeek R1,sympy__sympy-17022,3,93,1,4,5100
+DeepSeek R1,sympy__sympy-17139,1,1,1,1,424
+DeepSeek R1,sympy__sympy-17630,1,16,1,1,1415
+DeepSeek R1,sympy__sympy-18057,1,4,0,1,659
+DeepSeek R1,sympy__sympy-18189,1,271,14,3,10250
+DeepSeek R1,sympy__sympy-18532,1,10,6,1,937
+DeepSeek R1,sympy__sympy-18621,1,6,1,1,685
+DeepSeek R1,sympy__sympy-18698,2,26,2,2,1642
+DeepSeek R1,sympy__sympy-18835,2,25,0,2,1552
+DeepSeek R1,sympy__sympy-19487,1,4,1,2,833
+DeepSeek R1,sympy__sympy-20049,1,13,4,1,1282
+DeepSeek R1,sympy__sympy-20154,1,2,2,1,511
+DeepSeek R1,sympy__sympy-20322,3,11,1,3,1891
+DeepSeek R1,sympy__sympy-20442,1,9,0,1,948
+DeepSeek R1,sympy__sympy-20590,1,6,1,1,550
+DeepSeek R1,sympy__sympy-20639,1,4,0,1,916
+DeepSeek R1,sympy__sympy-21055,1,20,1,2,1098
+DeepSeek R1,sympy__sympy-21171,1,3,1,1,743
+DeepSeek R1,sympy__sympy-21379,3,28,17,5,3113
+DeepSeek R1,sympy__sympy-21612,1,5,1,1,778
+DeepSeek R1,sympy__sympy-21614,1,4,0,1,505
+DeepSeek R1,sympy__sympy-21847,1,2,2,2,1051
+DeepSeek R1,sympy__sympy-22005,1,1,1,1,489
+DeepSeek R1,sympy__sympy-22840,2,46,0,2,2114
+DeepSeek R1,sympy__sympy-23117,1,3,0,1,534
+DeepSeek R1,sympy__sympy-24066,1,6,4,1,1126
+DeepSeek R1,sympy__sympy-24102,1,1,1,1,478
+DeepSeek R1,sympy__sympy-24152,3,34,3,3,2384
+DeepSeek R1,sympy__sympy-24213,1,2,2,1,890
+DeepSeek R1,sympy__sympy-24909,2,9,0,2,1068
+DeepSeek V3.2,astropy__astropy-12907,1,1,1,1,504
+DeepSeek V3.2,astropy__astropy-14182,1,13,3,1,1234
+DeepSeek V3.2,astropy__astropy-14365,1,1,1,1,617
+DeepSeek V3.2,astropy__astropy-14995,1,10,6,1,1313
+DeepSeek V3.2,astropy__astropy-6938,1,1,1,1,519
+DeepSeek V3.2,astropy__astropy-7746,1,19,1,2,1736
+DeepSeek V3.2,django__django-10914,2,12,1,3,1783
+DeepSeek V3.2,django__django-10924,1,10,0,1,909
+DeepSeek V3.2,django__django-11001,1,1,1,1,543
+DeepSeek V3.2,django__django-11019,0,0,0,0,0
+DeepSeek V3.2,django__django-11039,1,2,2,1,815
+DeepSeek V3.2,django__django-11049,1,1,1,1,566
+DeepSeek V3.2,django__django-11099,1,2,2,2,901
+DeepSeek V3.2,django__django-11133,1,3,1,2,1006
+DeepSeek V3.2,django__django-11179,1,1,0,1,618
+DeepSeek V3.2,django__django-11283,1,52,3,3,3898
+DeepSeek V3.2,django__django-11422,0,0,0,0,0
+DeepSeek V3.2,django__django-11564,0,0,0,0,0
+DeepSeek V3.2,django__django-11583,1,4,2,2,1201
+DeepSeek V3.2,django__django-11620,0,0,0,0,0
+DeepSeek V3.2,django__django-11630,0,0,0,0,0
+DeepSeek V3.2,django__django-11742,1,28,0,2,1912
+DeepSeek V3.2,django__django-11797,0,0,0,0,0
+DeepSeek V3.2,django__django-11815,2,33,18,4,5377
+DeepSeek V3.2,django__django-11848,1,7,4,1,834
+DeepSeek V3.2,django__django-11905,1,18,1,1,1263
+DeepSeek V3.2,django__django-11910,0,0,0,0,0
+DeepSeek V3.2,django__django-11964,0,0,0,0,0
+DeepSeek V3.2,django__django-11999,1,13,10,2,2018
+DeepSeek V3.2,django__django-12113,1,1,1,1,633
+DeepSeek V3.2,django__django-12125,0,0,0,0,0
+DeepSeek V3.2,django__django-12184,1,8,2,1,969
+DeepSeek V3.2,django__django-12284,1,5,2,1,812
+DeepSeek V3.2,django__django-12286,0,0,0,0,0
+DeepSeek V3.2,django__django-12308,1,2,0,1,683
+DeepSeek V3.2,django__django-12453,1,4,3,2,1025
+DeepSeek V3.2,django__django-12470,0,0,0,0,0
+DeepSeek V3.2,django__django-12497,1,6,6,2,1992
+DeepSeek V3.2,django__django-12589,0,0,0,0,0
+DeepSeek V3.2,django__django-12700,1,9,2,2,1429
+DeepSeek V3.2,django__django-12708,1,9,2,3,1937
+DeepSeek V3.2,django__django-12747,1,6,0,1,682
+DeepSeek V3.2,django__django-12856,1,8,0,1,811
+DeepSeek V3.2,django__django-12908,0,0,0,0,0
+DeepSeek V3.2,django__django-12915,1,9,1,4,1675
+DeepSeek V3.2,django__django-12983,1,6,2,2,1013
+DeepSeek V3.2,django__django-13028,1,1,1,1,662
+DeepSeek V3.2,django__django-13033,0,0,0,0,0
+DeepSeek V3.2,django__django-13158,1,2,0,1,564
+DeepSeek V3.2,django__django-13220,1,37,0,1,1967
+DeepSeek V3.2,django__django-13230,1,2,0,2,835
+DeepSeek V3.2,django__django-13265,1,20,2,4,2644
+DeepSeek V3.2,django__django-13315,3,3,3,3,2056
+DeepSeek V3.2,django__django-13321,1,1,1,1,720
+DeepSeek V3.2,django__django-13401,1,11,3,1,1588
+DeepSeek V3.2,django__django-13447,1,14,3,5,2296
+DeepSeek V3.2,django__django-13448,1,3,1,2,1261
+DeepSeek V3.2,django__django-13551,1,4,1,2,1280
+DeepSeek V3.2,django__django-13590,1,9,4,1,1101
+DeepSeek V3.2,django__django-13658,1,5,1,1,885
+DeepSeek V3.2,django__django-13660,1,2,2,1,1037
+DeepSeek V3.2,django__django-13710,1,5,1,1,943
+DeepSeek V3.2,django__django-13757,1,9,2,1,1225
+DeepSeek V3.2,django__django-13768,1,3,0,2,852
+DeepSeek V3.2,django__django-13925,0,0,0,0,0
+DeepSeek V3.2,django__django-13933,1,4,3,2,1450
+DeepSeek V3.2,django__django-13964,1,3,3,1,1167
+DeepSeek V3.2,django__django-14016,1,19,1,3,1885
+DeepSeek V3.2,django__django-14017,1,10,4,1,1478
+DeepSeek V3.2,django__django-14155,0,0,0,0,0
+DeepSeek V3.2,django__django-14238,1,1,1,1,651
+DeepSeek V3.2,django__django-14382,1,1,1,1,711
+DeepSeek V3.2,django__django-14411,1,3,0,1,456
+DeepSeek V3.2,django__django-14534,1,1,1,1,420
+DeepSeek V3.2,django__django-14580,1,6,2,2,1297
+DeepSeek V3.2,django__django-14608,2,4,4,4,1810
+DeepSeek V3.2,django__django-14667,1,0,2,1,549
+DeepSeek V3.2,django__django-14672,1,1,1,1,512
+DeepSeek V3.2,django__django-14730,1,9,0,2,1588
+DeepSeek V3.2,django__django-14752,1,5,1,2,1106
+DeepSeek V3.2,django__django-14787,1,1,0,1,618
+DeepSeek V3.2,django__django-14855,1,6,1,1,847
+DeepSeek V3.2,django__django-14915,1,3,0,1,397
+DeepSeek V3.2,django__django-14997,0,0,0,0,0
+DeepSeek V3.2,django__django-14999,0,0,0,0,0
+DeepSeek V3.2,django__django-15061,1,0,4,1,458
+DeepSeek V3.2,django__django-15202,1,10,2,2,1390
+DeepSeek V3.2,django__django-15213,0,0,0,0,0
+DeepSeek V3.2,django__django-15252,1,13,0,3,1516
+DeepSeek V3.2,django__django-15320,1,1,0,1,552
+DeepSeek V3.2,django__django-15347,1,1,1,1,711
+DeepSeek V3.2,django__django-15388,1,4,0,2,892
+DeepSeek V3.2,django__django-15400,1,71,0,2,3878
+DeepSeek V3.2,django__django-15498,1,2,0,1,568
+DeepSeek V3.2,django__django-15695,1,47,2,3,3358
+DeepSeek V3.2,django__django-15738,0,0,0,0,0
+DeepSeek V3.2,django__django-15781,1,23,3,4,2213
+DeepSeek V3.2,django__django-15789,1,7,4,1,1165
+DeepSeek V3.2,django__django-15790,1,3,2,1,851
+DeepSeek V3.2,django__django-15814,1,1,1,1,705
+DeepSeek V3.2,django__django-15819,1,10,0,3,2095
+DeepSeek V3.2,django__django-15851,2,2,2,2,1109
+DeepSeek V3.2,django__django-15902,2,8,3,2,1452
+DeepSeek V3.2,django__django-15996,1,36,3,1,2584
+DeepSeek V3.2,django__django-16041,1,7,1,1,864
+DeepSeek V3.2,django__django-16046,1,6,3,1,638
+DeepSeek V3.2,django__django-16139,1,1,1,1,703
+DeepSeek V3.2,django__django-16229,1,1,1,1,536
+DeepSeek V3.2,django__django-16255,1,1,1,1,524
+DeepSeek V3.2,django__django-16379,1,3,2,1,629
+DeepSeek V3.2,django__django-16400,0,0,0,0,0
+DeepSeek V3.2,django__django-16408,0,0,0,0,0
+DeepSeek V3.2,django__django-16527,1,1,0,1,549
+DeepSeek V3.2,django__django-16595,1,4,0,1,623
+DeepSeek V3.2,django__django-16816,1,1,1,1,608
+DeepSeek V3.2,django__django-16820,1,1,1,1,631
+DeepSeek V3.2,django__django-16873,1,2,1,1,592
+DeepSeek V3.2,django__django-16910,0,0,0,0,0
+DeepSeek V3.2,django__django-17051,0,0,0,0,0
+DeepSeek V3.2,django__django-17087,1,1,1,1,616
+DeepSeek V3.2,matplotlib__matplotlib-18869,1,9,0,1,816
+DeepSeek V3.2,matplotlib__matplotlib-22711,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-22835,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-23299,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-23314,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-23476,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-23562,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-23563,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-23913,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-23964,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-23987,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-24149,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-24265,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-24334,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-24970,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-25079,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-25311,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-25332,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-25433,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-25442,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-25498,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-26011,0,0,0,0,0
+DeepSeek V3.2,matplotlib__matplotlib-26020,0,0,0,0,0
+DeepSeek V3.2,mwaskom__seaborn-2848,0,0,0,0,0
+DeepSeek V3.2,mwaskom__seaborn-3010,1,7,0,1,578
+DeepSeek V3.2,mwaskom__seaborn-3190,1,17,4,2,1451
+DeepSeek V3.2,mwaskom__seaborn-3407,1,4,2,1,746
+DeepSeek V3.2,pallets__flask-4045,1,1,0,1,490
+DeepSeek V3.2,pallets__flask-4992,1,10,1,2,1839
+DeepSeek V3.2,pallets__flask-5063,1,19,6,1,1664
+DeepSeek V3.2,psf__requests-1963,0,0,0,0,0
+DeepSeek V3.2,psf__requests-2148,3,23,7,8,4219
+DeepSeek V3.2,psf__requests-2317,6,33,13,12,5365
+DeepSeek V3.2,psf__requests-2674,0,0,0,0,0
+DeepSeek V3.2,psf__requests-3362,0,0,0,0,0
+DeepSeek V3.2,psf__requests-863,1,10,2,2,968
+DeepSeek V3.2,pydata__xarray-3364,0,0,0,0,0
+DeepSeek V3.2,pydata__xarray-4094,0,0,0,0,0
+DeepSeek V3.2,pydata__xarray-4248,0,0,0,0,0
+DeepSeek V3.2,pydata__xarray-4493,1,2,0,1,460
+DeepSeek V3.2,pydata__xarray-5131,1,1,1,1,571
+DeepSeek V3.2,pylint-dev__pylint-5859,1,2,2,1,652
+DeepSeek V3.2,pylint-dev__pylint-6506,1,4,0,2,704
+DeepSeek V3.2,pylint-dev__pylint-7080,0,0,0,0,0
+DeepSeek V3.2,pylint-dev__pylint-7114,0,0,0,0,0
+DeepSeek V3.2,pylint-dev__pylint-7228,2,34,6,9,3987
+DeepSeek V3.2,pylint-dev__pylint-7993,1,25,6,2,2207
+DeepSeek V3.2,pytest-dev__pytest-11143,1,2,1,2,996
+DeepSeek V3.2,pytest-dev__pytest-11148,1,25,2,3,2962
+DeepSeek V3.2,pytest-dev__pytest-5103,0,63,10,6,5332
+DeepSeek V3.2,pytest-dev__pytest-5221,1,4,4,2,1318
+DeepSeek V3.2,pytest-dev__pytest-5227,1,1,1,1,514
+DeepSeek V3.2,pytest-dev__pytest-5413,1,2,2,1,591
+DeepSeek V3.2,pytest-dev__pytest-5495,1,16,3,3,1724
+DeepSeek V3.2,pytest-dev__pytest-5692,1,8,0,3,1059
+DeepSeek V3.2,pytest-dev__pytest-6116,1,1,0,1,367
+DeepSeek V3.2,pytest-dev__pytest-7168,1,11,2,1,933
+DeepSeek V3.2,pytest-dev__pytest-7220,0,0,0,0,0
+DeepSeek V3.2,pytest-dev__pytest-7373,1,3,20,2,1518
+DeepSeek V3.2,pytest-dev__pytest-7432,1,27,22,2,2788
+DeepSeek V3.2,pytest-dev__pytest-7490,1,5,1,1,770
+DeepSeek V3.2,pytest-dev__pytest-8365,1,20,1,2,1473
+DeepSeek V3.2,pytest-dev__pytest-8906,3,20,1,4,2821
+DeepSeek V3.2,pytest-dev__pytest-9359,1,10,1,1,1112
+DeepSeek V3.2,scikit-learn__scikit-learn-10297,1,26,2,2,2316
+DeepSeek V3.2,scikit-learn__scikit-learn-10508,1,6,0,2,1027
+DeepSeek V3.2,scikit-learn__scikit-learn-10949,0,0,0,0,0
+DeepSeek V3.2,scikit-learn__scikit-learn-11040,0,0,0,0,0
+DeepSeek V3.2,scikit-learn__scikit-learn-11281,0,0,0,0,0
+DeepSeek V3.2,scikit-learn__scikit-learn-12471,1,13,1,1,1427
+DeepSeek V3.2,scikit-learn__scikit-learn-13142,1,8,4,3,1914
+DeepSeek V3.2,scikit-learn__scikit-learn-13241,1,11,0,2,1331
+DeepSeek V3.2,scikit-learn__scikit-learn-13439,1,4,0,1,475
+DeepSeek V3.2,scikit-learn__scikit-learn-13496,2,7,0,4,2078
+DeepSeek V3.2,scikit-learn__scikit-learn-13497,1,1,1,1,641
+DeepSeek V3.2,scikit-learn__scikit-learn-13584,1,29,2,2,2025
+DeepSeek V3.2,scikit-learn__scikit-learn-13779,1,2,0,1,611
+DeepSeek V3.2,scikit-learn__scikit-learn-14087,1,1,1,1,734
+DeepSeek V3.2,scikit-learn__scikit-learn-14092,1,87,11,4,5484
+DeepSeek V3.2,scikit-learn__scikit-learn-14894,1,9,6,1,1194
+DeepSeek V3.2,scikit-learn__scikit-learn-14983,1,3,0,1,506
+DeepSeek V3.2,scikit-learn__scikit-learn-15512,1,9,3,3,1449
+DeepSeek V3.2,scikit-learn__scikit-learn-15535,1,2,2,1,690
+DeepSeek V3.2,scikit-learn__scikit-learn-25500,1,5,1,2,1059
+DeepSeek V3.2,scikit-learn__scikit-learn-25570,1,3,2,2,1139
+DeepSeek V3.2,scikit-learn__scikit-learn-25638,1,29,6,2,2679
+DeepSeek V3.2,scikit-learn__scikit-learn-25747,0,0,0,0,0
+DeepSeek V3.2,sphinx-doc__sphinx-10325,0,0,0,0,0
+DeepSeek V3.2,sphinx-doc__sphinx-10451,0,0,0,0,0
+DeepSeek V3.2,sphinx-doc__sphinx-11445,1,1,1,1,412
+DeepSeek V3.2,sphinx-doc__sphinx-7686,0,0,0,0,0
+DeepSeek V3.2,sphinx-doc__sphinx-7738,0,0,0,0,0
+DeepSeek V3.2,sphinx-doc__sphinx-7975,1,4,0,2,913
+DeepSeek V3.2,sphinx-doc__sphinx-8273,1,9,1,3,1403
+DeepSeek V3.2,sphinx-doc__sphinx-8282,0,0,0,0,0
+DeepSeek V3.2,sphinx-doc__sphinx-8435,1,25,6,5,3510
+DeepSeek V3.2,sphinx-doc__sphinx-8474,0,0,0,0,0
+DeepSeek V3.2,sphinx-doc__sphinx-8506,1,10,7,2,1693
+DeepSeek V3.2,sphinx-doc__sphinx-8595,1,1,1,1,638
+DeepSeek V3.2,sphinx-doc__sphinx-8627,1,7,0,3,1194
+DeepSeek V3.2,sphinx-doc__sphinx-8713,1,7,1,1,952
+DeepSeek V3.2,sphinx-doc__sphinx-8721,1,2,0,1,584
+DeepSeek V3.2,sphinx-doc__sphinx-8801,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-11400,1,8,0,1,776
+DeepSeek V3.2,sympy__sympy-11870,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-11897,1,8,0,3,1287
+DeepSeek V3.2,sympy__sympy-12171,1,32,0,1,1624
+DeepSeek V3.2,sympy__sympy-12236,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-12419,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-12454,1,2,2,2,808
+DeepSeek V3.2,sympy__sympy-12481,1,5,2,1,886
+DeepSeek V3.2,sympy__sympy-13031,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-13043,1,3,1,1,531
+DeepSeek V3.2,sympy__sympy-13146,1,1,1,1,407
+DeepSeek V3.2,sympy__sympy-13177,1,1,1,1,566
+DeepSeek V3.2,sympy__sympy-13437,13,22,19,19,10281
+DeepSeek V3.2,sympy__sympy-13471,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-13480,1,1,1,1,590
+DeepSeek V3.2,sympy__sympy-13647,15,24,22,22,11532
+DeepSeek V3.2,sympy__sympy-13773,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-13895,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-13915,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-13971,1,2,2,1,521
+DeepSeek V3.2,sympy__sympy-14024,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-14308,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-14317,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-14396,1,19,1,1,1382
+DeepSeek V3.2,sympy__sympy-14774,1,1,1,1,588
+DeepSeek V3.2,sympy__sympy-14817,1,4,3,1,907
+DeepSeek V3.2,sympy__sympy-15011,1,12,2,5,2181
+DeepSeek V3.2,sympy__sympy-15308,1,4,0,1,558
+DeepSeek V3.2,sympy__sympy-15345,1,7,0,1,744
+DeepSeek V3.2,sympy__sympy-15346,1,1,1,1,611
+DeepSeek V3.2,sympy__sympy-15609,1,1,1,1,532
+DeepSeek V3.2,sympy__sympy-15678,1,28,7,2,2299
+DeepSeek V3.2,sympy__sympy-16106,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-16281,1,5,4,1,1038
+DeepSeek V3.2,sympy__sympy-16503,1,4,1,1,652
+DeepSeek V3.2,sympy__sympy-16792,1,23,7,2,2489
+DeepSeek V3.2,sympy__sympy-16988,2,18,3,5,2746
+DeepSeek V3.2,sympy__sympy-17022,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-17139,4,15,13,6,4521
+DeepSeek V3.2,sympy__sympy-17630,1,30,2,2,2273
+DeepSeek V3.2,sympy__sympy-17655,1,37,0,4,2690
+DeepSeek V3.2,sympy__sympy-18057,2,5,0,2,1274
+DeepSeek V3.2,sympy__sympy-18087,1,12,1,2,1408
+DeepSeek V3.2,sympy__sympy-18189,1,3,3,1,996
+DeepSeek V3.2,sympy__sympy-18199,1,5,0,1,556
+DeepSeek V3.2,sympy__sympy-18532,1,10,6,1,964
+DeepSeek V3.2,sympy__sympy-18621,1,1,1,1,594
+DeepSeek V3.2,sympy__sympy-18698,1,13,0,1,840
+DeepSeek V3.2,sympy__sympy-18835,1,11,1,2,1207
+DeepSeek V3.2,sympy__sympy-19007,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-19254,1,34,13,1,2362
+DeepSeek V3.2,sympy__sympy-19487,1,5,0,1,637
+DeepSeek V3.2,sympy__sympy-20049,1,63,5,4,3823
+DeepSeek V3.2,sympy__sympy-20154,1,9,23,5,3238
+DeepSeek V3.2,sympy__sympy-20212,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-20322,1,15,0,2,1283
+DeepSeek V3.2,sympy__sympy-20442,1,3,0,1,580
+DeepSeek V3.2,sympy__sympy-20590,1,1,0,1,452
+DeepSeek V3.2,sympy__sympy-20639,1,1,1,1,767
+DeepSeek V3.2,sympy__sympy-21055,1,39,0,2,1794
+DeepSeek V3.2,sympy__sympy-21171,1,42,42,5,5821
+DeepSeek V3.2,sympy__sympy-21379,1,4,1,1,549
+DeepSeek V3.2,sympy__sympy-21612,1,17,0,2,1502
+DeepSeek V3.2,sympy__sympy-21614,1,3,0,1,502
+DeepSeek V3.2,sympy__sympy-21627,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-21847,1,7,3,3,1523
+DeepSeek V3.2,sympy__sympy-22005,1,9,0,4,1452
+DeepSeek V3.2,sympy__sympy-22714,3,4,4,3,2134
+DeepSeek V3.2,sympy__sympy-22840,1,1,1,1,553
+DeepSeek V3.2,sympy__sympy-23117,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-23191,0,0,0,0,0
+DeepSeek V3.2,sympy__sympy-23262,1,7,1,1,1039
+DeepSeek V3.2,sympy__sympy-24066,1,10,5,2,1550
+DeepSeek V3.2,sympy__sympy-24102,1,1,1,1,447
+DeepSeek V3.2,sympy__sympy-24152,1,4,3,1,932
+DeepSeek V3.2,sympy__sympy-24213,1,1,1,1,691
+DeepSeek V3.2,sympy__sympy-24909,1,9,8,1,1503
+Gold (developer),astropy__astropy-12907,1,1,1,1,470
+Gold (developer),astropy__astropy-14182,1,31,10,3,2186
+Gold (developer),astropy__astropy-14365,1,2,2,2,955
+Gold (developer),astropy__astropy-14995,1,2,2,1,869
+Gold (developer),astropy__astropy-6938,1,1,1,1,493
+Gold (developer),astropy__astropy-7746,1,5,0,2,861
+Gold (developer),django__django-10914,1,1,1,1,582
+Gold (developer),django__django-10924,1,1,1,1,530
+Gold (developer),django__django-11001,1,2,1,1,615
+Gold (developer),django__django-11019,1,36,40,3,4929
+Gold (developer),django__django-11039,1,3,2,1,793
+Gold (developer),django__django-11049,1,1,1,1,530
+Gold (developer),django__django-11099,1,2,2,2,808
+Gold (developer),django__django-11133,1,1,1,1,581
+Gold (developer),django__django-11179,1,1,0,1,579
+Gold (developer),django__django-11283,1,25,5,3,2360
+Gold (developer),django__django-11422,1,9,1,1,1097
+Gold (developer),django__django-11564,1,30,1,3,1904
+Gold (developer),django__django-11583,1,4,0,1,613
+Gold (developer),django__django-11620,1,3,3,2,906
+Gold (developer),django__django-11630,1,16,4,2,1753
+Gold (developer),django__django-11742,1,17,0,2,1880
+Gold (developer),django__django-11797,1,3,3,1,780
+Gold (developer),django__django-11815,1,4,3,1,739
+Gold (developer),django__django-11848,1,7,3,1,869
+Gold (developer),django__django-11905,1,13,0,3,1245
+Gold (developer),django__django-11910,1,4,0,1,942
+Gold (developer),django__django-11964,1,7,1,1,559
+Gold (developer),django__django-11999,1,6,2,1,870
+Gold (developer),django__django-12113,1,2,0,1,472
+Gold (developer),django__django-12125,1,1,1,1,546
+Gold (developer),django__django-12184,1,2,1,1,685
+Gold (developer),django__django-12284,1,5,1,1,962
+Gold (developer),django__django-12286,1,6,3,2,919
+Gold (developer),django__django-12308,1,5,0,1,684
+Gold (developer),django__django-12453,1,11,2,2,1395
+Gold (developer),django__django-12470,1,3,3,1,1112
+Gold (developer),django__django-12497,1,2,2,2,1411
+Gold (developer),django__django-12589,1,14,1,2,1557
+Gold (developer),django__django-12700,1,4,0,1,675
+Gold (developer),django__django-12708,1,6,1,1,850
+Gold (developer),django__django-12747,1,4,2,2,1036
+Gold (developer),django__django-12856,1,6,0,1,588
+Gold (developer),django__django-12908,1,1,0,1,496
+Gold (developer),django__django-12915,1,8,0,2,899
+Gold (developer),django__django-12983,1,6,5,1,1199
+Gold (developer),django__django-13028,1,4,1,1,693
+Gold (developer),django__django-13033,1,6,1,1,970
+Gold (developer),django__django-13158,1,3,0,2,961
+Gold (developer),django__django-13220,1,20,0,2,1176
+Gold (developer),django__django-13230,1,1,0,1,631
+Gold (developer),django__django-13265,1,13,14,3,2463
+Gold (developer),django__django-13315,1,10,2,1,1186
+Gold (developer),django__django-13321,1,9,0,1,982
+Gold (developer),django__django-13401,1,23,3,1,2030
+Gold (developer),django__django-13447,1,1,0,1,492
+Gold (developer),django__django-13448,1,11,1,2,1589
+Gold (developer),django__django-13551,1,6,4,2,1557
+Gold (developer),django__django-13590,1,5,1,1,823
+Gold (developer),django__django-13658,1,6,1,1,854
+Gold (developer),django__django-13660,1,2,2,1,894
+Gold (developer),django__django-13710,1,5,2,1,900
+Gold (developer),django__django-13757,1,15,4,1,1438
+Gold (developer),django__django-13768,1,9,0,3,1018
+Gold (developer),django__django-13925,1,5,0,1,630
+Gold (developer),django__django-13933,1,5,1,1,687
+Gold (developer),django__django-13964,1,1,1,1,696
+Gold (developer),django__django-14016,1,4,3,2,943
+Gold (developer),django__django-14017,1,1,1,1,624
+Gold (developer),django__django-14155,1,10,3,1,949
+Gold (developer),django__django-14238,1,1,1,1,627
+Gold (developer),django__django-14382,1,2,2,1,841
+Gold (developer),django__django-14411,1,3,0,1,415
+Gold (developer),django__django-14534,1,1,1,1,386
+Gold (developer),django__django-14580,1,1,1,1,535
+Gold (developer),django__django-14608,1,5,2,2,881
+Gold (developer),django__django-14667,1,6,1,1,849
+Gold (developer),django__django-14672,1,1,1,1,511
+Gold (developer),django__django-14730,1,10,0,1,744
+Gold (developer),django__django-14752,1,10,2,2,1465
+Gold (developer),django__django-14787,1,1,1,1,685
+Gold (developer),django__django-14855,1,5,1,1,687
+Gold (developer),django__django-14915,1,3,0,1,416
+Gold (developer),django__django-14997,1,1,5,1,818
+Gold (developer),django__django-14999,1,6,5,1,1226
+Gold (developer),django__django-15061,1,1,3,1,402
+Gold (developer),django__django-15202,1,7,6,3,2029
+Gold (developer),django__django-15213,1,9,0,1,823
+Gold (developer),django__django-15252,1,6,2,1,850
+Gold (developer),django__django-15320,1,2,1,1,585
+Gold (developer),django__django-15347,1,1,1,1,659
+Gold (developer),django__django-15388,1,2,0,1,520
+Gold (developer),django__django-15400,1,6,0,1,446
+Gold (developer),django__django-15498,1,3,1,1,770
+Gold (developer),django__django-15695,1,3,0,1,737
+Gold (developer),django__django-15738,1,3,2,1,823
+Gold (developer),django__django-15781,1,1,1,1,817
+Gold (developer),django__django-15789,1,4,2,2,907
+Gold (developer),django__django-15790,1,4,4,2,1371
+Gold (developer),django__django-15814,1,1,0,1,598
+Gold (developer),django__django-15819,1,10,2,2,1783
+Gold (developer),django__django-15851,1,1,1,1,514
+Gold (developer),django__django-15902,1,2,0,1,461
+Gold (developer),django__django-15996,1,15,2,2,1320
+Gold (developer),django__django-16041,1,8,7,1,851
+Gold (developer),django__django-16046,1,2,0,1,525
+Gold (developer),django__django-16139,1,3,1,1,697
+Gold (developer),django__django-16229,1,9,1,1,914
+Gold (developer),django__django-16255,1,1,1,1,539
+Gold (developer),django__django-16379,1,3,2,1,586
+Gold (developer),django__django-16400,1,10,5,1,954
+Gold (developer),django__django-16408,1,8,1,2,1166
+Gold (developer),django__django-16527,1,1,1,1,581
+Gold (developer),django__django-16595,1,3,3,1,712
+Gold (developer),django__django-16816,1,4,3,1,793
+Gold (developer),django__django-16820,1,65,0,1,3071
+Gold (developer),django__django-16873,1,3,2,1,693
+Gold (developer),django__django-16910,1,7,1,1,940
+Gold (developer),django__django-17051,1,6,1,1,1011
+Gold (developer),django__django-17087,1,1,1,1,555
+Gold (developer),matplotlib__matplotlib-18869,1,51,16,1,3247
+Gold (developer),matplotlib__matplotlib-22711,1,20,4,3,2068
+Gold (developer),matplotlib__matplotlib-22835,1,15,4,2,1630
+Gold (developer),matplotlib__matplotlib-23299,1,4,1,2,646
+Gold (developer),matplotlib__matplotlib-23314,1,2,0,1,421
+Gold (developer),matplotlib__matplotlib-23476,1,3,0,1,519
+Gold (developer),matplotlib__matplotlib-23562,1,10,0,1,849
+Gold (developer),matplotlib__matplotlib-23563,1,1,0,1,526
+Gold (developer),matplotlib__matplotlib-23913,1,7,1,3,1201
+Gold (developer),matplotlib__matplotlib-23964,1,3,2,1,648
+Gold (developer),matplotlib__matplotlib-23987,1,4,1,1,786
+Gold (developer),matplotlib__matplotlib-24149,1,8,0,1,972
+Gold (developer),matplotlib__matplotlib-24265,1,41,28,3,3498
+Gold (developer),matplotlib__matplotlib-24334,1,3,0,1,633
+Gold (developer),matplotlib__matplotlib-24970,1,11,10,1,1598
+Gold (developer),matplotlib__matplotlib-25079,1,6,2,1,707
+Gold (developer),matplotlib__matplotlib-25311,1,3,1,2,924
+Gold (developer),matplotlib__matplotlib-25332,1,13,0,1,824
+Gold (developer),matplotlib__matplotlib-25433,1,1,0,1,433
+Gold (developer),matplotlib__matplotlib-25442,1,14,17,3,2513
+Gold (developer),matplotlib__matplotlib-25498,1,3,5,2,1102
+Gold (developer),matplotlib__matplotlib-26011,1,7,5,1,1054
+Gold (developer),matplotlib__matplotlib-26020,1,10,3,2,1137
+Gold (developer),mwaskom__seaborn-2848,1,7,0,1,767
+Gold (developer),mwaskom__seaborn-3010,1,4,1,1,444
+Gold (developer),mwaskom__seaborn-3190,1,1,1,1,476
+Gold (developer),mwaskom__seaborn-3407,1,2,2,1,583
+Gold (developer),pallets__flask-4045,1,10,6,2,1449
+Gold (developer),pallets__flask-4992,1,8,3,3,1664
+Gold (developer),pallets__flask-5063,1,39,26,2,3443
+Gold (developer),psf__requests-1963,1,4,1,1,566
+Gold (developer),psf__requests-2148,1,4,1,3,1059
+Gold (developer),psf__requests-2317,1,2,2,2,763
+Gold (developer),psf__requests-2674,1,4,0,2,893
+Gold (developer),psf__requests-3362,1,12,5,1,1012
+Gold (developer),psf__requests-863,1,4,2,1,525
+Gold (developer),pydata__xarray-3364,1,2,8,1,818
+Gold (developer),pydata__xarray-4094,1,1,1,1,517
+Gold (developer),pydata__xarray-4248,1,2,0,1,578
+Gold (developer),pydata__xarray-4493,1,10,0,1,844
+Gold (developer),pydata__xarray-5131,1,1,1,1,524
+Gold (developer),pylint-dev__pylint-5859,1,2,2,1,612
+Gold (developer),pylint-dev__pylint-6506,1,1,2,1,683
+Gold (developer),pylint-dev__pylint-7080,1,1,0,1,417
+Gold (developer),pylint-dev__pylint-7114,1,5,5,2,1275
+Gold (developer),pylint-dev__pylint-7228,1,11,2,2,1316
+Gold (developer),pylint-dev__pylint-7993,1,1,1,1,592
+Gold (developer),pytest-dev__pytest-11143,1,1,0,1,521
+Gold (developer),pytest-dev__pytest-11148,1,2,0,1,467
+Gold (developer),pytest-dev__pytest-5103,1,25,0,3,1991
+Gold (developer),pytest-dev__pytest-5221,1,6,4,1,1005
+Gold (developer),pytest-dev__pytest-5227,1,1,1,1,431
+Gold (developer),pytest-dev__pytest-5413,1,0,7,1,569
+Gold (developer),pytest-dev__pytest-5495,1,23,2,1,1657
+Gold (developer),pytest-dev__pytest-5692,1,4,0,2,675
+Gold (developer),pytest-dev__pytest-6116,1,1,0,1,344
+Gold (developer),pytest-dev__pytest-7168,1,1,1,1,512
+Gold (developer),pytest-dev__pytest-7220,1,8,2,2,1139
+Gold (developer),pytest-dev__pytest-7373,1,5,16,2,1486
+Gold (developer),pytest-dev__pytest-7432,1,2,1,1,456
+Gold (developer),pytest-dev__pytest-7490,1,11,10,2,1711
+Gold (developer),pytest-dev__pytest-8365,1,6,1,1,846
+Gold (developer),pytest-dev__pytest-8906,1,4,4,1,977
+Gold (developer),pytest-dev__pytest-9359,1,5,0,1,907
+Gold (developer),scikit-learn__scikit-learn-10297,1,20,14,3,3739
+Gold (developer),scikit-learn__scikit-learn-10508,1,7,0,2,924
+Gold (developer),scikit-learn__scikit-learn-10949,1,16,0,2,1521
+Gold (developer),scikit-learn__scikit-learn-11040,1,17,0,2,1251
+Gold (developer),scikit-learn__scikit-learn-11281,1,28,2,3,2092
+Gold (developer),scikit-learn__scikit-learn-12471,1,8,1,1,1023
+Gold (developer),scikit-learn__scikit-learn-13142,1,5,5,2,1155
+Gold (developer),scikit-learn__scikit-learn-13241,1,5,0,2,995
+Gold (developer),scikit-learn__scikit-learn-13439,1,6,0,1,502
+Gold (developer),scikit-learn__scikit-learn-13496,1,9,1,3,1285
+Gold (developer),scikit-learn__scikit-learn-13497,1,8,6,2,1542
+Gold (developer),scikit-learn__scikit-learn-13584,1,1,1,1,567
+Gold (developer),scikit-learn__scikit-learn-13779,1,2,0,1,563
+Gold (developer),scikit-learn__scikit-learn-14087,1,6,3,2,1392
+Gold (developer),scikit-learn__scikit-learn-14092,1,6,4,3,1405
+Gold (developer),scikit-learn__scikit-learn-14894,1,8,5,1,1050
+Gold (developer),scikit-learn__scikit-learn-14983,1,5,0,2,927
+Gold (developer),scikit-learn__scikit-learn-15512,1,4,1,2,1348
+Gold (developer),scikit-learn__scikit-learn-15535,1,2,2,1,658
+Gold (developer),scikit-learn__scikit-learn-25500,1,26,15,3,2193
+Gold (developer),scikit-learn__scikit-learn-25570,1,3,1,1,793
+Gold (developer),scikit-learn__scikit-learn-25638,1,29,6,2,2645
+Gold (developer),scikit-learn__scikit-learn-25747,1,1,3,2,746
+Gold (developer),sphinx-doc__sphinx-10325,1,8,4,2,1474
+Gold (developer),sphinx-doc__sphinx-10451,1,17,3,2,1614
+Gold (developer),sphinx-doc__sphinx-11445,1,5,9,3,1508
+Gold (developer),sphinx-doc__sphinx-7686,1,53,1,3,2888
+Gold (developer),sphinx-doc__sphinx-7738,1,1,1,1,563
+Gold (developer),sphinx-doc__sphinx-7975,1,9,5,2,1713
+Gold (developer),sphinx-doc__sphinx-8273,1,8,2,3,1454
+Gold (developer),sphinx-doc__sphinx-8282,1,7,3,3,1737
+Gold (developer),sphinx-doc__sphinx-8435,1,4,2,2,1289
+Gold (developer),sphinx-doc__sphinx-8474,1,3,2,1,667
+Gold (developer),sphinx-doc__sphinx-8506,1,6,1,2,933
+Gold (developer),sphinx-doc__sphinx-8595,1,1,1,1,625
+Gold (developer),sphinx-doc__sphinx-8627,1,7,0,3,1113
+Gold (developer),sphinx-doc__sphinx-8713,1,7,1,1,954
+Gold (developer),sphinx-doc__sphinx-8721,1,4,0,1,573
+Gold (developer),sphinx-doc__sphinx-8801,1,19,8,1,2137
+Gold (developer),sympy__sympy-11400,1,14,0,1,898
+Gold (developer),sympy__sympy-11870,1,6,1,3,1250
+Gold (developer),sympy__sympy-11897,1,3,1,1,664
+Gold (developer),sympy__sympy-12171,1,3,0,1,554
+Gold (developer),sympy__sympy-12236,1,3,3,1,669
+Gold (developer),sympy__sympy-12419,1,6,4,3,1327
+Gold (developer),sympy__sympy-12454,1,2,2,2,774
+Gold (developer),sympy__sympy-12481,1,2,6,1,760
+Gold (developer),sympy__sympy-13031,1,8,4,2,1047
+Gold (developer),sympy__sympy-13043,1,3,3,3,1118
+Gold (developer),sympy__sympy-13146,1,2,6,2,902
+Gold (developer),sympy__sympy-13177,1,2,1,1,551
+Gold (developer),sympy__sympy-13437,1,9,0,1,755
+Gold (developer),sympy__sympy-13471,1,5,0,1,747
+Gold (developer),sympy__sympy-13480,1,1,1,1,556
+Gold (developer),sympy__sympy-13647,1,1,1,1,495
+Gold (developer),sympy__sympy-13773,1,8,0,2,882
+Gold (developer),sympy__sympy-13895,1,4,4,2,1104
+Gold (developer),sympy__sympy-13915,1,5,0,1,648
+Gold (developer),sympy__sympy-13971,1,2,2,1,485
+Gold (developer),sympy__sympy-14024,1,2,10,2,1434
+Gold (developer),sympy__sympy-14308,1,31,8,1,3085
+Gold (developer),sympy__sympy-14317,1,44,1,1,1824
+Gold (developer),sympy__sympy-14396,1,6,2,2,1168
+Gold (developer),sympy__sympy-14774,1,1,1,1,552
+Gold (developer),sympy__sympy-14817,1,2,1,1,573
+Gold (developer),sympy__sympy-15011,1,10,4,3,1780
+Gold (developer),sympy__sympy-15308,1,8,0,2,837
+Gold (developer),sympy__sympy-15345,1,4,1,2,808
+Gold (developer),sympy__sympy-15346,1,1,1,1,575
+Gold (developer),sympy__sympy-15609,1,4,1,1,534
+Gold (developer),sympy__sympy-15678,1,9,2,1,786
+Gold (developer),sympy__sympy-16106,1,20,0,1,936
+Gold (developer),sympy__sympy-16281,1,3,4,1,903
+Gold (developer),sympy__sympy-16503,1,7,3,3,1521
+Gold (developer),sympy__sympy-16792,1,11,5,3,1793
+Gold (developer),sympy__sympy-16988,1,1,1,1,435
+Gold (developer),sympy__sympy-17022,1,7,0,1,825
+Gold (developer),sympy__sympy-17139,1,2,0,1,410
+Gold (developer),sympy__sympy-17630,1,2,0,1,589
+Gold (developer),sympy__sympy-17655,1,4,0,1,505
+Gold (developer),sympy__sympy-18057,1,1,1,1,391
+Gold (developer),sympy__sympy-18087,1,6,8,2,1531
+Gold (developer),sympy__sympy-18189,1,1,1,1,621
+Gold (developer),sympy__sympy-18199,1,47,3,3,2838
+Gold (developer),sympy__sympy-18532,1,4,5,1,703
+Gold (developer),sympy__sympy-18621,1,1,1,1,558
+Gold (developer),sympy__sympy-18698,1,6,5,3,1126
+Gold (developer),sympy__sympy-18835,1,19,2,2,1692
+Gold (developer),sympy__sympy-19007,1,13,5,2,1701
+Gold (developer),sympy__sympy-19254,1,56,5,1,2151
+Gold (developer),sympy__sympy-19487,1,3,0,1,584
+Gold (developer),sympy__sympy-20049,1,32,2,1,2614
+Gold (developer),sympy__sympy-20154,1,4,19,3,1559
+Gold (developer),sympy__sympy-20212,1,2,0,1,410
+Gold (developer),sympy__sympy-20322,1,37,17,2,2777
+Gold (developer),sympy__sympy-20442,1,6,1,2,1025
+Gold (developer),sympy__sympy-20590,1,5,0,1,611
+Gold (developer),sympy__sympy-20639,1,12,12,3,2453
+Gold (developer),sympy__sympy-21055,1,23,0,2,1175
+Gold (developer),sympy__sympy-21171,1,3,1,1,741
+Gold (developer),sympy__sympy-21379,1,8,4,2,1007
+Gold (developer),sympy__sympy-21612,1,1,1,1,541
+Gold (developer),sympy__sympy-21614,1,4,0,1,461
+Gold (developer),sympy__sympy-21627,1,2,0,1,582
+Gold (developer),sympy__sympy-21847,1,2,2,2,1015
+Gold (developer),sympy__sympy-22005,1,6,0,1,565
+Gold (developer),sympy__sympy-22714,1,1,1,1,669
+Gold (developer),sympy__sympy-22840,1,5,1,2,996
+Gold (developer),sympy__sympy-23117,1,10,5,3,1777
+Gold (developer),sympy__sympy-23191,1,13,11,1,2606
+Gold (developer),sympy__sympy-23262,1,2,2,1,649
+Gold (developer),sympy__sympy-24066,1,3,4,1,883
+Gold (developer),sympy__sympy-24102,1,1,1,1,633
+Gold (developer),sympy__sympy-24152,1,6,3,1,1075
+Gold (developer),sympy__sympy-24213,1,1,1,1,655
+Gold (developer),sympy__sympy-24909,1,5,5,3,1027

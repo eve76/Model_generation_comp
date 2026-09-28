@@ -1,0 +1,615 @@
+{
+  "summary": {
+    "before_count": 513,
+    "after_count": 513,
+    "added": 5,
+    "removed": 5,
+    "unchanged": 508
+  },
+  "added_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 807
+            },
+            "region": {
+              "startLine": 390,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cfd8c509151595cd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_source_expressions': [Function get_source_expressions](1) and [Function get_source_expressions](2).\nBase classes have conflicting values for attribute 'get_source_fields': [Function get_source_fields](3) and [Function get_source_fields](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/aggregates/general.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 453
+            },
+            "region": {
+              "startLine": 11,
+              "endColumn": 46
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5084ffb2509554ca:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/aggregates/mixins.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 95
+            },
+            "region": {
+              "startLine": 42,
+              "startColumn": 5,
+              "endColumn": 38
+            }
+          },
+          "message": {
+            "text": "Function get_source_expressions"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/aggregates.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 662
+            },
+            "region": {
+              "startLine": 35,
+              "startColumn": 5,
+              "endColumn": 38
+            }
+          },
+          "message": {
+            "text": "Function get_source_expressions"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/aggregates/mixins.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 95
+            },
+            "region": {
+              "startLine": 45,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function get_source_fields"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/aggregates.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 662
+            },
+            "region": {
+              "startLine": 31,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function get_source_fields"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_source_expressions': [Function get_source_expressions](1) and [Function get_source_expressions](2).\nBase classes have conflicting values for attribute 'get_source_fields': [Function get_source_fields](3) and [Function get_source_fields](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/aggregates/general.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 453
+            },
+            "region": {
+              "startLine": 52,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "889ce20cd57e2ab9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/aggregates/mixins.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 95
+            },
+            "region": {
+              "startLine": 42,
+              "startColumn": 5,
+              "endColumn": 38
+            }
+          },
+          "message": {
+            "text": "Function get_source_expressions"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/aggregates.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 662
+            },
+            "region": {
+              "startLine": 35,
+              "startColumn": 5,
+              "endColumn": 38
+            }
+          },
+          "message": {
+            "text": "Function get_source_expressions"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/aggregates/mixins.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 95
+            },
+            "region": {
+              "startLine": 45,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function get_source_fields"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/aggregates.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 662
+            },
+            "region": {
+              "startLine": 31,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function get_source_fields"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/redundant-else",
+      "ruleIndex": 141,
+      "rule": {
+        "id": "py/redundant-else",
+        "index": 141
+      },
+      "message": {
+        "text": "This 'while' statement has a redundant 'else' as no 'break' is present in the body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 807
+            },
+            "region": {
+              "startLine": 276,
+              "startColumn": 9,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6da089f9059898c5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 807
+            },
+            "region": {
+              "startLine": 601,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c8bba0c50070c33b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_source_fields': [Function get_source_fields](1) and [Function get_source_fields](2).\nBase classes have conflicting values for attribute 'get_source_expressions': [Function get_source_expressions](3) and [Function get_source_expressions](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/aggregates/general.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 11,
+              "endColumn": 46
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5084ffb2509554ca:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/aggregates/mixins.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 547
+            },
+            "region": {
+              "startLine": 45,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function get_source_fields"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/aggregates.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 77
+            },
+            "region": {
+              "startLine": 31,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function get_source_fields"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/aggregates/mixins.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 547
+            },
+            "region": {
+              "startLine": 42,
+              "startColumn": 5,
+              "endColumn": 38
+            }
+          },
+          "message": {
+            "text": "Function get_source_expressions"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/aggregates.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 77
+            },
+            "region": {
+              "startLine": 35,
+              "startColumn": 5,
+              "endColumn": 38
+            }
+          },
+          "message": {
+            "text": "Function get_source_expressions"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 126
+            },
+            "region": {
+              "startLine": 599,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c8bba0c50070c33b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/redundant-else",
+      "ruleIndex": 141,
+      "rule": {
+        "id": "py/redundant-else",
+        "index": 141
+      },
+      "message": {
+        "text": "This 'while' statement has a redundant 'else' as no 'break' is present in the body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 126
+            },
+            "region": {
+              "startLine": 274,
+              "startColumn": 9,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6da089f9059898c5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/autoreload.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 126
+            },
+            "region": {
+              "startLine": 388,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cfd8c509151595cd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_source_fields': [Function get_source_fields](1) and [Function get_source_fields](2).\nBase classes have conflicting values for attribute 'get_source_expressions': [Function get_source_expressions](3) and [Function get_source_expressions](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/aggregates/general.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 52,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "889ce20cd57e2ab9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/aggregates/mixins.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 547
+            },
+            "region": {
+              "startLine": 45,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function get_source_fields"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/aggregates.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 77
+            },
+            "region": {
+              "startLine": 31,
+              "startColumn": 5,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "Function get_source_fields"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/postgres/aggregates/mixins.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 547
+            },
+            "region": {
+              "startLine": 42,
+              "startColumn": 5,
+              "endColumn": 38
+            }
+          },
+          "message": {
+            "text": "Function get_source_expressions"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/aggregates.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 77
+            },
+            "region": {
+              "startLine": 35,
+              "startColumn": 5,
+              "endColumn": 38
+            }
+          },
+          "message": {
+            "text": "Function get_source_expressions"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "before_count": 573,
+    "after_count": 573,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 572
+  },
+  "added_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/pretty/pretty.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 16
+            },
+            "region": {
+              "startLine": 2166,
+              "startColumn": 9,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e55a7f41d4a4d169:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/pretty/pretty.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 87
+            },
+            "region": {
+              "startLine": 2165,
+              "startColumn": 9,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e55a7f41d4a4d169:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

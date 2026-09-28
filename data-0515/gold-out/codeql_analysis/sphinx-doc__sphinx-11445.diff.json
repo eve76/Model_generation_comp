@@ -1,0 +1,293 @@
+{
+  "summary": {
+    "before_count": 314,
+    "after_count": 314,
+    "added": 2,
+    "removed": 2,
+    "unchanged": 312
+  },
+  "added_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sphinx.util.docutils](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/rst.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 19,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a7b0996ca7b45510:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/docutils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 134
+            }
+          },
+          "message": {
+            "text": "sphinx.util.docutils"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'getLogger' may not be defined if module [sphinx.util.logging](1) is imported before module [sphinx.util.rst](2), as the [definition](3) of getLogger occurs after the cyclic [import](4) of sphinx.util.rst."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/rst.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            },
+            "region": {
+              "startLine": 21,
+              "startColumn": 10,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d0c9a2d1203d7594:1",
+        "primaryLocationStartColumnFingerprint": "9"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/logging.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 34
+            }
+          },
+          "message": {
+            "text": "sphinx.util.logging"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/rst.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 21
+            }
+          },
+          "message": {
+            "text": "sphinx.util.rst"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/logging.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 34
+            },
+            "region": {
+              "startLine": 49,
+              "startColumn": 5,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/logging.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 34
+            },
+            "region": {
+              "startLine": 20,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'getLogger' may not be defined if module [sphinx.util.logging](1) is imported before module [sphinx.util.rst](2), as the [definition](3) of getLogger occurs after the cyclic [import](4) of sphinx.util.rst."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/rst.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 137
+            },
+            "region": {
+              "startLine": 26,
+              "startColumn": 10,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "17ab8b03ab058f85:1",
+        "primaryLocationStartColumnFingerprint": "9"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/logging.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            }
+          },
+          "message": {
+            "text": "sphinx.util.logging"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/rst.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 137
+            }
+          },
+          "message": {
+            "text": "sphinx.util.rst"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/logging.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 49,
+              "startColumn": 5,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/logging.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 154
+            },
+            "region": {
+              "startLine": 20,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sphinx.util.docutils](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/rst.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 137
+            },
+            "region": {
+              "startLine": 18,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e04d59e2dcbcfe81:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sphinx/util/docutils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            }
+          },
+          "message": {
+            "text": "sphinx.util.docutils"
+          }
+        }
+      ]
+    }
+  ]
+}

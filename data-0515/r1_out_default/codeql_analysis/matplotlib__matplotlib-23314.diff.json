@@ -1,0 +1,300 @@
+{
+  "summary": {
+    "before_count": 692,
+    "after_count": 693,
+    "added": 3,
+    "removed": 2,
+    "unchanged": 690
+  },
+  "added_results": [
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at least 5 positional arguments, whereas overridden [Axes.text](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/axes3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 62
+            },
+            "region": {
+              "startLine": 1254,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3778da5b8686dcd6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 162
+            },
+            "region": {
+              "startLine": 613,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Axes.text"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 162
+            },
+            "region": {
+              "startLine": 3168,
+              "startColumn": 21,
+              "endLine": 3173,
+              "endColumn": 64
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mismatched-multiple-assignment",
+      "ruleIndex": 150,
+      "rule": {
+        "id": "py/mismatched-multiple-assignment",
+        "index": 150
+      },
+      "message": {
+        "text": "Left hand side of assignment contains 5 variables, but right hand side is a [tuple](1) of length 0."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/axes3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 62
+            },
+            "region": {
+              "startLine": 2175,
+              "startColumn": 9,
+              "endColumn": 72
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f1801881997c48d8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/cbook/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 994,
+              "startColumn": 16,
+              "endColumn": 18
+            }
+          },
+          "message": {
+            "text": "tuple"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 93,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 93
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-23314/lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 117
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 198
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at least 5 positional arguments, whereas overridden [Axes.text](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/axes3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 1239,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3778da5b8686dcd6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 181
+            },
+            "region": {
+              "startLine": 613,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Axes.text"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 181
+            },
+            "region": {
+              "startLine": 3168,
+              "startColumn": 21,
+              "endLine": 3173,
+              "endColumn": 64
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mismatched-multiple-assignment",
+      "ruleIndex": 150,
+      "rule": {
+        "id": "py/mismatched-multiple-assignment",
+        "index": 150
+      },
+      "message": {
+        "text": "Left hand side of assignment contains 5 variables, but right hand side is a [tuple](1) of length 0."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/axes3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 2160,
+              "startColumn": 9,
+              "endColumn": 72
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f1801881997c48d8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/cbook/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 994,
+              "startColumn": 16,
+              "endColumn": 18
+            }
+          },
+          "message": {
+            "text": "tuple"
+          }
+        }
+      ]
+    }
+  ]
+}

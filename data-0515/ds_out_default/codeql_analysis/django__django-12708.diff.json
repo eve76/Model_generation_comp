@@ -1,0 +1,473 @@
+{
+  "summary": {
+    "before_count": 518,
+    "after_count": 518,
+    "added": 5,
+    "removed": 5,
+    "unchanged": 513
+  },
+  "added_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/base/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 124
+            },
+            "region": {
+              "startLine": 533,
+              "startColumn": 5,
+              "endColumn": 70
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "57b32a660661a4f0:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/base/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 124
+            },
+            "region": {
+              "startLine": 822,
+              "startColumn": 5,
+              "endColumn": 67
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5558c105464822be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/base/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 124
+            },
+            "region": {
+              "startLine": 503,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "71eb3f475d296187:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/base/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 124
+            },
+            "region": {
+              "startLine": 448,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "efd4a23076a3897:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/inheritance/incorrect-overridden-signature",
+      "ruleIndex": 137,
+      "rule": {
+        "id": "py/inheritance/incorrect-overridden-signature",
+        "index": 137
+      },
+      "message": {
+        "text": "Overridden method signature does not match [call](1), where it is passed too many arguments. Overriding method [method DatabaseSchemaEditor.alter_db_table](2) matches the call.\nOverridden method signature does not match [call](1), where it is passed too many arguments. Overriding method [method SpatialiteSchemaEditor.alter_db_table](3) matches the call.\nOverridden method signature does not match [call](4), where it is passed too many arguments. Overriding method [method DatabaseSchemaEditor.alter_db_table](2) matches the call.\nOverridden method signature does not match [call](1), where it is passed an argument named 'disable_constraints'. Overriding method [method DatabaseSchemaEditor.alter_db_table](2) matches the call.\nOverridden method signature does not match [call](1), where it is passed an argument named 'disable_constraints'. Overriding method [method SpatialiteSchemaEditor.alter_db_table](3) matches the call."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/base/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 124
+            },
+            "region": {
+              "startLine": 425,
+              "startColumn": 5,
+              "endColumn": 65
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5c957c9fa1dd92fc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/sqlite3/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 618
+            },
+            "region": {
+              "startLine": 294,
+              "startColumn": 9,
+              "endLine": 297,
+              "endColumn": 10
+            }
+          },
+          "message": {
+            "text": "call"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/sqlite3/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 618
+            },
+            "region": {
+              "startLine": 86,
+              "startColumn": 5,
+              "endColumn": 91
+            }
+          },
+          "message": {
+            "text": "method DatabaseSchemaEditor.alter_db_table"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/gis/db/backends/spatialite/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 95
+            },
+            "region": {
+              "startLine": 126,
+              "startColumn": 5,
+              "endColumn": 91
+            }
+          },
+          "message": {
+            "text": "method SpatialiteSchemaEditor.alter_db_table"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/gis/db/backends/spatialite/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 95
+            },
+            "region": {
+              "startLine": 138,
+              "startColumn": 9,
+              "endColumn": 87
+            }
+          },
+          "message": {
+            "text": "call"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/base/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 520
+            },
+            "region": {
+              "startLine": 496,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "71eb3f475d296187:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/base/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 520
+            },
+            "region": {
+              "startLine": 526,
+              "startColumn": 5,
+              "endColumn": 70
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "57b32a660661a4f0:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/base/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 520
+            },
+            "region": {
+              "startLine": 441,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "efd4a23076a3897:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/base/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 520
+            },
+            "region": {
+              "startLine": 815,
+              "startColumn": 5,
+              "endColumn": 67
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5558c105464822be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/inheritance/incorrect-overridden-signature",
+      "ruleIndex": 137,
+      "rule": {
+        "id": "py/inheritance/incorrect-overridden-signature",
+        "index": 137
+      },
+      "message": {
+        "text": "Overridden method signature does not match [call](1), where it is passed too many arguments. Overriding method [method DatabaseSchemaEditor.alter_db_table](2) matches the call.\nOverridden method signature does not match [call](1), where it is passed too many arguments. Overriding method [method SpatialiteSchemaEditor.alter_db_table](3) matches the call.\nOverridden method signature does not match [call](4), where it is passed too many arguments. Overriding method [method DatabaseSchemaEditor.alter_db_table](2) matches the call.\nOverridden method signature does not match [call](1), where it is passed an argument named 'disable_constraints'. Overriding method [method DatabaseSchemaEditor.alter_db_table](2) matches the call.\nOverridden method signature does not match [call](1), where it is passed an argument named 'disable_constraints'. Overriding method [method SpatialiteSchemaEditor.alter_db_table](3) matches the call."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/base/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 520
+            },
+            "region": {
+              "startLine": 418,
+              "startColumn": 5,
+              "endColumn": 65
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5c957c9fa1dd92fc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/sqlite3/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 127
+            },
+            "region": {
+              "startLine": 294,
+              "startColumn": 9,
+              "endLine": 297,
+              "endColumn": 10
+            }
+          },
+          "message": {
+            "text": "call"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/backends/sqlite3/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 127
+            },
+            "region": {
+              "startLine": 86,
+              "startColumn": 5,
+              "endColumn": 91
+            }
+          },
+          "message": {
+            "text": "method DatabaseSchemaEditor.alter_db_table"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/gis/db/backends/spatialite/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 53
+            },
+            "region": {
+              "startLine": 126,
+              "startColumn": 5,
+              "endColumn": 91
+            }
+          },
+          "message": {
+            "text": "method SpatialiteSchemaEditor.alter_db_table"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/gis/db/backends/spatialite/schema.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 53
+            },
+            "region": {
+              "startLine": 138,
+              "startColumn": 9,
+              "endColumn": 87
+            }
+          },
+          "message": {
+            "text": "call"
+          }
+        }
+      ]
+    }
+  ]
+}

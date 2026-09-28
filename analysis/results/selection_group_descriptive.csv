@@ -1,0 +1,7 @@
+family,selection_group,n_instances,gold_cpu_n,gold_cpu_median,gold_memory_median,gold_churn_median,gold_files_median
+Claude,common,71,71,5.966,235.046,4.0,1.0
+Claude,newer_only,62,62,5.698,174.636,4.0,1.0
+Claude,older_only,37,37,6.85,253.264,7.0,1.0
+DeepSeek,common,56,56,5.923,216.05599999999998,4.0,1.0
+DeepSeek,newer_only,77,77,5.85,212.62,5.0,1.0
+DeepSeek,older_only,23,23,6.63,238.796,7.0,1.0

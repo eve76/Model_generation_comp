@@ -1,0 +1,993 @@
+{
+  "summary": {
+    "before_count": 1593,
+    "after_count": 1593,
+    "added": 10,
+    "removed": 10,
+    "unchanged": 1583
+  },
+  "added_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.polys.rings](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 6714,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ca75ef33f4c743de:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/rings.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 131
+            }
+          },
+          "message": {
+            "text": "sympy.polys.rings"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.exprtools](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 6365,
+              "startColumn": 13,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fa39ed616ba9b63b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/exprtools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            }
+          },
+          "message": {
+            "text": "sympy.core.exprtools"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 139,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 139
+      },
+      "message": {
+        "text": "_generic_factor_list returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 5984,
+              "endColumn": 52
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f6ce6f5ed0fc96ad:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 6021,
+              "startColumn": 20,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 6023,
+              "startColumn": 20,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.polys.rings](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 6825,
+              "startColumn": 9,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9adbb69674005597:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/rings.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 131
+            }
+          },
+          "message": {
+            "text": "sympy.polys.rings"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.add](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 6085,
+              "startColumn": 9,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fc16afe839154a7e:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 105
+            }
+          },
+          "message": {
+            "text": "sympy.core.add"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 139,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 139
+      },
+      "message": {
+        "text": "to_rational_coeffs._try_rescale returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 6077,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "66e863deb21ddc26:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 6087,
+              "startColumn": 20,
+              "endColumn": 27
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 6109,
+              "startColumn": 24,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.polys.rings](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 7038,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ca75ef33f4c743de:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/rings.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 131
+            }
+          },
+          "message": {
+            "text": "sympy.polys.rings"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.exprtools](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 6144,
+              "startColumn": 9,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5e41f9376a8e3e8f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/exprtools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            }
+          },
+          "message": {
+            "text": "sympy.core.exprtools"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 6665,
+              "startColumn": 17,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "767cab67dae435bf:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.exprtools](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 74
+            },
+            "region": {
+              "startLine": 6618,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2e621de1aa214ab8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/exprtools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            }
+          },
+          "message": {
+            "text": "sympy.core.exprtools"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.exprtools](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 6605,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2e621de1aa214ab8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/exprtools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            }
+          },
+          "message": {
+            "text": "sympy.core.exprtools"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.polys.rings](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 6812,
+              "startColumn": 9,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9adbb69674005597:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/rings.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            }
+          },
+          "message": {
+            "text": "sympy.polys.rings"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.exprtools](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 6352,
+              "startColumn": 13,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fa39ed616ba9b63b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/exprtools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            }
+          },
+          "message": {
+            "text": "sympy.core.exprtools"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.polys.rings](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 7025,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ca75ef33f4c743de:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/rings.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            }
+          },
+          "message": {
+            "text": "sympy.polys.rings"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.exprtools](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 6131,
+              "startColumn": 9,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5e41f9376a8e3e8f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/exprtools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            }
+          },
+          "message": {
+            "text": "sympy.core.exprtools"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.add](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 6072,
+              "startColumn": 9,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fc16afe839154a7e:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/add.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 96
+            }
+          },
+          "message": {
+            "text": "sympy.core.add"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 6652,
+              "startColumn": 17,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "767cab67dae435bf:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 139,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 139
+      },
+      "message": {
+        "text": "_generic_factor_list returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 5971,
+              "endColumn": 52
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f6ce6f5ed0fc96ad:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 6008,
+              "startColumn": 20,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 6010,
+              "startColumn": 20,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.polys.rings](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 6701,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ca75ef33f4c743de:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/rings.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            }
+          },
+          "message": {
+            "text": "sympy.polys.rings"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 139,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 139
+      },
+      "message": {
+        "text": "to_rational_coeffs._try_rescale returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 6064,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "66e863deb21ddc26:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 6074,
+              "startColumn": 20,
+              "endColumn": 27
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polytools.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 75
+            },
+            "region": {
+              "startLine": 6096,
+              "startColumn": 24,
+              "endColumn": 40
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    }
+  ]
+}

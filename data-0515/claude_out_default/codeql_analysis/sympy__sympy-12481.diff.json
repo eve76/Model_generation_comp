@@ -1,0 +1,749 @@
+{
+  "summary": {
+    "before_count": 599,
+    "after_count": 599,
+    "added": 10,
+    "removed": 10,
+    "unchanged": 589
+  },
+  "added_results": [
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 2713,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ecdc995da04f1975:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 1480,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e2383c131fdd94f2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/import-own-module",
+      "ruleIndex": 98,
+      "rule": {
+        "id": "py/import-own-module",
+        "index": 98
+      },
+      "message": {
+        "text": "The module 'sympy.combinatorics.permutations' imports itself."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 979,
+              "startColumn": 9,
+              "endColumn": 72
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "70b91d5d3670a11b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 1363,
+              "startColumn": 5,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2c2e4bfc65ba8149:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 1433,
+              "startColumn": 19,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 2740,
+              "startColumn": 5,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "66a2751e779a1572:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 2664,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7482f390db2c2130:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires 1 positional argument, whereas overridden [Basic.atoms](1) may be called with arbitrarily many. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 1576,
+              "startColumn": 5,
+              "endColumn": 21
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "95262df6f9be5610:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 404,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Basic.atoms"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 1178,
+              "startColumn": 22,
+              "endColumn": 61
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 2393,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bf5d41711098ba08:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 1635,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8880109edc6e5555:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 2759,
+              "startColumn": 5,
+              "endColumn": 38
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "92c3150a806c5e35:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 8
+            },
+            "region": {
+              "startLine": 1484,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e2383c131fdd94f2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 8
+            },
+            "region": {
+              "startLine": 2763,
+              "startColumn": 5,
+              "endColumn": 38
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "92c3150a806c5e35:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 8
+            },
+            "region": {
+              "startLine": 1639,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8880109edc6e5555:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 8
+            },
+            "region": {
+              "startLine": 2744,
+              "startColumn": 5,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "66a2751e779a1572:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/import-own-module",
+      "ruleIndex": 98,
+      "rule": {
+        "id": "py/import-own-module",
+        "index": 98
+      },
+      "message": {
+        "text": "The module 'sympy.combinatorics.permutations' imports itself."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 8
+            },
+            "region": {
+              "startLine": 983,
+              "startColumn": 9,
+              "endColumn": 72
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "70b91d5d3670a11b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 8
+            },
+            "region": {
+              "startLine": 2668,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7482f390db2c2130:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 8
+            },
+            "region": {
+              "startLine": 2397,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bf5d41711098ba08:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 8
+            },
+            "region": {
+              "startLine": 1367,
+              "startColumn": 5,
+              "endColumn": 26
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2c2e4bfc65ba8149:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 8
+            },
+            "region": {
+              "startLine": 1437,
+              "startColumn": 19,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires 1 positional argument, whereas overridden [Basic.atoms](1) may be called with arbitrarily many. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 8
+            },
+            "region": {
+              "startLine": 1580,
+              "startColumn": 5,
+              "endColumn": 21
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "95262df6f9be5610:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 32
+            },
+            "region": {
+              "startLine": 404,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "Basic.atoms"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 32
+            },
+            "region": {
+              "startLine": 1178,
+              "startColumn": 22,
+              "endColumn": 61
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/not-named-cls",
+      "ruleIndex": 125,
+      "rule": {
+        "id": "py/not-named-cls",
+        "index": 125
+      },
+      "message": {
+        "text": "Class methods or methods of a type deriving from type should have 'cls', rather than 'self', as their first parameter."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/combinatorics/permutations.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 8
+            },
+            "region": {
+              "startLine": 2717,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ecdc995da04f1975:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

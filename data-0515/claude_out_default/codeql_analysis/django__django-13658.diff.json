@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "before_count": 549,
+    "after_count": 549,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 548
+  },
+  "added_results": [
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'args' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/management/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 122
+            },
+            "region": {
+              "startLine": 400,
+              "startColumn": 32,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "24e786795375b385:1",
+        "primaryLocationStartColumnFingerprint": "19"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'args' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/management/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 601
+            },
+            "region": {
+              "startLine": 395,
+              "startColumn": 32,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "24e786795375b385:1",
+        "primaryLocationStartColumnFingerprint": "19"
+      }
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "summary": {
+    "before_count": 1158,
+    "after_count": 1173,
+    "added": 16,
+    "removed": 1,
+    "unchanged": 1157
+  },
+  "added_results": [
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'.\nImport pollutes the enclosing namespace, as the imported module [matplotlib.pylab](2) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 163
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 330
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 272
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'flatten' is not used.\nImport of 'silent_list' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 272
+            },
+            "region": {
+              "startLine": 14,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bd40eaf60f541a44:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/import-own-module",
+      "ruleIndex": 96,
+      "rule": {
+        "id": "py/import-own-module",
+        "index": 96
+      },
+      "message": {
+        "text": "The module 'matplotlib' imports itself."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 103
+            },
+            "region": {
+              "startLine": 828,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "696187b852208a38:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/import-and-import-from",
+      "ruleIndex": 92,
+      "rule": {
+        "id": "py/import-and-import-from",
+        "index": 92
+      },
+      "message": {
+        "text": "Module 'matplotlib' is imported with both 'import' and 'import from'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 272
+            },
+            "region": {
+              "startLine": 16,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "acf63082d2c2b1d6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'detrend' is not used.\nImport of 'detrend_linear' is not used.\nImport of 'detrend_mean' is not used.\nImport of 'detrend_none' is not used.\nImport of 'window_hanning' is not used.\nImport of 'window_none' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 272
+            },
+            "region": {
+              "startLine": 30,
+              "endLine": 32,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a43a9b6eae35c4d1:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'FR' is not used.\nImport of 'MO' is not used.\nImport of 'MONTHLY' is not used.\nImport of 'SA' is not used.\nImport of 'SU' is not used.\nImport of 'TH' is not used.\nImport of 'TU' is not used.\nImport of 'WE' is not used.\nImport of 'DayLocator' is not used.\nImport of 'HourLocator' is not used.\nImport of 'MinuteLocator' is not used.\nImport of 'MonthLocator' is not used.\nImport of 'RRuleLocator' is not used.\nImport of 'SecondLocator' is not used.\nImport of 'WeekdayLocator' is not used.\nImport of 'YearLocator' is not used.\nImport of 'date2num' is not used.\nImport of 'num2date' is not used.\nImport of 'datestr2num' is not used.\nImport of 'drange' is not used.\nImport of 'DateFormatter' is not used.\nImport of 'DateLocator' is not used.\nImport of 'rrule' is not used.\nImport of 'YEARLY' is not used.\nImport of 'WEEKLY' is not used.\nImport of 'DAILY' is not used.\nImport of 'HOURLY' is not used.\nImport of 'MINUTELY' is not used.\nImport of 'SECONDLY' is not used.\nImport of 'relativedelta' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 272
+            },
+            "region": {
+              "startLine": 18,
+              "endLine": 23,
+              "endColumn": 19
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4c279b9555e6742c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'datetime' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 272
+            },
+            "region": {
+              "startLine": 46,
+              "endColumn": 16
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a3bf25b141521120:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'np' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 272
+            },
+            "region": {
+              "startLine": 42,
+              "endColumn": 19
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c825a110c14567c8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pyplot](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 272
+            },
+            "region": {
+              "startLine": 35,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cf3a7a500c9363fc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pyplot.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 98
+            }
+          },
+          "message": {
+            "text": "matplotlib.pyplot"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'.\nImport pollutes the enclosing namespace, as the imported module [matplotlib.pylab](2) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 394
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 330
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 272
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 164,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 164
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/tools/cache_zenodo_svg.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 643
+            },
+            "region": {
+              "startLine": 43,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b4796170929e7bcb:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'ma' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 272
+            },
+            "region": {
+              "startLine": 43,
+              "endColumn": 22
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f49e978202ff338a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/import-and-import-from",
+      "ruleIndex": 92,
+      "rule": {
+        "id": "py/import-and-import-from",
+        "index": 92
+      },
+      "message": {
+        "text": "Module 'matplotlib' is imported with both 'import' and 'import from'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 103
+            },
+            "region": {
+              "startLine": 828,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "696187b852208a38:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'cbook' is not used.\nImport of 'mlab' is not used.\nImport of 'plt' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 272
+            },
+            "region": {
+              "startLine": 34,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8ff45eff8f19ad69:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 164,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 164
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 103
+            },
+            "region": {
+              "startLine": 428,
+              "startColumn": 17,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f9a3cb4252cfe270:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 99,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 99
+      },
+      "message": {
+        "text": "Import of 'mpl' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-25442/lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 272
+            },
+            "region": {
+              "startLine": 16,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "acf63082d2c2b1d6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 91,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 91
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 492
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 126
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    }
+  ]
+}

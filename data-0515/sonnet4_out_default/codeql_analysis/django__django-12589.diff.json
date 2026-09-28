@@ -1,0 +1,1145 @@
+{
+  "summary": {
+    "before_count": 518,
+    "after_count": 518,
+    "added": 7,
+    "removed": 7,
+    "unchanged": 511
+  },
+  "added_results": [
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [BaseExpression.__init__](1) during initialization. ([OrderBy.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1092,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "184f20050fa8db30:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 159,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          },
+          "message": {
+            "text": "BaseExpression.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1096,
+              "startColumn": 5,
+              "endColumn": 91
+            }
+          },
+          "message": {
+            "text": "OrderBy.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 1. [This call](2) correctly calls the base method, but does not match the signature of the overriding method.\nThis method requires 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 773
+            },
+            "region": {
+              "startLine": 1501,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8e1824c0ae845383:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 773
+            },
+            "region": {
+              "startLine": 1121,
+              "startColumn": 5,
+              "endColumn": 103
+            }
+          },
+          "message": {
+            "text": "SQLCompiler.execute_sql"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 773
+            },
+            "region": {
+              "startLine": 1101,
+              "startColumn": 23,
+              "endColumn": 98
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_first](2).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_last](3).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](4).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [expression](5).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [expression](6).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](7).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_first](8).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_last](9).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](10).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](11)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1092,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "184f20050fa8db30:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 403,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1099,
+              "startColumn": 9,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "nulls_first"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1100,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "nulls_last"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1101,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1104,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "expression"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1111,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "expression"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1163,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1165,
+              "startColumn": 13,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "nulls_first"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1166,
+              "startColumn": 13,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "nulls_last"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1170,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1173,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 773
+            },
+            "region": {
+              "startLine": 990,
+              "startColumn": 9,
+              "endColumn": 60
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3eef1954ea9930df:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at most 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 773
+            },
+            "region": {
+              "startLine": 1382,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ba1fbd14b2907585:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 773
+            },
+            "region": {
+              "startLine": 1121,
+              "startColumn": 5,
+              "endColumn": 103
+            }
+          },
+          "message": {
+            "text": "SQLCompiler.execute_sql"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 773
+            },
+            "region": {
+              "startLine": 1101,
+              "startColumn": 23,
+              "endColumn": 98
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [BaseExpression.__init__](1) during initialization. ([WindowFrame.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1270,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "75fab54bd8eac389:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 159,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          },
+          "message": {
+            "text": "BaseExpression.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 29
+            },
+            "region": {
+              "startLine": 1280,
+              "startColumn": 5,
+              "endColumn": 46
+            }
+          },
+          "message": {
+            "text": "WindowFrame.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 773
+            },
+            "region": {
+              "startLine": 1121,
+              "startColumn": 5,
+              "endColumn": 103
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9dd8ef645ee661bc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at most 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 240
+            },
+            "region": {
+              "startLine": 1373,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ba1fbd14b2907585:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 240
+            },
+            "region": {
+              "startLine": 1112,
+              "startColumn": 5,
+              "endColumn": 103
+            }
+          },
+          "message": {
+            "text": "SQLCompiler.execute_sql"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 240
+            },
+            "region": {
+              "startLine": 1092,
+              "startColumn": 23,
+              "endColumn": 98
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 240
+            },
+            "region": {
+              "startLine": 1112,
+              "startColumn": 5,
+              "endColumn": 103
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9dd8ef645ee661bc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 240
+            },
+            "region": {
+              "startLine": 981,
+              "startColumn": 9,
+              "endColumn": 60
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3eef1954ea9930df:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [BaseExpression.__init__](1) during initialization. ([WindowFrame.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1269,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "75fab54bd8eac389:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 159,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          },
+          "message": {
+            "text": "BaseExpression.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1279,
+              "startColumn": 5,
+              "endColumn": 46
+            }
+          },
+          "message": {
+            "text": "WindowFrame.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 1. [This call](2) correctly calls the base method, but does not match the signature of the overriding method.\nThis method requires 2 positional arguments, whereas overridden [SQLCompiler.execute_sql](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 240
+            },
+            "region": {
+              "startLine": 1492,
+              "startColumn": 5,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8e1824c0ae845383:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 240
+            },
+            "region": {
+              "startLine": 1112,
+              "startColumn": 5,
+              "endColumn": 103
+            }
+          },
+          "message": {
+            "text": "SQLCompiler.execute_sql"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/compiler.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 240
+            },
+            "region": {
+              "startLine": 1092,
+              "startColumn": 23,
+              "endColumn": 98
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [BaseExpression.__init__](1) during initialization. ([OrderBy.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1091,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "184f20050fa8db30:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 159,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          },
+          "message": {
+            "text": "BaseExpression.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1095,
+              "startColumn": 5,
+              "endColumn": 91
+            }
+          },
+          "message": {
+            "text": "OrderBy.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_first](2).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_last](3).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](4).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [expression](5).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [expression](6).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](7).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_first](8).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_last](9).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](10).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](11)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1091,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "184f20050fa8db30:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 403,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1098,
+              "startColumn": 9,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "nulls_first"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1099,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "nulls_last"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1100,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1103,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "expression"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1110,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "expression"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1162,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1164,
+              "startColumn": 13,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "nulls_first"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1165,
+              "startColumn": 13,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "nulls_last"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1169,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 292
+            },
+            "region": {
+              "startLine": 1172,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        }
+      ]
+    }
+  ]
+}

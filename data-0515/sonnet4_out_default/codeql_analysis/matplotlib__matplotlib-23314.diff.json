@@ -1,0 +1,379 @@
+{
+  "summary": {
+    "before_count": 692,
+    "after_count": 692,
+    "added": 4,
+    "removed": 4,
+    "unchanged": 688
+  },
+  "added_results": [
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at least 5 positional arguments, whereas overridden [Axes.text](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/axes3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 172
+            },
+            "region": {
+              "startLine": 1241,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3778da5b8686dcd6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 222
+            },
+            "region": {
+              "startLine": 613,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Axes.text"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 222
+            },
+            "region": {
+              "startLine": 3168,
+              "startColumn": 21,
+              "endLine": 3173,
+              "endColumn": 64
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mismatched-multiple-assignment",
+      "ruleIndex": 150,
+      "rule": {
+        "id": "py/mismatched-multiple-assignment",
+        "index": 150
+      },
+      "message": {
+        "text": "Left hand side of assignment contains 5 variables, but right hand side is a [tuple](1) of length 0."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/axes3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 172
+            },
+            "region": {
+              "startLine": 2162,
+              "startColumn": 9,
+              "endColumn": 72
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f1801881997c48d8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/cbook/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 164
+            },
+            "region": {
+              "startLine": 994,
+              "startColumn": 16,
+              "endColumn": 18
+            }
+          },
+          "message": {
+            "text": "tuple"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/axes3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 172
+            },
+            "region": {
+              "startLine": 484,
+              "startColumn": 5,
+              "endColumn": 69
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7dceff06b1c4e1d2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/axes3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 172
+            },
+            "region": {
+              "startLine": 951,
+              "startColumn": 13,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8ee151d0c58d493a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at least 5 positional arguments, whereas overridden [Axes.text](1) may be called with 4. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/axes3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 135
+            },
+            "region": {
+              "startLine": 1239,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3778da5b8686dcd6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 222
+            },
+            "region": {
+              "startLine": 613,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          },
+          "message": {
+            "text": "Axes.text"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 222
+            },
+            "region": {
+              "startLine": 3168,
+              "startColumn": 21,
+              "endLine": 3173,
+              "endColumn": 64
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/axes3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 135
+            },
+            "region": {
+              "startLine": 482,
+              "startColumn": 5,
+              "endColumn": 69
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7dceff06b1c4e1d2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mismatched-multiple-assignment",
+      "ruleIndex": 150,
+      "rule": {
+        "id": "py/mismatched-multiple-assignment",
+        "index": 150
+      },
+      "message": {
+        "text": "Left hand side of assignment contains 5 variables, but right hand side is a [tuple](1) of length 0."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/axes3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 135
+            },
+            "region": {
+              "startLine": 2160,
+              "startColumn": 9,
+              "endColumn": 72
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f1801881997c48d8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/cbook/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 79
+            },
+            "region": {
+              "startLine": 994,
+              "startColumn": 16,
+              "endColumn": 18
+            }
+          },
+          "message": {
+            "text": "tuple"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/mpl_toolkits/mplot3d/axes3d.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 135
+            },
+            "region": {
+              "startLine": 949,
+              "startColumn": 13,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8ee151d0c58d493a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

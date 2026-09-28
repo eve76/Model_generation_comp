@@ -1,0 +1,429 @@
+{
+  "summary": {
+    "before_count": 502,
+    "after_count": 502,
+    "added": 2,
+    "removed": 2,
+    "unchanged": 500
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_prep_lookup': [Function get_prep_lookup](1) and [Function get_prep_lookup](2).\nBase classes have conflicting values for attribute 'get_db_prep_lookup': [Function get_db_prep_lookup](3) and [Function get_db_prep_lookup](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 349
+            },
+            "region": {
+              "startLine": 314,
+              "endColumn": 59
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8cf80797b12a1c52:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 349
+            },
+            "region": {
+              "startLine": 197,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 349
+            },
+            "region": {
+              "startLine": 66,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 349
+            },
+            "region": {
+              "startLine": 178,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 349
+            },
+            "region": {
+              "startLine": 73,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_prep_lookup': [Function get_prep_lookup](1) and [Function get_prep_lookup](2).\nBase classes have conflicting values for attribute 'get_db_prep_lookup': [Function get_db_prep_lookup](3) and [Function get_db_prep_lookup](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 349
+            },
+            "region": {
+              "startLine": 437,
+              "endColumn": 62
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3ce45459b4bcbe35:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 349
+            },
+            "region": {
+              "startLine": 197,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 349
+            },
+            "region": {
+              "startLine": 66,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 349
+            },
+            "region": {
+              "startLine": 178,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 349
+            },
+            "region": {
+              "startLine": 73,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_db_prep_lookup': [Function get_db_prep_lookup](1) and [Function get_db_prep_lookup](2).\nBase classes have conflicting values for attribute 'get_prep_lookup': [Function get_prep_lookup](3) and [Function get_prep_lookup](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 311
+            },
+            "region": {
+              "startLine": 437,
+              "endColumn": 62
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3ce45459b4bcbe35:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 311
+            },
+            "region": {
+              "startLine": 178,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 311
+            },
+            "region": {
+              "startLine": 73,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 311
+            },
+            "region": {
+              "startLine": 197,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 311
+            },
+            "region": {
+              "startLine": 66,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_db_prep_lookup': [Function get_db_prep_lookup](1) and [Function get_db_prep_lookup](2).\nBase classes have conflicting values for attribute 'get_prep_lookup': [Function get_prep_lookup](3) and [Function get_prep_lookup](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 311
+            },
+            "region": {
+              "startLine": 314,
+              "endColumn": 59
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8cf80797b12a1c52:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 311
+            },
+            "region": {
+              "startLine": 178,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 311
+            },
+            "region": {
+              "startLine": 73,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 311
+            },
+            "region": {
+              "startLine": 197,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 311
+            },
+            "region": {
+              "startLine": 66,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        }
+      ]
+    }
+  ]
+}

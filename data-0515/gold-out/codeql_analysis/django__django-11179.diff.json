@@ -1,0 +1,1770 @@
+{
+  "summary": {
+    "before_count": 948,
+    "after_count": 951,
+    "added": 10,
+    "removed": 7,
+    "unchanged": 941
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 126,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 126
+      },
+      "message": {
+        "text": "Function always raises [class SomeException](1); raise LookupError instead"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/django__django-11179/tests/template_tests/utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 729
+            },
+            "region": {
+              "startLine": 156,
+              "startColumn": 5,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4db326bb632b3f86:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/django__django-11179/tests/template_tests/utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 729
+            },
+            "region": {
+              "startLine": 84,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "class SomeException"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'model': [class BookSigning](3) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](4) and [Function get_template_names](5).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](6) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 286,
+              "endColumn": 74
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d193da75d24f1201:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/django__django-11179/tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1644
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 746
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2545
+            },
+            "region": {
+              "startLine": 165,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'model': [class BookSigning](3) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](4) and [Function get_template_names](5).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](6) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 282,
+              "endColumn": 76
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e39cfc5e4516439d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/django__django-11179/tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1644
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 746
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2545
+            },
+            "region": {
+              "startLine": 165,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'model': [class BookSigning](3) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](4) and [Function get_template_names](5).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](6) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 274,
+              "endColumn": 71
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "77c759161be0601f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/django__django-11179/tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1644
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 746
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2545
+            },
+            "region": {
+              "startLine": 165,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'model': [class BookSigning](3) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](4) and [Function get_template_names](5).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](6) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 294,
+              "endColumn": 76
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9b9f27b1c6149e05:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/django__django-11179/tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1644
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 746
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2545
+            },
+            "region": {
+              "startLine": 165,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-global-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-global-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "The global variable 'release' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/django__django-11179/docs/conf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1736
+            },
+            "region": {
+              "startLine": 92,
+              "startColumn": 5,
+              "endColumn": 12
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6472dee0b2cd3a0:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/unused-global-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-global-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "The global variable 'release' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/django__django-11179/docs/conf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1736
+            },
+            "region": {
+              "startLine": 84,
+              "startColumn": 5,
+              "endColumn": 12
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "125585859ba1e286:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'model': [class BookSigning](3) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](4) and [Function get_template_names](5).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](6) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 278,
+              "endColumn": 74
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9a80259328fb6d84:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/django__django-11179/tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1644
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 746
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2545
+            },
+            "region": {
+              "startLine": 165,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'model': [class BookSigning](3) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](4) and [Function get_template_names](5).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](6) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 290,
+              "endColumn": 72
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "56183c1a6317c560:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/django__django-11179/tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1644
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 746
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2545
+            },
+            "region": {
+              "startLine": 165,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'model': [class BookSigning](3) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](4) and [Function get_template_names](5).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](6) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 302,
+              "endColumn": 68
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6e0fc4d08194c230:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/django__django-11179/tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1644
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 746
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1987
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/detail.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1065
+            },
+            "region": {
+              "startLine": 115,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2567
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](3) and [Function get_template_names](4).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](5) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 290,
+              "endColumn": 72
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "56183c1a6317c560:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 496
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 814
+            },
+            "region": {
+              "startLine": 165,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](3) and [Function get_template_names](4).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](5) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 274,
+              "endColumn": 71
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "77c759161be0601f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 496
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 814
+            },
+            "region": {
+              "startLine": 165,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](3) and [Function get_template_names](4).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](5) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 302,
+              "endColumn": 68
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6e0fc4d08194c230:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 496
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/detail.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2318
+            },
+            "region": {
+              "startLine": 115,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](3) and [Function get_template_names](4).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](5) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 294,
+              "endColumn": 76
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9b9f27b1c6149e05:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 496
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 814
+            },
+            "region": {
+              "startLine": 165,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](3) and [Function get_template_names](4).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](5) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 286,
+              "endColumn": 74
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d193da75d24f1201:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 496
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 814
+            },
+            "region": {
+              "startLine": 165,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](3) and [Function get_template_names](4).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](5) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 282,
+              "endColumn": 76
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e39cfc5e4516439d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 496
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 814
+            },
+            "region": {
+              "startLine": 165,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 112,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 112
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'model': [class BookSigning](1) and [NoneType None](2).\nBase classes have conflicting values for attribute 'get_template_names': [Function get_template_names](3) and [Function get_template_names](4).\nBase classes have conflicting values for attribute 'date_field': [str u'event_date'](5) and [NoneType None](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 278,
+              "endColumn": 74
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9a80259328fb6d84:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 496
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "class BookSigning"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "NoneType None"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "tests/generic_views/views.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1335
+            },
+            "region": {
+              "startLine": 270,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/views/generic/list.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 814
+            },
+            "region": {
+              "startLine": 165,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_template_names"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 2548
+            }
+          },
+          "message": {
+            "text": "str u'event_date'"
+          }
+        }
+      ]
+    }
+  ]
+}

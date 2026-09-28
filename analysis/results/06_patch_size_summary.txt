@@ -1,0 +1,17 @@
+Patch-size analysis
+===================
+Patch churn is lines added plus lines removed.
+Matched patch-size tests use the same family-specific common resolved sets as the quality analysis.
+Associations use deterministic Spearman permutation tests and are exploratory.
+Claude | Changed lines | n=71 | median diff=-1 | p_adj=6e-05
+Claude | Files touched | n=71 | median diff=0 | p_adj=0.01758
+Claude | Patch hunks | n=71 | median diff=0 | p_adj=0.004822
+DeepSeek | Changed lines | n=56 | median diff=0.5 | p_adj=0.0034
+DeepSeek | Files touched | n=56 | median diff=0 | p_adj=0.5312
+DeepSeek | Patch hunks | n=56 | median diff=0 | p_adj=0.009361
+Association | Claude Sonnet 4 | patch churn vs CodeScene degradations | rho=0.369 | p_adj=0.0021
+Association | DeepSeek R1 | patch churn vs CodeScene degradations | rho=0.477 | p_adj=0.0015
+Association | DeepSeek V3.2 | patch churn vs CodeQL added findings | rho=0.309 | p_adj=0.0054
+Association | DeepSeek V3.2 | patch churn vs CodeScene degradations | rho=0.301 | p_adj=0.00605
+Association | Gold (developer) | patch churn vs CodeScene degradations | rho=0.266 | p_adj=0.00325
+

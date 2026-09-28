@@ -1,0 +1,167 @@
+{
+  "summary": {
+    "before_count": 571,
+    "after_count": 571,
+    "added": 2,
+    "removed": 2,
+    "unchanged": 569
+  },
+  "added_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/migrations/serializer.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 304
+            },
+            "region": {
+              "startLine": 304,
+              "startColumn": 5,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a65d28c27c28837f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [django.db.migrations.writer](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/migrations/serializer.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 304
+            },
+            "region": {
+              "startLine": 241,
+              "startColumn": 9,
+              "endColumn": 64
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "90f6540b0bc6a01b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/migrations/writer.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 273
+            }
+          },
+          "message": {
+            "text": "django.db.migrations.writer"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/migrations/serializer.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 665
+            },
+            "region": {
+              "startLine": 291,
+              "startColumn": 5,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a65d28c27c28837f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [django.db.migrations.writer](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/migrations/serializer.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 665
+            },
+            "region": {
+              "startLine": 228,
+              "startColumn": 9,
+              "endColumn": 64
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "90f6540b0bc6a01b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/migrations/writer.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 522
+            }
+          },
+          "message": {
+            "text": "django.db.migrations.writer"
+          }
+        }
+      ]
+    }
+  ]
+}

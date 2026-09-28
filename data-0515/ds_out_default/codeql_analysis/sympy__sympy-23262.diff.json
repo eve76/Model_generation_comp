@@ -1,0 +1,1181 @@
+{
+  "summary": {
+    "before_count": 554,
+    "after_count": 554,
+    "added": 13,
+    "removed": 13,
+    "unchanged": 541
+  },
+  "added_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.function](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 1183,
+              "startColumn": 9,
+              "endColumn": 63
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bdf13f431aa715ca:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 107
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.sorting](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 1182,
+              "startColumn": 9,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "dab22d113b1746ff:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/sorting.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 99
+            }
+          },
+          "message": {
+            "text": "sympy.core.sorting"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.function](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 1001,
+              "startColumn": 5,
+              "endColumn": 59
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "24b5364982f8dda6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 107
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.sympify](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 1003,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d2bb7528bc20e8b9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/sympify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 97
+            }
+          },
+          "message": {
+            "text": "sympy.core.sympify"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.basic](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 1181,
+              "startColumn": 9,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "425078e79eb257f4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 67
+            }
+          },
+          "message": {
+            "text": "sympy.core.basic"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.basic](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 1000,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d8e7f02f5123dee7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 67
+            }
+          },
+          "message": {
+            "text": "sympy.core.basic"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.function](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 1393,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b73b6baa42dea17:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 107
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.expr](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 1186,
+              "startColumn": 9,
+              "endColumn": 41
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c2c8e7febe284a2c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 94
+            }
+          },
+          "message": {
+            "text": "sympy.core.expr"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/commented-out-code",
+      "ruleIndex": 162,
+      "rule": {
+        "id": "py/commented-out-code",
+        "index": 162
+      },
+      "message": {
+        "text": "This comment appears to contain commented-out code."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 1112,
+              "startColumn": 13,
+              "endLine": 1116,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7484cf58b6697dae:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.symbol](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 1184,
+              "startColumn": 9,
+              "endColumn": 67
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9b755b442b403acc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 56
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.symbol](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 1125,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "28355cd4e05a5b85:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 56
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.function](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 1323,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3174bdd7d29d6ca7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 107
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.symbol](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 91
+            },
+            "region": {
+              "startLine": 1002,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ca9e6e8fc2ce5be2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 56
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.expr](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 1180,
+              "startColumn": 9,
+              "endColumn": 41
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c2c8e7febe284a2c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/expr.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 40
+            }
+          },
+          "message": {
+            "text": "sympy.core.expr"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.symbol](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 996,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ca9e6e8fc2ce5be2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 15
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.sorting](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 1176,
+              "startColumn": 9,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "dab22d113b1746ff:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/sorting.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 49
+            }
+          },
+          "message": {
+            "text": "sympy.core.sorting"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.basic](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 1175,
+              "startColumn": 9,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "425078e79eb257f4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            }
+          },
+          "message": {
+            "text": "sympy.core.basic"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.basic](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 994,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d8e7f02f5123dee7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/basic.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            }
+          },
+          "message": {
+            "text": "sympy.core.basic"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.function](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 1177,
+              "startColumn": 9,
+              "endColumn": 63
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bdf13f431aa715ca:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 92
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/commented-out-code",
+      "ruleIndex": 162,
+      "rule": {
+        "id": "py/commented-out-code",
+        "index": 162
+      },
+      "message": {
+        "text": "This comment appears to contain commented-out code."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 1106,
+              "startColumn": 13,
+              "endLine": 1110,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7484cf58b6697dae:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.function](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 1317,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3174bdd7d29d6ca7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 92
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.function](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 995,
+              "startColumn": 5,
+              "endColumn": 59
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "24b5364982f8dda6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 92
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.symbol](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 1119,
+              "startColumn": 9,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "28355cd4e05a5b85:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 15
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.function](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 1387,
+              "startColumn": 5,
+              "endColumn": 54
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b73b6baa42dea17:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 92
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.sympify](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 997,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d2bb7528bc20e8b9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/sympify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 80
+            }
+          },
+          "message": {
+            "text": "sympy.core.sympify"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.symbol](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 69
+            },
+            "region": {
+              "startLine": 1178,
+              "startColumn": 9,
+              "endColumn": 67
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9b755b442b403acc:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 15
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        }
+      ]
+    }
+  ]
+}

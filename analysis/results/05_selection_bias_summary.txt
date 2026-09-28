@@ -1,0 +1,22 @@
+Resolved-set selection analysis
+===============================
+Groups are defined separately within each model family.
+Gold-patch resource and size measures are used as task-level proxies.
+Permutation tests compare medians; Holm correction covers all reported feature tests.
+Claude | common vs newer_only | Gold CPU time (s) | medians=5.97/5.7 | delta=0.094 | p_adj=1
+Claude | common vs newer_only | Gold peak memory (MiB) | medians=235/175 | delta=0.501 | p_adj=0.0008
+Claude | common vs newer_only | Gold patch churn | medians=4/4 | delta=-0.133 | p_adj=1
+Claude | common vs newer_only | Gold files touched | medians=1/1 | delta=0.000 | p_adj=1
+Claude | common vs older_only | Gold CPU time (s) | medians=5.97/6.85 | delta=-0.380 | p_adj=0.015
+Claude | common vs older_only | Gold peak memory (MiB) | medians=235/253 | delta=-0.360 | p_adj=0.6402
+Claude | common vs older_only | Gold patch churn | medians=4/7 | delta=-0.315 | p_adj=0.3164
+Claude | common vs older_only | Gold files touched | medians=1/1 | delta=0.000 | p_adj=1
+DeepSeek | common vs newer_only | Gold CPU time (s) | medians=5.92/5.85 | delta=0.086 | p_adj=1
+DeepSeek | common vs newer_only | Gold peak memory (MiB) | medians=216/213 | delta=0.030 | p_adj=1
+DeepSeek | common vs newer_only | Gold patch churn | medians=4/5 | delta=-0.133 | p_adj=1
+DeepSeek | common vs newer_only | Gold files touched | medians=1/1 | delta=0.000 | p_adj=1
+DeepSeek | common vs older_only | Gold CPU time (s) | medians=5.92/6.63 | delta=-0.212 | p_adj=1
+DeepSeek | common vs older_only | Gold peak memory (MiB) | medians=216/239 | delta=-0.196 | p_adj=1
+DeepSeek | common vs older_only | Gold patch churn | medians=4/7 | delta=-0.332 | p_adj=0.6298
+DeepSeek | common vs older_only | Gold files touched | medians=1/1 | delta=0.000 | p_adj=1
+

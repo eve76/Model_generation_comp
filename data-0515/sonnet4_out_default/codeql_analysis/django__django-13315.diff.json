@@ -1,0 +1,397 @@
+{
+  "summary": {
+    "before_count": 543,
+    "after_count": 543,
+    "added": 5,
+    "removed": 5,
+    "unchanged": 538
+  },
+  "added_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 227
+            },
+            "region": {
+              "startLine": 643,
+              "startColumn": 13,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5c96228a99fcd49c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [ChoiceField.__init__](1) during initialization. ([ModelChoiceField.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 227
+            },
+            "region": {
+              "startLine": 1201,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e647f869e851aa30:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/fields.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 394
+            },
+            "region": {
+              "startLine": 771,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "ChoiceField.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 227
+            },
+            "region": {
+              "startLine": 1211,
+              "startColumn": 5,
+              "endLine": 1214,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "ModelChoiceField.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/super-not-enclosing-class",
+      "ruleIndex": 64,
+      "rule": {
+        "id": "py/super-not-enclosing-class",
+        "index": 64
+      },
+      "message": {
+        "text": "First argument to super() should be ModelChoiceField."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 227
+            },
+            "region": {
+              "startLine": 1243,
+              "startColumn": 18,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fd589c4a0fb63587:1",
+        "primaryLocationStartColumnFingerprint": "9"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 227
+            },
+            "region": {
+              "startLine": 1012,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "224affec83034318:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'fk' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 227
+            },
+            "region": {
+              "startLine": 1065,
+              "startColumn": 12,
+              "endColumn": 14
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "978ab5b102c4f236:1",
+        "primaryLocationStartColumnFingerprint": "7"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 622,
+              "startColumn": 13,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5c96228a99fcd49c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [ChoiceField.__init__](1) during initialization. ([ModelChoiceField.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1180,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "e647f869e851aa30:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/fields.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 330
+            },
+            "region": {
+              "startLine": 771,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "ChoiceField.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1190,
+              "startColumn": 5,
+              "endLine": 1193,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "ModelChoiceField.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'fk' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1044,
+              "startColumn": 12,
+              "endColumn": 14
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "978ab5b102c4f236:1",
+        "primaryLocationStartColumnFingerprint": "7"
+      }
+    },
+    {
+      "ruleId": "py/super-not-enclosing-class",
+      "ruleIndex": 64,
+      "rule": {
+        "id": "py/super-not-enclosing-class",
+        "index": 64
+      },
+      "message": {
+        "text": "First argument to super() should be ModelChoiceField."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 1222,
+              "startColumn": 18,
+              "endColumn": 42
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fd589c4a0fb63587:1",
+        "primaryLocationStartColumnFingerprint": "9"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 17
+            },
+            "region": {
+              "startLine": 991,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "224affec83034318:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

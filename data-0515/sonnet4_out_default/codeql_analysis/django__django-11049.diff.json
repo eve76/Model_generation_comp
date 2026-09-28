@@ -1,0 +1,945 @@
+{
+  "summary": {
+    "before_count": 500,
+    "after_count": 500,
+    "added": 5,
+    "removed": 5,
+    "unchanged": 495
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'rel_db_type': [Function rel_db_type](1) and [Function rel_db_type](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 2002,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "76e26968e087f284:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 1987,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function rel_db_type"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 675,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function rel_db_type"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'TimeField' does not override ['__eq__'](1), but adds the new attribute [auto_now](2).\nThe class 'TimeField' does not override ['__eq__'](1), but adds the new attribute [auto_now_add](3)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 2094,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "30aa3c1bd1dcb093:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 495,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 2106,
+              "startColumn": 9,
+              "endColumn": 22
+            }
+          },
+          "message": {
+            "text": "auto_now"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 2106,
+              "startColumn": 24,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "auto_now_add"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'rel_db_type': [Function rel_db_type](1) and [Function rel_db_type](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 2015,
+              "endColumn": 78
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f3e77225beea86ec:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 1987,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function rel_db_type"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 675,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function rel_db_type"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'GenericIPAddressField' does not override ['__eq__'](1), but adds the new attribute [unpack_ipv4](2).\nThe class 'GenericIPAddressField' does not override ['__eq__'](1), but adds the new attribute [protocol](3).\nThe class 'GenericIPAddressField' does not override ['__eq__'](1), but adds the new attribute [default_validators](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 1883,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ff02fcf752da4a95:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 495,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 1890,
+              "startColumn": 9,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "unpack_ipv4"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 1891,
+              "startColumn": 9,
+              "endColumn": 22
+            }
+          },
+          "message": {
+            "text": "protocol"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 1892,
+              "startColumn": 9,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "default_validators"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'FilePathField' does not override ['__eq__'](1), but adds the new attribute [path](2).\nThe class 'FilePathField' does not override ['__eq__'](1), but adds the new attribute [match](3).\nThe class 'FilePathField' does not override ['__eq__'](1), but adds the new attribute [recursive](4).\nThe class 'FilePathField' does not override ['__eq__'](1), but adds the new attribute [allow_files](5).\nThe class 'FilePathField' does not override ['__eq__'](1), but adds the new attribute [allow_folders](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 1668,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "de67b5cd4231cf24:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 495,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 1673,
+              "startColumn": 9,
+              "endColumn": 18
+            }
+          },
+          "message": {
+            "text": "path"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 1673,
+              "startColumn": 20,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "match"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 1673,
+              "startColumn": 32,
+              "endColumn": 46
+            }
+          },
+          "message": {
+            "text": "recursive"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 1674,
+              "startColumn": 9,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "allow_files"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 771
+            },
+            "region": {
+              "startLine": 1674,
+              "startColumn": 27,
+              "endColumn": 45
+            }
+          },
+          "message": {
+            "text": "allow_folders"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'rel_db_type': [Function rel_db_type](1) and [Function rel_db_type](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 1998,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "76e26968e087f284:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 1983,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function rel_db_type"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 675,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function rel_db_type"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'TimeField' does not override ['__eq__'](1), but adds the new attribute [auto_now](2).\nThe class 'TimeField' does not override ['__eq__'](1), but adds the new attribute [auto_now_add](3)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 2090,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "30aa3c1bd1dcb093:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 495,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 2102,
+              "startColumn": 9,
+              "endColumn": 22
+            }
+          },
+          "message": {
+            "text": "auto_now"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 2102,
+              "startColumn": 24,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "auto_now_add"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'FilePathField' does not override ['__eq__'](1), but adds the new attribute [path](2).\nThe class 'FilePathField' does not override ['__eq__'](1), but adds the new attribute [match](3).\nThe class 'FilePathField' does not override ['__eq__'](1), but adds the new attribute [recursive](4).\nThe class 'FilePathField' does not override ['__eq__'](1), but adds the new attribute [allow_files](5).\nThe class 'FilePathField' does not override ['__eq__'](1), but adds the new attribute [allow_folders](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 1664,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "de67b5cd4231cf24:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 495,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 1669,
+              "startColumn": 9,
+              "endColumn": 18
+            }
+          },
+          "message": {
+            "text": "path"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 1669,
+              "startColumn": 20,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "match"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 1669,
+              "startColumn": 32,
+              "endColumn": 46
+            }
+          },
+          "message": {
+            "text": "recursive"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 1670,
+              "startColumn": 9,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "allow_files"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 1670,
+              "startColumn": 27,
+              "endColumn": 45
+            }
+          },
+          "message": {
+            "text": "allow_folders"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'rel_db_type': [Function rel_db_type](1) and [Function rel_db_type](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 2011,
+              "endColumn": 78
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f3e77225beea86ec:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 1983,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function rel_db_type"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 675,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function rel_db_type"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'GenericIPAddressField' does not override ['__eq__'](1), but adds the new attribute [unpack_ipv4](2).\nThe class 'GenericIPAddressField' does not override ['__eq__'](1), but adds the new attribute [protocol](3).\nThe class 'GenericIPAddressField' does not override ['__eq__'](1), but adds the new attribute [default_validators](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 1879,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ff02fcf752da4a95:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 495,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 1886,
+              "startColumn": 9,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "unpack_ipv4"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 1887,
+              "startColumn": 9,
+              "endColumn": 22
+            }
+          },
+          "message": {
+            "text": "protocol"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            },
+            "region": {
+              "startLine": 1888,
+              "startColumn": 9,
+              "endColumn": 32
+            }
+          },
+          "message": {
+            "text": "default_validators"
+          }
+        }
+      ]
+    }
+  ]
+}

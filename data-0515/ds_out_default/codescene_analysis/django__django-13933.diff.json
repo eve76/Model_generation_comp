@@ -1,0 +1,1 @@
+[{"name":"django/forms/models.py","findings":[{"category":"Lines of Code in a Single File","change-type":"unchanged","old-pp":2.0,"new-pp":2.0,"change-details":[{"description":"The lines of code increases from 990 to 991, improve code health by reducing it to 600","change-type":"degraded","value":991,"value-before":990}],"threshold":600}],"old-score":3.29,"new-score":3.29}]

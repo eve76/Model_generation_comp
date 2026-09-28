@@ -1,0 +1,1 @@
+[{"name":"requests/models.py","findings":[{"category":"Overall Code Complexity","change-type":"unchanged","old-pp":2.0,"new-pp":2.0,"change-details":[{"description":"The mean cyclomatic complexity increases from 8.74 to 8.83, threshold = 4","change-type":"degraded","value-before":8.73913043478261,"value":8.826086956521738}],"threshold":4}],"old-score":4.85,"new-score":4.85}]

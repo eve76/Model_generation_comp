@@ -1,0 +1,363 @@
+{
+  "summary": {
+    "before_count": 524,
+    "after_count": 524,
+    "added": 5,
+    "removed": 5,
+    "unchanged": 519
+  },
+  "added_results": [
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'transforms' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/query.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 81
+            },
+            "region": {
+              "startLine": 1579,
+              "startColumn": 21,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cc93e335034b5b07:1",
+        "primaryLocationStartColumnFingerprint": "12"
+      }
+    },
+    {
+      "ruleId": "py/multiple-definition",
+      "ruleIndex": 90,
+      "rule": {
+        "id": "py/multiple-definition",
+        "index": 90
+      },
+      "message": {
+        "text": "This assignment to 'opts' is unnecessary as it is [redefined](1) before this value is used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/query.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 81
+            },
+            "region": {
+              "startLine": 1491,
+              "startColumn": 21,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ccf988f52546d96:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/query.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 81
+            },
+            "region": {
+              "startLine": 1503,
+              "startColumn": 17,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "redefined"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/query.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 81
+            },
+            "region": {
+              "startLine": 1137,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "78d54caf7db35918:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'path' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/query.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 81
+            },
+            "region": {
+              "startLine": 1594,
+              "startColumn": 21,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8826666cfb43285f:1",
+        "primaryLocationStartColumnFingerprint": "12"
+      }
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'targets' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/query.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 81
+            },
+            "region": {
+              "startLine": 1618,
+              "startColumn": 38,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c6d2f0a400e66fac:1",
+        "primaryLocationStartColumnFingerprint": "29"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'targets' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/query.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 662
+            },
+            "region": {
+              "startLine": 1617,
+              "startColumn": 38,
+              "endColumn": 45
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c6d2f0a400e66fac:1",
+        "primaryLocationStartColumnFingerprint": "29"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/query.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 662
+            },
+            "region": {
+              "startLine": 1136,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "78d54caf7db35918:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'path' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/query.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 662
+            },
+            "region": {
+              "startLine": 1593,
+              "startColumn": 21,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8826666cfb43285f:1",
+        "primaryLocationStartColumnFingerprint": "12"
+      }
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'transforms' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/query.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 662
+            },
+            "region": {
+              "startLine": 1578,
+              "startColumn": 21,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cc93e335034b5b07:1",
+        "primaryLocationStartColumnFingerprint": "12"
+      }
+    },
+    {
+      "ruleId": "py/multiple-definition",
+      "ruleIndex": 90,
+      "rule": {
+        "id": "py/multiple-definition",
+        "index": 90
+      },
+      "message": {
+        "text": "This assignment to 'opts' is unnecessary as it is [redefined](1) before this value is used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/query.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 662
+            },
+            "region": {
+              "startLine": 1490,
+              "startColumn": 21,
+              "endColumn": 25
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ccf988f52546d96:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/sql/query.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 662
+            },
+            "region": {
+              "startLine": 1502,
+              "startColumn": 17,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "redefined"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "before_count": 570,
+    "after_count": 570,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 569
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unnecessary-lambda",
+      "ruleIndex": 69,
+      "rule": {
+        "id": "py/unnecessary-lambda",
+        "index": 69
+      },
+      "message": {
+        "text": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/html.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 51
+            },
+            "region": {
+              "startLine": 428,
+              "startColumn": 22,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ec7a3987e608d5d8:1",
+        "primaryLocationStartColumnFingerprint": "17"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/unnecessary-lambda",
+      "ruleIndex": 69,
+      "rule": {
+        "id": "py/unnecessary-lambda",
+        "index": 69
+      },
+      "message": {
+        "text": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/html.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 122
+            },
+            "region": {
+              "startLine": 420,
+              "startColumn": 22,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ec7a3987e608d5d8:1",
+        "primaryLocationStartColumnFingerprint": "17"
+      }
+    }
+  ]
+}

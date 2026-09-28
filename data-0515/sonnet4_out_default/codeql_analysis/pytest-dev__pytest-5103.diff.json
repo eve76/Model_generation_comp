@@ -1,0 +1,43 @@
+{
+  "summary": {
+    "before_count": 228,
+    "after_count": 229,
+    "added": 1,
+    "removed": 0,
+    "unchanged": 228
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unused-local-variable",
+      "ruleIndex": 87,
+      "rule": {
+        "id": "py/unused-local-variable",
+        "index": 87
+      },
+      "message": {
+        "text": "Variable processed_assert is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/assertion/rewrite.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 41
+            },
+            "region": {
+              "startLine": 1035,
+              "startColumn": 17,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a311a73b3a9b901f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": []
+}

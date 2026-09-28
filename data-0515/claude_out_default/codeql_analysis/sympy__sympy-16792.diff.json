@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "before_count": 557,
+    "after_count": 557,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 556
+  },
+  "added_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/codegen.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 752,
+              "startColumn": 5,
+              "endColumn": 80
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7d9b97a2238d7284:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/codegen.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 48
+            },
+            "region": {
+              "startLine": 747,
+              "startColumn": 5,
+              "endColumn": 80
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7d9b97a2238d7284:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

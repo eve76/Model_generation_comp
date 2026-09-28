@@ -1,0 +1,315 @@
+comparison,metric,instance_id,newer,older,difference_newer_minus_older
+Claude,CodeQL net change,astropy__astropy-6938,780.0,780.0,0.0
+Claude,CodeQL net change,django__django-10914,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-10924,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-11001,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-11039,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-11049,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-11099,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-11133,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-11179,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-11583,0.0,12.0,-12.0
+Claude,CodeQL net change,django__django-11999,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-12184,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-12284,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-12286,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-12453,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-12497,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-12700,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-12708,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-12856,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-12908,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-12915,0.0,5.0,-5.0
+Claude,CodeQL net change,django__django-12983,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-13028,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-13033,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-13315,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-13401,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-13447,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-13551,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-13590,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-13658,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-13933,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-14238,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-14382,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-14411,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-14580,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-14608,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-14672,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-14752,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-14787,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-14855,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-14915,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-14999,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-15347,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-15498,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-15789,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-15790,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-15814,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-15851,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-15902,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-16041,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-16046,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-16139,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-16255,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-16379,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-16527,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-16595,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-16873,0.0,0.0,0.0
+Claude,CodeQL net change,django__django-17087,0.0,0.0,0.0
+Claude,CodeQL net change,mwaskom__seaborn-3010,0.0,0.0,0.0
+Claude,CodeQL net change,mwaskom__seaborn-3190,0.0,0.0,0.0
+Claude,CodeQL net change,psf__requests-1963,0.0,0.0,0.0
+Claude,CodeQL net change,psf__requests-2317,0.0,-20.0,20.0
+Claude,CodeQL net change,psf__requests-3362,0.0,0.0,0.0
+Claude,CodeQL net change,psf__requests-863,0.0,0.0,0.0
+Claude,CodeQL net change,pydata__xarray-4094,322.0,308.0,14.0
+Claude,CodeQL net change,pydata__xarray-5131,351.0,396.0,-45.0
+Claude,CodeQL net change,pylint-dev__pylint-5859,0.0,0.0,0.0
+Claude,CodeQL net change,pylint-dev__pylint-7993,0.0,0.0,0.0
+Claude,CodeQL net change,pytest-dev__pytest-11143,0.0,0.0,0.0
+Claude,CodeQL net change,scikit-learn__scikit-learn-13439,0.0,0.0,0.0
+Claude,CodeQL net change,sympy__sympy-24066,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,astropy__astropy-6938,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-10914,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-10924,-0.0099999999999997,0.0,-0.0099999999999997
+Claude,CodeScene Code Health delta,django__django-11001,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-11039,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-11049,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-11099,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-11133,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-11179,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-11583,0.0,-0.0199999999999995,0.0199999999999995
+Claude,CodeScene Code Health delta,django__django-11999,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-12184,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-12284,0.0,-0.0900000000000003,0.0900000000000003
+Claude,CodeScene Code Health delta,django__django-12286,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-12453,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-12497,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-12700,-0.1500000000000003,-0.2699999999999996,0.11999999999999927
+Claude,CodeScene Code Health delta,django__django-12708,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-12856,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-12908,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-12915,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-12983,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-13028,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-13033,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-13315,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-13401,-0.08,0.0,-0.08
+Claude,CodeScene Code Health delta,django__django-13447,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-13551,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-13590,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-13658,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-13933,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-14238,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-14382,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-14411,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-14580,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-14608,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-14672,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-14752,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-14787,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-14855,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-14915,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-14999,-0.1699999999999999,-0.1699999999999999,0.0
+Claude,CodeScene Code Health delta,django__django-15347,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-15498,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-15789,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-15790,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-15814,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-15851,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-15902,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-16041,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-16046,-0.0200000000000004,-0.0200000000000004,0.0
+Claude,CodeScene Code Health delta,django__django-16139,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-16255,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-16379,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-16527,-0.0199999999999995,-0.0199999999999995,0.0
+Claude,CodeScene Code Health delta,django__django-16595,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-16873,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,django__django-17087,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,mwaskom__seaborn-3010,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,mwaskom__seaborn-3190,0.0,-0.04,0.04
+Claude,CodeScene Code Health delta,psf__requests-1963,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,psf__requests-2317,-0.0099999999999997,-0.0099999999999997,0.0
+Claude,CodeScene Code Health delta,psf__requests-3362,0.0999999999999996,-0.1800000000000006,0.2800000000000002
+Claude,CodeScene Code Health delta,psf__requests-863,-0.04,-0.04,0.0
+Claude,CodeScene Code Health delta,pydata__xarray-4094,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,pydata__xarray-5131,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,pylint-dev__pylint-5859,0.0,-0.5700000000000003,0.5700000000000003
+Claude,CodeScene Code Health delta,pylint-dev__pylint-7993,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,pytest-dev__pytest-11143,-0.0599999999999996,0.0,-0.0599999999999996
+Claude,CodeScene Code Health delta,scikit-learn__scikit-learn-13439,0.0,0.0,0.0
+Claude,CodeScene Code Health delta,sympy__sympy-24066,0.0,-1.259999999999999,1.259999999999999
+DeepSeek,CodeQL net change,astropy__astropy-12907,200.0,200.0,0.0
+DeepSeek,CodeQL net change,django__django-11039,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-11099,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-11133,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-11179,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-11815,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-11848,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-11999,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-12284,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-12700,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-12983,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-13230,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-13447,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-13658,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-13710,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-13933,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-14238,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-14382,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-14411,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-14672,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-15789,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-15814,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-15851,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-16041,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-16046,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-16139,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-16255,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-16527,0.0,0.0,0.0
+DeepSeek,CodeQL net change,django__django-16595,0.0,0.0,0.0
+DeepSeek,CodeQL net change,mwaskom__seaborn-3010,0.0,0.0,0.0
+DeepSeek,CodeQL net change,mwaskom__seaborn-3190,0.0,0.0,0.0
+DeepSeek,CodeQL net change,psf__requests-2148,2.0,0.0,2.0
+DeepSeek,CodeQL net change,pydata__xarray-5131,405.0,396.0,9.0
+DeepSeek,CodeQL net change,pylint-dev__pylint-5859,0.0,0.0,0.0
+DeepSeek,CodeQL net change,pylint-dev__pylint-7993,0.0,0.0,0.0
+DeepSeek,CodeQL net change,pytest-dev__pytest-7373,1.0,3.0,-2.0
+DeepSeek,CodeQL net change,scikit-learn__scikit-learn-10297,0.0,0.0,0.0
+DeepSeek,CodeQL net change,scikit-learn__scikit-learn-12471,0.0,0.0,0.0
+DeepSeek,CodeQL net change,scikit-learn__scikit-learn-13142,0.0,0.0,0.0
+DeepSeek,CodeQL net change,scikit-learn__scikit-learn-13241,0.0,0.0,0.0
+DeepSeek,CodeQL net change,scikit-learn__scikit-learn-13439,0.0,0.0,0.0
+DeepSeek,CodeQL net change,scikit-learn__scikit-learn-13779,0.0,0.0,0.0
+DeepSeek,CodeQL net change,scikit-learn__scikit-learn-14894,0.0,0.0,0.0
+DeepSeek,CodeQL net change,scikit-learn__scikit-learn-15512,1.0,0.0,1.0
+DeepSeek,CodeQL net change,scikit-learn__scikit-learn-15535,0.0,0.0,0.0
+DeepSeek,CodeQL net change,sphinx-doc__sphinx-8713,0.0,0.0,0.0
+DeepSeek,CodeQL net change,sympy__sympy-12481,0.0,0.0,0.0
+DeepSeek,CodeQL net change,sympy__sympy-13480,-1.0,-1.0,0.0
+DeepSeek,CodeQL net change,sympy__sympy-13647,0.0,0.0,0.0
+DeepSeek,CodeQL net change,sympy__sympy-13971,0.0,0.0,0.0
+DeepSeek,CodeQL net change,sympy__sympy-14774,0.0,0.0,0.0
+DeepSeek,CodeQL net change,sympy__sympy-15678,0.0,0.0,0.0
+DeepSeek,CodeQL net change,sympy__sympy-21614,0.0,0.0,0.0
+DeepSeek,CodeQL net change,sympy__sympy-21847,0.0,0.0,0.0
+DeepSeek,CodeQL net change,sympy__sympy-24152,0.0,0.0,0.0
+DeepSeek,CodeQL net change,sympy__sympy-24213,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,astropy__astropy-12907,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-11039,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-11099,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-11133,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-11179,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-11815,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-11848,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-11999,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-12284,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-12700,-0.1500000000000003,-0.1500000000000003,0.0
+DeepSeek,CodeScene Code Health delta,django__django-12983,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-13230,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-13447,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-13658,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-13710,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-13933,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-14238,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-14382,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-14411,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-14672,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-15789,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-15814,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-15851,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-16041,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-16046,-0.3600000000000003,-0.0200000000000004,-0.3399999999999999
+DeepSeek,CodeScene Code Health delta,django__django-16139,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-16255,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,django__django-16527,-0.0199999999999995,-0.0199999999999995,0.0
+DeepSeek,CodeScene Code Health delta,django__django-16595,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,mwaskom__seaborn-3010,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,mwaskom__seaborn-3190,0.8100000000000005,-0.04,0.8500000000000005
+DeepSeek,CodeScene Code Health delta,psf__requests-2148,-0.0899999999999998,-0.0300000000000002,-0.0599999999999996
+DeepSeek,CodeScene Code Health delta,pydata__xarray-5131,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,pylint-dev__pylint-5859,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,pylint-dev__pylint-7993,-0.4399999999999995,0.0,-0.4399999999999995
+DeepSeek,CodeScene Code Health delta,pytest-dev__pytest-7373,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,scikit-learn__scikit-learn-10297,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,scikit-learn__scikit-learn-12471,-0.2700000000000004,-0.2400000000000002,-0.030000000000000193
+DeepSeek,CodeScene Code Health delta,scikit-learn__scikit-learn-13142,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,scikit-learn__scikit-learn-13241,0.0,-0.1999999999999993,0.1999999999999993
+DeepSeek,CodeScene Code Health delta,scikit-learn__scikit-learn-13439,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,scikit-learn__scikit-learn-13779,-0.0199999999999995,-0.0199999999999995,0.0
+DeepSeek,CodeScene Code Health delta,scikit-learn__scikit-learn-14894,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,scikit-learn__scikit-learn-15512,0.1799999999999997,-0.0300000000000002,0.20999999999999988
+DeepSeek,CodeScene Code Health delta,scikit-learn__scikit-learn-15535,0.0,-0.5800000000000001,0.5800000000000001
+DeepSeek,CodeScene Code Health delta,sphinx-doc__sphinx-8713,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,sympy__sympy-12481,-0.1200000000000001,0.0,-0.1200000000000001
+DeepSeek,CodeScene Code Health delta,sympy__sympy-13480,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,sympy__sympy-13647,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,sympy__sympy-13971,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,sympy__sympy-14774,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,sympy__sympy-15678,-0.1200000000000001,-0.0299999999999993,-0.0900000000000008
+DeepSeek,CodeScene Code Health delta,sympy__sympy-21614,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,sympy__sympy-21847,-0.0100000000000006,0.0,-0.0100000000000006
+DeepSeek,CodeScene Code Health delta,sympy__sympy-24152,0.0,0.0,0.0
+DeepSeek,CodeScene Code Health delta,sympy__sympy-24213,0.0,0.0,0.0
+All four,CodeQL net change,django__django-11039,0.0,0.0,0.0
+All four,CodeQL net change,django__django-11099,0.0,0.0,0.0
+All four,CodeQL net change,django__django-11133,0.0,0.0,0.0
+All four,CodeQL net change,django__django-11179,0.0,0.0,0.0
+All four,CodeQL net change,django__django-11999,0.0,0.0,0.0
+All four,CodeQL net change,django__django-12284,0.0,0.0,0.0
+All four,CodeQL net change,django__django-12700,0.0,0.0,0.0
+All four,CodeQL net change,django__django-12983,0.0,0.0,0.0
+All four,CodeQL net change,django__django-13447,0.0,0.0,0.0
+All four,CodeQL net change,django__django-13658,0.0,0.0,0.0
+All four,CodeQL net change,django__django-13933,0.0,0.0,0.0
+All four,CodeQL net change,django__django-14238,0.0,0.0,0.0
+All four,CodeQL net change,django__django-14382,0.0,0.0,0.0
+All four,CodeQL net change,django__django-14411,0.0,0.0,0.0
+All four,CodeQL net change,django__django-14672,0.0,0.0,0.0
+All four,CodeQL net change,django__django-15789,0.0,0.0,0.0
+All four,CodeQL net change,django__django-15814,0.0,0.0,0.0
+All four,CodeQL net change,django__django-15851,0.0,0.0,0.0
+All four,CodeQL net change,django__django-16041,0.0,0.0,0.0
+All four,CodeQL net change,django__django-16046,0.0,0.0,0.0
+All four,CodeQL net change,django__django-16139,0.0,0.0,0.0
+All four,CodeQL net change,django__django-16255,0.0,0.0,0.0
+All four,CodeQL net change,django__django-16527,0.0,0.0,0.0
+All four,CodeQL net change,django__django-16595,0.0,0.0,0.0
+All four,CodeQL net change,mwaskom__seaborn-3010,0.0,0.0,0.0
+All four,CodeQL net change,mwaskom__seaborn-3190,0.0,0.0,0.0
+All four,CodeQL net change,pydata__xarray-5131,378.0,396.0,-18.0
+All four,CodeQL net change,pylint-dev__pylint-5859,0.0,0.0,0.0
+All four,CodeQL net change,pylint-dev__pylint-7993,0.0,0.0,0.0
+All four,CodeQL net change,scikit-learn__scikit-learn-13439,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-11039,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-11099,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-11133,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-11179,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-11999,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-12284,0.0,-0.04500000000000015,0.04500000000000015
+All four,CodeScene Code Health delta,django__django-12700,-0.1500000000000003,-0.20999999999999994,0.05999999999999964
+All four,CodeScene Code Health delta,django__django-12983,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-13447,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-13658,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-13933,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-14238,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-14382,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-14411,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-14672,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-15789,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-15814,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-15851,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-16041,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-16046,-0.19000000000000036,-0.0200000000000004,-0.16999999999999996
+All four,CodeScene Code Health delta,django__django-16139,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-16255,0.0,0.0,0.0
+All four,CodeScene Code Health delta,django__django-16527,-0.0199999999999995,-0.0199999999999995,0.0
+All four,CodeScene Code Health delta,django__django-16595,0.0,0.0,0.0
+All four,CodeScene Code Health delta,mwaskom__seaborn-3010,0.0,0.0,0.0
+All four,CodeScene Code Health delta,mwaskom__seaborn-3190,0.40500000000000025,-0.04,0.44500000000000023
+All four,CodeScene Code Health delta,pydata__xarray-5131,0.0,0.0,0.0
+All four,CodeScene Code Health delta,pylint-dev__pylint-5859,0.0,-0.28500000000000014,0.28500000000000014
+All four,CodeScene Code Health delta,pylint-dev__pylint-7993,-0.21999999999999975,0.0,-0.21999999999999975
+All four,CodeScene Code Health delta,scikit-learn__scikit-learn-13439,0.0,0.0,0.0

@@ -1,0 +1,221 @@
+{
+  "summary": {
+    "before_count": 518,
+    "after_count": 518,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 517
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_lookup': [Function get_lookup](1) and [Function get_lookup](2).\nBase classes have conflicting values for attribute 'get_transform': [Function get_transform](3) and [Function get_transform](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 71
+            },
+            "region": {
+              "startLine": 145,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7ca8dbf66315317b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/query_utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 371
+            },
+            "region": {
+              "startLine": 179,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function get_lookup"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 558
+            },
+            "region": {
+              "startLine": 329,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_lookup"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/query_utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 371
+            },
+            "region": {
+              "startLine": 188,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function get_transform"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 558
+            },
+            "region": {
+              "startLine": 332,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function get_transform"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_transform': [Function get_transform](1) and [Function get_transform](2).\nBase classes have conflicting values for attribute 'get_lookup': [Function get_lookup](3) and [Function get_lookup](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 574
+            },
+            "region": {
+              "startLine": 145,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7ca8dbf66315317b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/query_utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 188,
+              "startColumn": 5,
+              "endColumn": 42
+            }
+          },
+          "message": {
+            "text": "Function get_transform"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 320
+            },
+            "region": {
+              "startLine": 332,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function get_transform"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/query_utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            },
+            "region": {
+              "startLine": 179,
+              "startColumn": 5,
+              "endColumn": 39
+            }
+          },
+          "message": {
+            "text": "Function get_lookup"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 320
+            },
+            "region": {
+              "startLine": 329,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "Function get_lookup"
+          }
+        }
+      ]
+    }
+  ]
+}

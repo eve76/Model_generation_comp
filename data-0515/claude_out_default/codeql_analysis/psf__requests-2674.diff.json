@@ -1,0 +1,270 @@
+{
+  "summary": {
+    "before_count": 122,
+    "after_count": 123,
+    "added": 4,
+    "removed": 3,
+    "unchanged": 119
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'StringIO' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 32,
+              "endLine": 34,
+              "endColumn": 46
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fa4fc0a594e8fa30:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'chunked' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/adapters.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 10
+            },
+            "region": {
+              "startLine": 361,
+              "startColumn": 20,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8563dcd505147b83:1",
+        "primaryLocationStartColumnFingerprint": "7"
+      }
+    },
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'ConnectionError' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 24,
+              "endLine": 27,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a576217e2f274a0f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at least 2 positional arguments, whereas overridden [BaseAdapter.send](1) requires 1."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/adapters.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 10
+            },
+            "region": {
+              "startLine": 325,
+              "startColumn": 5,
+              "endColumn": 95
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3d1fc4846afb61e7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/adapters.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 10
+            },
+            "region": {
+              "startLine": 48,
+              "startColumn": 5,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "BaseAdapter.send"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/unused-import",
+      "ruleIndex": 101,
+      "rule": {
+        "id": "py/unused-import",
+        "index": 101
+      },
+      "message": {
+        "text": "Import of 'StringIO' is not used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 58
+            },
+            "region": {
+              "startLine": 31,
+              "endLine": 33,
+              "endColumn": 46
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fa4fc0a594e8fa30:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'chunked' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/adapters.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 27
+            },
+            "region": {
+              "startLine": 360,
+              "startColumn": 20,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8563dcd505147b83:1",
+        "primaryLocationStartColumnFingerprint": "7"
+      }
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at least 2 positional arguments, whereas overridden [BaseAdapter.send](1) requires 1."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/adapters.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 27
+            },
+            "region": {
+              "startLine": 324,
+              "startColumn": 5,
+              "endColumn": 95
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3d1fc4846afb61e7:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/adapters.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 27
+            },
+            "region": {
+              "startLine": 47,
+              "startColumn": 5,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "BaseAdapter.send"
+          }
+        }
+      ]
+    }
+  ]
+}

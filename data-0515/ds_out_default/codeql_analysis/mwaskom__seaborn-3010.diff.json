@@ -1,0 +1,499 @@
+{
+  "summary": {
+    "before_count": 118,
+    "after_count": 118,
+    "added": 3,
+    "removed": 3,
+    "unchanged": 115
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_plot': [Function _plot](1) and [Function _plot](2).\nBase classes have conflicting values for attribute '_legend_artist': [Function _legend_artist](3) and [Function _legend_artist](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/area.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 34
+            },
+            "region": {
+              "startLine": 141,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "566a456859d42ec4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/area.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 34
+            },
+            "region": {
+              "startLine": 23,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          },
+          "message": {
+            "text": "Function _plot"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 5,
+              "endLine": 213,
+              "endColumn": 15
+            }
+          },
+          "message": {
+            "text": "Function _plot"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/area.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 34
+            },
+            "region": {
+              "startLine": 71,
+              "startColumn": 5,
+              "endColumn": 56
+            }
+          },
+          "message": {
+            "text": "Function _legend_artist"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            },
+            "region": {
+              "startLine": 217,
+              "startColumn": 5,
+              "endLine": 219,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "Function _legend_artist"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/ineffectual-statement",
+      "ruleIndex": 144,
+      "rule": {
+        "id": "py/ineffectual-statement",
+        "index": 144
+      },
+      "message": {
+        "text": "This statement has no effect."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_stats/regression.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 36
+            },
+            "region": {
+              "startLine": 54,
+              "startColumn": 5,
+              "endColumn": 8
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5afb563d96b49037:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_plot': [Function _plot](1) and [Function _plot](2).\nBase classes have conflicting values for attribute '_legend_artist': [Function _legend_artist](3) and [Function _legend_artist](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/area.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 34
+            },
+            "region": {
+              "startLine": 91,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4ff5c0953b5cc71:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/area.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 34
+            },
+            "region": {
+              "startLine": 23,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          },
+          "message": {
+            "text": "Function _plot"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 5,
+              "endLine": 213,
+              "endColumn": 15
+            }
+          },
+          "message": {
+            "text": "Function _plot"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/area.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 34
+            },
+            "region": {
+              "startLine": 71,
+              "startColumn": 5,
+              "endColumn": 56
+            }
+          },
+          "message": {
+            "text": "Function _legend_artist"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 31
+            },
+            "region": {
+              "startLine": 217,
+              "startColumn": 5,
+              "endLine": 219,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "Function _legend_artist"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_legend_artist': [Function _legend_artist](1) and [Function _legend_artist](2).\nBase classes have conflicting values for attribute '_plot': [Function _plot](3) and [Function _plot](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/area.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2
+            },
+            "region": {
+              "startLine": 91,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4ff5c0953b5cc71:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/area.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2
+            },
+            "region": {
+              "startLine": 71,
+              "startColumn": 5,
+              "endColumn": 56
+            }
+          },
+          "message": {
+            "text": "Function _legend_artist"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 0
+            },
+            "region": {
+              "startLine": 217,
+              "startColumn": 5,
+              "endLine": 219,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "Function _legend_artist"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/area.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2
+            },
+            "region": {
+              "startLine": 23,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          },
+          "message": {
+            "text": "Function _plot"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 0
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 5,
+              "endLine": 213,
+              "endColumn": 15
+            }
+          },
+          "message": {
+            "text": "Function _plot"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute '_legend_artist': [Function _legend_artist](1) and [Function _legend_artist](2).\nBase classes have conflicting values for attribute '_plot': [Function _plot](3) and [Function _plot](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/area.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2
+            },
+            "region": {
+              "startLine": 141,
+              "endColumn": 28
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "566a456859d42ec4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/area.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2
+            },
+            "region": {
+              "startLine": 71,
+              "startColumn": 5,
+              "endColumn": 56
+            }
+          },
+          "message": {
+            "text": "Function _legend_artist"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 0
+            },
+            "region": {
+              "startLine": 217,
+              "startColumn": 5,
+              "endLine": 219,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "Function _legend_artist"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/area.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 2
+            },
+            "region": {
+              "startLine": 23,
+              "startColumn": 5,
+              "endColumn": 48
+            }
+          },
+          "message": {
+            "text": "Function _plot"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_marks/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 0
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 5,
+              "endLine": 213,
+              "endColumn": 15
+            }
+          },
+          "message": {
+            "text": "Function _plot"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/ineffectual-statement",
+      "ruleIndex": 144,
+      "rule": {
+        "id": "py/ineffectual-statement",
+        "index": 144
+      },
+      "message": {
+        "text": "This statement has no effect."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "seaborn/_stats/regression.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 9
+            },
+            "region": {
+              "startLine": 47,
+              "startColumn": 5,
+              "endColumn": 8
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5afb563d96b49037:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

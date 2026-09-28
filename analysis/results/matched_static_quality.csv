@@ -1,0 +1,7 @@
+comparison,metric,n,newer_median,older_median,median_paired_difference,ci_2.5,ci_97.5,wins_newer_lower,ties,losses_newer_higher,p_value,rank_biserial,n_nonzero,holm_p_across_static_tests
+Claude,CodeQL net change,71,0.0,0.0,0.0,0.0,0.0,3,66,2,1.0,-0.06666666666666667,5,1.0
+Claude,CodeScene Code Health delta,71,0.0,0.0,0.0,0.0,0.0,3,61,7,0.083984375,0.6363636363636364,10,0.50390625
+DeepSeek,CodeQL net change,56,0.0,0.0,0.0,0.0,0.0,1,52,3,0.5,0.5,4,1.0
+DeepSeek,CodeScene Code Health delta,56,0.0,0.0,0.0,0.0,0.0,7,45,4,0.9658203125,0.030303030303030304,11,1.0
+All four,CodeQL net change,30,0.0,0.0,0.0,0.0,0.0,1,29,0,1.0,-1.0,1,1.0
+All four,CodeScene Code Health delta,30,0.0,0.0,0.0,0.0,0.0,2,24,4,0.5625,0.3333333333333333,6,1.0

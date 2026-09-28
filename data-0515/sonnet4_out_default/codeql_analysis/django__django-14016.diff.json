@@ -1,0 +1,1633 @@
+{
+  "summary": {
+    "before_count": 549,
+    "after_count": 549,
+    "added": 7,
+    "removed": 7,
+    "unchanged": 542
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_db_prep_lookup': [Function get_db_prep_lookup](1) and [Function get_db_prep_lookup](2).\nBase classes have conflicting values for attribute 'get_prep_lookup': [Function get_prep_lookup](3) and [Function get_prep_lookup](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 592
+            },
+            "region": {
+              "startLine": 495,
+              "endColumn": 62
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3ce45459b4bcbe35:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 592
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 592
+            },
+            "region": {
+              "startLine": 78,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 592
+            },
+            "region": {
+              "startLine": 228,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 592
+            },
+            "region": {
+              "startLine": 71,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_db_prep_value': [Function get_db_prep_value](1) and [Function get_db_prep_value](2).\nBase classes have conflicting values for attribute 'validate': [Function validate](3) and [Function validate](4).\nBase classes have conflicting values for attribute 'formfield': [Function formfield](5) and [Function formfield](6).\nBase classes have conflicting values for attribute 'db_returning': [bool True](7) and [Property db_returning](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 2530,
+              "endColumn": 72
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c86c1d7ef4c47366:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 2484,
+              "startColumn": 5,
+              "endColumn": 68
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_value"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 830,
+              "startColumn": 5,
+              "endColumn": 68
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_value"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 2481,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function validate"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 632,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function validate"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 2498,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function formfield"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 1844,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function formfield"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 859
+            }
+          },
+          "message": {
+            "text": "bool True"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 759,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property db_returning"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_db_prep_lookup': [Function get_db_prep_lookup](1) and [Function get_db_prep_lookup](2).\nBase classes have conflicting values for attribute 'get_prep_lookup': [Function get_prep_lookup](3) and [Function get_prep_lookup](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 592
+            },
+            "region": {
+              "startLine": 370,
+              "endColumn": 59
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8cf80797b12a1c52:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 592
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 592
+            },
+            "region": {
+              "startLine": 78,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 592
+            },
+            "region": {
+              "startLine": 228,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 592
+            },
+            "region": {
+              "startLine": 71,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [django.db.models.lookups](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/query_utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 187,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "524144fd9975c906:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 592
+            }
+          },
+          "message": {
+            "text": "django.db.models.lookups"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_db_prep_value': [Function get_db_prep_value](1) and [Function get_db_prep_value](2).\nBase classes have conflicting values for attribute 'validate': [Function validate](3) and [Function validate](4).\nBase classes have conflicting values for attribute 'formfield': [Function formfield](5) and [Function formfield](6).\nBase classes have conflicting values for attribute 'db_returning': [bool True](7) and [Property db_returning](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 2539,
+              "endColumn": 53
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b155cc163a8b4dca:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 2484,
+              "startColumn": 5,
+              "endColumn": 68
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_value"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 830,
+              "startColumn": 5,
+              "endColumn": 68
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_value"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 2481,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function validate"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 632,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function validate"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 2498,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function formfield"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 1858,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function formfield"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 859
+            }
+          },
+          "message": {
+            "text": "bool True"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 759,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property db_returning"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_db_prep_value': [Function get_db_prep_value](1) and [Function get_db_prep_value](2).\nBase classes have conflicting values for attribute 'validate': [Function validate](3) and [Function validate](4).\nBase classes have conflicting values for attribute 'formfield': [Function formfield](5) and [Function formfield](6).\nBase classes have conflicting values for attribute 'db_returning': [bool True](7) and [Property db_returning](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 2548,
+              "endColumn": 57
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "210b242150b01668:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 2484,
+              "startColumn": 5,
+              "endColumn": 68
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_value"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 830,
+              "startColumn": 5,
+              "endColumn": 68
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_value"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 2481,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function validate"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 632,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function validate"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 2498,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function formfield"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 1844,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function formfield"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 859
+            }
+          },
+          "message": {
+            "text": "bool True"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 115
+            },
+            "region": {
+              "startLine": 759,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property db_returning"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [django.db.models.lookups](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/query_utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 358
+            },
+            "region": {
+              "startLine": 178,
+              "startColumn": 9,
+              "endColumn": 52
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6fef122d66c510b2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 592
+            }
+          },
+          "message": {
+            "text": "django.db.models.lookups"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'validate': [Function validate](1) and [Function validate](2).\nBase classes have conflicting values for attribute 'db_returning': [bool True](3) and [Property db_returning](4).\nBase classes have conflicting values for attribute 'get_db_prep_value': [Function get_db_prep_value](5) and [Function get_db_prep_value](6).\nBase classes have conflicting values for attribute 'formfield': [Function formfield](7) and [Function formfield](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 2539,
+              "endColumn": 53
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b155cc163a8b4dca:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 2481,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function validate"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 632,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function validate"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 857
+            }
+          },
+          "message": {
+            "text": "bool True"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 759,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property db_returning"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 2484,
+              "startColumn": 5,
+              "endColumn": 68
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_value"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 830,
+              "startColumn": 5,
+              "endColumn": 68
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_value"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 2498,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function formfield"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 1858,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function formfield"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'validate': [Function validate](1) and [Function validate](2).\nBase classes have conflicting values for attribute 'db_returning': [bool True](3) and [Property db_returning](4).\nBase classes have conflicting values for attribute 'get_db_prep_value': [Function get_db_prep_value](5) and [Function get_db_prep_value](6).\nBase classes have conflicting values for attribute 'formfield': [Function formfield](7) and [Function formfield](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 2530,
+              "endColumn": 72
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c86c1d7ef4c47366:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 2481,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function validate"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 632,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function validate"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 857
+            }
+          },
+          "message": {
+            "text": "bool True"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 759,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property db_returning"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 2484,
+              "startColumn": 5,
+              "endColumn": 68
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_value"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 830,
+              "startColumn": 5,
+              "endColumn": 68
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_value"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 2498,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function formfield"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 1844,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function formfield"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_prep_lookup': [Function get_prep_lookup](1) and [Function get_prep_lookup](2).\nBase classes have conflicting values for attribute 'get_db_prep_lookup': [Function get_db_prep_lookup](3) and [Function get_db_prep_lookup](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 419
+            },
+            "region": {
+              "startLine": 370,
+              "endColumn": 59
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8cf80797b12a1c52:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 419
+            },
+            "region": {
+              "startLine": 228,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 419
+            },
+            "region": {
+              "startLine": 71,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 419
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 419
+            },
+            "region": {
+              "startLine": 78,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'validate': [Function validate](1) and [Function validate](2).\nBase classes have conflicting values for attribute 'db_returning': [bool True](3) and [Property db_returning](4).\nBase classes have conflicting values for attribute 'get_db_prep_value': [Function get_db_prep_value](5) and [Function get_db_prep_value](6).\nBase classes have conflicting values for attribute 'formfield': [Function formfield](7) and [Function formfield](8)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 2548,
+              "endColumn": 57
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "210b242150b01668:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 2481,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function validate"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 632,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function validate"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "file:/:Compiled%20Code",
+              "index": 857
+            }
+          },
+          "message": {
+            "text": "bool True"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 759,
+              "startColumn": 6,
+              "endColumn": 14
+            }
+          },
+          "message": {
+            "text": "Property db_returning"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 2484,
+              "startColumn": 5,
+              "endColumn": 68
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_value"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 830,
+              "startColumn": 5,
+              "endColumn": 68
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_value"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 2498,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function formfield"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/fields/__init__.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 469
+            },
+            "region": {
+              "startLine": 1844,
+              "startColumn": 5,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "Function formfield"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'get_prep_lookup': [Function get_prep_lookup](1) and [Function get_prep_lookup](2).\nBase classes have conflicting values for attribute 'get_db_prep_lookup': [Function get_db_prep_lookup](3) and [Function get_db_prep_lookup](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 419
+            },
+            "region": {
+              "startLine": 495,
+              "endColumn": 62
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3ce45459b4bcbe35:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 419
+            },
+            "region": {
+              "startLine": 228,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 419
+            },
+            "region": {
+              "startLine": 71,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function get_prep_lookup"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 419
+            },
+            "region": {
+              "startLine": 208,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 419
+            },
+            "region": {
+              "startLine": 78,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function get_db_prep_lookup"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [django.db.models.lookups](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/query_utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 278
+            },
+            "region": {
+              "startLine": 152,
+              "startColumn": 9,
+              "endColumn": 52
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6fef122d66c510b2:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 419
+            }
+          },
+          "message": {
+            "text": "django.db.models.lookups"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [django.db.models.lookups](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/query_utils.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 278
+            },
+            "region": {
+              "startLine": 161,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "524144fd9975c906:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/lookups.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 419
+            }
+          },
+          "message": {
+            "text": "django.db.models.lookups"
+          }
+        }
+      ]
+    }
+  ]
+}

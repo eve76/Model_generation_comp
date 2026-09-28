@@ -1,0 +1,63 @@
+{
+  "summary": {
+    "before_count": 554,
+    "after_count": 555,
+    "added": 1,
+    "removed": 0,
+    "unchanged": 554
+  },
+  "added_results": [
+    {
+      "ruleId": "py/multiple-definition",
+      "ruleIndex": 90,
+      "rule": {
+        "id": "py/multiple-definition",
+        "index": 90
+      },
+      "message": {
+        "text": "This assignment to 'argrep' is unnecessary as it is [redefined](1) before this value is used."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 741,
+              "startColumn": 17,
+              "endColumn": 23
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "48592055a43e51e:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/lambdify.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 728,
+              "startColumn": 17,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "redefined"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": []
+}

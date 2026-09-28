@@ -1,0 +1,901 @@
+{
+  "summary": {
+    "before_count": 474,
+    "after_count": 474,
+    "added": 7,
+    "removed": 7,
+    "unchanged": 467
+  },
+  "added_results": [
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at most 2 positional arguments, whereas overridden [EvalfMixin.evalf](1) may be called with 8. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 64
+            },
+            "region": {
+              "startLine": 2326,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3810b87dbdc3cb7c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 1425,
+              "startColumn": 5,
+              "endColumn": 100
+            }
+          },
+          "message": {
+            "text": "EvalfMixin.evalf"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 11
+            },
+            "region": {
+              "startLine": 1499,
+              "startColumn": 18,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Symbol' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Symbol occurs after the cyclic [import](4) of sympy.core.function.\n'Symbol' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Symbol occurs after the cyclic [import](5) of sympy.core.function."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 64
+            },
+            "region": {
+              "startLine": 3392,
+              "startColumn": 38,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f981a3f5ebdf7a3b:1",
+        "primaryLocationStartColumnFingerprint": "37"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 64
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 183,
+              "startColumn": 7,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 6,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-loop-variable",
+      "ruleIndex": 83,
+      "rule": {
+        "id": "py/unused-loop-variable",
+        "index": 83
+      },
+      "message": {
+        "text": "For loop variable 'i' is not used in the loop body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 64
+            },
+            "region": {
+              "startLine": 2415,
+              "startColumn": 16,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f6472b65d8b2b14f:1",
+        "primaryLocationStartColumnFingerprint": "7"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.relational](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 64
+            },
+            "region": {
+              "startLine": 3164,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "242da1adf64af9f6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/relational.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            }
+          },
+          "message": {
+            "text": "sympy.core.relational"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Dummy' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Dummy occurs after the cyclic [import](4) of sympy.core.function.\n'Dummy' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Dummy occurs after the cyclic [import](5) of sympy.core.function."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 64
+            },
+            "region": {
+              "startLine": 3392,
+              "startColumn": 31,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f981a3f5ebdf7a3b:1",
+        "primaryLocationStartColumnFingerprint": "30"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 64
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 358,
+              "startColumn": 7,
+              "endColumn": 12
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 6,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 64
+            },
+            "region": {
+              "startLine": 2860,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5e471f7ad77bf722:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.power](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 64
+            },
+            "region": {
+              "startLine": 3325,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fb65b4f14ca70874:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 53
+            }
+          },
+          "message": {
+            "text": "sympy.core.power"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Dummy' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Dummy occurs after the cyclic [import](4) of sympy.core.function.\n'Dummy' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Dummy occurs after the cyclic [import](5) of sympy.core.function."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 14
+            },
+            "region": {
+              "startLine": 3389,
+              "startColumn": 31,
+              "endColumn": 36
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f981a3f5ebdf7a3b:1",
+        "primaryLocationStartColumnFingerprint": "30"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 14
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 358,
+              "startColumn": 7,
+              "endColumn": 12
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 6,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 14
+            },
+            "region": {
+              "startLine": 2857,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "5e471f7ad77bf722:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/inheritance/signature-mismatch",
+      "ruleIndex": 136,
+      "rule": {
+        "id": "py/inheritance/signature-mismatch",
+        "index": 136
+      },
+      "message": {
+        "text": "This method requires at most 2 positional arguments, whereas overridden [EvalfMixin.evalf](1) may be called with 8. [This call](2) correctly calls the base method, but does not match the signature of the overriding method."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 14
+            },
+            "region": {
+              "startLine": 2323,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3810b87dbdc3cb7c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 1425,
+              "startColumn": 5,
+              "endColumn": 100
+            }
+          },
+          "message": {
+            "text": "EvalfMixin.evalf"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/evalf.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 61
+            },
+            "region": {
+              "startLine": 1499,
+              "startColumn": 18,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "This call"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.relational](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 14
+            },
+            "region": {
+              "startLine": 3161,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "242da1adf64af9f6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/relational.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 72
+            }
+          },
+          "message": {
+            "text": "sympy.core.relational"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unsafe-cyclic-import",
+      "ruleIndex": 100,
+      "rule": {
+        "id": "py/unsafe-cyclic-import",
+        "index": 100
+      },
+      "message": {
+        "text": "'Symbol' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Symbol occurs after the cyclic [import](4) of sympy.core.function.\n'Symbol' may not be defined if module [sympy.core.symbol](1) is imported before module [sympy.core.function](2), as the [definition](3) of Symbol occurs after the cyclic [import](5) of sympy.core.function."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 14
+            },
+            "region": {
+              "startLine": 3389,
+              "startColumn": 38,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f981a3f5ebdf7a3b:1",
+        "primaryLocationStartColumnFingerprint": "37"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            }
+          },
+          "message": {
+            "text": "sympy.core.symbol"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 14
+            }
+          },
+          "message": {
+            "text": "sympy.core.function"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 183,
+              "startColumn": 7,
+              "endColumn": 13
+            }
+          },
+          "message": {
+            "text": "definition"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 6,
+              "endColumn": 35
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/symbol.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 22
+            },
+            "region": {
+              "startLine": 8,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "import"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.power](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 14
+            },
+            "region": {
+              "startLine": 3322,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fb65b4f14ca70874:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/power.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 23
+            }
+          },
+          "message": {
+            "text": "sympy.core.power"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unused-loop-variable",
+      "ruleIndex": 83,
+      "rule": {
+        "id": "py/unused-loop-variable",
+        "index": 83
+      },
+      "message": {
+        "text": "For loop variable 'i' is not used in the loop body."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/function.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 14
+            },
+            "region": {
+              "startLine": 2412,
+              "startColumn": 16,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f6472b65d8b2b14f:1",
+        "primaryLocationStartColumnFingerprint": "7"
+      }
+    }
+  ]
+}

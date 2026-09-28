@@ -1,0 +1,149 @@
+{
+  "summary": {
+    "before_count": 571,
+    "after_count": 571,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 570
+  },
+  "added_results": [
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [Widget.__init__](1) during initialization. ([SelectDateWidget.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/widgets.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 382
+            },
+            "region": {
+              "startLine": 934,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2c495e642b8b85e6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/widgets.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 382
+            },
+            "region": {
+              "startLine": 205,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Widget.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/widgets.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 382
+            },
+            "region": {
+              "startLine": 950,
+              "startColumn": 5,
+              "endColumn": 79
+            }
+          },
+          "message": {
+            "text": "SelectDateWidget.__init__"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [Widget.__init__](1) during initialization. ([SelectDateWidget.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/widgets.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 78
+            },
+            "region": {
+              "startLine": 936,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2c495e642b8b85e6:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/widgets.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 78
+            },
+            "region": {
+              "startLine": 205,
+              "startColumn": 5,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "Widget.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/forms/widgets.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 78
+            },
+            "region": {
+              "startLine": 952,
+              "startColumn": 5,
+              "endColumn": 79
+            }
+          },
+          "message": {
+            "text": "SelectDateWidget.__init__"
+          }
+        }
+      ]
+    }
+  ]
+}

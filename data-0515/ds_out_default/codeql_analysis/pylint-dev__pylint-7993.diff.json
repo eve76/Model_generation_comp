@@ -1,0 +1,137 @@
+{
+  "summary": {
+    "before_count": 86,
+    "after_count": 86,
+    "added": 2,
+    "removed": 2,
+    "unchanged": 84
+  },
+  "added_results": [
+    {
+      "ruleId": "py/ineffectual-statement",
+      "ruleIndex": 144,
+      "rule": {
+        "id": "py/ineffectual-statement",
+        "index": 144
+      },
+      "message": {
+        "text": "This statement has no effect."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/reporters/text.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 133
+            },
+            "region": {
+              "startLine": 100,
+              "startColumn": 5,
+              "endColumn": 8
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3b5171526ec56463:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/ineffectual-statement",
+      "ruleIndex": 144,
+      "rule": {
+        "id": "py/ineffectual-statement",
+        "index": 144
+      },
+      "message": {
+        "text": "This statement has no effect."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/reporters/text.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 133
+            },
+            "region": {
+              "startLine": 112,
+              "startColumn": 5,
+              "endColumn": 8
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "124469ee5a622bb:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/ineffectual-statement",
+      "ruleIndex": 144,
+      "rule": {
+        "id": "py/ineffectual-statement",
+        "index": 144
+      },
+      "message": {
+        "text": "This statement has no effect."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/reporters/text.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 179
+            },
+            "region": {
+              "startLine": 111,
+              "startColumn": 5,
+              "endColumn": 8
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "124469ee5a622bb:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/ineffectual-statement",
+      "ruleIndex": 144,
+      "rule": {
+        "id": "py/ineffectual-statement",
+        "index": 144
+      },
+      "message": {
+        "text": "This statement has no effect."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "pylint/reporters/text.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 179
+            },
+            "region": {
+              "startLine": 99,
+              "startColumn": 5,
+              "endColumn": 8
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3b5171526ec56463:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

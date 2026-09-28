@@ -1,0 +1,11 @@
+Matched dynamic-performance analysis
+====================================
+Each instance value is the mean over five harness runs.
+All comparisons are paired on identical resolved instances.
+Claude | CPU time (s) | n=71 | median diff=0.048 | median ratio=1.007 | p=0.0017 | r_rb=0.4225
+Claude | Peak memory (MiB) | n=71 | median diff=4.524 | median ratio=1.02 | p=1e-05 | r_rb=0.9304
+DeepSeek | CPU time (s) | n=56 | median diff=-0.02 | median ratio=0.9977 | p=0.1646 | r_rb=-0.2162
+DeepSeek | Peak memory (MiB) | n=56 | median diff=0.512 | median ratio=1.002 | p=0.00038 | r_rb=0.5288
+All four | CPU time (s) | n=30 | median diff=-0.026 | median ratio=0.9966 | p=0.7776 | r_rb=0.06237
+All four | Peak memory (MiB) | n=30 | median diff=2.876 | median ratio=1.012 | p=1e-05 | r_rb=0.9871
+

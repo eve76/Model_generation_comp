@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "before_count": 591,
+    "after_count": 591,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 590
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unnecessary-lambda",
+      "ruleIndex": 69,
+      "rule": {
+        "id": "py/unnecessary-lambda",
+        "index": 69
+      },
+      "message": {
+        "text": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/pycode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 27
+            },
+            "region": {
+              "startLine": 763,
+              "startColumn": 42,
+              "endColumn": 70
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c697db78a6dfc80c:1",
+        "primaryLocationStartColumnFingerprint": "14"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/unnecessary-lambda",
+      "ruleIndex": 69,
+      "rule": {
+        "id": "py/unnecessary-lambda",
+        "index": 69
+      },
+      "message": {
+        "text": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/printing/pycode.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 66
+            },
+            "region": {
+              "startLine": 756,
+              "startColumn": 42,
+              "endColumn": 70
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c697db78a6dfc80c:1",
+        "primaryLocationStartColumnFingerprint": "14"
+      }
+    }
+  ]
+}

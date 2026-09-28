@@ -1,0 +1,6 @@
+model,n,median_patch_churn,median_codeql_added_per_100_lines,median_codescene_degradations_per_100_lines
+Claude Opus 4.6,133,4.0,3.125,0.0
+Claude Sonnet 4,108,7.0,8.712121212121213,2.870879120879121
+DeepSeek R1,79,4.0,0.0,0.0
+DeepSeek V3.2,133,7.0,9.859154929577464,0.0
+Gold (developer),194,5.0,113.88888888888889,0.0

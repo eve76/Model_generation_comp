@@ -1,0 +1,269 @@
+{
+  "summary": {
+    "before_count": 512,
+    "after_count": 512,
+    "added": 3,
+    "removed": 3,
+    "unchanged": 509
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unreachable-statement",
+      "ruleIndex": 145,
+      "rule": {
+        "id": "py/unreachable-statement",
+        "index": 145
+      },
+      "message": {
+        "text": "This statement is unreachable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/iterables.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 1773,
+              "startColumn": 9,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "16dda3daa1470868:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.containers](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/iterables.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 2045,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2cd19d509e761e6c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/containers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 93
+            }
+          },
+          "message": {
+            "text": "sympy.core.containers"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/redundant-comparison",
+      "ruleIndex": 65,
+      "rule": {
+        "id": "py/redundant-comparison",
+        "index": 65
+      },
+      "message": {
+        "text": "Test is always false, because of [this condition](1)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/iterables.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 1772,
+              "startColumn": 8,
+              "endColumn": 14
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2e666bd7e1476af6:1",
+        "primaryLocationStartColumnFingerprint": "3"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/iterables.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 57
+            },
+            "region": {
+              "startLine": 1754,
+              "startColumn": 9,
+              "endColumn": 15
+            }
+          },
+          "message": {
+            "text": "this condition"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/redundant-comparison",
+      "ruleIndex": 65,
+      "rule": {
+        "id": "py/redundant-comparison",
+        "index": 65
+      },
+      "message": {
+        "text": "Test is always false, because of [this condition](1)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/iterables.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 1787,
+              "startColumn": 8,
+              "endColumn": 14
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2e666bd7e1476af6:1",
+        "primaryLocationStartColumnFingerprint": "3"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/iterables.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 1769,
+              "startColumn": 9,
+              "endColumn": 15
+            }
+          },
+          "message": {
+            "text": "this condition"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.core.containers](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/iterables.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 2060,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2cd19d509e761e6c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/core/containers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 89
+            }
+          },
+          "message": {
+            "text": "sympy.core.containers"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unreachable-statement",
+      "ruleIndex": 145,
+      "rule": {
+        "id": "py/unreachable-statement",
+        "index": 145
+      },
+      "message": {
+        "text": "This statement is unreachable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/utilities/iterables.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 3
+            },
+            "region": {
+              "startLine": 1788,
+              "startColumn": 9,
+              "endColumn": 17
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "16dda3daa1470868:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

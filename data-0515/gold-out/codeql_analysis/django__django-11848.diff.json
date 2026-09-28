@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "before_count": 518,
+    "after_count": 518,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 517
+  },
+  "added_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/http.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 594
+            },
+            "region": {
+              "startLine": 198,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "90a58a60a691de61:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/utils/http.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 540
+            },
+            "region": {
+              "startLine": 194,
+              "endColumn": 32
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "90a58a60a691de61:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

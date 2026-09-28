@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "before_count": 582,
+    "after_count": 582,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 581
+  },
+  "added_results": [
+    {
+      "ruleId": "py/super-not-enclosing-class",
+      "ruleIndex": 64,
+      "rule": {
+        "id": "py/super-not-enclosing-class",
+        "index": 64
+      },
+      "message": {
+        "text": "First argument to super() should be RenameField."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/migrations/operations/fields.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 398
+            },
+            "region": {
+              "startLine": 358,
+              "startColumn": 16,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b44532c4d156a280:1",
+        "primaryLocationStartColumnFingerprint": "7"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/super-not-enclosing-class",
+      "ruleIndex": 64,
+      "rule": {
+        "id": "py/super-not-enclosing-class",
+        "index": 64
+      },
+      "message": {
+        "text": "First argument to super() should be RenameField."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/migrations/operations/fields.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 388
+            },
+            "region": {
+              "startLine": 354,
+              "startColumn": 16,
+              "endColumn": 43
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b44532c4d156a280:1",
+        "primaryLocationStartColumnFingerprint": "7"
+      }
+    }
+  ]
+}

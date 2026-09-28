@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "before_count": 571,
+    "after_count": 571,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 570
+  },
+  "added_results": [
+    {
+      "ruleId": "py/super-not-enclosing-class",
+      "ruleIndex": 64,
+      "rule": {
+        "id": "py/super-not-enclosing-class",
+        "index": 64
+      },
+      "message": {
+        "text": "First argument to super() should be RenameModel."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/migrations/operations/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 339
+            },
+            "region": {
+              "startLine": 408,
+              "startColumn": 13,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "683095d4f26eb9ef:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/super-not-enclosing-class",
+      "ruleIndex": 64,
+      "rule": {
+        "id": "py/super-not-enclosing-class",
+        "index": 64
+      },
+      "message": {
+        "text": "First argument to super() should be RenameModel."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/migrations/operations/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 614
+            },
+            "region": {
+              "startLine": 404,
+              "startColumn": 13,
+              "endColumn": 40
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "683095d4f26eb9ef:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+set,n_instances
+Claude Opus 4.6,133
+Claude Sonnet 4,108
+DeepSeek V3.2,133
+DeepSeek R1,79
+Claude common,71
+Claude newer only,62
+Claude older only,37
+DeepSeek common,56
+DeepSeek newer only,77
+DeepSeek older only,23
+All four common,30

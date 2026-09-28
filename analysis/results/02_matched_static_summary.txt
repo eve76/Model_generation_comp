@@ -1,0 +1,11 @@
+Matched static-quality analysis
+===============================
+CodeScene missing deltas are treated as neutral (0), matching the manuscript definition.
+All-four comparisons average the two newer and two older values within each instance before testing.
+Claude | CodeQL net change | n=71 | median diff=0 | p=1 | r_rb=-0.06667
+Claude | CodeScene Code Health delta | n=71 | median diff=0 | p=0.08398 | r_rb=0.6364
+DeepSeek | CodeQL net change | n=56 | median diff=0 | p=0.5 | r_rb=0.5
+DeepSeek | CodeScene Code Health delta | n=56 | median diff=0 | p=0.9658 | r_rb=0.0303
+All four | CodeQL net change | n=30 | median diff=0 | p=1 | r_rb=-1
+All four | CodeScene Code Health delta | n=30 | median diff=0 | p=0.5625 | r_rb=0.3333
+

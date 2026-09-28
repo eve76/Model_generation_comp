@@ -1,0 +1,221 @@
+{
+  "summary": {
+    "before_count": 192,
+    "after_count": 192,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 191
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'reportinfo': [Function reportinfo](1) and [Function reportinfo](2).\nBase classes have conflicting values for attribute 'repr_failure': [Function repr_failure](3) and [Function _repr_failure_py](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 1359,
+              "endColumn": 76
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2921f38f4bf24ab8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 285,
+              "startColumn": 5,
+              "endColumn": 26
+            }
+          },
+          "message": {
+            "text": "Function reportinfo"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 25
+            },
+            "region": {
+              "startLine": 409,
+              "startColumn": 5,
+              "endColumn": 26
+            }
+          },
+          "message": {
+            "text": "Function reportinfo"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 54
+            },
+            "region": {
+              "startLine": 830,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "Function repr_failure"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 25
+            },
+            "region": {
+              "startLine": 238,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _repr_failure_py"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'repr_failure': [Function repr_failure](1) and [Function _repr_failure_py](2).\nBase classes have conflicting values for attribute 'reportinfo': [Function reportinfo](3) and [Function reportinfo](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 42
+            },
+            "region": {
+              "startLine": 1359,
+              "endColumn": 76
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2921f38f4bf24ab8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 42
+            },
+            "region": {
+              "startLine": 830,
+              "startColumn": 5,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "Function repr_failure"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 26
+            },
+            "region": {
+              "startLine": 238,
+              "startColumn": 5,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "Function _repr_failure_py"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/python.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 42
+            },
+            "region": {
+              "startLine": 285,
+              "startColumn": 5,
+              "endColumn": 26
+            }
+          },
+          "message": {
+            "text": "Function reportinfo"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/nodes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 26
+            },
+            "region": {
+              "startLine": 409,
+              "startColumn": 5,
+              "endColumn": 26
+            }
+          },
+          "message": {
+            "text": "Function reportinfo"
+          }
+        }
+      ]
+    }
+  ]
+}

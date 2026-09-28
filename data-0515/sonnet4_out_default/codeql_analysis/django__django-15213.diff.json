@@ -1,0 +1,2045 @@
+{
+  "summary": {
+    "before_count": 571,
+    "after_count": 571,
+    "added": 7,
+    "removed": 7,
+    "unchanged": 564
+  },
+  "added_results": [
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [BaseExpression.__init__](1) during initialization. ([WindowFrame.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1424,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "75fab54bd8eac389:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 162,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          },
+          "message": {
+            "text": "BaseExpression.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1434,
+              "startColumn": 5,
+              "endColumn": 46
+            }
+          },
+          "message": {
+            "text": "WindowFrame.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'When' does not override ['__eq__'](1), but adds the new attribute [condition](2).\nThe class 'When' does not override ['__eq__'](1), but adds the new attribute [result](3).\nThe class 'When' does not override ['__eq__'](1), but adds the new attribute [condition](4).\nThe class 'When' does not override ['__eq__'](1), but adds the new attribute [result](5)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 997,
+              "endColumn": 24
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ffd70e4e09efafa4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 416,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1016,
+              "startColumn": 9,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "condition"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1017,
+              "startColumn": 9,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "result"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1029,
+              "startColumn": 9,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "condition"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1029,
+              "startColumn": 25,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "result"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'Window' does not override ['__eq__'](1), but adds the new attribute [partition_by](2).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [order_by](3).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [frame](4).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [partition_by](5).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [partition_by](6).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [order_by](7).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [order_by](8).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [source_expression](9).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [source_expression](10).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [partition_by](11).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [order_by](12).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [frame](13)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1319,
+              "endColumn": 46
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6cea9a3f0e1e7323:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 416,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1329,
+              "startColumn": 9,
+              "endColumn": 26
+            }
+          },
+          "message": {
+            "text": "partition_by"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1330,
+              "startColumn": 9,
+              "endColumn": 22
+            }
+          },
+          "message": {
+            "text": "order_by"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1331,
+              "startColumn": 9,
+              "endColumn": 19
+            }
+          },
+          "message": {
+            "text": "frame"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1341,
+              "startColumn": 17,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "partition_by"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1342,
+              "startColumn": 13,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "partition_by"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1346,
+              "startColumn": 17,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "order_by"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1348,
+              "startColumn": 17,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "order_by"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1355,
+              "startColumn": 9,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "source_expression"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1364,
+              "startColumn": 9,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "source_expression"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1364,
+              "startColumn": 33,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "partition_by"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1364,
+              "startColumn": 52,
+              "endColumn": 65
+            }
+          },
+          "message": {
+            "text": "order_by"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1364,
+              "startColumn": 67,
+              "endColumn": 77
+            }
+          },
+          "message": {
+            "text": "frame"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'Case' does not override ['__eq__'](1), but adds the new attribute [cases](2).\nThe class 'Case' does not override ['__eq__'](1), but adds the new attribute [default](3).\nThe class 'Case' does not override ['__eq__'](1), but adds the new attribute [extra](4).\nThe class 'Case' does not override ['__eq__'](1), but adds the new attribute [cases](5).\nThe class 'Case' does not override ['__eq__'](1), but adds the new attribute [default](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1064,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b480bdacfa802881:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 416,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1083,
+              "startColumn": 9,
+              "endColumn": 19
+            }
+          },
+          "message": {
+            "text": "cases"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1084,
+              "startColumn": 9,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "default"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1085,
+              "startColumn": 9,
+              "endColumn": 19
+            }
+          },
+          "message": {
+            "text": "extra"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1097,
+              "startColumn": 10,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "cases"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1097,
+              "startColumn": 22,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "default"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_first](2).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_last](3).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](4).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [expression](5).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [expression](6).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](7).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_first](8).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_last](9).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](10).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](11)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1237,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2bd6834e28e99c9c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 416,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1244,
+              "startColumn": 9,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "nulls_first"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1245,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "nulls_last"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1246,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1249,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "expression"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1256,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "expression"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1306,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1308,
+              "startColumn": 13,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "nulls_first"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1309,
+              "startColumn": 13,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "nulls_last"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1313,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1316,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [BaseExpression.__init__](1) during initialization. ([OrderBy.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1237,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2bd6834e28e99c9c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 162,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          },
+          "message": {
+            "text": "BaseExpression.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1241,
+              "startColumn": 5,
+              "endColumn": 91
+            }
+          },
+          "message": {
+            "text": "OrderBy.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'WindowFrame' does not override ['__eq__'](1), but adds the new attribute [start](2).\nThe class 'WindowFrame' does not override ['__eq__'](1), but adds the new attribute [end](3).\nThe class 'WindowFrame' does not override ['__eq__'](1), but adds the new attribute [start](4).\nThe class 'WindowFrame' does not override ['__eq__'](1), but adds the new attribute [end](5)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1424,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "75fab54bd8eac389:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 416,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1435,
+              "startColumn": 9,
+              "endColumn": 19
+            }
+          },
+          "message": {
+            "text": "start"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1436,
+              "startColumn": 9,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "end"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1439,
+              "startColumn": 9,
+              "endColumn": 19
+            }
+          },
+          "message": {
+            "text": "start"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 733
+            },
+            "region": {
+              "startLine": 1439,
+              "startColumn": 21,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "end"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [BaseExpression.__init__](1) during initialization. ([WindowFrame.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1415,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "75fab54bd8eac389:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 162,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          },
+          "message": {
+            "text": "BaseExpression.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1425,
+              "startColumn": 5,
+              "endColumn": 46
+            }
+          },
+          "message": {
+            "text": "WindowFrame.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'Window' does not override ['__eq__'](1), but adds the new attribute [partition_by](2).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [order_by](3).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [frame](4).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [partition_by](5).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [partition_by](6).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [order_by](7).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [order_by](8).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [source_expression](9).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [source_expression](10).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [partition_by](11).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [order_by](12).\nThe class 'Window' does not override ['__eq__'](1), but adds the new attribute [frame](13)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1310,
+              "endColumn": 46
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "6cea9a3f0e1e7323:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 416,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1320,
+              "startColumn": 9,
+              "endColumn": 26
+            }
+          },
+          "message": {
+            "text": "partition_by"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1321,
+              "startColumn": 9,
+              "endColumn": 22
+            }
+          },
+          "message": {
+            "text": "order_by"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1322,
+              "startColumn": 9,
+              "endColumn": 19
+            }
+          },
+          "message": {
+            "text": "frame"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1332,
+              "startColumn": 17,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "partition_by"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1333,
+              "startColumn": 13,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "partition_by"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1337,
+              "startColumn": 17,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "order_by"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1339,
+              "startColumn": 17,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "order_by"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1346,
+              "startColumn": 9,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "source_expression"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1355,
+              "startColumn": 9,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "source_expression"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1355,
+              "startColumn": 33,
+              "endColumn": 50
+            }
+          },
+          "message": {
+            "text": "partition_by"
+          }
+        },
+        {
+          "id": 12,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1355,
+              "startColumn": 52,
+              "endColumn": 65
+            }
+          },
+          "message": {
+            "text": "order_by"
+          }
+        },
+        {
+          "id": 13,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1355,
+              "startColumn": 67,
+              "endColumn": 77
+            }
+          },
+          "message": {
+            "text": "frame"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'Case' does not override ['__eq__'](1), but adds the new attribute [cases](2).\nThe class 'Case' does not override ['__eq__'](1), but adds the new attribute [default](3).\nThe class 'Case' does not override ['__eq__'](1), but adds the new attribute [extra](4).\nThe class 'Case' does not override ['__eq__'](1), but adds the new attribute [cases](5).\nThe class 'Case' does not override ['__eq__'](1), but adds the new attribute [default](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1055,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b480bdacfa802881:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 416,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1074,
+              "startColumn": 9,
+              "endColumn": 19
+            }
+          },
+          "message": {
+            "text": "cases"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1075,
+              "startColumn": 9,
+              "endColumn": 21
+            }
+          },
+          "message": {
+            "text": "default"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1076,
+              "startColumn": 9,
+              "endColumn": 19
+            }
+          },
+          "message": {
+            "text": "extra"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1088,
+              "startColumn": 10,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "cases"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1088,
+              "startColumn": 22,
+              "endColumn": 34
+            }
+          },
+          "message": {
+            "text": "default"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'When' does not override ['__eq__'](1), but adds the new attribute [condition](2).\nThe class 'When' does not override ['__eq__'](1), but adds the new attribute [result](3).\nThe class 'When' does not override ['__eq__'](1), but adds the new attribute [condition](4).\nThe class 'When' does not override ['__eq__'](1), but adds the new attribute [result](5)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 988,
+              "endColumn": 24
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ffd70e4e09efafa4:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 416,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1007,
+              "startColumn": 9,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "condition"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1008,
+              "startColumn": 9,
+              "endColumn": 20
+            }
+          },
+          "message": {
+            "text": "result"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1020,
+              "startColumn": 9,
+              "endColumn": 23
+            }
+          },
+          "message": {
+            "text": "condition"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1020,
+              "startColumn": 25,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "result"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_first](2).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_last](3).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](4).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [expression](5).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [expression](6).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](7).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_first](8).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [nulls_last](9).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](10).\nThe class 'OrderBy' does not override ['__eq__'](1), but adds the new attribute [descending](11)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1228,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2bd6834e28e99c9c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 416,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1235,
+              "startColumn": 9,
+              "endColumn": 25
+            }
+          },
+          "message": {
+            "text": "nulls_first"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1236,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "nulls_last"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1237,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1240,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "expression"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1247,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "expression"
+          }
+        },
+        {
+          "id": 7,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1297,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        },
+        {
+          "id": 8,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1299,
+              "startColumn": 13,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "nulls_first"
+          }
+        },
+        {
+          "id": 9,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1300,
+              "startColumn": 13,
+              "endColumn": 28
+            }
+          },
+          "message": {
+            "text": "nulls_last"
+          }
+        },
+        {
+          "id": 10,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1304,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        },
+        {
+          "id": 11,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1307,
+              "startColumn": 9,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "descending"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [BaseExpression.__init__](1) during initialization. ([OrderBy.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1228,
+              "endColumn": 27
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2bd6834e28e99c9c:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 162,
+              "startColumn": 5,
+              "endColumn": 43
+            }
+          },
+          "message": {
+            "text": "BaseExpression.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1232,
+              "startColumn": 5,
+              "endColumn": 91
+            }
+          },
+          "message": {
+            "text": "OrderBy.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-equals",
+      "ruleIndex": 107,
+      "rule": {
+        "id": "py/missing-equals",
+        "index": 107
+      },
+      "message": {
+        "text": "The class 'WindowFrame' does not override ['__eq__'](1), but adds the new attribute [start](2).\nThe class 'WindowFrame' does not override ['__eq__'](1), but adds the new attribute [end](3).\nThe class 'WindowFrame' does not override ['__eq__'](1), but adds the new attribute [start](4).\nThe class 'WindowFrame' does not override ['__eq__'](1), but adds the new attribute [end](5)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1415,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "75fab54bd8eac389:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 416,
+              "startColumn": 5,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "'__eq__'"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1426,
+              "startColumn": 9,
+              "endColumn": 19
+            }
+          },
+          "message": {
+            "text": "start"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1427,
+              "startColumn": 9,
+              "endColumn": 17
+            }
+          },
+          "message": {
+            "text": "end"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1430,
+              "startColumn": 9,
+              "endColumn": 19
+            }
+          },
+          "message": {
+            "text": "start"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/db/models/expressions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 113
+            },
+            "region": {
+              "startLine": 1430,
+              "startColumn": 21,
+              "endColumn": 29
+            }
+          },
+          "message": {
+            "text": "end"
+          }
+        }
+      ]
+    }
+  ]
+}

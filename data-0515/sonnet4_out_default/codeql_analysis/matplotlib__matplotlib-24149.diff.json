@@ -1,0 +1,819 @@
+{
+  "summary": {
+    "before_count": 684,
+    "after_count": 684,
+    "added": 9,
+    "removed": 9,
+    "unchanged": 675
+  },
+  "added_results": [
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 139,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 139
+      },
+      "message": {
+        "text": "Axes.csd returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 7221,
+              "startColumn": 5,
+              "endLine": 7223,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "22effea69a4e211b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 7317,
+              "startColumn": 20,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 7319,
+              "startColumn": 20,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'im' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 6390,
+              "startColumn": 28,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "68d1bdf45a2ee7d5:1",
+        "primaryLocationStartColumnFingerprint": "15"
+      }
+    },
+    {
+      "ruleId": "py/comparison-of-identical-expressions",
+      "ruleIndex": 62,
+      "rule": {
+        "id": "py/comparison-of-identical-expressions",
+        "index": 62
+      },
+      "message": {
+        "text": "Comparison of identical values; use cmath.isnan() if testing for not-a-number."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 3613,
+              "startColumn": 58,
+              "endColumn": 68
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ccf0983b593128d4:1",
+        "primaryLocationStartColumnFingerprint": "45"
+      }
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'boffset' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 6799,
+              "startColumn": 17,
+              "endColumn": 24
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f78839c5fb4cd931:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 139,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 139
+      },
+      "message": {
+        "text": "Axes.pie returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 3059,
+              "startColumn": 5,
+              "endLine": 3063,
+              "endColumn": 65
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7983173d34738e74:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 3279,
+              "startColumn": 20,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 3281,
+              "startColumn": 20,
+              "endColumn": 44
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 139,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 139
+      },
+      "message": {
+        "text": "Axes.psd returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 7110,
+              "startColumn": 5,
+              "endLine": 7112,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8b8daba703277b96:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 7215,
+              "startColumn": 20,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 7217,
+              "startColumn": 20,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'dw' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 6823,
+              "startColumn": 28,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8a7b24fd36a9c9f1:1",
+        "primaryLocationStartColumnFingerprint": "11"
+      }
+    },
+    {
+      "ruleId": "py/polluting-import",
+      "ruleIndex": 93,
+      "rule": {
+        "id": "py/polluting-import",
+        "index": 93
+      },
+      "message": {
+        "text": "Import pollutes the enclosing namespace, as the imported module [matplotlib.pylab](1) does not define '__all__'."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "db-after/src/workspace/work/matplotlib__matplotlib-24149/lib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 217
+            },
+            "region": {
+              "startLine": 1,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "516f35cf802bc716:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/pylab.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 222
+            }
+          },
+          "message": {
+            "text": "matplotlib.pylab"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'boffset' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 109
+            },
+            "region": {
+              "startLine": 6801,
+              "startColumn": 17,
+              "endColumn": 24
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "12170a20e58d140d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'boffset' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 6783,
+              "startColumn": 17,
+              "endColumn": 24
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "f78839c5fb4cd931:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 139,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 139
+      },
+      "message": {
+        "text": "Axes.psd returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 7094,
+              "startColumn": 5,
+              "endLine": 7096,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8b8daba703277b96:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 7199,
+              "startColumn": 20,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 7201,
+              "startColumn": 20,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'boffset' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 6785,
+              "startColumn": 17,
+              "endColumn": 24
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "12170a20e58d140d:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'im' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 6374,
+              "startColumn": 28,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "68d1bdf45a2ee7d5:1",
+        "primaryLocationStartColumnFingerprint": "15"
+      }
+    },
+    {
+      "ruleId": "py/uninitialized-local-variable",
+      "ruleIndex": 86,
+      "rule": {
+        "id": "py/uninitialized-local-variable",
+        "index": 86
+      },
+      "message": {
+        "text": "Local variable 'dw' may be used before it is initialized."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 6807,
+              "startColumn": 28,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8a7b24fd36a9c9f1:1",
+        "primaryLocationStartColumnFingerprint": "11"
+      }
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 2183,
+              "startColumn": 13,
+              "endColumn": 54
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "bbfe367b301f307f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/comparison-of-identical-expressions",
+      "ruleIndex": 62,
+      "rule": {
+        "id": "py/comparison-of-identical-expressions",
+        "index": 62
+      },
+      "message": {
+        "text": "Comparison of identical values; use cmath.isnan() if testing for not-a-number."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 3602,
+              "startColumn": 58,
+              "endColumn": 68
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ccf0983b593128d4:1",
+        "primaryLocationStartColumnFingerprint": "45"
+      }
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 139,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 139
+      },
+      "message": {
+        "text": "Axes.csd returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 7205,
+              "startColumn": 5,
+              "endLine": 7207,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "22effea69a4e211b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 7301,
+              "startColumn": 20,
+              "endColumn": 30
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 7303,
+              "startColumn": 20,
+              "endColumn": 36
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-tuple-returns",
+      "ruleIndex": 139,
+      "rule": {
+        "id": "py/mixed-tuple-returns",
+        "index": 139
+      },
+      "message": {
+        "text": "Axes.pie returns [tuple of size 2](1) and [tuple of size 3](2)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 3053,
+              "startColumn": 5,
+              "endLine": 3057,
+              "endColumn": 65
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7983173d34738e74:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 3273,
+              "startColumn": 20,
+              "endColumn": 33
+            }
+          },
+          "message": {
+            "text": "tuple of size 2"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "lib/matplotlib/axes/_axes.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 216
+            },
+            "region": {
+              "startLine": 3275,
+              "startColumn": 20,
+              "endColumn": 44
+            }
+          },
+          "message": {
+            "text": "tuple of size 3"
+          }
+        }
+      ]
+    }
+  ]
+}

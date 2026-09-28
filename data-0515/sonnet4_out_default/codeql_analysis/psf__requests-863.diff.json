@@ -1,0 +1,2221 @@
+{
+  "summary": {
+    "before_count": 131,
+    "after_count": 131,
+    "added": 4,
+    "removed": 4,
+    "unchanged": 127
+  },
+  "added_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 45
+            },
+            "region": {
+              "startLine": 293,
+              "startColumn": 17,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d8dbdc65fbc10ea3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 45
+            },
+            "region": {
+              "startLine": 483,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fe3a0bf5f098d3be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/weak-sensitive-data-hashing",
+      "ruleIndex": 3,
+      "rule": {
+        "id": "py/weak-sensitive-data-hashing",
+        "index": 3
+      },
+      "message": {
+        "text": "[Sensitive data (id)](1) is used in a hashing algorithm (MD5) that is insecure.\n[Sensitive data (password)](2) is used in a hashing algorithm (MD5) that is insecure for password hashing, since it is not a computationally expensive hash function."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/auth.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 169,
+              "startColumn": 36,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "adec798e7ab91060:1",
+        "primaryLocationStartColumnFingerprint": "19"
+      },
+      "codeFlows": [
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 28,
+                        "endColumn": 41
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 207,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 166,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 169,
+                        "startColumn": 36,
+                        "endColumn": 37
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 28,
+                        "endColumn": 41
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 209,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 166,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 168,
+                        "startColumn": 21,
+                        "endColumn": 22
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 169,
+                        "startColumn": 36,
+                        "endColumn": 37
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 50,
+                        "endColumn": 63
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 207,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 166,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 169,
+                        "startColumn": 36,
+                        "endColumn": 37
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 50,
+                        "endColumn": 63
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 209,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 166,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 168,
+                        "startColumn": 21,
+                        "endColumn": 22
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 169,
+                        "startColumn": 36,
+                        "endColumn": 37
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/auth.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 190,
+              "startColumn": 28,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Sensitive data (id)"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/auth.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 190,
+              "startColumn": 50,
+              "endColumn": 63
+            }
+          },
+          "message": {
+            "text": "Sensitive data (password)"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/weak-sensitive-data-hashing",
+      "ruleIndex": 3,
+      "rule": {
+        "id": "py/weak-sensitive-data-hashing",
+        "index": 3
+      },
+      "message": {
+        "text": "[Sensitive data (id)](1) is used in a hashing algorithm (SHA1) that is insecure.\n[Sensitive data (password)](2) is used in a hashing algorithm (SHA1) that is insecure for password hashing, since it is not a computationally expensive hash function."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/auth.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 175,
+              "startColumn": 37,
+              "endColumn": 38
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ab3d3b532fcf3cd0:1",
+        "primaryLocationStartColumnFingerprint": "20"
+      },
+      "codeFlows": [
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 28,
+                        "endColumn": 41
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 207,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 172,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 175,
+                        "startColumn": 37,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 28,
+                        "endColumn": 41
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 209,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 172,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 174,
+                        "startColumn": 21,
+                        "endColumn": 22
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 175,
+                        "startColumn": 37,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 50,
+                        "endColumn": 63
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 207,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 172,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 175,
+                        "startColumn": 37,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 50,
+                        "endColumn": 63
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 209,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 172,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 174,
+                        "startColumn": 21,
+                        "endColumn": 22
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 175,
+                        "startColumn": 37,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/auth.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 190,
+              "startColumn": 28,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Sensitive data (id)"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/auth.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 190,
+              "startColumn": 50,
+              "endColumn": 63
+            }
+          },
+          "message": {
+            "text": "Sensitive data (password)"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/weak-sensitive-data-hashing",
+      "ruleIndex": 3,
+      "rule": {
+        "id": "py/weak-sensitive-data-hashing",
+        "index": 3
+      },
+      "message": {
+        "text": "[Sensitive data (password)](1) is used in a hashing algorithm (SHA1) that is insecure for password hashing, since it is not a computationally expensive hash function.\n[Sensitive data (id)](2) is used in a hashing algorithm (SHA1) that is insecure."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/auth.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 175,
+              "startColumn": 37,
+              "endColumn": 38
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "ab3d3b532fcf3cd0:1",
+        "primaryLocationStartColumnFingerprint": "20"
+      },
+      "codeFlows": [
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 50,
+                        "endColumn": 63
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 207,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 172,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 175,
+                        "startColumn": 37,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 50,
+                        "endColumn": 63
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 209,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 172,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 174,
+                        "startColumn": 21,
+                        "endColumn": 22
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 175,
+                        "startColumn": 37,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 28,
+                        "endColumn": 41
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 207,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 172,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 175,
+                        "startColumn": 37,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 28,
+                        "endColumn": 41
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 209,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 172,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 174,
+                        "startColumn": 21,
+                        "endColumn": 22
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 175,
+                        "startColumn": 37,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/auth.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 190,
+              "startColumn": 50,
+              "endColumn": 63
+            }
+          },
+          "message": {
+            "text": "Sensitive data (password)"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/auth.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 190,
+              "startColumn": 28,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Sensitive data (id)"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 4
+            },
+            "region": {
+              "startLine": 289,
+              "startColumn": 17,
+              "endColumn": 33
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "d8dbdc65fbc10ea3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/weak-sensitive-data-hashing",
+      "ruleIndex": 3,
+      "rule": {
+        "id": "py/weak-sensitive-data-hashing",
+        "index": 3
+      },
+      "message": {
+        "text": "[Sensitive data (password)](1) is used in a hashing algorithm (MD5) that is insecure for password hashing, since it is not a computationally expensive hash function.\n[Sensitive data (id)](2) is used in a hashing algorithm (MD5) that is insecure."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/auth.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 169,
+              "startColumn": 36,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "adec798e7ab91060:1",
+        "primaryLocationStartColumnFingerprint": "19"
+      },
+      "codeFlows": [
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 50,
+                        "endColumn": 63
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 207,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 166,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 169,
+                        "startColumn": 36,
+                        "endColumn": 37
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 50,
+                        "endColumn": 63
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 209,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 166,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 168,
+                        "startColumn": 21,
+                        "endColumn": 22
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 169,
+                        "startColumn": 36,
+                        "endColumn": 37
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 28,
+                        "endColumn": 41
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 207,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 166,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 169,
+                        "startColumn": 36,
+                        "endColumn": 37
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "threadFlows": [
+            {
+              "locations": [
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 28,
+                        "endColumn": 41
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for Attribute"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 190,
+                        "startColumn": 9,
+                        "endColumn": 11
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 209,
+                        "startColumn": 36,
+                        "endColumn": 38
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for A1"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 166,
+                        "startColumn": 26,
+                        "endColumn": 27
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 168,
+                        "startColumn": 21,
+                        "endColumn": 22
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                },
+                {
+                  "location": {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "requests/auth.py",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 1
+                      },
+                      "region": {
+                        "startLine": 169,
+                        "startColumn": 36,
+                        "endColumn": 37
+                      }
+                    },
+                    "message": {
+                      "text": "ControlFlowNode for x"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/auth.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 190,
+              "startColumn": 50,
+              "endColumn": 63
+            }
+          },
+          "message": {
+            "text": "Sensitive data (password)"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/auth.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 1
+            },
+            "region": {
+              "startLine": 190,
+              "startColumn": 28,
+              "endColumn": 41
+            }
+          },
+          "message": {
+            "text": "Sensitive data (id)"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/mixed-returns",
+      "ruleIndex": 131,
+      "rule": {
+        "id": "py/mixed-returns",
+        "index": 131
+      },
+      "message": {
+        "text": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "requests/models.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 4
+            },
+            "region": {
+              "startLine": 479,
+              "startColumn": 5,
+              "endColumn": 49
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "fe3a0bf5f098d3be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

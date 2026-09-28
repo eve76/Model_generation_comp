@@ -1,0 +1,1359 @@
+{
+  "summary": {
+    "before_count": 613,
+    "after_count": 613,
+    "added": 14,
+    "removed": 14,
+    "unchanged": 599
+  },
+  "added_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 468,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2dd97ea1251114b8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 40
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 448,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a4a1ec38d1d43ff9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 454,
+              "startColumn": 19,
+              "endColumn": 48
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.array_derivatives](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 318,
+              "startColumn": 9,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c77cc3e670d2a606:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/array_derivatives.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 24
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.array_derivatives"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/equals-hash-mismatch",
+      "ruleIndex": 115,
+      "rule": {
+        "id": "py/equals-hash-mismatch",
+        "index": 115
+      },
+      "message": {
+        "text": "This class implements [__hash__](1), but does not implement __eq__."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 585,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b0000aeb8008eed5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 588,
+              "startColumn": 5,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "__hash__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 451,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "25ea10b27e0c427f:3",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 40
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 431,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1a8311d3db47539a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 437,
+              "startColumn": 19,
+              "endColumn": 94
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 402,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "900379b8350007fd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 409,
+              "startColumn": 19,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 414,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3c826a2f26c25c86:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 420,
+              "startColumn": 19,
+              "endColumn": 94
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 417,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "25ea10b27e0c427f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 40
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 434,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "25ea10b27e0c427f:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 40
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 403,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4d9172ca10012f77:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 40
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 391,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4d9172ca10012f77:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 40
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 343,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9f80a1e2bb2c1e92:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 40
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 390,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cd4c5b644a72d78:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 63
+            },
+            "region": {
+              "startLine": 397,
+              "startColumn": 19,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.array_derivatives](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 315,
+              "startColumn": 9,
+              "endColumn": 73
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "c77cc3e670d2a606:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/array_derivatives.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 30
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.array_derivatives"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 387,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "cd4c5b644a72d78:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 394,
+              "startColumn": 19,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 340,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "9f80a1e2bb2c1e92:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 465,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "2dd97ea1251114b8:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 431,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "25ea10b27e0c427f:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 448,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "25ea10b27e0c427f:3",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 399,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "900379b8350007fd:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 406,
+              "startColumn": 19,
+              "endColumn": 53
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 411,
+              "startColumn": 5,
+              "endColumn": 30
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "3c826a2f26c25c86:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 417,
+              "startColumn": 19,
+              "endColumn": 94
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/equals-hash-mismatch",
+      "ruleIndex": 115,
+      "rule": {
+        "id": "py/equals-hash-mismatch",
+        "index": 115
+      },
+      "message": {
+        "text": "This class implements [__hash__](1), but does not implement __eq__."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 582,
+              "endColumn": 44
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "b0000aeb8008eed5:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 585,
+              "startColumn": 5,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "__hash__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 388,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4d9172ca10012f77:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 414,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "25ea10b27e0c427f:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 445,
+              "startColumn": 5,
+              "endColumn": 34
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a4a1ec38d1d43ff9:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 451,
+              "startColumn": 19,
+              "endColumn": 48
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/unexpected-raise-in-special-method",
+      "ruleIndex": 128,
+      "rule": {
+        "id": "py/unexpected-raise-in-special-method",
+        "index": 128
+      },
+      "message": {
+        "text": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 428,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "1a8311d3db47539a:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 434,
+              "startColumn": 19,
+              "endColumn": 94
+            }
+          },
+          "message": {
+            "text": "ValueError"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/cyclic-import",
+      "ruleIndex": 102,
+      "rule": {
+        "id": "py/cyclic-import",
+        "index": 102
+      },
+      "message": {
+        "text": "Import of module [sympy.tensor.array.arrayop](1) begins an import cycle."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/ndim_array.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 44
+            },
+            "region": {
+              "startLine": 400,
+              "startColumn": 9,
+              "endColumn": 55
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "4d9172ca10012f77:2",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/tensor/array/arrayop.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 33
+            }
+          },
+          "message": {
+            "text": "sympy.tensor.array.arrayop"
+          }
+        }
+      ]
+    }
+  ]
+}

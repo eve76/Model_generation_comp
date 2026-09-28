@@ -1,0 +1,77 @@
+{
+  "summary": {
+    "before_count": 640,
+    "after_count": 640,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 639
+  },
+  "added_results": [
+    {
+      "ruleId": "py/commented-out-code",
+      "ruleIndex": 160,
+      "rule": {
+        "id": "py/commented-out-code",
+        "index": 160
+      },
+      "message": {
+        "text": "This comment appears to contain commented-out code."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/preprocessing/_encoders.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 89
+            },
+            "region": {
+              "startLine": 630,
+              "startColumn": 9,
+              "endLine": 631,
+              "endColumn": 74
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8578c871b149d14b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/commented-out-code",
+      "ruleIndex": 160,
+      "rule": {
+        "id": "py/commented-out-code",
+        "index": 160
+      },
+      "message": {
+        "text": "This comment appears to contain commented-out code."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sklearn/preprocessing/_encoders.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 548
+            },
+            "region": {
+              "startLine": 623,
+              "startColumn": 9,
+              "endLine": 624,
+              "endColumn": 74
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8578c871b149d14b:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}

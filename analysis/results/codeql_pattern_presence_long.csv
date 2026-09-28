@@ -1,0 +1,885 @@
+model,instance_id,pattern,category,count,present
+Claude Opus 4.6,astropy__astropy-12907,py/conflicting-attributes,reliability,112,1
+Claude Opus 4.6,astropy__astropy-12907,py/not-named-self,maintainability,12,1
+Claude Opus 4.6,astropy__astropy-12907,py/uninitialized-local-variable,reliability,10,1
+Claude Opus 4.6,astropy__astropy-12907,py/mixed-returns,reliability,9,1
+Claude Opus 4.6,astropy__astropy-12907,py/modification-of-default-value,reliability,14,1
+Claude Opus 4.6,astropy__astropy-12907,py/cyclic-import,maintainability,10,1
+Claude Opus 4.6,astropy__astropy-12907,py/unexpected-raise-in-special-method,reliability,4,1
+Claude Opus 4.6,astropy__astropy-12907,py/unused-local-variable,maintainability,3,1
+Claude Opus 4.6,astropy__astropy-12907,py/overwritten-inherited-attribute,maintainability,5,1
+Claude Opus 4.6,astropy__astropy-12907,py/inheritance/signature-mismatch,reliability,4,1
+Claude Opus 4.6,astropy__astropy-12907,py/empty-except,reliability,4,1
+Claude Opus 4.6,astropy__astropy-12907,py/unused-import,maintainability,6,1
+Claude Opus 4.6,astropy__astropy-12907,py/unused-global-variable,maintainability,2,1
+Claude Opus 4.6,astropy__astropy-12907,py/hash-unhashable-value,reliability,4,1
+Claude Opus 4.6,astropy__astropy-12907,py/multiple-definition,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-12907,py/redundant-else,maintainability,3,1
+Claude Opus 4.6,astropy__astropy-12907,py/mixed-tuple-returns,reliability,1,1
+Claude Opus 4.6,astropy__astropy-12907,py/missing-call-to-init,reliability,1,1
+Claude Opus 4.6,astropy__astropy-12907,py/file-not-closed,reliability,1,1
+Claude Opus 4.6,astropy__astropy-14365,py/conflicting-attributes,reliability,112,1
+Claude Opus 4.6,astropy__astropy-14365,py/cyclic-import,maintainability,11,1
+Claude Opus 4.6,astropy__astropy-14365,py/hash-unhashable-value,reliability,4,1
+Claude Opus 4.6,astropy__astropy-14365,py/unused-local-variable,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-14365,py/overwritten-inherited-attribute,maintainability,6,1
+Claude Opus 4.6,astropy__astropy-14365,py/commented-out-code,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-14365,py/unused-import,maintainability,4,1
+Claude Opus 4.6,astropy__astropy-14365,py/modification-of-default-value,reliability,14,1
+Claude Opus 4.6,astropy__astropy-14365,py/not-named-self,maintainability,12,1
+Claude Opus 4.6,astropy__astropy-14365,py/missing-call-to-init,reliability,1,1
+Claude Opus 4.6,astropy__astropy-14365,py/empty-except,reliability,3,1
+Claude Opus 4.6,astropy__astropy-14365,py/mixed-returns,reliability,8,1
+Claude Opus 4.6,astropy__astropy-14365,py/multiple-definition,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-14365,py/mixed-tuple-returns,reliability,1,1
+Claude Opus 4.6,astropy__astropy-14365,py/inheritance/signature-mismatch,reliability,4,1
+Claude Opus 4.6,astropy__astropy-14365,py/unexpected-raise-in-special-method,reliability,4,1
+Claude Opus 4.6,astropy__astropy-14365,py/uninitialized-local-variable,reliability,10,1
+Claude Opus 4.6,astropy__astropy-14365,py/redundant-else,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-14365,py/unused-global-variable,maintainability,2,1
+Claude Opus 4.6,astropy__astropy-14995,py/mixed-returns,reliability,9,1
+Claude Opus 4.6,astropy__astropy-14995,py/conflicting-attributes,reliability,112,1
+Claude Opus 4.6,astropy__astropy-14995,py/modification-of-default-value,reliability,14,1
+Claude Opus 4.6,astropy__astropy-14995,py/overwritten-inherited-attribute,maintainability,4,1
+Claude Opus 4.6,astropy__astropy-14995,py/not-named-self,maintainability,14,1
+Claude Opus 4.6,astropy__astropy-14995,py/cyclic-import,maintainability,16,1
+Claude Opus 4.6,astropy__astropy-14995,py/empty-except,reliability,4,1
+Claude Opus 4.6,astropy__astropy-14995,py/mixed-tuple-returns,reliability,1,1
+Claude Opus 4.6,astropy__astropy-14995,py/uninitialized-local-variable,reliability,10,1
+Claude Opus 4.6,astropy__astropy-14995,py/unexpected-raise-in-special-method,reliability,4,1
+Claude Opus 4.6,astropy__astropy-14995,py/unused-local-variable,maintainability,2,1
+Claude Opus 4.6,astropy__astropy-14995,py/inheritance/signature-mismatch,reliability,5,1
+Claude Opus 4.6,astropy__astropy-14995,py/hash-unhashable-value,reliability,4,1
+Claude Opus 4.6,astropy__astropy-14995,py/unused-global-variable,maintainability,3,1
+Claude Opus 4.6,astropy__astropy-14995,py/unused-import,maintainability,3,1
+Claude Opus 4.6,astropy__astropy-14995,py/multiple-definition,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-14995,py/redundant-else,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-14995,py/import-and-import-from,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-14995,py/commented-out-code,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-14995,py/unreachable-statement,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-14995,py/file-not-closed,reliability,1,1
+Claude Opus 4.6,astropy__astropy-14995,py/missing-call-to-init,reliability,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/cyclic-import,maintainability,346,1
+Claude Opus 4.6,astropy__astropy-6938,py/not-named-self,maintainability,31,1
+Claude Opus 4.6,astropy__astropy-6938,py/unused-local-variable,maintainability,144,1
+Claude Opus 4.6,astropy__astropy-6938,py/call/wrong-named-class-argument,reliability,19,1
+Claude Opus 4.6,astropy__astropy-6938,py/init-calls-subclass,reliability,5,1
+Claude Opus 4.6,astropy__astropy-6938,py/conflicting-attributes,reliability,118,1
+Claude Opus 4.6,astropy__astropy-6938,py/inheritance/signature-mismatch,reliability,21,1
+Claude Opus 4.6,astropy__astropy-6938,py/call/wrong-arguments,reliability,2,1
+Claude Opus 4.6,astropy__astropy-6938,py/redundant-else,maintainability,12,1
+Claude Opus 4.6,astropy__astropy-6938,py/unused-global-variable,maintainability,13,1
+Claude Opus 4.6,astropy__astropy-6938,py/overwritten-inherited-attribute,maintainability,28,1
+Claude Opus 4.6,astropy__astropy-6938,py/unreachable-statement,maintainability,6,1
+Claude Opus 4.6,astropy__astropy-6938,py/empty-except,reliability,32,1
+Claude Opus 4.6,astropy__astropy-6938,py/missing-call-to-init,reliability,7,1
+Claude Opus 4.6,astropy__astropy-6938,py/nested-loops-with-same-variable,maintainability,2,1
+Claude Opus 4.6,astropy__astropy-6938,py/modification-of-default-value,reliability,14,1
+Claude Opus 4.6,astropy__astropy-6938,py/mixed-returns,reliability,37,1
+Claude Opus 4.6,astropy__astropy-6938,py/overly-large-range,security,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/unused-import,maintainability,31,1
+Claude Opus 4.6,astropy__astropy-6938,py/super-not-enclosing-class,reliability,6,1
+Claude Opus 4.6,astropy__astropy-6938,py/unexpected-raise-in-special-method,reliability,14,1
+Claude Opus 4.6,astropy__astropy-6938,py/uninitialized-local-variable,reliability,23,1
+Claude Opus 4.6,astropy__astropy-6938,py/unsafe-cyclic-import,reliability,6,1
+Claude Opus 4.6,astropy__astropy-6938,py/missing-equals,reliability,11,1
+Claude Opus 4.6,astropy__astropy-6938,py/redundant-assignment,reliability,2,1
+Claude Opus 4.6,astropy__astropy-6938,py/call-to-non-callable,reliability,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/should-use-with,maintainability,16,1
+Claude Opus 4.6,astropy__astropy-6938,py/attribute-shadows-method,reliability,2,1
+Claude Opus 4.6,astropy__astropy-6938,py/multiple-definition,maintainability,8,1
+Claude Opus 4.6,astropy__astropy-6938,py/polluting-import,maintainability,14,1
+Claude Opus 4.6,astropy__astropy-6938,py/useless-except,reliability,3,1
+Claude Opus 4.6,astropy__astropy-6938,py/multiple-calls-to-init,reliability,2,1
+Claude Opus 4.6,astropy__astropy-6938,py/procedure-return-value-used,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/implicit-string-concatenation-in-list,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/equals-hash-mismatch,reliability,3,1
+Claude Opus 4.6,astropy__astropy-6938,py/hash-unhashable-value,reliability,4,1
+Claude Opus 4.6,astropy__astropy-6938,py/file-not-closed,reliability,3,1
+Claude Opus 4.6,astropy__astropy-6938,py/ineffectual-statement,maintainability,3,1
+Claude Opus 4.6,astropy__astropy-6938,py/commented-out-code,maintainability,2,1
+Claude Opus 4.6,astropy__astropy-6938,py/unused-exception-object,reliability,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/overly-complex-delete,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/incomplete-ordering,reliability,2,1
+Claude Opus 4.6,astropy__astropy-6938,py/inheritance/incorrect-overridden-signature,reliability,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/undefined-export,reliability,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/mixed-tuple-returns,reliability,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/not-named-cls,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/shell-command-constructed-from-input,security,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/import-and-import-from,maintainability,3,1
+Claude Opus 4.6,astropy__astropy-6938,py/regex/duplicate-in-character-class,maintainability,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/catch-base-exception,reliability,1,1
+Claude Opus 4.6,astropy__astropy-6938,py/unused-loop-variable,reliability,2,1
+Claude Opus 4.6,django__django-11099,py/conflicting-attributes,reliability,2,1
+Claude Opus 4.6,django__django-11422,py/empty-except,reliability,1,1
+Claude Opus 4.6,django__django-11422,py/mixed-returns,reliability,1,1
+Claude Opus 4.6,django__django-11422,py/conflicting-attributes,reliability,2,1
+Claude Opus 4.6,django__django-11422,py/redundant-else,maintainability,1,1
+Claude Opus 4.6,django__django-11583,py/mixed-returns,reliability,1,1
+Claude Opus 4.6,django__django-11583,py/empty-except,reliability,1,1
+Claude Opus 4.6,django__django-11583,py/redundant-else,maintainability,1,1
+Claude Opus 4.6,django__django-11999,py/conflicting-attributes,reliability,5,1
+Claude Opus 4.6,django__django-11999,py/missing-equals,reliability,5,1
+Claude Opus 4.6,django__django-11999,py/uninitialized-local-variable,reliability,1,1
+Claude Opus 4.6,django__django-12184,py/conflicting-attributes,reliability,2,1
+Claude Opus 4.6,django__django-12497,py/conflicting-attributes,reliability,2,1
+Claude Opus 4.6,django__django-12700,py/empty-except,reliability,2,1
+Claude Opus 4.6,django__django-12915,py/conflicting-attributes,reliability,4,1
+Claude Opus 4.6,django__django-12915,py/missing-call-to-init,reliability,1,1
+Claude Opus 4.6,django__django-13028,py/uninitialized-local-variable,reliability,3,1
+Claude Opus 4.6,django__django-13028,py/multiple-definition,maintainability,1,1
+Claude Opus 4.6,django__django-13028,py/mixed-returns,reliability,1,1
+Claude Opus 4.6,django__django-13315,py/uninitialized-local-variable,reliability,1,1
+Claude Opus 4.6,django__django-13315,py/mixed-returns,reliability,1,1
+Claude Opus 4.6,django__django-13315,py/empty-except,reliability,1,1
+Claude Opus 4.6,django__django-13315,py/missing-call-to-init,reliability,1,1
+Claude Opus 4.6,django__django-13315,py/super-not-enclosing-class,reliability,1,1
+Claude Opus 4.6,django__django-13401,py/conflicting-attributes,reliability,6,1
+Claude Opus 4.6,django__django-13401,py/uninitialized-local-variable,reliability,1,1
+Claude Opus 4.6,django__django-13401,py/mixed-tuple-returns,reliability,1,1
+Claude Opus 4.6,django__django-13401,py/missing-equals,reliability,5,1
+Claude Opus 4.6,django__django-13447,py/empty-except,reliability,2,1
+Claude Opus 4.6,django__django-13447,py/missing-equals,reliability,1,1
+Claude Opus 4.6,django__django-13590,py/uninitialized-local-variable,reliability,3,1
+Claude Opus 4.6,django__django-13590,py/multiple-definition,maintainability,1,1
+Claude Opus 4.6,django__django-13590,py/mixed-returns,reliability,1,1
+Claude Opus 4.6,django__django-13658,py/uninitialized-local-variable,reliability,1,1
+Claude Opus 4.6,django__django-14855,py/cyclic-import,maintainability,1,1
+Claude Opus 4.6,django__django-14915,py/missing-call-to-init,reliability,1,1
+Claude Opus 4.6,django__django-14915,py/super-not-enclosing-class,reliability,1,1
+Claude Opus 4.6,django__django-14999,py/super-not-enclosing-class,reliability,1,1
+Claude Opus 4.6,django__django-15061,py/missing-call-to-init,reliability,1,1
+Claude Opus 4.6,django__django-15498,py/clear-text-storage-sensitive-data,security,2,1
+Claude Opus 4.6,django__django-15498,py/conflicting-attributes,reliability,1,1
+Claude Opus 4.6,django__django-15789,py/clear-text-storage-sensitive-data,security,2,1
+Claude Opus 4.6,django__django-15814,py/clear-text-storage-sensitive-data,security,2,1
+Claude Opus 4.6,django__django-15851,py/clear-text-storage-sensitive-data,security,2,1
+Claude Opus 4.6,django__django-15902,py/clear-text-storage-sensitive-data,security,2,1
+Claude Opus 4.6,django__django-15902,py/empty-except,reliability,1,1
+Claude Opus 4.6,django__django-16041,py/clear-text-storage-sensitive-data,security,2,1
+Claude Opus 4.6,django__django-16139,py/conflicting-attributes,reliability,1,1
+Claude Opus 4.6,django__django-16379,py/mixed-returns,reliability,1,1
+Claude Opus 4.6,django__django-16527,py/clear-text-storage-sensitive-data,security,2,1
+Claude Opus 4.6,django__django-16595,py/clear-text-storage-sensitive-data,security,2,1
+Claude Opus 4.6,django__django-16595,py/super-not-enclosing-class,reliability,1,1
+Claude Opus 4.6,django__django-17087,py/clear-text-storage-sensitive-data,security,2,1
+Claude Opus 4.6,mwaskom__seaborn-3010,py/ineffectual-statement,maintainability,1,1
+Claude Opus 4.6,psf__requests-2148,py/empty-except,reliability,1,1
+Claude Opus 4.6,psf__requests-2317,py/weak-sensitive-data-hashing,security,2,1
+Claude Opus 4.6,psf__requests-2674,py/unused-import,maintainability,2,1
+Claude Opus 4.6,psf__requests-2674,py/uninitialized-local-variable,reliability,1,1
+Claude Opus 4.6,psf__requests-2674,py/inheritance/signature-mismatch,reliability,1,1
+Claude Opus 4.6,psf__requests-3362,py/weak-sensitive-data-hashing,security,2,1
+Claude Opus 4.6,psf__requests-863,py/empty-except,reliability,1,1
+Claude Opus 4.6,psf__requests-863,py/mixed-returns,reliability,1,1
+Claude Opus 4.6,pydata__xarray-4094,py/unsafe-cyclic-import,reliability,63,1
+Claude Opus 4.6,pydata__xarray-4094,py/overly-complex-delete,maintainability,1,1
+Claude Opus 4.6,pydata__xarray-4094,py/cyclic-import,maintainability,381,1
+Claude Opus 4.6,pydata__xarray-4094,py/modification-of-locals,reliability,22,1
+Claude Opus 4.6,pydata__xarray-4094,py/ineffectual-statement,maintainability,5,1
+Claude Opus 4.6,pydata__xarray-4094,py/unused-global-variable,maintainability,5,1
+Claude Opus 4.6,pydata__xarray-4094,py/missing-equals,reliability,6,1
+Claude Opus 4.6,pydata__xarray-4094,py/empty-except,reliability,5,1
+Claude Opus 4.6,pydata__xarray-4094,py/mixed-returns,reliability,5,1
+Claude Opus 4.6,pydata__xarray-4094,py/unexpected-raise-in-special-method,reliability,6,1
+Claude Opus 4.6,pydata__xarray-4094,py/unused-import,maintainability,2,1
+Claude Opus 4.6,pydata__xarray-4094,py/not-named-self,maintainability,1,1
+Claude Opus 4.6,pydata__xarray-4094,py/call/wrong-arguments,reliability,1,1
+Claude Opus 4.6,pydata__xarray-4094,py/overwritten-inherited-attribute,maintainability,1,1
+Claude Opus 4.6,pydata__xarray-4094,py/unused-local-variable,maintainability,5,1
+Claude Opus 4.6,pydata__xarray-4094,py/missing-call-to-init,reliability,3,1
+Claude Opus 4.6,pydata__xarray-4094,py/unreachable-statement,maintainability,1,1
+Claude Opus 4.6,pydata__xarray-4094,py/equals-hash-mismatch,reliability,1,1
+Claude Opus 4.6,pydata__xarray-4094,py/uninitialized-local-variable,reliability,2,1
+Claude Opus 4.6,pydata__xarray-4094,py/comparison-of-identical-expressions,maintainability,1,1
+Claude Opus 4.6,pydata__xarray-4094,py/redundant-assignment,reliability,1,1
+Claude Opus 4.6,pydata__xarray-4094,py/unused-loop-variable,reliability,1,1
+Claude Opus 4.6,pydata__xarray-5131,py/cyclic-import,maintainability,342,1
+Claude Opus 4.6,pydata__xarray-5131,py/unsafe-cyclic-import,reliability,108,1
+Claude Opus 4.6,pydata__xarray-5131,py/modification-of-locals,reliability,22,1
+Claude Opus 4.6,pydata__xarray-5131,py/missing-equals,reliability,6,1
+Claude Opus 4.6,pydata__xarray-5131,py/call/wrong-arguments,reliability,1,1
+Claude Opus 4.6,pydata__xarray-5131,py/missing-call-to-init,reliability,1,1
+Claude Opus 4.6,pydata__xarray-5131,py/empty-except,reliability,5,1
+Claude Opus 4.6,pydata__xarray-5131,py/overwritten-inherited-attribute,maintainability,1,1
+Claude Opus 4.6,pydata__xarray-5131,py/unused-global-variable,maintainability,5,1
+Claude Opus 4.6,pydata__xarray-5131,py/unexpected-raise-in-special-method,reliability,6,1
+Claude Opus 4.6,pydata__xarray-5131,py/uninitialized-local-variable,reliability,4,1
+Claude Opus 4.6,pydata__xarray-5131,py/unused-local-variable,maintainability,5,1
+Claude Opus 4.6,pydata__xarray-5131,py/overly-complex-delete,maintainability,1,1
+Claude Opus 4.6,pydata__xarray-5131,py/equals-hash-mismatch,reliability,1,1
+Claude Opus 4.6,pydata__xarray-5131,py/ineffectual-statement,maintainability,5,1
+Claude Opus 4.6,pydata__xarray-5131,py/mixed-returns,reliability,5,1
+Claude Opus 4.6,pydata__xarray-5131,py/comparison-of-identical-expressions,maintainability,1,1
+Claude Opus 4.6,pydata__xarray-5131,py/unused-import,maintainability,5,1
+Claude Opus 4.6,pydata__xarray-5131,py/unreachable-statement,maintainability,1,1
+Claude Opus 4.6,pydata__xarray-5131,py/unused-loop-variable,reliability,1,1
+Claude Opus 4.6,pydata__xarray-5131,py/init-calls-subclass,reliability,1,1
+Claude Opus 4.6,pylint-dev__pylint-7993,py/conflicting-attributes,reliability,2,1
+Claude Opus 4.6,pytest-dev__pytest-5692,py/empty-except,reliability,1,1
+Claude Opus 4.6,pytest-dev__pytest-5692,py/file-not-closed,reliability,1,1
+Claude Opus 4.6,pytest-dev__pytest-6116,py/cyclic-import,maintainability,1,1
+Claude Opus 4.6,pytest-dev__pytest-6116,py/mixed-returns,reliability,1,1
+Claude Opus 4.6,pytest-dev__pytest-6116,py/unused-local-variable,maintainability,1,1
+Claude Opus 4.6,pytest-dev__pytest-6116,py/catch-base-exception,reliability,1,1
+Claude Opus 4.6,pytest-dev__pytest-7373,py/mixed-returns,reliability,1,1
+Claude Opus 4.6,pytest-dev__pytest-9359,py/empty-except,reliability,1,1
+Claude Opus 4.6,scikit-learn__scikit-learn-12471,py/commented-out-code,maintainability,1,1
+Claude Opus 4.6,sphinx-doc__sphinx-10325,py/empty-except,reliability,14,1
+Claude Opus 4.6,sphinx-doc__sphinx-10325,py/unused-local-variable,maintainability,1,1
+Claude Opus 4.6,sphinx-doc__sphinx-10325,py/overwritten-inherited-attribute,maintainability,1,1
+Claude Opus 4.6,sympy__sympy-12454,py/conflicting-attributes,reliability,2,1
+Claude Opus 4.6,sympy__sympy-12481,py/not-named-cls,maintainability,7,1
+Claude Opus 4.6,sympy__sympy-12481,py/import-own-module,maintainability,1,1
+Claude Opus 4.6,sympy__sympy-12481,py/unexpected-raise-in-special-method,reliability,1,1
+Claude Opus 4.6,sympy__sympy-12481,py/inheritance/signature-mismatch,reliability,1,1
+Claude Opus 4.6,sympy__sympy-13471,py/unsafe-cyclic-import,reliability,4,1
+Claude Opus 4.6,sympy__sympy-13471,py/mixed-returns,reliability,16,1
+Claude Opus 4.6,sympy__sympy-13471,py/cyclic-import,maintainability,3,1
+Claude Opus 4.6,sympy__sympy-13471,py/equals-hash-mismatch,reliability,1,1
+Claude Opus 4.6,sympy__sympy-13471,py/unexpected-raise-in-special-method,reliability,1,1
+Claude Opus 4.6,sympy__sympy-13471,py/empty-except,reliability,1,1
+Claude Opus 4.6,sympy__sympy-13971,py/conflicting-attributes,reliability,6,1
+Claude Opus 4.6,sympy__sympy-14396,py/unreachable-statement,maintainability,1,1
+Claude Opus 4.6,sympy__sympy-14774,py/conflicting-attributes,reliability,4,1
+Claude Opus 4.6,sympy__sympy-15345,py/conflicting-attributes,reliability,4,1
+Claude Opus 4.6,sympy__sympy-16792,py/mixed-returns,reliability,1,1
+Claude Opus 4.6,sympy__sympy-17139,py/mixed-returns,reliability,5,1
+Claude Opus 4.6,sympy__sympy-17139,py/cyclic-import,maintainability,2,1
+Claude Opus 4.6,sympy__sympy-17139,py/modification-of-default-value,reliability,2,1
+Claude Opus 4.6,sympy__sympy-17655,py/unused-local-variable,maintainability,4,1
+Claude Opus 4.6,sympy__sympy-17655,py/conflicting-attributes,reliability,2,1
+Claude Opus 4.6,sympy__sympy-17655,py/unexpected-raise-in-special-method,reliability,1,1
+Claude Opus 4.6,sympy__sympy-18621,py/conflicting-attributes,reliability,9,1
+Claude Opus 4.6,sympy__sympy-19487,py/mixed-returns,reliability,20,1
+Claude Opus 4.6,sympy__sympy-19487,py/cyclic-import,maintainability,2,1
+Claude Opus 4.6,sympy__sympy-19487,py/modification-of-default-value,reliability,1,1
+Claude Opus 4.6,sympy__sympy-19487,py/not-named-cls,maintainability,1,1
+Claude Opus 4.6,sympy__sympy-19487,py/import-own-module,maintainability,1,1
+Claude Opus 4.6,sympy__sympy-20154,py/conflicting-attributes,reliability,2,1
+Claude Opus 4.6,sympy__sympy-20154,py/unreachable-statement,maintainability,1,1
+Claude Opus 4.6,sympy__sympy-20154,py/cyclic-import,maintainability,1,1
+Claude Opus 4.6,sympy__sympy-20154,py/redundant-comparison,maintainability,1,1
+Claude Opus 4.6,sympy__sympy-20442,py/conflicting-attributes,reliability,11,1
+Claude Opus 4.6,sympy__sympy-21379,py/mixed-returns,reliability,2,1
+Claude Opus 4.6,sympy__sympy-21614,py/inheritance/signature-mismatch,reliability,1,1
+Claude Opus 4.6,sympy__sympy-21614,py/mixed-returns,reliability,1,1
+Claude Opus 4.6,sympy__sympy-21614,py/conflicting-attributes,reliability,5,1
+Claude Opus 4.6,sympy__sympy-21614,py/cyclic-import,maintainability,2,1
+Claude Opus 4.6,sympy__sympy-21614,py/unsafe-cyclic-import,reliability,2,1
+Claude Opus 4.6,sympy__sympy-21614,py/unused-loop-variable,reliability,1,1
+Claude Opus 4.6,sympy__sympy-23117,py/cyclic-import,maintainability,8,1
+Claude Opus 4.6,sympy__sympy-23117,py/unexpected-raise-in-special-method,reliability,5,1
+Claude Opus 4.6,sympy__sympy-23117,py/equals-hash-mismatch,reliability,1,1
+Claude Opus 4.6,sympy__sympy-24066,py/conflicting-attributes,reliability,7,1
+Claude Opus 4.6,sympy__sympy-24213,py/conflicting-attributes,reliability,12,1
+Claude Sonnet 4,astropy__astropy-6938,py/cyclic-import,maintainability,346,1
+Claude Sonnet 4,astropy__astropy-6938,py/not-named-self,maintainability,31,1
+Claude Sonnet 4,astropy__astropy-6938,py/unused-local-variable,maintainability,144,1
+Claude Sonnet 4,astropy__astropy-6938,py/call/wrong-named-class-argument,reliability,19,1
+Claude Sonnet 4,astropy__astropy-6938,py/init-calls-subclass,reliability,5,1
+Claude Sonnet 4,astropy__astropy-6938,py/conflicting-attributes,reliability,118,1
+Claude Sonnet 4,astropy__astropy-6938,py/inheritance/signature-mismatch,reliability,21,1
+Claude Sonnet 4,astropy__astropy-6938,py/call/wrong-arguments,reliability,2,1
+Claude Sonnet 4,astropy__astropy-6938,py/redundant-else,maintainability,12,1
+Claude Sonnet 4,astropy__astropy-6938,py/unused-global-variable,maintainability,13,1
+Claude Sonnet 4,astropy__astropy-6938,py/overwritten-inherited-attribute,maintainability,28,1
+Claude Sonnet 4,astropy__astropy-6938,py/unreachable-statement,maintainability,6,1
+Claude Sonnet 4,astropy__astropy-6938,py/empty-except,reliability,32,1
+Claude Sonnet 4,astropy__astropy-6938,py/missing-call-to-init,reliability,7,1
+Claude Sonnet 4,astropy__astropy-6938,py/nested-loops-with-same-variable,maintainability,2,1
+Claude Sonnet 4,astropy__astropy-6938,py/modification-of-default-value,reliability,14,1
+Claude Sonnet 4,astropy__astropy-6938,py/mixed-returns,reliability,37,1
+Claude Sonnet 4,astropy__astropy-6938,py/overly-large-range,security,1,1
+Claude Sonnet 4,astropy__astropy-6938,py/unused-import,maintainability,31,1
+Claude Sonnet 4,astropy__astropy-6938,py/super-not-enclosing-class,reliability,6,1
+Claude Sonnet 4,astropy__astropy-6938,py/unexpected-raise-in-special-method,reliability,14,1
+Claude Sonnet 4,astropy__astropy-6938,py/uninitialized-local-variable,reliability,23,1
+Claude Sonnet 4,astropy__astropy-6938,py/unsafe-cyclic-import,reliability,6,1
+Claude Sonnet 4,astropy__astropy-6938,py/missing-equals,reliability,11,1
+Claude Sonnet 4,astropy__astropy-6938,py/redundant-assignment,reliability,2,1
+Claude Sonnet 4,astropy__astropy-6938,py/call-to-non-callable,reliability,1,1
+Claude Sonnet 4,astropy__astropy-6938,py/should-use-with,maintainability,16,1
+Claude Sonnet 4,astropy__astropy-6938,py/attribute-shadows-method,reliability,2,1
+Claude Sonnet 4,astropy__astropy-6938,py/multiple-definition,maintainability,8,1
+Claude Sonnet 4,astropy__astropy-6938,py/polluting-import,maintainability,14,1
+Claude Sonnet 4,astropy__astropy-6938,py/useless-except,reliability,3,1
+Claude Sonnet 4,astropy__astropy-6938,py/multiple-calls-to-init,reliability,2,1
+Claude Sonnet 4,astropy__astropy-6938,py/procedure-return-value-used,maintainability,1,1
+Claude Sonnet 4,astropy__astropy-6938,py/implicit-string-concatenation-in-list,maintainability,1,1
+Claude Sonnet 4,astropy__astropy-6938,py/equals-hash-mismatch,reliability,3,1
+Claude Sonnet 4,astropy__astropy-6938,py/hash-unhashable-value,reliability,4,1
+Claude Sonnet 4,astropy__astropy-6938,py/file-not-closed,reliability,3,1
+Claude Sonnet 4,astropy__astropy-6938,py/ineffectual-statement,maintainability,3,1
+Claude Sonnet 4,astropy__astropy-6938,py/commented-out-code,maintainability,2,1
+Claude Sonnet 4,astropy__astropy-6938,py/unused-exception-object,reliability,1,1
+Claude Sonnet 4,astropy__astropy-6938,py/overly-complex-delete,maintainability,1,1
+Claude Sonnet 4,astropy__astropy-6938,py/incomplete-ordering,reliability,2,1
+Claude Sonnet 4,astropy__astropy-6938,py/inheritance/incorrect-overridden-signature,reliability,1,1
+Claude Sonnet 4,astropy__astropy-6938,py/undefined-export,reliability,1,1
+Claude Sonnet 4,astropy__astropy-6938,py/mixed-tuple-returns,reliability,1,1
+Claude Sonnet 4,astropy__astropy-6938,py/not-named-cls,maintainability,1,1
+Claude Sonnet 4,astropy__astropy-6938,py/shell-command-constructed-from-input,security,1,1
+Claude Sonnet 4,astropy__astropy-6938,py/import-and-import-from,maintainability,3,1
+Claude Sonnet 4,astropy__astropy-6938,py/regex/duplicate-in-character-class,maintainability,1,1
+Claude Sonnet 4,astropy__astropy-6938,py/catch-base-exception,reliability,1,1
+Claude Sonnet 4,astropy__astropy-6938,py/unused-loop-variable,reliability,2,1
+Claude Sonnet 4,django__django-10924,py/conflicting-attributes,reliability,4,1
+Claude Sonnet 4,django__django-10924,py/missing-equals,reliability,2,1
+Claude Sonnet 4,django__django-11001,py/mixed-returns,reliability,2,1
+Claude Sonnet 4,django__django-11001,py/inheritance/signature-mismatch,reliability,2,1
+Claude Sonnet 4,django__django-11049,py/conflicting-attributes,reliability,2,1
+Claude Sonnet 4,django__django-11049,py/missing-equals,reliability,3,1
+Claude Sonnet 4,django__django-11133,py/empty-except,reliability,2,1
+Claude Sonnet 4,django__django-11133,py/mixed-returns,reliability,1,1
+Claude Sonnet 4,django__django-11583,py/unused-import,maintainability,8,1
+Claude Sonnet 4,django__django-11583,py/unreachable-statement,maintainability,1,1
+Claude Sonnet 4,django__django-11583,py/empty-except,reliability,1,1
+Claude Sonnet 4,django__django-11583,py/unused-local-variable,maintainability,1,1
+Claude Sonnet 4,django__django-11583,py/mixed-returns,reliability,1,1
+Claude Sonnet 4,django__django-11583,py/redundant-else,maintainability,1,1
+Claude Sonnet 4,django__django-11583,py/unreachable-except,reliability,2,1
+Claude Sonnet 4,django__django-11620,py/mixed-returns,reliability,1,1
+Claude Sonnet 4,django__django-11620,py/conflicting-attributes,reliability,2,1
+Claude Sonnet 4,django__django-11815,py/cyclic-import,maintainability,1,1
+Claude Sonnet 4,django__django-11815,py/mixed-returns,reliability,1,1
+Claude Sonnet 4,django__django-11999,py/conflicting-attributes,reliability,5,1
+Claude Sonnet 4,django__django-11999,py/uninitialized-local-variable,reliability,1,1
+Claude Sonnet 4,django__django-11999,py/missing-equals,reliability,5,1
+Claude Sonnet 4,django__django-12284,py/conflicting-attributes,reliability,8,1
+Claude Sonnet 4,django__django-12284,py/missing-equals,reliability,5,1
+Claude Sonnet 4,django__django-12284,py/uninitialized-local-variable,reliability,1,1
+Claude Sonnet 4,django__django-12308,py/cyclic-import,maintainability,1,1
+Claude Sonnet 4,django__django-12470,py/conflicting-attributes,reliability,1,1
+Claude Sonnet 4,django__django-12589,py/missing-call-to-init,reliability,2,1
+Claude Sonnet 4,django__django-12589,py/inheritance/signature-mismatch,reliability,2,1
+Claude Sonnet 4,django__django-12589,py/missing-equals,reliability,1,1
+Claude Sonnet 4,django__django-12589,py/mixed-returns,reliability,2,1
+Claude Sonnet 4,django__django-12700,py/empty-except,reliability,2,1
+Claude Sonnet 4,django__django-12915,py/unused-import,maintainability,2,1
+Claude Sonnet 4,django__django-12915,py/missing-call-to-init,reliability,1,1
+Claude Sonnet 4,django__django-12915,py/use-of-exit-or-quit,reliability,3,1
+Claude Sonnet 4,django__django-12915,py/conflicting-attributes,reliability,2,1
+Claude Sonnet 4,django__django-13028,py/uninitialized-local-variable,reliability,3,1
+Claude Sonnet 4,django__django-13028,py/mixed-returns,reliability,1,1
+Claude Sonnet 4,django__django-13028,py/multiple-definition,maintainability,1,1
+Claude Sonnet 4,django__django-13158,py/inheritance/signature-mismatch,reliability,2,1
+Claude Sonnet 4,django__django-13158,py/mixed-returns,reliability,2,1
+Claude Sonnet 4,django__django-13315,py/empty-except,reliability,1,1
+Claude Sonnet 4,django__django-13315,py/missing-call-to-init,reliability,1,1
+Claude Sonnet 4,django__django-13315,py/super-not-enclosing-class,reliability,1,1
+Claude Sonnet 4,django__django-13315,py/mixed-returns,reliability,1,1
+Claude Sonnet 4,django__django-13315,py/uninitialized-local-variable,reliability,1,1
+Claude Sonnet 4,django__django-13401,py/conflicting-attributes,reliability,6,1
+Claude Sonnet 4,django__django-13401,py/missing-equals,reliability,5,1
+Claude Sonnet 4,django__django-13401,py/uninitialized-local-variable,reliability,1,1
+Claude Sonnet 4,django__django-13401,py/mixed-tuple-returns,reliability,1,1
+Claude Sonnet 4,django__django-13447,py/empty-except,reliability,2,1
+Claude Sonnet 4,django__django-13447,py/missing-equals,reliability,1,1
+Claude Sonnet 4,django__django-13590,py/multiple-definition,maintainability,1,1
+Claude Sonnet 4,django__django-13590,py/uninitialized-local-variable,reliability,3,1
+Claude Sonnet 4,django__django-13590,py/mixed-returns,reliability,1,1
+Claude Sonnet 4,django__django-13658,py/uninitialized-local-variable,reliability,1,1
+Claude Sonnet 4,django__django-13710,py/inheritance/signature-mismatch,reliability,1,1
+Claude Sonnet 4,django__django-14016,py/conflicting-attributes,reliability,5,1
+Claude Sonnet 4,django__django-14016,py/cyclic-import,maintainability,2,1
+Claude Sonnet 4,django__django-14017,py/cyclic-import,maintainability,1,1
+Claude Sonnet 4,django__django-14238,py/conflicting-attributes,reliability,3,1
+Claude Sonnet 4,django__django-14855,py/cyclic-import,maintainability,1,1
+Claude Sonnet 4,django__django-14915,py/missing-call-to-init,reliability,1,1
+Claude Sonnet 4,django__django-14915,py/super-not-enclosing-class,reliability,1,1
+Claude Sonnet 4,django__django-14999,py/super-not-enclosing-class,reliability,1,1
+Claude Sonnet 4,django__django-15213,py/missing-call-to-init,reliability,2,1
+Claude Sonnet 4,django__django-15213,py/missing-equals,reliability,5,1
+Claude Sonnet 4,django__django-15347,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-15400,py/unused-import,maintainability,10,1
+Claude Sonnet 4,django__django-15400,py/unused-local-variable,maintainability,4,1
+Claude Sonnet 4,django__django-15400,py/missing-equals,reliability,3,1
+Claude Sonnet 4,django__django-15400,py/multiple-definition,maintainability,2,1
+Claude Sonnet 4,django__django-15400,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-15789,py/unnecessary-lambda,maintainability,1,1
+Claude Sonnet 4,django__django-15814,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-15902,py/super-not-enclosing-class,reliability,1,1
+Claude Sonnet 4,django__django-15902,py/missing-equals,reliability,1,1
+Claude Sonnet 4,django__django-15902,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-16041,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-16046,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-16139,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-16229,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-16255,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-16379,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-16379,py/mixed-returns,reliability,1,1
+Claude Sonnet 4,django__django-16400,py/inheritance/signature-mismatch,reliability,1,1
+Claude Sonnet 4,django__django-16527,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-16595,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-16595,py/super-not-enclosing-class,reliability,1,1
+Claude Sonnet 4,django__django-17051,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-17051,py/inheritance/signature-mismatch,reliability,1,1
+Claude Sonnet 4,django__django-17087,py/clear-text-storage-sensitive-data,security,2,1
+Claude Sonnet 4,django__django-17087,py/conflicting-attributes,reliability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23314,py/inheritance/signature-mismatch,reliability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23314,py/mismatched-multiple-assignment,reliability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23314,py/mixed-returns,reliability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23314,py/empty-except,reliability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23562,py/polluting-import,maintainability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23563,py/empty-except,reliability,2,1
+Claude Sonnet 4,matplotlib__matplotlib-23563,py/unused-local-variable,maintainability,3,1
+Claude Sonnet 4,matplotlib__matplotlib-23563,py/init-calls-subclass,reliability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23563,py/missing-call-to-init,reliability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23563,py/polluting-import,maintainability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23913,py/polluting-import,maintainability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23913,py/cyclic-import,maintainability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23913,py/empty-except,reliability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-23964,py/polluting-import,maintainability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-24149,py/mixed-tuple-returns,reliability,3,1
+Claude Sonnet 4,matplotlib__matplotlib-24149,py/uninitialized-local-variable,reliability,4,1
+Claude Sonnet 4,matplotlib__matplotlib-24149,py/comparison-of-identical-expressions,maintainability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-24149,py/polluting-import,maintainability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-24334,py/polluting-import,maintainability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-24970,py/polluting-import,maintainability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-25442,py/polluting-import,maintainability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-25498,py/polluting-import,maintainability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-26011,py/mixed-returns,reliability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-26020,py/polluting-import,maintainability,1,1
+Claude Sonnet 4,matplotlib__matplotlib-26020,py/uninitialized-local-variable,reliability,1,1
+Claude Sonnet 4,mwaskom__seaborn-3010,py/ineffectual-statement,maintainability,1,1
+Claude Sonnet 4,mwaskom__seaborn-3190,py/inheritance/signature-mismatch,reliability,4,1
+Claude Sonnet 4,mwaskom__seaborn-3190,py/mixed-returns,reliability,1,1
+Claude Sonnet 4,mwaskom__seaborn-3407,py/cyclic-import,maintainability,9,1
+Claude Sonnet 4,mwaskom__seaborn-3407,py/str-format/surplus-named-argument,maintainability,1,1
+Claude Sonnet 4,mwaskom__seaborn-3407,py/implicit-string-concatenation-in-list,maintainability,1,1
+Claude Sonnet 4,mwaskom__seaborn-3407,py/overwritten-inherited-attribute,maintainability,2,1
+Claude Sonnet 4,psf__requests-1963,py/weak-sensitive-data-hashing,security,2,1
+Claude Sonnet 4,psf__requests-1963,py/empty-except,reliability,1,1
+Claude Sonnet 4,psf__requests-2317,py/weak-sensitive-data-hashing,security,2,1
+Claude Sonnet 4,psf__requests-3362,py/weak-sensitive-data-hashing,security,2,1
+Claude Sonnet 4,psf__requests-863,py/empty-except,reliability,1,1
+Claude Sonnet 4,psf__requests-863,py/mixed-returns,reliability,1,1
+Claude Sonnet 4,psf__requests-863,py/weak-sensitive-data-hashing,security,2,1
+Claude Sonnet 4,pydata__xarray-4094,py/cyclic-import,maintainability,365,1
+Claude Sonnet 4,pydata__xarray-4094,py/unsafe-cyclic-import,reliability,63,1
+Claude Sonnet 4,pydata__xarray-4094,py/overly-complex-delete,maintainability,1,1
+Claude Sonnet 4,pydata__xarray-4094,py/unused-global-variable,maintainability,5,1
+Claude Sonnet 4,pydata__xarray-4094,py/modification-of-locals,reliability,22,1
+Claude Sonnet 4,pydata__xarray-4094,py/ineffectual-statement,maintainability,5,1
+Claude Sonnet 4,pydata__xarray-4094,py/missing-equals,reliability,6,1
+Claude Sonnet 4,pydata__xarray-4094,py/empty-except,reliability,5,1
+Claude Sonnet 4,pydata__xarray-4094,py/mixed-returns,reliability,4,1
+Claude Sonnet 4,pydata__xarray-4094,py/unexpected-raise-in-special-method,reliability,6,1
+Claude Sonnet 4,pydata__xarray-4094,py/unused-import,maintainability,2,1
+Claude Sonnet 4,pydata__xarray-4094,py/not-named-self,maintainability,1,1
+Claude Sonnet 4,pydata__xarray-4094,py/call/wrong-arguments,reliability,1,1
+Claude Sonnet 4,pydata__xarray-4094,py/overwritten-inherited-attribute,maintainability,1,1
+Claude Sonnet 4,pydata__xarray-4094,py/unused-local-variable,maintainability,5,1
+Claude Sonnet 4,pydata__xarray-4094,py/missing-call-to-init,reliability,3,1
+Claude Sonnet 4,pydata__xarray-4094,py/unreachable-statement,maintainability,1,1
+Claude Sonnet 4,pydata__xarray-4094,py/init-calls-subclass,reliability,1,1
+Claude Sonnet 4,pydata__xarray-4094,py/equals-hash-mismatch,reliability,1,1
+Claude Sonnet 4,pydata__xarray-4094,py/uninitialized-local-variable,reliability,1,1
+Claude Sonnet 4,pydata__xarray-4094,py/comparison-of-identical-expressions,maintainability,1,1
+Claude Sonnet 4,pydata__xarray-4094,py/redundant-assignment,reliability,1,1
+Claude Sonnet 4,pydata__xarray-5131,py/unsafe-cyclic-import,reliability,140,1
+Claude Sonnet 4,pydata__xarray-5131,py/cyclic-import,maintainability,359,1
+Claude Sonnet 4,pydata__xarray-5131,py/modification-of-locals,reliability,22,1
+Claude Sonnet 4,pydata__xarray-5131,py/missing-equals,reliability,6,1
+Claude Sonnet 4,pydata__xarray-5131,py/redundant-assignment,reliability,1,1
+Claude Sonnet 4,pydata__xarray-5131,py/call/wrong-arguments,reliability,1,1
+Claude Sonnet 4,pydata__xarray-5131,py/missing-call-to-init,reliability,1,1
+Claude Sonnet 4,pydata__xarray-5131,py/empty-except,reliability,5,1
+Claude Sonnet 4,pydata__xarray-5131,py/overwritten-inherited-attribute,maintainability,1,1
+Claude Sonnet 4,pydata__xarray-5131,py/ineffectual-statement,maintainability,8,1
+Claude Sonnet 4,pydata__xarray-5131,py/unexpected-raise-in-special-method,reliability,6,1
+Claude Sonnet 4,pydata__xarray-5131,py/uninitialized-local-variable,reliability,4,1
+Claude Sonnet 4,pydata__xarray-5131,py/unused-local-variable,maintainability,5,1
+Claude Sonnet 4,pydata__xarray-5131,py/overly-complex-delete,maintainability,1,1
+Claude Sonnet 4,pydata__xarray-5131,py/equals-hash-mismatch,reliability,1,1
+Claude Sonnet 4,pydata__xarray-5131,py/mixed-returns,reliability,5,1
+Claude Sonnet 4,pydata__xarray-5131,py/comparison-of-identical-expressions,maintainability,1,1
+Claude Sonnet 4,pydata__xarray-5131,py/unused-import,maintainability,5,1
+Claude Sonnet 4,pydata__xarray-5131,py/unused-global-variable,maintainability,5,1
+Claude Sonnet 4,pydata__xarray-5131,py/unreachable-statement,maintainability,1,1
+Claude Sonnet 4,pydata__xarray-5131,py/unused-loop-variable,reliability,1,1
+Claude Sonnet 4,pydata__xarray-5131,py/init-calls-subclass,reliability,1,1
+Claude Sonnet 4,pylint-dev__pylint-7993,py/conflicting-attributes,reliability,2,1
+Claude Sonnet 4,pytest-dev__pytest-5103,py/unused-local-variable,maintainability,1,1
+DeepSeek V3.2,astropy__astropy-12907,py/conflicting-attributes,reliability,112,1
+DeepSeek V3.2,astropy__astropy-12907,py/not-named-self,maintainability,13,1
+DeepSeek V3.2,astropy__astropy-12907,py/uninitialized-local-variable,reliability,10,1
+DeepSeek V3.2,astropy__astropy-12907,py/mixed-returns,reliability,10,1
+DeepSeek V3.2,astropy__astropy-12907,py/modification-of-default-value,reliability,14,1
+DeepSeek V3.2,astropy__astropy-12907,py/cyclic-import,maintainability,12,1
+DeepSeek V3.2,astropy__astropy-12907,py/inheritance/signature-mismatch,reliability,5,1
+DeepSeek V3.2,astropy__astropy-12907,py/unexpected-raise-in-special-method,reliability,5,1
+DeepSeek V3.2,astropy__astropy-12907,py/unused-local-variable,maintainability,4,1
+DeepSeek V3.2,astropy__astropy-12907,py/overwritten-inherited-attribute,maintainability,5,1
+DeepSeek V3.2,astropy__astropy-12907,py/empty-except,reliability,3,1
+DeepSeek V3.2,astropy__astropy-12907,py/incomplete-ordering,reliability,1,1
+DeepSeek V3.2,astropy__astropy-12907,py/unused-import,maintainability,7,1
+DeepSeek V3.2,astropy__astropy-12907,py/unused-global-variable,maintainability,4,1
+DeepSeek V3.2,astropy__astropy-12907,py/hash-unhashable-value,reliability,4,1
+DeepSeek V3.2,astropy__astropy-12907,py/multiple-definition,maintainability,1,1
+DeepSeek V3.2,astropy__astropy-12907,py/redundant-else,maintainability,3,1
+DeepSeek V3.2,astropy__astropy-12907,py/mixed-tuple-returns,reliability,1,1
+DeepSeek V3.2,astropy__astropy-12907,py/import-and-import-from,maintainability,1,1
+DeepSeek V3.2,astropy__astropy-12907,py/missing-call-to-init,reliability,1,1
+DeepSeek V3.2,astropy__astropy-12907,py/unreachable-statement,maintainability,1,1
+DeepSeek V3.2,astropy__astropy-12907,py/file-not-closed,reliability,1,1
+DeepSeek V3.2,astropy__astropy-14995,py/mixed-returns,reliability,9,1
+DeepSeek V3.2,astropy__astropy-14995,py/conflicting-attributes,reliability,112,1
+DeepSeek V3.2,astropy__astropy-14995,py/overwritten-inherited-attribute,maintainability,4,1
+DeepSeek V3.2,astropy__astropy-14995,py/not-named-self,maintainability,14,1
+DeepSeek V3.2,astropy__astropy-14995,py/cyclic-import,maintainability,16,1
+DeepSeek V3.2,astropy__astropy-14995,py/modification-of-default-value,reliability,6,1
+DeepSeek V3.2,astropy__astropy-14995,py/empty-except,reliability,4,1
+DeepSeek V3.2,astropy__astropy-14995,py/mixed-tuple-returns,reliability,1,1
+DeepSeek V3.2,astropy__astropy-14995,py/uninitialized-local-variable,reliability,10,1
+DeepSeek V3.2,astropy__astropy-14995,py/unexpected-raise-in-special-method,reliability,4,1
+DeepSeek V3.2,astropy__astropy-14995,py/unused-local-variable,maintainability,2,1
+DeepSeek V3.2,astropy__astropy-14995,py/inheritance/signature-mismatch,reliability,5,1
+DeepSeek V3.2,astropy__astropy-14995,py/hash-unhashable-value,reliability,4,1
+DeepSeek V3.2,astropy__astropy-14995,py/unused-global-variable,maintainability,3,1
+DeepSeek V3.2,astropy__astropy-14995,py/unused-import,maintainability,3,1
+DeepSeek V3.2,astropy__astropy-14995,py/multiple-definition,maintainability,1,1
+DeepSeek V3.2,astropy__astropy-14995,py/redundant-else,maintainability,1,1
+DeepSeek V3.2,astropy__astropy-14995,py/import-and-import-from,maintainability,1,1
+DeepSeek V3.2,astropy__astropy-14995,py/unreachable-statement,maintainability,1,1
+DeepSeek V3.2,astropy__astropy-14995,py/file-not-closed,reliability,1,1
+DeepSeek V3.2,astropy__astropy-14995,py/missing-call-to-init,reliability,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/cyclic-import,maintainability,346,1
+DeepSeek V3.2,astropy__astropy-6938,py/not-named-self,maintainability,31,1
+DeepSeek V3.2,astropy__astropy-6938,py/unused-local-variable,maintainability,144,1
+DeepSeek V3.2,astropy__astropy-6938,py/call/wrong-named-class-argument,reliability,19,1
+DeepSeek V3.2,astropy__astropy-6938,py/init-calls-subclass,reliability,5,1
+DeepSeek V3.2,astropy__astropy-6938,py/conflicting-attributes,reliability,118,1
+DeepSeek V3.2,astropy__astropy-6938,py/inheritance/signature-mismatch,reliability,21,1
+DeepSeek V3.2,astropy__astropy-6938,py/call/wrong-arguments,reliability,2,1
+DeepSeek V3.2,astropy__astropy-6938,py/redundant-else,maintainability,12,1
+DeepSeek V3.2,astropy__astropy-6938,py/unused-global-variable,maintainability,13,1
+DeepSeek V3.2,astropy__astropy-6938,py/overwritten-inherited-attribute,maintainability,28,1
+DeepSeek V3.2,astropy__astropy-6938,py/unreachable-statement,maintainability,6,1
+DeepSeek V3.2,astropy__astropy-6938,py/empty-except,reliability,32,1
+DeepSeek V3.2,astropy__astropy-6938,py/missing-call-to-init,reliability,7,1
+DeepSeek V3.2,astropy__astropy-6938,py/nested-loops-with-same-variable,maintainability,2,1
+DeepSeek V3.2,astropy__astropy-6938,py/modification-of-default-value,reliability,14,1
+DeepSeek V3.2,astropy__astropy-6938,py/mixed-returns,reliability,37,1
+DeepSeek V3.2,astropy__astropy-6938,py/overly-large-range,security,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/unused-import,maintainability,31,1
+DeepSeek V3.2,astropy__astropy-6938,py/super-not-enclosing-class,reliability,6,1
+DeepSeek V3.2,astropy__astropy-6938,py/unexpected-raise-in-special-method,reliability,14,1
+DeepSeek V3.2,astropy__astropy-6938,py/uninitialized-local-variable,reliability,23,1
+DeepSeek V3.2,astropy__astropy-6938,py/unsafe-cyclic-import,reliability,6,1
+DeepSeek V3.2,astropy__astropy-6938,py/missing-equals,reliability,11,1
+DeepSeek V3.2,astropy__astropy-6938,py/redundant-assignment,reliability,2,1
+DeepSeek V3.2,astropy__astropy-6938,py/call-to-non-callable,reliability,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/should-use-with,maintainability,16,1
+DeepSeek V3.2,astropy__astropy-6938,py/attribute-shadows-method,reliability,2,1
+DeepSeek V3.2,astropy__astropy-6938,py/multiple-definition,maintainability,8,1
+DeepSeek V3.2,astropy__astropy-6938,py/polluting-import,maintainability,14,1
+DeepSeek V3.2,astropy__astropy-6938,py/useless-except,reliability,3,1
+DeepSeek V3.2,astropy__astropy-6938,py/multiple-calls-to-init,reliability,2,1
+DeepSeek V3.2,astropy__astropy-6938,py/procedure-return-value-used,maintainability,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/implicit-string-concatenation-in-list,maintainability,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/equals-hash-mismatch,reliability,3,1
+DeepSeek V3.2,astropy__astropy-6938,py/hash-unhashable-value,reliability,4,1
+DeepSeek V3.2,astropy__astropy-6938,py/file-not-closed,reliability,3,1
+DeepSeek V3.2,astropy__astropy-6938,py/ineffectual-statement,maintainability,3,1
+DeepSeek V3.2,astropy__astropy-6938,py/commented-out-code,maintainability,2,1
+DeepSeek V3.2,astropy__astropy-6938,py/unused-exception-object,reliability,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/overly-complex-delete,maintainability,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/incomplete-ordering,reliability,2,1
+DeepSeek V3.2,astropy__astropy-6938,py/inheritance/incorrect-overridden-signature,reliability,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/undefined-export,reliability,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/mixed-tuple-returns,reliability,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/not-named-cls,maintainability,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/shell-command-constructed-from-input,security,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/import-and-import-from,maintainability,3,1
+DeepSeek V3.2,astropy__astropy-6938,py/regex/duplicate-in-character-class,maintainability,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/catch-base-exception,reliability,1,1
+DeepSeek V3.2,astropy__astropy-6938,py/unused-loop-variable,reliability,2,1
+DeepSeek V3.2,django__django-11001,py/conflicting-attributes,reliability,2,1
+DeepSeek V3.2,django__django-11049,py/conflicting-attributes,reliability,2,1
+DeepSeek V3.2,django__django-11133,py/empty-except,reliability,2,1
+DeepSeek V3.2,django__django-11133,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,django__django-11583,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,django__django-11583,py/conflicting-attributes,reliability,2,1
+DeepSeek V3.2,django__django-11583,py/redundant-else,maintainability,1,1
+DeepSeek V3.2,django__django-11583,py/empty-except,reliability,1,1
+DeepSeek V3.2,django__django-11815,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,django__django-11815,py/cyclic-import,maintainability,1,1
+DeepSeek V3.2,django__django-11848,py/conflicting-attributes,reliability,2,1
+DeepSeek V3.2,django__django-11848,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,django__django-11999,py/missing-equals,reliability,5,1
+DeepSeek V3.2,django__django-11999,py/conflicting-attributes,reliability,5,1
+DeepSeek V3.2,django__django-11999,py/uninitialized-local-variable,reliability,1,1
+DeepSeek V3.2,django__django-12184,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,django__django-12284,py/conflicting-attributes,reliability,8,1
+DeepSeek V3.2,django__django-12284,py/uninitialized-local-variable,reliability,1,1
+DeepSeek V3.2,django__django-12284,py/missing-equals,reliability,5,1
+DeepSeek V3.2,django__django-12700,py/empty-except,reliability,2,1
+DeepSeek V3.2,django__django-12700,py/conflicting-attributes,reliability,2,1
+DeepSeek V3.2,django__django-12708,py/mixed-returns,reliability,4,1
+DeepSeek V3.2,django__django-12708,py/inheritance/incorrect-overridden-signature,reliability,1,1
+DeepSeek V3.2,django__django-12856,py/unused-import,maintainability,1,1
+DeepSeek V3.2,django__django-12915,py/conflicting-attributes,reliability,2,1
+DeepSeek V3.2,django__django-13158,py/inheritance/signature-mismatch,reliability,2,1
+DeepSeek V3.2,django__django-13158,py/mixed-returns,reliability,2,1
+DeepSeek V3.2,django__django-13220,py/mixed-tuple-returns,reliability,1,1
+DeepSeek V3.2,django__django-13447,py/empty-except,reliability,2,1
+DeepSeek V3.2,django__django-13447,py/missing-equals,reliability,1,1
+DeepSeek V3.2,django__django-13447,py/cyclic-import,maintainability,1,1
+DeepSeek V3.2,django__django-13590,py/uninitialized-local-variable,reliability,3,1
+DeepSeek V3.2,django__django-13590,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,django__django-13590,py/multiple-definition,maintainability,1,1
+DeepSeek V3.2,django__django-13658,py/conflicting-attributes,reliability,2,1
+DeepSeek V3.2,django__django-13658,py/uninitialized-local-variable,reliability,1,1
+DeepSeek V3.2,django__django-13710,py/conflicting-attributes,reliability,2,1
+DeepSeek V3.2,django__django-13710,py/inheritance/signature-mismatch,reliability,1,1
+DeepSeek V3.2,django__django-14016,py/cyclic-import,maintainability,2,1
+DeepSeek V3.2,django__django-14017,py/cyclic-import,maintainability,2,1
+DeepSeek V3.2,django__django-14787,py/conflicting-attributes,reliability,2,1
+DeepSeek V3.2,django__django-14855,py/cyclic-import,maintainability,1,1
+DeepSeek V3.2,django__django-14915,py/missing-call-to-init,reliability,1,1
+DeepSeek V3.2,django__django-14915,py/super-not-enclosing-class,reliability,1,1
+DeepSeek V3.2,django__django-15388,py/clear-text-storage-sensitive-data,security,2,1
+DeepSeek V3.2,django__django-15388,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,django__django-15400,py/inheritance/incorrect-overridden-signature,reliability,1,1
+DeepSeek V3.2,django__django-15400,py/empty-except,reliability,3,1
+DeepSeek V3.2,django__django-15400,py/clear-text-storage-sensitive-data,security,2,1
+DeepSeek V3.2,django__django-15400,py/incomplete-ordering,reliability,1,1
+DeepSeek V3.2,django__django-15789,py/unnecessary-lambda,maintainability,1,1
+DeepSeek V3.2,django__django-15789,py/clear-text-storage-sensitive-data,security,2,1
+DeepSeek V3.2,django__django-15902,py/missing-equals,reliability,1,1
+DeepSeek V3.2,django__django-15902,py/super-not-enclosing-class,reliability,1,1
+DeepSeek V3.2,django__django-15902,py/clear-text-storage-sensitive-data,security,2,1
+DeepSeek V3.2,django__django-15902,py/empty-except,reliability,1,1
+DeepSeek V3.2,django__django-15996,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,django__django-15996,py/clear-text-storage-sensitive-data,security,2,1
+DeepSeek V3.2,django__django-15996,py/cyclic-import,maintainability,1,1
+DeepSeek V3.2,django__django-16046,py/clear-text-storage-sensitive-data,security,2,1
+DeepSeek V3.2,django__django-16379,py/clear-text-storage-sensitive-data,security,2,1
+DeepSeek V3.2,django__django-16379,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,django__django-16527,py/inheritance/signature-mismatch,reliability,1,1
+DeepSeek V3.2,django__django-16595,py/super-not-enclosing-class,reliability,1,1
+DeepSeek V3.2,django__django-16873,py/clear-text-storage-sensitive-data,security,2,1
+DeepSeek V3.2,django__django-16873,py/inheritance/signature-mismatch,reliability,1,1
+DeepSeek V3.2,django__django-17087,py/clear-text-storage-sensitive-data,security,2,1
+DeepSeek V3.2,django__django-17087,py/inheritance/signature-mismatch,reliability,1,1
+DeepSeek V3.2,mwaskom__seaborn-3010,py/conflicting-attributes,reliability,2,1
+DeepSeek V3.2,mwaskom__seaborn-3010,py/ineffectual-statement,maintainability,1,1
+DeepSeek V3.2,mwaskom__seaborn-3190,py/inheritance/signature-mismatch,reliability,4,1
+DeepSeek V3.2,mwaskom__seaborn-3190,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,psf__requests-2148,py/unused-import,maintainability,2,1
+DeepSeek V3.2,psf__requests-2148,py/weak-sensitive-data-hashing,security,2,1
+DeepSeek V3.2,psf__requests-2148,py/empty-except,reliability,3,1
+DeepSeek V3.2,psf__requests-2148,py/mixed-returns,reliability,3,1
+DeepSeek V3.2,psf__requests-2148,py/not-named-cls,maintainability,1,1
+DeepSeek V3.2,psf__requests-2317,py/mixed-returns,reliability,5,1
+DeepSeek V3.2,psf__requests-2317,py/unused-import,maintainability,4,1
+DeepSeek V3.2,psf__requests-2317,py/empty-except,reliability,2,1
+DeepSeek V3.2,psf__requests-2317,py/missing-equals,reliability,1,1
+DeepSeek V3.2,psf__requests-2317,py/multiple-definition,maintainability,1,1
+DeepSeek V3.2,psf__requests-2317,py/unused-global-variable,maintainability,1,1
+DeepSeek V3.2,psf__requests-2317,py/import-and-import-from,maintainability,2,1
+DeepSeek V3.2,psf__requests-863,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,pydata__xarray-5131,py/unsafe-cyclic-import,reliability,140,1
+DeepSeek V3.2,pydata__xarray-5131,py/cyclic-import,maintainability,364,1
+DeepSeek V3.2,pydata__xarray-5131,py/modification-of-locals,reliability,22,1
+DeepSeek V3.2,pydata__xarray-5131,py/uninitialized-local-variable,reliability,8,1
+DeepSeek V3.2,pydata__xarray-5131,py/missing-equals,reliability,6,1
+DeepSeek V3.2,pydata__xarray-5131,py/redundant-assignment,reliability,1,1
+DeepSeek V3.2,pydata__xarray-5131,py/call/wrong-arguments,reliability,1,1
+DeepSeek V3.2,pydata__xarray-5131,py/missing-call-to-init,reliability,1,1
+DeepSeek V3.2,pydata__xarray-5131,py/empty-except,reliability,6,1
+DeepSeek V3.2,pydata__xarray-5131,py/overwritten-inherited-attribute,maintainability,1,1
+DeepSeek V3.2,pydata__xarray-5131,py/unused-global-variable,maintainability,6,1
+DeepSeek V3.2,pydata__xarray-5131,py/ineffectual-statement,maintainability,8,1
+DeepSeek V3.2,pydata__xarray-5131,py/unexpected-raise-in-special-method,reliability,6,1
+DeepSeek V3.2,pydata__xarray-5131,py/unused-local-variable,maintainability,5,1
+DeepSeek V3.2,pydata__xarray-5131,py/overly-complex-delete,maintainability,1,1
+DeepSeek V3.2,pydata__xarray-5131,py/equals-hash-mismatch,reliability,1,1
+DeepSeek V3.2,pydata__xarray-5131,py/mixed-returns,reliability,5,1
+DeepSeek V3.2,pydata__xarray-5131,py/comparison-of-identical-expressions,maintainability,1,1
+DeepSeek V3.2,pydata__xarray-5131,py/unused-import,maintainability,5,1
+DeepSeek V3.2,pydata__xarray-5131,py/unreachable-statement,maintainability,1,1
+DeepSeek V3.2,pydata__xarray-5131,py/unused-loop-variable,reliability,1,1
+DeepSeek V3.2,pydata__xarray-5131,py/init-calls-subclass,reliability,1,1
+DeepSeek V3.2,pylint-dev__pylint-7993,py/ineffectual-statement,maintainability,2,1
+DeepSeek V3.2,pytest-dev__pytest-5227,py/conflicting-attributes,reliability,1,1
+DeepSeek V3.2,pytest-dev__pytest-5495,py/conflicting-attributes,reliability,1,1
+DeepSeek V3.2,pytest-dev__pytest-7168,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,pytest-dev__pytest-7168,py/catch-base-exception,reliability,3,1
+DeepSeek V3.2,pytest-dev__pytest-7373,py/conflicting-attributes,reliability,3,1
+DeepSeek V3.2,pytest-dev__pytest-7373,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,pytest-dev__pytest-7373,py/unused-import,maintainability,1,1
+DeepSeek V3.2,pytest-dev__pytest-9359,py/empty-except,reliability,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-12471,py/commented-out-code,maintainability,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-14092,py/cyclic-import,maintainability,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-15512,py/conflicting-attributes,reliability,3,1
+DeepSeek V3.2,scikit-learn__scikit-learn-15512,py/unused-local-variable,maintainability,1,1
+DeepSeek V3.2,scikit-learn__scikit-learn-25638,py/empty-except,reliability,1,1
+DeepSeek V3.2,sphinx-doc__sphinx-8435,py/empty-except,reliability,5,1
+DeepSeek V3.2,sphinx-doc__sphinx-8435,py/unused-local-variable,maintainability,1,1
+DeepSeek V3.2,sphinx-doc__sphinx-8627,py/cyclic-import,maintainability,4,1
+DeepSeek V3.2,sympy__sympy-12454,py/conflicting-attributes,reliability,4,1
+DeepSeek V3.2,sympy__sympy-12481,py/not-named-cls,maintainability,7,1
+DeepSeek V3.2,sympy__sympy-12481,py/conflicting-attributes,reliability,3,1
+DeepSeek V3.2,sympy__sympy-12481,py/inheritance/signature-mismatch,reliability,1,1
+DeepSeek V3.2,sympy__sympy-12481,py/import-own-module,maintainability,1,1
+DeepSeek V3.2,sympy__sympy-12481,py/unexpected-raise-in-special-method,reliability,1,1
+DeepSeek V3.2,sympy__sympy-13647,py/unexpected-raise-in-special-method,reliability,1,1
+DeepSeek V3.2,sympy__sympy-13647,py/mixed-returns,reliability,2,1
+DeepSeek V3.2,sympy__sympy-13647,py/cyclic-import,maintainability,8,1
+DeepSeek V3.2,sympy__sympy-13647,py/conflicting-attributes,reliability,12,1
+DeepSeek V3.2,sympy__sympy-13647,py/redundant-else,maintainability,1,1
+DeepSeek V3.2,sympy__sympy-13647,py/inheritance/incorrect-overridden-signature,reliability,2,1
+DeepSeek V3.2,sympy__sympy-13647,py/incomplete-ordering,reliability,1,1
+DeepSeek V3.2,sympy__sympy-13647,py/catch-base-exception,reliability,1,1
+DeepSeek V3.2,sympy__sympy-13647,py/empty-except,reliability,4,1
+DeepSeek V3.2,sympy__sympy-14396,py/unreachable-statement,maintainability,1,1
+DeepSeek V3.2,sympy__sympy-14817,py/empty-except,reliability,1,1
+DeepSeek V3.2,sympy__sympy-15011,py/unused-local-variable,maintainability,2,1
+DeepSeek V3.2,sympy__sympy-15609,py/conflicting-attributes,reliability,4,1
+DeepSeek V3.2,sympy__sympy-15678,py/cyclic-import,maintainability,2,1
+DeepSeek V3.2,sympy__sympy-17139,py/mixed-returns,reliability,5,1
+DeepSeek V3.2,sympy__sympy-17139,py/cyclic-import,maintainability,2,1
+DeepSeek V3.2,sympy__sympy-17139,py/modification-of-default-value,reliability,2,1
+DeepSeek V3.2,sympy__sympy-17655,py/unused-local-variable,maintainability,4,1
+DeepSeek V3.2,sympy__sympy-17655,py/unexpected-raise-in-special-method,reliability,1,1
+DeepSeek V3.2,sympy__sympy-17655,py/cyclic-import,maintainability,1,1
+DeepSeek V3.2,sympy__sympy-18621,py/conflicting-attributes,reliability,6,1
+DeepSeek V3.2,sympy__sympy-18698,py/cyclic-import,maintainability,7,1
+DeepSeek V3.2,sympy__sympy-18698,py/mixed-tuple-returns,reliability,2,1
+DeepSeek V3.2,sympy__sympy-18698,py/empty-except,reliability,1,1
+DeepSeek V3.2,sympy__sympy-20154,py/unreachable-statement,maintainability,1,1
+DeepSeek V3.2,sympy__sympy-20154,py/redundant-comparison,maintainability,1,1
+DeepSeek V3.2,sympy__sympy-20154,py/cyclic-import,maintainability,1,1
+DeepSeek V3.2,sympy__sympy-20442,py/conflicting-attributes,reliability,44,1
+DeepSeek V3.2,sympy__sympy-20590,py/conflicting-attributes,reliability,4,1
+DeepSeek V3.2,sympy__sympy-21055,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,sympy__sympy-21612,py/unused-local-variable,maintainability,2,1
+DeepSeek V3.2,sympy__sympy-21612,py/unnecessary-lambda,maintainability,3,1
+DeepSeek V3.2,sympy__sympy-21612,py/empty-except,reliability,1,1
+DeepSeek V3.2,sympy__sympy-21614,py/inheritance/signature-mismatch,reliability,1,1
+DeepSeek V3.2,sympy__sympy-21614,py/unsafe-cyclic-import,reliability,2,1
+DeepSeek V3.2,sympy__sympy-21614,py/unused-loop-variable,reliability,1,1
+DeepSeek V3.2,sympy__sympy-21614,py/cyclic-import,maintainability,2,1
+DeepSeek V3.2,sympy__sympy-21614,py/mixed-returns,reliability,1,1
+DeepSeek V3.2,sympy__sympy-21847,py/unexpected-raise-in-special-method,reliability,2,1
+DeepSeek V3.2,sympy__sympy-22005,py/cyclic-import,maintainability,3,1
+DeepSeek V3.2,sympy__sympy-23262,py/cyclic-import,maintainability,12,1
+DeepSeek V3.2,sympy__sympy-23262,py/commented-out-code,maintainability,1,1
+DeepSeek V3.2,sympy__sympy-24066,py/conflicting-attributes,reliability,5,1
+DeepSeek V3.2,sympy__sympy-24152,py/conflicting-attributes,reliability,11,1
+DeepSeek V3.2,sympy__sympy-24213,py/conflicting-attributes,reliability,6,1
+DeepSeek R1,astropy__astropy-12907,py/conflicting-attributes,reliability,112,1
+DeepSeek R1,astropy__astropy-12907,py/not-named-self,maintainability,13,1
+DeepSeek R1,astropy__astropy-12907,py/uninitialized-local-variable,reliability,10,1
+DeepSeek R1,astropy__astropy-12907,py/mixed-returns,reliability,9,1
+DeepSeek R1,astropy__astropy-12907,py/modification-of-default-value,reliability,14,1
+DeepSeek R1,astropy__astropy-12907,py/cyclic-import,maintainability,12,1
+DeepSeek R1,astropy__astropy-12907,py/unused-import,maintainability,10,1
+DeepSeek R1,astropy__astropy-12907,py/inheritance/signature-mismatch,reliability,5,1
+DeepSeek R1,astropy__astropy-12907,py/unused-local-variable,maintainability,3,1
+DeepSeek R1,astropy__astropy-12907,py/overwritten-inherited-attribute,maintainability,5,1
+DeepSeek R1,astropy__astropy-12907,py/empty-except,reliability,4,1
+DeepSeek R1,astropy__astropy-12907,py/incomplete-ordering,reliability,1,1
+DeepSeek R1,astropy__astropy-12907,py/unused-global-variable,maintainability,4,1
+DeepSeek R1,astropy__astropy-12907,py/hash-unhashable-value,reliability,4,1
+DeepSeek R1,astropy__astropy-12907,py/multiple-definition,maintainability,1,1
+DeepSeek R1,astropy__astropy-12907,py/redundant-else,maintainability,3,1
+DeepSeek R1,astropy__astropy-12907,py/unexpected-raise-in-special-method,reliability,4,1
+DeepSeek R1,astropy__astropy-12907,py/import-and-import-from,maintainability,1,1
+DeepSeek R1,astropy__astropy-12907,py/missing-call-to-init,reliability,1,1
+DeepSeek R1,astropy__astropy-12907,py/unreachable-statement,maintainability,1,1
+DeepSeek R1,astropy__astropy-12907,py/file-not-closed,reliability,1,1
+DeepSeek R1,django__django-11133,py/empty-except,reliability,2,1
+DeepSeek R1,django__django-11133,py/mixed-returns,reliability,1,1
+DeepSeek R1,django__django-11815,py/cyclic-import,maintainability,1,1
+DeepSeek R1,django__django-11815,py/mixed-returns,reliability,1,1
+DeepSeek R1,django__django-11848,py/mixed-returns,reliability,1,1
+DeepSeek R1,django__django-11848,py/conflicting-attributes,reliability,2,1
+DeepSeek R1,django__django-11999,py/uninitialized-local-variable,reliability,1,1
+DeepSeek R1,django__django-11999,py/missing-equals,reliability,5,1
+DeepSeek R1,django__django-11999,py/conflicting-attributes,reliability,5,1
+DeepSeek R1,django__django-12284,py/conflicting-attributes,reliability,2,1
+DeepSeek R1,django__django-12700,py/conflicting-attributes,reliability,2,1
+DeepSeek R1,django__django-12700,py/empty-except,reliability,2,1
+DeepSeek R1,django__django-13401,py/conflicting-attributes,reliability,6,1
+DeepSeek R1,django__django-13401,py/uninitialized-local-variable,reliability,1,1
+DeepSeek R1,django__django-13401,py/missing-equals,reliability,5,1
+DeepSeek R1,django__django-13401,py/mixed-tuple-returns,reliability,1,1
+DeepSeek R1,django__django-13447,py/empty-except,reliability,2,1
+DeepSeek R1,django__django-13447,py/missing-equals,reliability,1,1
+DeepSeek R1,django__django-13658,py/uninitialized-local-variable,reliability,1,1
+DeepSeek R1,django__django-13710,py/inheritance/signature-mismatch,reliability,1,1
+DeepSeek R1,django__django-15789,py/unnecessary-lambda,maintainability,1,1
+DeepSeek R1,django__django-15814,py/clear-text-storage-sensitive-data,security,2,1
+DeepSeek R1,django__django-15814,py/conflicting-attributes,reliability,1,1
+DeepSeek R1,django__django-15851,py/clear-text-storage-sensitive-data,security,2,1
+DeepSeek R1,django__django-16527,py/clear-text-storage-sensitive-data,security,2,1
+DeepSeek R1,django__django-16595,py/super-not-enclosing-class,reliability,1,1
+DeepSeek R1,matplotlib__matplotlib-23314,py/inheritance/signature-mismatch,reliability,1,1
+DeepSeek R1,matplotlib__matplotlib-23314,py/mismatched-multiple-assignment,reliability,1,1
+DeepSeek R1,matplotlib__matplotlib-23314,py/polluting-import,maintainability,1,1
+DeepSeek R1,matplotlib__matplotlib-23562,py/empty-except,reliability,2,1
+DeepSeek R1,matplotlib__matplotlib-23562,py/polluting-import,maintainability,1,1
+DeepSeek R1,matplotlib__matplotlib-24970,py/polluting-import,maintainability,1,1
+DeepSeek R1,matplotlib__matplotlib-25442,py/polluting-import,maintainability,1,1
+DeepSeek R1,matplotlib__matplotlib-26011,py/polluting-import,maintainability,1,1
+DeepSeek R1,mwaskom__seaborn-3010,py/ineffectual-statement,maintainability,1,1
+DeepSeek R1,mwaskom__seaborn-3190,py/mixed-returns,reliability,1,1
+DeepSeek R1,mwaskom__seaborn-3190,py/inheritance/signature-mismatch,reliability,4,1
+DeepSeek R1,psf__requests-2148,py/empty-except,reliability,1,1
+DeepSeek R1,psf__requests-2674,py/unused-import,maintainability,1,1
+DeepSeek R1,pydata__xarray-5131,py/unsafe-cyclic-import,reliability,140,1
+DeepSeek R1,pydata__xarray-5131,py/cyclic-import,maintainability,359,1
+DeepSeek R1,pydata__xarray-5131,py/modification-of-locals,reliability,22,1
+DeepSeek R1,pydata__xarray-5131,py/missing-equals,reliability,6,1
+DeepSeek R1,pydata__xarray-5131,py/redundant-assignment,reliability,1,1
+DeepSeek R1,pydata__xarray-5131,py/call/wrong-arguments,reliability,1,1
+DeepSeek R1,pydata__xarray-5131,py/missing-call-to-init,reliability,1,1
+DeepSeek R1,pydata__xarray-5131,py/empty-except,reliability,5,1
+DeepSeek R1,pydata__xarray-5131,py/overwritten-inherited-attribute,maintainability,1,1
+DeepSeek R1,pydata__xarray-5131,py/ineffectual-statement,maintainability,8,1
+DeepSeek R1,pydata__xarray-5131,py/unexpected-raise-in-special-method,reliability,6,1
+DeepSeek R1,pydata__xarray-5131,py/uninitialized-local-variable,reliability,4,1
+DeepSeek R1,pydata__xarray-5131,py/unused-local-variable,maintainability,5,1
+DeepSeek R1,pydata__xarray-5131,py/overly-complex-delete,maintainability,1,1
+DeepSeek R1,pydata__xarray-5131,py/equals-hash-mismatch,reliability,1,1
+DeepSeek R1,pydata__xarray-5131,py/mixed-returns,reliability,5,1
+DeepSeek R1,pydata__xarray-5131,py/comparison-of-identical-expressions,maintainability,1,1
+DeepSeek R1,pydata__xarray-5131,py/unused-import,maintainability,5,1
+DeepSeek R1,pydata__xarray-5131,py/unused-global-variable,maintainability,5,1
+DeepSeek R1,pydata__xarray-5131,py/unreachable-statement,maintainability,1,1
+DeepSeek R1,pydata__xarray-5131,py/unused-loop-variable,reliability,1,1
+DeepSeek R1,pydata__xarray-5131,py/init-calls-subclass,reliability,1,1
+DeepSeek R1,pylint-dev__pylint-7993,py/conflicting-attributes,reliability,2,1
+DeepSeek R1,pytest-dev__pytest-7373,py/mixed-returns,reliability,1,1
+DeepSeek R1,pytest-dev__pytest-7373,py/unused-import,maintainability,3,1
+DeepSeek R1,scikit-learn__scikit-learn-12471,py/commented-out-code,maintainability,1,1
+DeepSeek R1,scikit-learn__scikit-learn-25747,py/mixed-returns,reliability,1,1
+DeepSeek R1,sphinx-doc__sphinx-10325,py/missing-equals,reliability,1,1
+DeepSeek R1,sphinx-doc__sphinx-10325,py/empty-except,reliability,14,1
+DeepSeek R1,sphinx-doc__sphinx-10325,py/unused-local-variable,maintainability,1,1
+DeepSeek R1,sphinx-doc__sphinx-10325,py/overwritten-inherited-attribute,maintainability,1,1
+DeepSeek R1,sympy__sympy-13647,py/not-named-cls,maintainability,5,1
+DeepSeek R1,sympy__sympy-13647,py/mixed-returns,reliability,1,1
+DeepSeek R1,sympy__sympy-13647,py/unexpected-raise-in-special-method,reliability,4,1
+DeepSeek R1,sympy__sympy-13647,py/hash-unhashable-value,reliability,1,1
+DeepSeek R1,sympy__sympy-13647,py/empty-except,reliability,4,1
+DeepSeek R1,sympy__sympy-13647,py/test-equals-none,reliability,1,1
+DeepSeek R1,sympy__sympy-14774,py/conflicting-attributes,reliability,3,1
+DeepSeek R1,sympy__sympy-15678,py/cyclic-import,maintainability,2,1
+DeepSeek R1,sympy__sympy-18532,py/cyclic-import,maintainability,5,1
+DeepSeek R1,sympy__sympy-18532,py/empty-except,reliability,3,1
+DeepSeek R1,sympy__sympy-18532,py/mixed-returns,reliability,2,1
+DeepSeek R1,sympy__sympy-18532,py/inheritance/incorrect-overridden-signature,reliability,1,1
+DeepSeek R1,sympy__sympy-21614,py/inheritance/signature-mismatch,reliability,1,1
+DeepSeek R1,sympy__sympy-21614,py/mixed-returns,reliability,1,1
+DeepSeek R1,sympy__sympy-21614,py/cyclic-import,maintainability,2,1
+DeepSeek R1,sympy__sympy-21614,py/unsafe-cyclic-import,reliability,2,1
+DeepSeek R1,sympy__sympy-21614,py/unused-loop-variable,reliability,1,1
+DeepSeek R1,sympy__sympy-23117,py/cyclic-import,maintainability,8,1
+DeepSeek R1,sympy__sympy-23117,py/unexpected-raise-in-special-method,reliability,5,1
+DeepSeek R1,sympy__sympy-23117,py/equals-hash-mismatch,reliability,1,1
+DeepSeek R1,sympy__sympy-24213,py/conflicting-attributes,reliability,7,1

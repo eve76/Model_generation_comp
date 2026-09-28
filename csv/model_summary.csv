@@ -1,0 +1,6 @@
+model,generation,family,submitted,completed,resolved,n_codeql_available,n_codescene_available,n_codescene_nonempty,n_codeql_resolved_intersect,n_codescene_resolved_intersect,n_codescene_resolved_nonempty
+Claude Opus 4.6,newer,Claude,300,178,133,133,133,51,133,133,51
+Claude Sonnet 4,older,Claude,300,174,108,108,108,60,108,108,60
+DeepSeek V3.2,newer,DeepSeek,300,214,133,133,133,60,133,133,60
+DeepSeek R1,older,DeepSeek,231,212,79,79,79,37,79,79,37
+Gold (developer),gold,Gold,300,300,300,194,194,91,194,194,91

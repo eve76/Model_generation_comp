@@ -1,0 +1,569 @@
+{
+  "summary": {
+    "before_count": 524,
+    "after_count": 523,
+    "added": 2,
+    "removed": 3,
+    "unchanged": 521
+  },
+  "added_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'load_middleware': [Function load_middleware](1) and [Function load_middleware](2).\nBase classes have conflicting values for attribute 'get_response': [Function get_response](3) and [Function get_response](4).\nBase classes have conflicting values for attribute 'get_response_async': [Function get_response_async](5) and [Function get_response_async](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 672
+            },
+            "region": {
+              "startLine": 63,
+              "endColumn": 64
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "590dc6ce8240eeb3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 672
+            },
+            "region": {
+              "startLine": 22,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function load_middleware"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/handlers/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 304
+            },
+            "region": {
+              "startLine": 26,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function load_middleware"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 672
+            },
+            "region": {
+              "startLine": 50,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function get_response"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/handlers/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 304
+            },
+            "region": {
+              "startLine": 124,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function get_response"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 672
+            },
+            "region": {
+              "startLine": 58,
+              "startColumn": 11,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function get_response_async"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/handlers/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 304
+            },
+            "region": {
+              "startLine": 138,
+              "startColumn": 11,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function get_response_async"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'load_middleware': [Function load_middleware](1) and [Function load_middleware](2).\nBase classes have conflicting values for attribute 'get_response': [Function get_response](3) and [Function get_response](4).\nBase classes have conflicting values for attribute 'get_response_async': [Function get_response_async](5) and [Function get_response_async](6)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 672
+            },
+            "region": {
+              "startLine": 79,
+              "endColumn": 68
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7c8f4c9aa9c572da:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 672
+            },
+            "region": {
+              "startLine": 22,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function load_middleware"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/handlers/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 304
+            },
+            "region": {
+              "startLine": 26,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function load_middleware"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 672
+            },
+            "region": {
+              "startLine": 50,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function get_response"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/handlers/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 304
+            },
+            "region": {
+              "startLine": 124,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function get_response"
+          }
+        },
+        {
+          "id": 5,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 672
+            },
+            "region": {
+              "startLine": 58,
+              "startColumn": 11,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function get_response_async"
+          }
+        },
+        {
+          "id": 6,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/handlers/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 304
+            },
+            "region": {
+              "startLine": 138,
+              "startColumn": 11,
+              "endColumn": 49
+            }
+          },
+          "message": {
+            "text": "Function get_response_async"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'load_middleware': [Function load_middleware](1) and [Function load_middleware](2).\nBase classes have conflicting values for attribute 'get_response': [Function get_response](3) and [Function get_response](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 230
+            },
+            "region": {
+              "startLine": 72,
+              "endColumn": 68
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7c8f4c9aa9c572da:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 230
+            },
+            "region": {
+              "startLine": 21,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function load_middleware"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/handlers/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 323
+            },
+            "region": {
+              "startLine": 26,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function load_middleware"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 230
+            },
+            "region": {
+              "startLine": 49,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function get_response"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/handlers/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 323
+            },
+            "region": {
+              "startLine": 124,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function get_response"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/missing-call-to-init",
+      "ruleIndex": 118,
+      "rule": {
+        "id": "py/missing-call-to-init",
+        "index": 118
+      },
+      "message": {
+        "text": "This class does not call [ASGIHandler.__init__](1) during initialization. ([ASGIStaticFilesHandler.__init__](2) may be missing a call to a base class __init__)"
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 230
+            },
+            "region": {
+              "startLine": 72,
+              "endColumn": 68
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "7c8f4c9aa9c572da:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/handlers/asgi.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 14
+            },
+            "region": {
+              "startLine": 132,
+              "startColumn": 5,
+              "endColumn": 24
+            }
+          },
+          "message": {
+            "text": "ASGIHandler.__init__"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 230
+            },
+            "region": {
+              "startLine": 77,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "ASGIStaticFilesHandler.__init__"
+          }
+        }
+      ]
+    },
+    {
+      "ruleId": "py/conflicting-attributes",
+      "ruleIndex": 111,
+      "rule": {
+        "id": "py/conflicting-attributes",
+        "index": 111
+      },
+      "message": {
+        "text": "Base classes have conflicting values for attribute 'load_middleware': [Function load_middleware](1) and [Function load_middleware](2).\nBase classes have conflicting values for attribute 'get_response': [Function get_response](3) and [Function get_response](4)."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 230
+            },
+            "region": {
+              "startLine": 56,
+              "endColumn": 64
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "590dc6ce8240eeb3:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 230
+            },
+            "region": {
+              "startLine": 21,
+              "startColumn": 5,
+              "endColumn": 31
+            }
+          },
+          "message": {
+            "text": "Function load_middleware"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/handlers/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 323
+            },
+            "region": {
+              "startLine": 26,
+              "startColumn": 5,
+              "endColumn": 47
+            }
+          },
+          "message": {
+            "text": "Function load_middleware"
+          }
+        },
+        {
+          "id": 3,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/contrib/staticfiles/handlers.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 230
+            },
+            "region": {
+              "startLine": 49,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function get_response"
+          }
+        },
+        {
+          "id": 4,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "django/core/handlers/base.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 323
+            },
+            "region": {
+              "startLine": 124,
+              "startColumn": 5,
+              "endColumn": 37
+            }
+          },
+          "message": {
+            "text": "Function get_response"
+          }
+        }
+      ]
+    }
+  ]
+}

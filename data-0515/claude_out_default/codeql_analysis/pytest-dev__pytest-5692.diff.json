@@ -1,0 +1,213 @@
+{
+  "summary": {
+    "before_count": 183,
+    "after_count": 183,
+    "added": 2,
+    "removed": 2,
+    "unchanged": 181
+  },
+  "added_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/junitxml.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 56
+            },
+            "region": {
+              "startLine": 458,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a6ffeba327f038be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/file-not-closed",
+      "ruleIndex": 50,
+      "rule": {
+        "id": "py/file-not-closed",
+        "index": 50
+      },
+      "message": {
+        "text": "File may not be closed if [this operation](1) raises an exception.\nFile may not be closed if [this operation](2) raises an exception."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/junitxml.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 56
+            },
+            "region": {
+              "startLine": 649,
+              "startColumn": 19,
+              "endColumn": 60
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "982071bc77cc2b5c:1",
+        "primaryLocationStartColumnFingerprint": "10"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/junitxml.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 56
+            },
+            "region": {
+              "startLine": 660,
+              "startColumn": 9,
+              "endColumn": 64
+            }
+          },
+          "message": {
+            "text": "this operation"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/junitxml.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 56
+            },
+            "region": {
+              "startLine": 674,
+              "startColumn": 9,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "this operation"
+          }
+        }
+      ]
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/empty-except",
+      "ruleIndex": 166,
+      "rule": {
+        "id": "py/empty-except",
+        "index": 166
+      },
+      "message": {
+        "text": "'except' clause does nothing but pass and there is no explanatory comment."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/junitxml.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 456,
+              "startColumn": 5,
+              "endColumn": 23
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "a6ffeba327f038be:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    },
+    {
+      "ruleId": "py/file-not-closed",
+      "ruleIndex": 50,
+      "rule": {
+        "id": "py/file-not-closed",
+        "index": 50
+      },
+      "message": {
+        "text": "File may not be closed if [this operation](1) raises an exception.\nFile may not be closed if [this operation](2) raises an exception."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/junitxml.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 647,
+              "startColumn": 19,
+              "endColumn": 60
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "982071bc77cc2b5c:1",
+        "primaryLocationStartColumnFingerprint": "10"
+      },
+      "relatedLocations": [
+        {
+          "id": 1,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/junitxml.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 658,
+              "startColumn": 9,
+              "endColumn": 64
+            }
+          },
+          "message": {
+            "text": "this operation"
+          }
+        },
+        {
+          "id": 2,
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "src/_pytest/junitxml.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 6
+            },
+            "region": {
+              "startLine": 670,
+              "startColumn": 9,
+              "endColumn": 72
+            }
+          },
+          "message": {
+            "text": "this operation"
+          }
+        }
+      ]
+    }
+  ]
+}

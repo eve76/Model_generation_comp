@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "before_count": 1711,
+    "after_count": 1711,
+    "added": 1,
+    "removed": 1,
+    "unchanged": 1710
+  },
+  "added_results": [
+    {
+      "ruleId": "py/unreachable-statement",
+      "ruleIndex": 145,
+      "rule": {
+        "id": "py/unreachable-statement",
+        "index": 145
+      },
+      "message": {
+        "text": "This statement is unreachable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polyoptions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 130
+            },
+            "region": {
+              "startLine": 551,
+              "startColumn": 21,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8b3df9d645329a91:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ],
+  "removed_results": [
+    {
+      "ruleId": "py/unreachable-statement",
+      "ruleIndex": 145,
+      "rule": {
+        "id": "py/unreachable-statement",
+        "index": 145
+      },
+      "message": {
+        "text": "This statement is unreachable."
+      },
+      "locations": [
+        {
+          "physicalLocation": {
+            "artifactLocation": {
+              "uri": "sympy/polys/polyoptions.py",
+              "uriBaseId": "%SRCROOT%",
+              "index": 105
+            },
+            "region": {
+              "startLine": 547,
+              "startColumn": 21,
+              "endColumn": 37
+            }
+          }
+        }
+      ],
+      "partialFingerprints": {
+        "primaryLocationLineHash": "8b3df9d645329a91:1",
+        "primaryLocationStartColumnFingerprint": "0"
+      }
+    }
+  ]
+}
